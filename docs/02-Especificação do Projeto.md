@@ -53,16 +53,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-001| O sistema deve permitir o cadastramento de nutricionista como usuário, através da criação de um perfil com informações pessoais gerais ligadas a sua formação.| ALTA | 
+|RF-002| O sistema deve permitir o cadastramento de um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.) | ALTA |
+|RF-003| O sistema deve permitir que o usuário nutricionista cadastre um plano alimentar para seu respectivo usuário paciente, com receitas, ingredientes e seu respectivo valor nutricional básico (calorias, proteínas, gorduras, etc.) | ALTA |
+|RF-004| O sistema deve permitir que o usuário paciente faça uma avaliação do nutricionista (avaliação anonima)| BAIXA | 
+|RF-005| O sistema deve permitir que o usuário paciente consiga fazer um comentário sobre o plano alimentar| BAIXA | 
+|RF-006| O sistema deve permitir que o usuário nutricionista faça modificações no plano alimentar de seu paciente| ALTA | 
+|RF-007| O sistema deve permitir que o usuário paciente registre seu diário alimentar com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
+|RF-008| O sistema deve permitir que os usuários (de ambos os tipos) proponham dicas de receitas| MÉDIA | 
+|RF-009| O sistema deve permitir o registro de perda de peso do usuário paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
+|RF-010| O sistema deve permitir que os usuários avaliem as receitas propostas (like ou joinha) | BAIXA | 
+|RF-011| O sistema deve fornecer uma ferramenta de cálculo de índice de massa corpórea para o usuário nutricionista| ALTA |
+|RF-012| Plano social| BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deve ser responsiva para dispositivos móveis | ALTA | 
+|RNF-002| O backend do sistema deve ser produzido em linguagem C#| ALTA | 
+|RNF-003| O banco de dados do sistema deve ser produzido em SQL Server | ALTA | 
+|RNF-004| Não deve ser utilizado nenhum framework no front-end além do Bootstrap| ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
