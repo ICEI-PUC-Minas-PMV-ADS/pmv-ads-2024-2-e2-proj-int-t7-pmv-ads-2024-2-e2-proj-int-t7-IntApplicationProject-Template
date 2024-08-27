@@ -119,30 +119,38 @@ Segue em anexo gráficos da pesquisa:
 <br/>
 
 <div  align="center">
+Figura 03 - Área de atuação dos entrevistados.
+<br/>
 <img  src="https://github.com/user-attachments/assets/6f9ba446-80e9-43e3-9cad-88358727a3f4" width="400">
 <br/>
-Área de atuação.
+Fonte os autores.
 
 <br/><br/>
 
 <div  align="center">
+Figura 04 - Conhecimento Prévio em Plataformas de Controle.
+<br/>
 <img  src="https://github.com/user-attachments/assets/f85ed2a0-8429-40d3-90a5-f1723467ca2c" width="400">
 <br/>
-Conhecimento Prévio em Plataformas de Controle.
+Fonte os autores.
  
 <br/><br/>
 
 <div  align="center">
+Figura 05 - Faixa etária dos entrevistados.
+<br/>
 <img  src="https://github.com/user-attachments/assets/def5c075-10b5-4084-879b-c99b018a61fa" width="400">
 <br/>
-Faixa etária.
+Fonte os autores.
  
 <br/><br/>
 
 <div  align="center">
+Figura 06 - Tipo de Dispositivo utilizados para acessar plataformas.
+<br/>
 <img  src="https://github.com/user-attachments/assets/4f64802e-613b-4c24-ac58-d9190ab4841d" width="400">
 <br/>
-Tipo de Dispositivo utilizados para acessar plataformas
+Fonte os autores.
  
 <br/><br/>
 </div>
