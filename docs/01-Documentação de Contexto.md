@@ -1,36 +1,109 @@
 # Introdução
-
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+<div align="justify">
+O setor da Construção Civil possui previsões extremamente positivas para o ano de 2024. A Câmara Brasileira da Indústria da Construção (CBIC) revisou de 1,3% para 2,3% o crescimento do Produto Interno Produto (PIB) para o setor. Inclusive, com índices acima das previsões para o PIB Brasil deste ano (CBIC, 2024). 
+<br/><br/>
+Com o aumento exponencial, também se prevê mais contratações, lançamentos de empreendimentos e compras no setor.
+<br/><br/>
+Entretanto, as condições financeiras e de mercado não são os únicos desafios a serem enfrentados diariamente pela categoria. Muito embora se tenha um cenário positivo de crescimento, é necessário estar atento às condições externas que podem atrasar ou até impedir a concretização das obras. 
+<br/><br/>
+Á título de exemplo, tem-se as condições climáticas (chuvas severas e estiagem), que no contexto atual representam obstáculos para cronogramas assertivos, bem como para as previsões repassadas aos clientes. Cientistas do Instituto de Ciências Marinhas de Barcelona demostraram como as mudanças climáticas aceleram o ciclo hidrológico, gerando tempestades cada vez mais intensas e instabilidades (KUEBLER, 2024). 
+<br/><br/>
+Cientistas do Instituto de Ciências Marinhas de Barcelona, Espanha, demonstraram como a mudança climática está acelerando o ciclo através de uma análise da salinidade da superfície oceânica – a qual aumenta à medida que a evaporação se intensifica.
+<br/><br/>
+Em resposta à crescente demanda, faz-se necessário o desenvolvimento de um sistema de gestão de obras, que possibilite que gestores e construtoras monitorem o progresso de suas atividades e obtenham uma visão ampla e conectada de obras e de empreendimentos. 
+<br/>
+</div>
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+<div align="justify">
+A problemática identificada neste contexto reside na ausência de uma ferramenta eficaz que permita aos usuários realizarem um controle e gerenciamento efetivo do andamento de obras.
+<br/><br/>
+A ausência de ferramentas simples e com uma interface prática figura como um empecilho para que profissionais do ramo utilizem ferramentas específicas para o cadastro e monitoramento das etapas das obras. 
+<br/><br/>
+Além disso, a ausência de uma ferramenta voltada especificamente para essa finalidade gera uma lacuna entre clientes e construtoras, prejudicando a transparência e o acompanhamento em tempo real do estágio de desenvolvimento. 
+<br/>
+</div>
 
 ## Objetivos
-
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+<div align="justify">
+O objetivo geral deste projeto é o desenvolvimento de uma ferramenta, denominada como “Concreta”, que permita com que gestores de obras, proprietários de construtoras e demais stakeholders obtenham informações claras e acessíveis sobre os estágios de cada etapa em uma obra. Ao promover a transparência da informação e possibilitar o cadastro e acompanhamento da execução de empreendimentos, a ferramenta Concreta não apenas auxiliará a ter melhores previsões, como possibilitará previsões que auxiliem na tomada de decisões. 
+<br/><br/>
+Como objetivos específicos, é possível destacar:	
+<br/><br/>
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
++ Permitir ao usuário cadastrar novos empreendimentos, bem como as etapas que o compõe e o prazo inicial e final de sua realização;
+
++ Permitir a atualização diária, semanal ou mensal do andamento das obras; bem como a opção de dar a obra como concluída
+
++ Permitir a emissão de relatórios detalhados ou gerais com base no empreendimento escolhido;
+
++ Fornecer alertas aos usuários sobre obras que estejam com prazo diverso do cronograma previsto, bem como sobre condições que podem afetar o andamento da obra (exemplo: cadastramento de etapas em épocas previstas como chuvosas);
+
++ Ter uma interface amigável e de fácil navegação, tornando-o acessível aos usuários, independentemente do seu nível de experiência tecnológica.
+ 
+ </div>
 
 ## Justificativa
+<div align="justify">
+Através de uma pesquisa conduzida via Google Forms, verificou-se os principais apontamentos do público-alvo sobre o desenvolvimento da ferramenta. 
+Nesse sentido, sobre o que esperavam de uma plataforma de gestão de obras, os entrevistados em sua grande maioria (44,4%) apontaram como necessário o recebimento de notificações automáticas sobre atualizações e mudanças nos cronogramas. A seguir, apontou-se como importante o monitoramento em tempo real do progresso das etapas nas obras:
+<br/><br/>
+<div  align="center">
+ 
+**Figura 01 - Principal funcionalidade esperada de uma plataforma de controle de obras**
+<br/><br/>
+![image](https://github.com/user-attachments/assets/bed4ecbc-31c8-4843-b5c5-aaddd06cc664)
+<br/>
+**Fonte: Os autores.**
+</div>
+<br/><br/>
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ademais, em relação a utilização de uma ferramenta para a gestão de empreendimentos, os entrevistados apontaram uma utilização ocasional (44,4%) seguida de rara, para empreendimentos específicos (22,2%):
+<br/><br/>
+<div  align="center">
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
+**Figura 02 - Frequência de acesso às ferramentas de gestão de obras**
+<br/><br/>
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+![image](https://github.com/user-attachments/assets/d1a5a74f-adcc-4605-92dc-2a02d3f7b398)
+
+**Fonte: Os autores**
+</div>
+<br/>
+
+<div align="justify">
+A baixa aderência a ferramentas de gestão pode decorrer, sobretudo, pela dificuldade dos usuários em utilizar as ferramentas atualmente disponíveis no mercado. Assim, dentre as principais reclamações registradas pelos entrevistados, é possível destacar: 
+<br/><br/>
+
+ + Desafio em acompanhar a obra em tempo real;
+   
+ + Comunicação entre estágios de curto e médio prazo;
+   
+ + Controle do tempo executado numa determinada tarefa;
+ 
+ + Plataforma com erros e bugs;
+
+<br/><br/>
+A exemplo de algumas ferramentas existentes hoje no mercado (obrafit [https://www.obrafit.com.br/]; gerenciaobras [https://gerenciaobras.com.br/]; sênior-mega [https://www.mega.com.br/sobre-a-mega]), é possível verificar que parte das demandas registradas pelos entrevistados não são atendidas, sobretudo porque não há uma priorização específica para o gerenciamento das etapas de obras e cronogramas. 
+<br/><br/>
+<table>
+  <tr>
+    <th>Obrafit</th>
+    <th>Gerenciaobras</th>
+    <th>Senior-mega</th>
+    <th>Concreta</th>
+  </tr>
+  <tr>
+    <td>Enfoque prioritário em relatórios de pagamentos, medições de serviços, gerenciamento de pendências, controle financeiro e mapa de cotações.</td>
+    <td>Enfoque prioritário em medições, arquivos e visitas técnicas, suprimentos e financeiro.</td>
+    <td>Enfoque em orçamentos de obras, compras e contratações, gestão de equipamentos, contrato de empreiteiros, gestão de documentos e planejamentos físico-econômicos.</td>
+    <td>Enfoque principal em fornecer uma ferramenta simples e prática que permita gerenciar as etapas e uma obra, emitindo alertas de  atrasos (inclusive sobre épocas de cheias), bem como permitir a impressão de relatórios gerais e específicos a depender do objetivo do usuário. </td>
+  </tr>
+</table>
+<br/>
+Desta maneira, a Concreta é uma resposta a essa demanda crescente por ferramentas que possibilitem o controle efetivo das etapas das obras. Este serviço visa fornecer aos usuários uma ferramenta prática e eficaz para gerenciar empreendimentos e fornecer previsões mais acertadas, além de relatórios detalhados e gerais. 
+<br/>
+</div>
 
 ## Público-Alvo
 
