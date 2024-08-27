@@ -51,18 +51,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+| ID    | Descrição do Requisito                                                                                                                                                           | Prioridade |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01 | O sistema deve permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.                        | ALTA       |
+| RF-02 | O sistema deve permitir a visualização dos recursos alocados a cada tarefa, como materiais e mão de obra, para facilitar o gerenciamento eficiente dos recursos disponíveis.     | ALTA       |
+| RF-03 | O sistema deve permitir ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.                       | ALTA       |
+| RF-04 | O sistema deve oferecer funcionalidades de controle de custos para arquitetos, permitindo o acompanhamento do orçamento durante a execução da obra.                               | MÉDIA      |
+| RF-05 | O sistema deve permitir a gestão eficiente de recursos durante todo o processo de construção, incluindo materiais e mão de obra.                                                 | MÉDIA      |
+| RF-06 | O sistema deve enviar notificações automáticas sobre mudanças no cronograma para os arquitetos, garantindo que o projeto se mantenha dentro dos prazos estabelecidos.            | MÉDIA      |
+| RF-07 | O sistema deve fornecer atualizações semanais para gestores de obras, incluindo gráficos de progresso, índices de desempenho, e avaliação da eficiência do trabalho.              | MÉDIA      |
+| RF-08 | O sistema deve permitir a identificação de áreas que necessitam de melhorias e a detecção de riscos de retrabalho.                                                                  | MÉDIA      |
+| RF-09 | O sistema deve permitir aos clientes acompanhar o progresso percentual das etapas da obra, proporcionando um acompanhamento detalhado do desenvolvimento do projeto.               | BAIXA      |
+| RF-10 | O sistema deve permitir o envio de fotos atualizadas da execução da obra para os clientes, permitindo uma visão clara do andamento sem a necessidade de presença física no local. | BAIXA      |
+| RF-11 | O sistema deve permitir o acompanhamento remoto do desenvolvimento da reforma pelos clientes, oferecendo uma experiência conveniente e eficaz.                                   | BAIXA      |
+| RF-12 | O sistema deve enviar alertas instantâneos para engenheiros de controle de qualidade sobre qualquer desvio de padrão ou erro detectado durante a execução da obra.                 | ALTA       |
+| RF-13 | O sistema deve fornecer relatórios detalhados com indicadores de desempenho para engenheiros de controle de qualidade, permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
+| RF-14 | O sistema deve permitir a minimização de retrabalhos, permitindo que engenheiros de controle de qualidade ajam rapidamente para garantir a qualidade em todos os estágios da obra. | ALTA       |
+| RF-15 | O sistema deve integrar dados de diferentes fontes e facilitar a comunicação entre todos os envolvidos no projeto, incluindo engenheiros, arquitetos, gestores de obras, clientes e engenheiros de controle de qualidade. | MÉDIA      |
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID     | Descrição do Requisito                                                                                                                                                           | Prioridade |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RNF-01 | O sistema deve ser capaz de processar e exibir as informações em tempo real sem causar lentidão, suportando até 500 usuários simultâneos sem perda de performance.                | ALTA       |
+| RNF-02 | Todas as informações sensíveis, como dados de projetos e credenciais dos usuários, devem ser armazenadas e transmitidas de forma criptografada, garantindo a confidencialidade e integridade dos dados. | ALTA       |
+| RNF-03 | A interface do sistema deve ser intuitiva e fácil de usar, permitindo que os diferentes perfis de usuários (engenheiros, arquitetos, gestores, clientes) possam navegar e realizar suas tarefas sem dificuldades. | ALTA       |
+| RNF-04 | O sistema deve ser compatível com os principais navegadores do mercado, como Google Chrome, Firefox e Microsoft Edge, garantindo uma experiência consistente em todas as plataformas. | MÉDIA      |
+| RNF-05 | O sistema deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela, incluindo desktops, tablets e smartphones, sem comprometer a usabilidade ou a apresentação dos dados. | MÉDIA      |
+| RNF-06 | O sistema deve permitir o download de relatórios e documentos em formatos PDF e HTML, garantindo que esses arquivos sejam gerados de forma rápida e acessível para os usuários. | MÉDIA      |
+| RNF-07 | O tempo de resposta do sistema deve ser inferior a 3 segundos para todas as operações, assegurando uma experiência ágil para os usuários.                                           | ALTA       |
+| RNF-08 | O sistema deve ter um suporte técnico acessível por chat e e-mail, disponível durante o horário comercial para resolver qualquer problema que possa surgir.                         | MÉDIA      |
+| RNF-09 | O sistema deve ter um plano de contingência em caso de falha, incluindo backups regulares e procedimentos para recuperação rápida dos dados, minimizando o impacto de possíveis problemas técnicos. | ALTA       |
+| RNF-10 | O sistema deve ser escalável, permitindo a adição de novos módulos e funcionalidades sem comprometer a performance existente.                                                     | MÉDIA      |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
