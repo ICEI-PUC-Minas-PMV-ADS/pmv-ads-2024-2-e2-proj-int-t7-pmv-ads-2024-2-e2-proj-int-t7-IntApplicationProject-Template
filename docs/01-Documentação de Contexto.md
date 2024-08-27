@@ -3,16 +3,19 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Atualmente, a gestão da saúde e nutrição tem ganhado cada vez mais atenção devido à busca por estilos de vida mais saudáveis e ao controle de condições específicas de saúde. No entanto, a comunicação e o acompanhamento entre nutricionistas e pacientes enfrentam desafios significativos que comprometem a eficácia dos planos alimentares e a participação ativa dos pacientes.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Um dos principais obstáculos é a dificuldade na comunicação contínua entre nutricionistas e pacientes. Consultas esporádicas e a ausência de uma plataforma dedicada resultam em um acompanhamento limitado, o que pode causar falhas na orientação e na implementação dos planos alimentares. Os pacientes frequentemente encontram dificuldades ao tentar ajustar suas dietas e obter feedback imediato, o que pode afetar negativamente o sucesso das intervenções nutricionais.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Além disso, a fragmentação das informações, como planos alimentares, receitas e registros de alimentação, cria barreiras significativas para a eficácia do tratamento. Os pacientes muitas vezes armazenam essas informações em diversos locais, o que pode gerar confusão e inconsistências na adesão aos planos nutricionais recomendados.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de uma solução centralizada e acessível para gerenciar essas informações impede um acompanhamento eficaz e contínuo. Tanto pacientes quanto nutricionistas precisam de uma plataforma que permita o armazenamento e a visualização integrada de dados nutricionais, histórico alimentar e recomendações. Sem essa centralização, a análise do progresso e a adaptação das estratégias nutricionais se tornam mais difíceis, limitando a capacidade de resposta ágil às necessidades em mudança dos pacientes.
+
+Além disso, a ausência de recursos educacionais interativos e acessíveis contribui para a falta de engajamento dos pacientes. A educação contínua é essencial para o sucesso a longo prazo dos planos alimentares, e a falta de ferramentas que promovam a conscientização e o automonitoramento pode levar a uma menor motivação e adesão por parte dos pacientes.
+
+Outro ponto crítico é a necessidade de otimizar o tempo e os recursos envolvidos na gestão de planos alimentares. Consultas presenciais frequentes e a necessidade de comunicação constante são dispendiosas e ineficazes. A automação de tarefas e o uso de ferramentas digitais podem reduzir a carga de trabalho e facilitar uma gestão mais eficiente dos planos nutricionais.
+
+Diante desses desafios, é evidente a necessidade de uma solução inovadora que integre e centralize informações de nutrição em uma plataforma acessível e interativa. Uma aplicação de nutrição que facilite a comunicação entre nutricionistas e pacientes pode não apenas melhorar o acompanhamento e a comunicação, mas também promover uma adesão mais eficaz aos planos alimentares, aumentar a educação e o engajamento dos pacientes, e otimizar o gerenciamento dos recursos de saúde. Tal aplicação oferecerá uma solução abrangente para essas necessidades, servindo como um recurso valioso tanto para os profissionais de saúde quanto para seus pacientes.
 
 ## Objetivos
 
