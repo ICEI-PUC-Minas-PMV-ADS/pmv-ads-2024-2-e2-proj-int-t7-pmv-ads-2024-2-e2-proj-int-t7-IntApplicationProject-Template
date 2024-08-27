@@ -1,7 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+CONEXA SAÚDE. Aplicativos de saúde: como eles podem transformar o cuidado com a saúde. Disponível em: https://www.conexasaude.com.br/blog/aplicativos-saude/. Acesso em: 21 ago. 2024.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+STAR - Sistema de Tecnologia e Administração em Saúde. Tecnologia na saúde: o que é? Disponível em: https://star.med.br/tecnologia-na-saude-o-que-e/. Acesso em: 21 ago. 2024.
+
