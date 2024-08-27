@@ -1,5 +1,5 @@
 <p align="center">
-  <img src= "https://github.com/user-attachments/assets/3a0f4038-a7eb-4d40-88c9-36e5f1801658" width="400">
+  <img src= "https://github.com/user-attachments/assets/3b5176ba-ff78-445b-8031-42a54677f696" width="400">
 </p>
 
 # CONCRETA - Plataforma de Gerenciamento de Obra
