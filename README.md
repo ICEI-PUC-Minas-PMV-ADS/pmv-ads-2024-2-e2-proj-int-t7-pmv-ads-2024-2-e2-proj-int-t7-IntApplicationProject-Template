@@ -6,7 +6,7 @@
 
 * Eixo 2
 
-O Nutribem é uma aplicação dedicada à nutrição, projetada para otimizar a interação entre nutricionistas e seus pacientes. Ela oferece uma plataforma eficiente que facilita um contato mais direto, rápido e centralizado, aprimorando a comunicação e a gestão das informações nutricionais e acompanhamento de pacientes.
+A Nutribem é uma aplicação dedicada à nutrição, projetada para otimizar a interação entre nutricionistas e seus pacientes. Ela oferece uma plataforma eficiente que facilita um contato mais direto, rápido e centralizado, aprimorando a comunicação e a gestão das informações nutricionais e acompanhamento de pacientes.
 
 ## Integrantes
 
