@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# NUTRIBEM
 
-`CURSO`
+* Tecnologia em Análise e Desenvolvimento de Sistemas - EAD
 
-`DISCIPLINA`
+* Projeto: Desenvolvimento de uma Aplicação Interativa
 
-`SEMESTRE`
+* Eixo 2
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Nutribem é uma aplicação dedicada à nutrição, projetada para otimizar a interação entre nutricionistas e seus pacientes. Ela oferece uma plataforma eficiente que facilita um contato mais direto, rápido e centralizado, aprimorando a comunicação e a gestão das informações nutricionais e acompanhamento de pacientes.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Clara Dunningham Matos Seixas
+* Cristhiane Maria Assi
+* Guilherme Henrique Salviano
+* Joel Onofre de Sao Jose Junior
+* Karina Reis
+* Victor Emanuel de Souza
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
