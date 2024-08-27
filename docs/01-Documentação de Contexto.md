@@ -34,7 +34,45 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Através de uma pesquisa conduzida via Google Form, identificamos o perfil principal do público-alvo deste projeto:
+
+* Os usuários são predominantemente engenheiros e clientes de construtoras
+* Idades variando de 25 a 55+ anos
+* A maioria acessa plataformas online por meio de smartphones ou computadores.
+
+Este grupo busca melhorar a eficiência na gestão de tempo e recursos durante o processo de obras, aumentando a interatividade com os clientes.
+Segue em anexo gráficos da pesquisa:
+
+<br/>
+
+<div  align="center">
+<img  src="https://github.com/user-attachments/assets/6f9ba446-80e9-43e3-9cad-88358727a3f4" width="400">
+<br/>
+Área de atuação.
+
+<br/><br/>
+
+<div  align="center">
+<img  src="https://github.com/user-attachments/assets/f85ed2a0-8429-40d3-90a5-f1723467ca2c" width="400">
+<br/>
+Conhecimento Prévio em Plataformas de Controle.
+ 
+<br/><br/>
+
+<div  align="center">
+<img  src="https://github.com/user-attachments/assets/def5c075-10b5-4084-879b-c99b018a61fa" width="400">
+<br/>
+Faixa etária.
+ 
+<br/><br/>
+
+<div  align="center">
+<img  src="https://github.com/user-attachments/assets/4f64802e-613b-4c24-ac58-d9190ab4841d" width="400">
+<br/>
+Tipo de Dispositivo utilizados para acessar plataformas
+ 
+<br/><br/>
+</div>
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
