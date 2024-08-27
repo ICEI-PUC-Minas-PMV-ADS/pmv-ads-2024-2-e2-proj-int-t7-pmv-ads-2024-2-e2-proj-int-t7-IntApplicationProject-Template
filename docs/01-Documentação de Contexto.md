@@ -106,57 +106,61 @@ Desta maneira, a Concreta é uma resposta a essa demanda crescente por ferrament
 </div>
 
 ## Público-Alvo
-
+<div align="justify">
 Através de uma pesquisa conduzida via Google Form, identificamos o perfil principal do público-alvo deste projeto:
-
+<br/><br/>
+ 
 * Os usuários são predominantemente engenheiros e clientes de construtoras
 * Idades variando de 25 a 55+ anos
 * A maioria acessa plataformas online por meio de smartphones ou computadores.
 
-Este grupo busca melhorar a eficiência na gestão de tempo e recursos durante o processo de obras, aumentando a interatividade com os clientes.
-Segue em anexo gráficos da pesquisa:
-
 <br/>
+Este grupo busca melhorar a eficiência na gestão de tempo e recursos durante o processo de obras, aumentando a interatividade com os clientes. Segue abaixo gráficos da pesquisa, em que é possível verificar que o público alvo se insere entre engenheiros, arquitetos, gestores de obras e clientes.
+<br/><br/>
 
 <div  align="center">
-Figura 03 - Área de atuação dos entrevistados.
-<br/>
+ 
+**Figura 03 - Área de atuação dos entrevistados.**
+<br/><br/>
 <img  src="https://github.com/user-attachments/assets/6f9ba446-80e9-43e3-9cad-88358727a3f4" width="400">
 <br/>
-Fonte os autores.
-
+**Fonte os autores.**
+</div>
+<br/><br/>
+Ademais, é possível relacionar a faixa etária dos entrevistados com o conhecimento prévio em plataformas de controle similares ao do projeto:
 <br/><br/>
 
 <div  align="center">
-Figura 04 - Conhecimento Prévio em Plataformas de Controle.
-<br/>
+ 
+**Figura 04 - Conhecimento Prévio em Plataformas de Controle.**
+<br/><br/>
 <img  src="https://github.com/user-attachments/assets/f85ed2a0-8429-40d3-90a5-f1723467ca2c" width="400">
 <br/>
-Fonte os autores.
- 
+**Fonte os autores.**
+</div>
 <br/><br/>
 
 <div  align="center">
-Figura 05 - Faixa etária dos entrevistados.
-<br/>
+ 
+**Figura 05 - Faixa etária dos entrevistados.**
+<br/><br/>
 <img  src="https://github.com/user-attachments/assets/def5c075-10b5-4084-879b-c99b018a61fa" width="400">
 <br/>
-Fonte os autores.
- 
+**Fonte os autores.**
+</div>
+<br/><br/>
+
+Nesse sentido, justamente em razão da profissão (que exige um perfil mais prático) e também da faixa etária, se obserovu a opção por dispositivos que seriam utilizados para acessar a plataforma
+</div>
 <br/><br/>
 
 <div  align="center">
-Figura 06 - Tipo de Dispositivo utilizados para acessar plataformas.
-<br/>
+ 
+**Figura 06 - Tipo de Dispositivo utilizados para acessar plataformas.**
+<br/><br/>
 <img  src="https://github.com/user-attachments/assets/4f64802e-613b-4c24-ac58-d9190ab4841d" width="400">
 <br/>
-Fonte os autores.
- 
-<br/><br/>
+**Fonte os autores.**
 </div>
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+<br/><br/>
+Desta maneira, com base na pesquisa acima foi possível identificar, através dos entrevistados, os princpais perfis de usuário que nortearão a aplicação. 
