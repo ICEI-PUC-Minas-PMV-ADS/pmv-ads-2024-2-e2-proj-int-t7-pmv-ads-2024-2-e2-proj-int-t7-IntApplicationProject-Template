@@ -9,8 +9,11 @@
 `Projeto: Desenvolvimento de uma Aplicação Interativa`
 
 `2º Semestre/2024`
+<div align="justify">
+O projeto visa desenvolver uma ferramenta de gestão de obras, denominada "Concreta" que permita aus usuários (gestores de obras, proprietários de construtoras e até clientes), obter informações claras e acessíveis sobre os estágios de cada etapa em uma obra. Além de terem acesso à relatório detalhados e gerais, bem  como alertas sobre eventuais atrasos e alterações nos cronogramas previamente cadastrados. 
+<br/>
+</div>
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
