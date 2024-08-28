@@ -6,23 +6,36 @@ A partir da documentação de contexto, passará a se definir o problema e a id�
 </div>
 
 ## Personas
-
-
-Persona 1 - Engenheiro civil:
-
+<div align="justify">
+ 
+**Persona 1 - Engenheiro civil:**
+<br/><br/>
+<div  align="center">
+ 
 ![image](https://github.com/user-attachments/assets/0196483c-e935-430c-a48d-bb0944316720)
+</div>
+<br/><br/>
 
-Persona 2 - Proprietária de imóvel:
+**Persona 2 - Proprietária de imóvel:**
+<br/><br/>
+<div  align="center">
 
 ![image](https://github.com/user-attachments/assets/0195bff1-9679-44df-8151-c6459df60df5)
 
-Persona 3 - Gestor de obras:
+</div>
+<br/><br/>
+
+**Persona 3 - Gestor de obras:**
+<br/><br/>
+<div  align="center">
 
 ![image](https://github.com/user-attachments/assets/71d436a9-6ffd-4853-8a47-cc6a24a1061b)
 
-
+</div>
+<br/><br/>
 
 ## Histórias de Usuários
+<div align="justify">
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
@@ -32,13 +45,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 <div align="justify">
