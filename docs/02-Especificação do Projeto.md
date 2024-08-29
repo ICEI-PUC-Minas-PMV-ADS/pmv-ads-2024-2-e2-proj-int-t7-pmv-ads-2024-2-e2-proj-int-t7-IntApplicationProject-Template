@@ -53,28 +53,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir o cadastramento de nutricionista como usuário, através da criação de um perfil com informações pessoais gerais ligadas a sua formação.| ALTA | 
-|RF-002| O sistema deve permitir o cadastramento de um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.) | ALTA |
-|RF-003| O sistema deve permitir que o usuário nutricionista cadastre um plano alimentar para seu respectivo usuário paciente, com receitas, ingredientes e seu respectivo valor nutricional básico (calorias, proteínas, gorduras, etc.) | ALTA |
-|RF-004| O sistema deve permitir que o usuário paciente faça uma avaliação do nutricionista (avaliação anonima)| BAIXA | 
-|RF-005| O sistema deve permitir que o usuário paciente consiga fazer um comentário sobre o plano alimentar| BAIXA | 
-|RF-006| O sistema deve permitir que o usuário nutricionista faça modificações no plano alimentar de seu paciente| ALTA | 
-|RF-007| O sistema deve permitir que o usuário paciente registre seu diário alimentar com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
-|RF-008| O sistema deve permitir que os usuários (de ambos os tipos) proponham dicas de receitas| MÉDIA | 
-|RF-009| O sistema deve permitir o registro de perda de peso do usuário paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
-|RF-010| O sistema deve permitir que os usuários avaliem as receitas propostas (like ou joinha) | BAIXA | 
-|RF-011| O sistema deve fornecer uma ferramenta de cálculo de índice de massa corpórea para o usuário nutricionista| ALTA |
-|RF-012| Plano social| BAIXA |
+|RF-001| Cadastrar nutricionista como usuário, através da criação de um perfil com informações pessoais gerais ligadas a sua formação.| ALTA | 
+|RF-002| Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.) | ALTA |
+|RF-003| Cadastrar um plano alimentar pelo nutricionista para seu respectivo paciente, com receitas, ingredientes, valor nutricional básico (calorias, proteínas, gorduras, etc.) | ALTA |
+|RF-004| Avaliar o nutricionista (avaliação anonima)| BAIXA | 
+|RF-005| Fazer comentário sobre o plano alimentar pelo paciente| BAIXA | 
+|RF-006| Fazer modificações no plano alimentar do paciente pelo nutricionista | ALTA | 
+|RF-007| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
+|RF-008| Propor dicas de receitas por nutricionistas e pacientes| MÉDIA | 
+|RF-009| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
+|RF-010| Avaliar as receitas propostas (like ou joinha) | BAIXA | 
+|RF-011| Calcular índice de massa corpórea para o usuário nutricionista| ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva para dispositivos móveis | ALTA | 
-|RNF-002| O backend do sistema deve ser produzido em linguagem C#| ALTA | 
-|RNF-003| O banco de dados do sistema deve ser produzido em SQL Server | ALTA | 
-|RNF-004| Não deve ser utilizado nenhum framework no front-end além do Bootstrap| ALTA | 
+|RNF-001| Responsividade para dispositivos móveis | ALTA | 
+|RNF-002| Proteção contra acesso não autorizado | ALTA | 
+|RNF-003| Tempo de resposta à requisições inferior a 1 segundo | ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -98,7 +96,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O back-end não pode ser projetado em outra linguagem que não seja C#|
+|03| Não poderá ser utilizado framework no front-end a não ser o Bootstrap|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
