@@ -6,6 +6,14 @@
 
 `2º Semestre/2024`
 
+<br>
+<br>
+
+<img width="363" alt="image" src="https://github.com/user-attachments/assets/421f29b0-8a8a-4948-8b61-d087fa89c79a">
+
+<br>
+<br>
+
 O projeto em desenvolvimento é um Sistema de Gerenciamento de Produção de Energia Renovável. Esta aplicação web terá como objetivo principal gerenciar e monitorar usinas de energia renovável, abrangendo diferentes fontes de energia como solar, eólica e hidrelétrica. O sistema oferecerá funcionalidades para o registro e atualização das informações das usinas, além de permitir a visualização e análise da produção de energia. Também incluirá a capacidade de gerar relatórios detalhados e gráficos que facilitarão a avaliação do desempenho das usinas. Com um enfoque na automação e na entrega eficiente de resultados, o sistema permitirá que equipes de dados acompanhem e otimizem a produção de energia sem a necessidade de interações diretas com a manipulação de dados.
 
 ## Integrantes
