@@ -109,4 +109,4 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama de caso de uso pode ser observado abaixo:
 
-<img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem/blob/82b27d00443821252cd33e54ac0e1f84dc429856/docs/img/D.%20Caso%20de%20uso%20Nutribem.png"/>
+<img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem/blob/1834e5e2842a02d7f4fd754f6d37ff89d091bb75/docs/img/D.%20Caso%20de%20uso%20Nutribem%20final.png"/>
