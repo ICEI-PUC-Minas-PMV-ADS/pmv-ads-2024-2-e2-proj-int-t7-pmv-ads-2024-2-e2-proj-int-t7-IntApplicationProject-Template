@@ -56,14 +56,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Cadastrar nutricionista como usuário, através da criação de um perfil com informações pessoais gerais ligadas a sua formação.| ALTA | 
 |RF-002| Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.) | ALTA |
 |RF-003| Cadastrar um plano alimentar pelo nutricionista para seu respectivo paciente, com receitas, ingredientes, valor nutricional básico (calorias, proteínas, gorduras, etc.) | ALTA |
-|RF-004| Avaliar o nutricionista (avaliação anonima)| BAIXA | 
-|RF-005| Fazer comentário sobre o plano alimentar pelo paciente| BAIXA | 
-|RF-006| Fazer modificações no plano alimentar do paciente pelo nutricionista | ALTA | 
-|RF-007| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
-|RF-008| Propor dicas de receitas por nutricionistas e pacientes| MÉDIA | 
-|RF-009| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
-|RF-010| Avaliar as receitas propostas (like ou joinha) | BAIXA | 
-|RF-011| Calcular índice de massa corpórea para o usuário nutricionista| ALTA |
+|RF-004| Fazer comentário sobre o plano alimentar pelo paciente| BAIXA | 
+|RF-005| Fazer modificações no plano alimentar do paciente pelo nutricionista | ALTA | 
+|RF-006| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
+|RF-007| Propor dicas de receitas por nutricionistas e pacientes| MÉDIA | 
+|RF-008| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
+|RF-009| Avaliar as receitas propostas (like ou joinha) | BAIXA | 
+|RF-010| Calcular índice de massa corpórea para o usuário nutricionista| ALTA |
 
 
 ### Requisitos não Funcionais
