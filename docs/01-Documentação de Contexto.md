@@ -19,21 +19,17 @@ Diante desses desafios, é evidente a necessidade de uma solução inovadora que
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Dada a descentralização dos meios de trabalho e conteúdo fornecido por grande parte dos nutricionistas em suas consultas, o nosso objetivo é criar uma aplicação que auxilie o nutricionista a entregar todo o material para o seu paciente, acompanhar o seu desenvolvimento e o contato do paciente com o nutricionista.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Em grande parte das consultas nutricionais, muita informação é passada ao paciente de forma descentralizada, levando o paciente a necessidade de consultar ambientes diferentes de informação, seja WhatsApp, E-mail, arquivos salvos na memória do computador entre outros. Além disso, os profissionais precisam armazenar e tratar informações de seus pacientes, mas também não possuem um local para centralizar essas informações.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
+Com grande foco nessa necessidade, apresentamos a ideia de projeto Nutribem, com o objetivo de facilitar e centralizar a organização de informações, como:  informações de perfis de usuário, planos alimentares, receitas, dados de acompanhamento e meios de contato entre paciente e nutricionista.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O NutriBem permitirá que nutricionistas realizem cadastros dos clientes na plataforma e que pacientes registrem seu diário alimentar. A plataforma oferecerá uma interface intuitiva para o gerenciamento dos planos alimentares e acompanhamento dos pacientes.
+
+Com essa solução, pretendemos melhorar a comunicação entre nutricionistas e pacientes, facilitar a adesão aos planos alimentares e promover um acompanhamento mais eficaz. Ao integrar essas funcionalidades em um único ambiente digital, o NutriBem será um recurso valioso, eficiente e personalizado para a saúde e nutrição.
 
 ## Público-Alvo
 
