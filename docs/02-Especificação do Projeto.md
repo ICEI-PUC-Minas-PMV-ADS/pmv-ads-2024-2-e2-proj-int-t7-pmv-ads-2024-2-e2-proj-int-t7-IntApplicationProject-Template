@@ -58,10 +58,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID    | Descrição do Requisito                                                                                                                                                           | Prioridade |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | RF-01 | O sistema deve permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.                        | ALTA       |
-| RF-02 | O sistema deve permitir a visualização dos recursos alocados a cada tarefa, como materiais e mão de obra, para facilitar o gerenciamento eficiente dos recursos disponíveis.     | ALTA       |
+| RF-02 | O sistema deve permitir o cadastro de usuarios.     | ALTA       |
 | RF-03 | O sistema deve permitir ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.                       | ALTA       |
 | RF-04 | O sistema deve oferecer funcionalidades de controle de custos para arquitetos, permitindo o acompanhamento do orçamento durante a execução da obra.                               | MÉDIA      |
-| RF-05 | O sistema deve permitir a gestão eficiente de recursos durante todo o processo de construção, incluindo materiais e mão de obra.                                                 | MÉDIA      |
+| RF-05 | O sistema deve permitir o login e acesso de usuarios                                               | MÉDIA      |
 | RF-06 | O sistema deve enviar notificações automáticas sobre mudanças no cronograma para os arquitetos, garantindo que o projeto se mantenha dentro dos prazos estabelecidos.            | MÉDIA      |
 | RF-07 | O sistema deve fornecer atualizações semanais para gestores de obras, incluindo gráficos de progresso, índices de desempenho, e avaliação da eficiência do trabalho.              | MÉDIA      |
 | RF-08 | O sistema deve permitir a identificação de áreas que necessitam de melhorias e a detecção de riscos de retrabalho.                                                                  | MÉDIA      |
