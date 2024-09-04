@@ -8,42 +8,43 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
+Persona 1: Nutricionista
+- Nome: Ana Karla Silva
+- Idade: 30 anos
+- Formação: Nutricionista com especialização em Nutrição Esportiva.
+- Experiência: 5 anos de prática clínica.
 
-Utilize também como referência o exemplo abaixo:
+Persona 2: Nutricionista
+- Nome: Larissa Teixeira Alves
+- Idade: 35 anos
+- Formação: Nutricionista, com especialização em Nutrição Clínica e Esportiva
+- Experiência: 10 anos de experiência em consultório próprio, atendendo
+principalmente pacientes com objetivo de emagrecimento e reeducação
+alimentar.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+Persona 3: Cliente
+- Nome: Marcos Pereira
+- Idade: 28 anos
+- Profissão: Analista de Marketing.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Persona 4: Cliente
+- Nome: Vera Lúcia de Lima
+- Idade: 37 anos
+- Profissão: Supervisora de atendimento e mãe ocupada
+ 
 
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`|
+|------|-----------------------------------------|----|
+|Nutricionista1  | Aumentar a visibilidade e atrair novos clientes, oferecer um serviço mais eficiente e personalizado, facilitar o acompanhamento do progresso dos clientes. | Dificuldade em gerenciar agendamentos e consultas. Necessidade de ferramentas para monitorar a evolução dos clientes.
+|Nutricionista2  | Aumentar a sua base de pacientes e consolidar sua marca como referência em emagrecimento na sua região, oferecer um atendimento mais personalizado e eficiente aos seus pacientes, otimizando o seu tempo e recursos.Utilizar a tecnologia para se conectar com seus pacientes de forma mais dinâmica e engajadora. | Falta de tempo para consultas presenciais. Dificuldade em seguir dietas sem acompanhamento.
+|Cliente 3  | Perder 10 kg em 3 meses. Aprender a fazer escolhas alimentares saudáveis. Receber suporte e motivação de um profissional.| Falta de tempo para consultas presenciais. Dificuldade em seguir dietas sem acompanhamento.
+|Cliente 4  | Praticidade: tem uma rotina muito ocupada e precisa de soluções rápidas e práticas para a alimentação da família. Receitas Rápidas: Ela busca receitas saudáveis que possam ser preparadas em menos de 30 minutos.| Planejamento de Refeições:Necessita de um recurso que ajude a planejar as refeições da semana, considerando as preferências alimentares dos filhos. Informações Nutricionais: Quer saber mais sobre os nutrientes dos alimentos que está oferecendo à sua família.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
