@@ -1,6 +1,8 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O aumento do interesse por hábitos saudáveis e a gestão de condições de saúde específicas têm enfatizado a necessidade de uma comunicação eficaz entre nutricionistas e pacientes. No entanto, a falta de uma plataforma unificada para o acompanhamento nutricional gera problemas como a dispersão das informações e dificuldades na comunicação constante, o que pode comprometer a eficácia dos planos alimentares e a adesão dos pacientes.
+
+Para resolver essas questões, apresentamos o Nutribem, uma aplicação criada para consolidar e integrar informações nutricionais em um ambiente digital acessível e interativo. O NutriBem facilitará a interação entre nutricionistas e pacientes, permitirá uma gestão mais eficiente dos planos alimentares e promoverá um acompanhamento contínuo e eficaz, melhorando o engajamento dos pacientes e a administração dos recursos de saúde.
 
 ## Problema
 Atualmente, a gestão da saúde e nutrição tem ganhado cada vez mais atenção devido à busca por estilos de vida mais saudáveis e ao controle de condições específicas de saúde. No entanto, a comunicação e o acompanhamento entre nutricionistas e pacientes enfrentam desafios significativos que comprometem a eficácia dos planos alimentares e a participação ativa dos pacientes.
