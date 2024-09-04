@@ -33,10 +33,13 @@ Com essa solução, pretendemos melhorar a comunicação entre nutricionistas e 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+1. Nutricionistas:
+- Idade: 24 a 50 anos.
+- Formação: Graduados em Nutrição, com ou sem especializações.
+- Experiência: Desde recém-formados até profissionais com anos de experiência.
+- Objetivos: Aumentar a base de clientes, oferecer serviços personalizados, gerenciar consultas e acompanhar o progresso dos clientes.
+2. Clientes:
+- Idade: Maior de 18 anos.
+- Perfil: Pessoas que buscam melhorar sua saúde, perder peso, ganhar massa muscular ou gerenciar condições de saúde específicas (como diabetes ou hipertensão).
+- Objetivos: Receber orientações nutricionais personalizadas, ter acesso a planos de dieta, monitorar a ingestão de alimentos e obter suporte contínuo.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
