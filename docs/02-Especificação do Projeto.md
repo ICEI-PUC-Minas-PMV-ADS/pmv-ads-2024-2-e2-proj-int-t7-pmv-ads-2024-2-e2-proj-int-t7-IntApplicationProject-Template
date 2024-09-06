@@ -8,23 +8,23 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-<img src= "img/persona1.img" width="600">
+<img src= "docs/img/persona1.img" width="600">
 <h2 align="center">FIGURA 01</h2>
 <br/><br/>
 
-<img src= "img/persona2.img" width="600">
+<img src= "docs/img/persona2.img" width="600">
 <h2 align="center">FIGURA 02</h2>
 <br/><br/>
 
-<img src= "img/persona3.img" width="600">
+<img src= "docs/img/persona3.img" width="600">
 <h2 align="center">FIGURA 03</h2>
 <br/><br/>
 
-<img src= "img/persona4.img" width="600">
+<img src= "docs/img/persona4.img" width="600">
 <h2 align="center">FIGURA 04</h2>
 <br/><br/>
 
-<img src= "img/persona5.img" width="600">
+<img src= "docs/img/persona5.img" width="600">
 <h2 align="center">FIGURA 05</h2>
 <br/><br/>
 
