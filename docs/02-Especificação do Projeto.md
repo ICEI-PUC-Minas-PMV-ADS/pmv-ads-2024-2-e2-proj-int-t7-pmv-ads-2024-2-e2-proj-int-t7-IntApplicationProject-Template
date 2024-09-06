@@ -8,7 +8,6 @@ Nesta seção, será apresentada a solução e a definição detalhada do proble
 
 ## Personas
 
-
 <p align="center">
   <img src= "../docs/img/persona1.png" width="1000">
 </p>
@@ -60,22 +59,41 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas a seguir apresentam uma descrição detalhada dos requisitos funcionais e não funcionais que definem o escopo do projeto:
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-001|⁠A aplicação deve permitir que os usuários realizarem o login/registro| ALTA | 
+|RF-002|No campo de login deverá pedir e-mail e senha| ALTA |
+|RF-003|Na tela de login deverá ter o “esqueceu a senha?” no qual redirecionará para uma nova página para recuperação de senha| ALTA |
+|RF-004|A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável| ALTA |
+|RF-005|A aplicação web deve apresentar na dashboard principal menus de navegação| ALTA |
+|RF-006|O sistema deve apresentar a tela de usinas cadastradas| ALTA |
+|RF-007|O sistema deve apresentar a tela de fontes de energia cadastradas| ALTA |
+|RF-008|O sistema deve apresentar a tela de produção de energia| ALTA |
+|RF-009|A aplicação web deve apresentar uma página de relatórios| ALTA |
+|RF-010|A aplicação web deve apresentar uma página de administrador do site| ALTA |
+|RF-011|A aplicação deve permitir o cadastro de novas usinas de energia (solar, eólica, hidrelétrica, etc.), incluindo detalhes como localização, capacidade instalada, tipo de energia, data de início de operação, etc| ALTA |
+|RF-012|A aplicação deve permitir a atualização das informações já cadastradas, como mudanças na capacidade de produção ou manutenção realizada| ALTA |
+|RF-013|A aplicação deve fornecer uma interface para monitorar a produção de energia de cada usinas com dados atualizados| ALTA |
+|RF-014|O sistema deve gerar relatórios periódicos customizáveis de desempenho das usinas, contendo informações sobre produção, eficiência e desempenho ambiental| ALTA |
+|RF-015|A aplicação deve enviar notificações e alertas sobre eventos importantes, como queda na produção, falhas ou necessidade de manutenção| ALTA |
+|RF-016|A aplicação deve permitir o registro e acompanhamento de atividades de manutenção programada ou emergencial nas usinas, com alertas para futuras manutenções| ALTA |
+|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente| ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|A aplicação deve ser compatível com os principais navegadores (Chrome, Firefox, Edge) e adaptável para diferentes dispositivos, incluindo desktops, tablets e smartphones | ALTA | 
+|RNF-002|⁠O sistema deverá ter uma usabilidade simples para maior compreensão do usuário| ALTA | 
+|RNF-003|⁠O sistema deve ser escalável para suportar o aumento de volume de dados conforme o crescimento da usina| ALTA | 
+|RNF-004|A aplicação deve seguir protocolos de segurança, garantindo a proteção dos dados coletados| ALTA | 
+|RNF-005|O sistema deverá ter um ótimo desempenho para lidar com vários usuários de uma única vez| ALTA | 
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
