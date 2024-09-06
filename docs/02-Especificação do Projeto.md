@@ -65,35 +65,35 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|⁠A aplicação deve permitir que os usuários realizarem o login/registro| ALTA | 
-|RF-002|No campo de login deverá pedir e-mail e senha| ALTA |
-|RF-003|Na tela de login deverá ter o “esqueceu a senha?” no qual redirecionará para uma nova página para recuperação de senha| ALTA |
-|RF-004|A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável| ALTA |
-|RF-005|A aplicação web deve apresentar na dashboard principal menus de navegação| ALTA |
-|RF-006|O sistema deve apresentar a tela de usinas cadastradas| ALTA |
-|RF-007|O sistema deve apresentar a tela de fontes de energia cadastradas| ALTA |
-|RF-008|O sistema deve apresentar a tela de produção de energia| ALTA |
-|RF-009|A aplicação web deve apresentar uma página de relatórios| ALTA |
-|RF-010|A aplicação web deve apresentar uma página de administrador do site| ALTA |
-|RF-011|A aplicação deve permitir o cadastro de novas usinas de energia (solar, eólica, hidrelétrica, etc.), incluindo detalhes como localização, capacidade instalada, tipo de energia, data de início de operação, etc| ALTA |
-|RF-012|A aplicação deve permitir a atualização das informações já cadastradas, como mudanças na capacidade de produção ou manutenção realizada| ALTA |
-|RF-013|A aplicação deve fornecer uma interface para monitorar a produção de energia de cada usinas com dados atualizados| ALTA |
-|RF-014|O sistema deve gerar relatórios periódicos customizáveis de desempenho das usinas, contendo informações sobre produção, eficiência e desempenho ambiental| ALTA |
-|RF-015|A aplicação deve enviar notificações e alertas sobre eventos importantes, como queda na produção, falhas ou necessidade de manutenção| ALTA |
-|RF-016|A aplicação deve permitir o registro e acompanhamento de atividades de manutenção programada ou emergencial nas usinas, com alertas para futuras manutenções| ALTA |
-|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente| ALTA |
+|RF-001|⁠A aplicação deve permitir que os usuários realizarem o login/registro.| ALTA | 
+|RF-002|No campo de login deverá pedir e-mail e senha.| ALTA |
+|RF-003|Na tela de login deverá ter o “esqueceu a senha?” no qual redirecionará para uma nova página para recuperação de senha.| ALTA |
+|RF-004|A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável.| ALTA |
+|RF-005|A aplicação web deve apresentar na dashboard principal menus de navegação.| ALTA |
+|RF-006|O sistema deve apresentar a tela de usinas cadastradas.| ALTA |
+|RF-007|O sistema deve apresentar a tela de fontes de energia cadastradas.| ALTA |
+|RF-008|O sistema deve apresentar a tela de produção de energia.| ALTA |
+|RF-009|A aplicação web deve apresentar uma página de relatórios.| ALTA |
+|RF-010|A aplicação web deve apresentar uma página de administrador do site.| ALTA |
+|RF-011|A aplicação deve permitir o cadastro de novas usinas de energia (solar, eólica, hidrelétrica, etc.), incluindo detalhes como localização, capacidade instalada, tipo de energia, data de início de operação, etc.| ALTA |
+|RF-012|A aplicação deve permitir a atualização das informações já cadastradas, como mudanças na capacidade de produção ou manutenção realizada.| ALTA |
+|RF-013|A aplicação deve fornecer uma interface para monitorar a produção de energia de cada usinas com dados atualizados.| ALTA |
+|RF-014|O sistema deve gerar relatórios periódicos customizáveis de desempenho das usinas, contendo informações sobre produção, eficiência e desempenho ambiental.| ALTA |
+|RF-015|A aplicação deve enviar notificações e alertas sobre eventos importantes, como queda na produção, falhas ou necessidade de manutenção.| ALTA |
+|RF-016|A aplicação deve permitir o registro e acompanhamento de atividades de manutenção programada ou emergencial nas usinas, com alertas para futuras manutenções.| ALTA |
+|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente.| ALTA |
 
-<br/><br/>
+<br/>
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|A aplicação deve ser compatível com os principais navegadores (Chrome, Firefox, Edge) e adaptável para diferentes dispositivos, incluindo desktops, tablets e smartphones| ALTA | 
-|RNF-002|⁠O sistema deverá ter uma usabilidade simples para maior compreensão do usuário| ALTA | 
-|RNF-003|⁠O sistema deve ser escalável para suportar o aumento de volume de dados conforme o crescimento da usina| ALTA | 
-|RNF-004|A aplicação deve seguir protocolos de segurança, garantindo a proteção dos dados coletados| ALTA | 
-|RNF-005|O sistema deverá ter um ótimo desempenho para lidar com vários usuários de uma única vez| ALTA | 
+|RNF-001|A aplicação deve ser compatível com os principais navegadores (Chrome, Firefox, Edge) e adaptável para diferentes dispositivos, incluindo desktops, tablets e smartphones.| ALTA | 
+|RNF-002|⁠O sistema deverá ter uma usabilidade simples para maior compreensão do usuário.| ALTA | 
+|RNF-003|⁠O sistema deve ser escalável para suportar o aumento de volume de dados conforme o crescimento da usina.| ALTA | 
+|RNF-004|A aplicação deve seguir protocolos de segurança, garantindo a proteção dos dados coletados.| ALTA | 
+|RNF-005|O sistema deverá ter um ótimo desempenho para lidar com vários usuários de uma única vez.| ALTA | 
 
 <br/><br/>
 
@@ -103,18 +103,18 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01|O projeto deverá ser entregue até o final do semestre|
-|02|O front-end deve ser desenvolvido usando tecnologias web padrão como HTML, CSS, JavaScript e Bootstrap|
-|03|O backend deve ser implementado utilizando C#|
-|04|O banco de dados relacional (como PostgreSQL ou MySQL) deve ser utilizado para implementar no mínimo 3 CRUD's (dados das usinas, fontes e produção de energia)|
-|05|O desenvolvimento do projeto deve ser realizado com o uso de ferramentas e softwares gratuitos ou com licenças acadêmicas, assegurando que todos os membros da equipe tenham acesso às tecnologias necessárias|
-|06|Todo o código deve seguir as melhores práticas de codificação e padrões estabelecidos para garantir legibilidade e manutenção|
-|07|A equipe deve colaborar em todas as etapas do projeto, assegurando que todos os membros estejam envolvidos nas decisões e no desenvolvimento das atividades de forma ativa e participativa|
-|08|O site deve seguir rigorosamente as diretrizes éticas da instituição, não permitindo a inclusão de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta|
-|09|O conteúdo do site deve ser original ou proveniente de fontes de domínio público, garantindo a conformidade com as leis de direitos autorais|
-|010|A aplicação deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) do Brasil, garantindo que os dados dos usuários e informações sensíveis estejam protegidos|
-|011|Todo o material do projeto será disponibilizado em um repositório na plataforma GitHub|
-|012|A aplicação requer uma conexão constante à internet para funcionar corretamente|
+|01|O projeto deverá ser entregue até o final do semestre.|
+|02|O front-end deve ser desenvolvido usando tecnologias web padrão como HTML, CSS, JavaScript e Bootstrap.|
+|03|O backend deve ser implementado utilizando C#.|
+|04|O banco de dados relacional (como PostgreSQL ou MySQL) deve ser utilizado para implementar no mínimo 3 CRUD's (dados das usinas, fontes e produção de energia).|
+|05|O desenvolvimento do projeto deve ser realizado com o uso de ferramentas e softwares gratuitos ou com licenças acadêmicas, assegurando que todos os membros da equipe tenham acesso às tecnologias necessárias.|
+|06|Todo o código deve seguir as melhores práticas de codificação e padrões estabelecidos para garantir legibilidade e manutenção.|
+|07|A equipe deve colaborar em todas as etapas do projeto, assegurando que todos os membros estejam envolvidos nas decisões e no desenvolvimento das atividades de forma ativa e participativa.|
+|08|O site deve seguir rigorosamente as diretrizes éticas da instituição, não permitindo a inclusão de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta.|
+|09|O conteúdo do site deve ser original ou proveniente de fontes de domínio público, garantindo a conformidade com as leis de direitos autorais.|
+|010|A aplicação deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) do Brasil, garantindo que os dados dos usuários e informações sensíveis estejam protegidos.|
+|011|Todo o material do projeto será disponibilizado em um repositório na plataforma GitHub.|
+|012|A aplicação requer uma conexão constante à internet para funcionar corretamente.|
 
 <br/><br/>
 
