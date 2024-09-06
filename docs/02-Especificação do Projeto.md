@@ -2,9 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nesta seção, será apresentada a solução e a definição detalhada do problema que a aplicação visa resolver, a partir da perspectiva dos usuários. O objetivo é garantir que o Sistema de Gerenciamento de Produção de Energia Renovável (EcoLogic) seja desenvolvido com base em necessidades reais e específicas de seus usuários, promovendo uma experiência eficiente e intuitiva.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<br/><br/>
 
 ## Personas
 
@@ -44,24 +44,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 <br/><br/>
 
-
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|Bernardo (Gestor de Usinas de Energia)|Preciso monitorar em tempo real a produção de energia em várias usinas e acessar relatórios detalhados de desempenho e também quero a capacidade de comparar o desempenho entre as usinas e identificar rapidamente quaisquer desvios nos parâmetros operacionais.|Para garantir que todas as operações estejam otimizadas e em conformidade com as regulamentações.|
+|Patricia (Analista de Sustentabilidade)|Preciso acessar dados atualizados sobre a produção de energia de fontes renováveis e ter acesso a ferramentas que permitam filtrar e analisar esses dados.|Para criar relatórios detalhados sobre o impacto ambiental das operações e sugerir melhorias, garantindo que a empresa esteja alinhada com suas metas de sustentabilidade.|
+|Jorge (Operador de Usina)|Quero ter acesso rápido e confiável a dados operacionais diários, receber alertas em tempo real sobre qualquer anomalia e poder visualizar os dados de produção em um painel de controle intuitivo que o ajude a garantir que a produção esteja sempre dentro dos parâmetros estabelecidos.|Para monitorar as operações e identificar falhas imediatamente.|
+|Carlos (Investidor em Energia Renovável)|Preciso acessar relatórios financeiros claros e dados sobre o desempenho das usinas nas quais investi e quero visualizar comparações entre diferentes fontes de energia.|Para tomar decisões mais informadas sobre futuros investimentos.|
+|Tereza (Consultora de Energia)|Preciso de acesso a ferramentas que permitam a análise de dados de produção de energia e a previsão de tendências.|Para ajudar seus clientes a migrar para fontes renováveis e sugerir tecnologias e práticas que melhorem a eficiência energética.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+<br/><br/>
 
 ## Requisitos
 
@@ -119,9 +114,8 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+<br/><br/>
+
+> **Ferramentas utilizadas para o desenvolvimento das Especificações do Projeto**:
+> - Site: https://br.hubspot.com/make-my-persona
+> - Site: https://app.diagrams.net/
