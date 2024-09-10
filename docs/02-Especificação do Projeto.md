@@ -39,20 +39,13 @@ A partir da documentação de contexto, passará a se definir o problema e a id�
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ...  |PARA ...     |
 |--------------------|------------------------------------|----------------------------------------|
-|Engenheiro Civil  | Usar a ferramenta para monitorar em tempo real o progresso de cada etapa da obra que estou gerenciando, com acesso detalhado ao progresso percentual de cada tarefa e aos recursos alocados.           | dentificar rapidamente quaisquer desvios do cronograma, ajustar as operações de forma ágil, otimizar recursos e garantir que os prazos acordados com os clientes sejam cumpridos, minimizando riscos de atrasos e assegurando a satisfação do cliente e a rentabilidade do projeto.               |
-|Proprietária de imóveis.    | Usar a ferramenta para acompanhar remotamente o progresso detalhado de cada fase da reforma, visualizando o progresso percentual e recebendo atualizações semanais com fotos em alta resolução.                 | er uma visão clara e confiável do andamento dos trabalhos, ser notificada sobre problemas ou atrasos, e garantir que a reforma esteja sendo conduzida conforme planejado, mantendo o estilo e integridade do imóvel, e assegurando a conclusão do projeto dentro do cronograma. |
-|Gestor de Obras   | De uma ferramenta que forneça atualizações semanais detalhadas sobre o andamento de cada projeto, com gráficos de progresso, índices de desempenho, e alertas para áreas problemáticas.                 | Identificar riscos de retrabalho, mitigar problemas, ajustar a alocação de recursos, e assegurar que todos os projetos sejam entregues dentro do prazo e do orçamento previsto, mantendo a qualidade e eficiência e garantindo a comunicação eficaz com as equipes e clientes. |
-|Gestor de Obras   | Monitorar o progresso de cada etapa das obras em tempo real                 | Identificar rapidamente o status das tarefas (no prazo, atrasadas ou concluídas) e garantir a entrega dentro do prazo e do orçamento. |
-|Supervisor de Obras   | Ajustar rapidamente as operações com base nas informações em tempo real.                 | Evitar atrasos e garantir que a obra continue avançando de maneira eficiente. |
-|Clientes   | Acompanhar o progresso percentual das etapas da obra e receber fotos atualizadas da execução.                 | Ter uma visão clara do andamento e tranquilidade sem precisar estar presente fisicamente no local. |
-|Arquiteta   | Receber notificações automáticas sobre mudanças no cronograma.                 | Ajustar o planejamento e garantir que o projeto se mantenha dentro dos prazos estabelecidos. |
-|Engenheira de Controle de Qualidade   | Obter relatórios detalhados com indicadores de desempenho.                 | ealizar uma análise aprofundada da qualidade da execução e implementar melhorias contínuas no processo. |
-|Gerente de Projetos   | Preciso que o sistema integre dados de diferentes fontes e facilite a comunicação entre todos os envolvidos no projeto.                 | Garantir uma colaboração eficiente e execução harmoniosa do projeto, minimizando mal-entendidos e atrasos.. |
+|Engenheiro Civil  | Usar a ferramenta para monitorar em tempo real o progresso de cada etapa da obra que estou gerenciando, com acesso detalhado ao progresso percentual de cada tarefa.          | Identificar rapidamente quaisquer desvios do cronograma, ajustar as operações de forma ágil, garantir que os prazos acordados com os clientes sejam cumpridos, minimizando riscos de atrasos e assegurando a satisfação do cliente e a rentabilidade do projeto.               |
+|Cliente/proprietário do imóvel.    | Usar a ferramenta para acompanhar remotamente o progresso detalhado de cada fase da reforma, visualizando o progresso percentual e recebendo atualizações em forma de relatórios gerais ou detalhados com fotos.           | Ter uma visão clara e confiável do andamento dos trabalhos, ter acesso às informações sobre eventuais atrasos, e garantir que a reforma esteja sendo conduzida conforme planejado, mantendo o estilo e integridade do imóvel, e assegurando a conclusão do projeto dentro do cronograma. |
+|Gestor de Obras   | Que meu usuário cadastrado seja capaz de inserir e editar obras, permitindo o monitoramento e ajustes do progresso em cada etapa das obras.   | Identificar rapidamente o status das tarefas (no prazo, atrasadas ou concluídas), evitando atrasos e garantindo a entrega dentro do prazo. |
+|Gerente de Projetos   | Preciso que o sistema integre dados e permita o acompanhamento das obras que tenho interesse          | Garantir uma colaboração eficiente e execução harmoniosa do projeto, minimizando mal-entendidos e atrasos.. |
 
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 ## Requisitos
 <div align="justify">
@@ -64,36 +57,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID    | Descrição do Requisito                                                                                                                                                           | Prioridade |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-01 | O sistema deve permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.                        | ALTA       |
-| RF-02 | O sistema deve permitir o cadastro de usuarios.     | ALTA       |
-| RF-03 | O sistema deve permitir ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.                       | ALTA       |
-| RF-04 | O sistema deve oferecer funcionalidades de controle de custos para arquitetos, permitindo o acompanhamento do orçamento durante a execução da obra.                               | MÉDIA      |
-| RF-05 | O sistema deve permitir o login e acesso de usuarios                                               | MÉDIA      |
-| RF-06 | O sistema deve enviar notificações automáticas sobre mudanças no cronograma para os arquitetos, garantindo que o projeto se mantenha dentro dos prazos estabelecidos.            | MÉDIA      |
-| RF-07 | O sistema deve fornecer atualizações semanais para gestores de obras, incluindo gráficos de progresso, índices de desempenho, e avaliação da eficiência do trabalho.              | MÉDIA      |
-| RF-08 | O sistema deve permitir a identificação de áreas que necessitam de melhorias e a detecção de riscos de retrabalho.                                                                  | MÉDIA      |
-| RF-09 | O sistema deve permitir aos clientes acompanhar o progresso percentual das etapas da obra, proporcionando um acompanhamento detalhado do desenvolvimento do projeto.               | BAIXA      |
-| RF-10 | O sistema deve permitir o envio de fotos atualizadas da execução da obra para os clientes, permitindo uma visão clara do andamento sem a necessidade de presença física no local. | BAIXA      |
-| RF-11 | O sistema deve permitir o acompanhamento remoto do desenvolvimento da reforma pelos clientes, oferecendo uma experiência conveniente e eficaz.                                   | BAIXA      |
-| RF-12 | O sistema deve enviar alertas instantâneos para engenheiros de controle de qualidade sobre qualquer desvio de padrão ou erro detectado durante a execução da obra.                 | ALTA       |
-| RF-13 | O sistema deve fornecer relatórios detalhados com indicadores de desempenho para engenheiros de controle de qualidade, permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
-| RF-14 | O sistema deve permitir a minimização de retrabalhos, permitindo que engenheiros de controle de qualidade ajam rapidamente para garantir a qualidade em todos os estágios da obra. | ALTA       |
-| RF-15 | O sistema deve integrar dados de diferentes fontes e facilitar a comunicação entre todos os envolvidos no projeto, incluindo engenheiros, arquitetos, gestores de obras, clientes e engenheiros de controle de qualidade. | MÉDIA      |
+| RF-01 | Permitir o cadastro e login de usuarios. | ALTA  |
+| RF-02 | Possibilitar ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.  | ALTA  |
+| RF-04 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.   | ALTA     |
+| RF-05 | Enviar notificações automáticas sobre mudanças nos cronogramas, garantindo que o projeto se mantenha dentro dos prazos estabelecidos. | MÉDIA   |
+| RF-06 | Possibilitar aos clientes acompanhar o progresso percentual das etapas da obra. | MEDIA  |
+| RF-07 | Permitir o envio de fotos atualizadas da execução da obra para os clientes, permitindo uma visão clara do andamento sem a necessidade de presença física no local. | BAIXA |
+| RF- 08 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
+| RF-09 |  fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
+| RF-10 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
 
 ### Requisitos Não Funcionais
 
 | ID     | Descrição do Requisito                                                                                                                                                           | Prioridade |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RNF-01 | O sistema deve ser capaz de processar e exibir as informações em tempo real sem causar lentidão, suportando até 500 usuários simultâneos sem perda de performance.                | ALTA       |
-| RNF-02 | Todas as informações sensíveis, como dados de projetos e credenciais dos usuários, devem ser armazenadas e transmitidas de forma criptografada, garantindo a confidencialidade e integridade dos dados. | ALTA       |
+| RNF-01 | O sistema deve ser capaz de processar e exibir as informações em tempo real sem causar lentidão.               | ALTA  |
+| RNF-02 | Todas as informações sensíveis, como dados de projetos e credenciais dos usuários, devem ser armazenadas, garantindo a confidencialidade e integridade dos dados. | ALTA   |
 | RNF-03 | A interface do sistema deve ser intuitiva e fácil de usar, permitindo que os diferentes perfis de usuários (engenheiros, arquitetos, gestores, clientes) possam navegar e realizar suas tarefas sem dificuldades. | ALTA       |
 | RNF-04 | O sistema deve ser compatível com os principais navegadores do mercado, como Google Chrome, Firefox e Microsoft Edge, garantindo uma experiência consistente em todas as plataformas. | MÉDIA      |
 | RNF-05 | O sistema deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela, incluindo desktops, tablets e smartphones, sem comprometer a usabilidade ou a apresentação dos dados. | MÉDIA      |
-| RNF-06 | O sistema deve permitir o download de relatórios e documentos em formatos PDF e HTML, garantindo que esses arquivos sejam gerados de forma rápida e acessível para os usuários. | MÉDIA      |
-| RNF-07 | O tempo de resposta do sistema deve ser inferior a 3 segundos para todas as operações, assegurando uma experiência ágil para os usuários.                                           | ALTA       |
-| RNF-08 | O sistema deve ter um suporte técnico acessível por chat e e-mail, disponível durante o horário comercial para resolver qualquer problema que possa surgir.                         | MÉDIA      |
-| RNF-09 | O sistema deve ter um plano de contingência em caso de falha, incluindo backups regulares e procedimentos para recuperação rápida dos dados, minimizando o impacto de possíveis problemas técnicos. | ALTA       |
-| RNF-10 | O sistema deve ser escalável, permitindo a adição de novos módulos e funcionalidades sem comprometer a performance existente.                                                     | MÉDIA      |
+| RNF-06 |  Permitir o download de relatórios e documentos em formatos PDF e HTML, garantindo que esses arquivos sejam gerados de forma rápida e acessível para os usuários. | MÉDIA      |
+| RNF-07 |  Ter um plano de contingência em caso de falha, incluindo backups regulares e procedimentos para recuperação rápida dos dados, minimizando o impacto de possíveis problemas técnicos. | BAIXA      |
+| RNF-08 | O sistema deve ser escalável, permitindo a adição de novos módulos e funcionalidades sem comprometer a performance existente.                                                     | MÉDIA      |
 </div>
 
 ## Restrições
