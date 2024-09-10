@@ -41,9 +41,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... | QUERO/PRECISO ...  |PARA ...     |
 |--------------------|------------------------------------|----------------------------------------|
-|Engenheiro Civil  | Usar a ferramenta para monitorar em tempo real o progresso de cada etapa da obra que estou gerenciando, com acesso detalhado ao progresso percentual de cada tarefa.          | Identificar rapidamente quaisquer desvios do cronograma, ajustar as operações de forma ágil, garantir que os prazos acordados com os clientes sejam cumpridos, minimizando riscos de atrasos e assegurando a satisfação do cliente e a rentabilidade do projeto.               |
+|Engenheiro Civil  | Usar a ferramenta para monitorar em tempo real o progresso de cada etapa da obra que estou gerenciando, com acesso detalhado ao progresso percentual de cada tarefa.          | Identificar quaisquer desvios do cronograma, ajustar as operações de forma ágil, garantir que os prazos acordados com os clientes sejam cumpridos, minimizando riscos de atrasos e assegurando a satisfação do cliente e a rentabilidade do projeto.               |
 |Cliente/proprietário do imóvel.    | Usar a ferramenta para acompanhar remotamente o progresso detalhado de cada fase da reforma, visualizando o progresso percentual e recebendo atualizações em forma de relatórios gerais ou detalhados com fotos.           | Ter uma visão clara e confiável do andamento dos trabalhos, ter acesso às informações sobre eventuais atrasos, e garantir que a reforma esteja sendo conduzida conforme planejado, mantendo o estilo e integridade do imóvel, e assegurando a conclusão do projeto dentro do cronograma. |
-|Gestor de Obras   | Que meu usuário cadastrado seja capaz de inserir e editar obras, permitindo o monitoramento e ajustes do progresso em cada etapa das obras.   | Identificar rapidamente o status das tarefas (no prazo, atrasadas ou concluídas), evitando atrasos e garantindo a entrega dentro do prazo. |
+|Gestor de Obras   | Que meu usuário cadastrado seja capaz de inserir e editar obras permitindo o monitoramento e ajustes do progresso em cada etapa. Também quero esclarecer dúvidas com a plataforma sobre cadastros de obras e etapas. | Identificar  o status das tarefas (no prazo, atrasadas ou concluídas), evitando atrasos e garantindo a entrega dentro do prazo. |
 |Gerente de Projetos   | Preciso que o sistema integre dados e permita o acompanhamento das obras que tenho interesse          | Garantir uma colaboração eficiente e execução harmoniosa do projeto, minimizando mal-entendidos e atrasos.. |
 
 
@@ -66,6 +66,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF- 08 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
 | RF-09 |  fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
 | RF-10 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
+| RF-11 | Permitir que o usuário entre em contato com a plataforma. | MÉDIA    |
 
 ### Requisitos Não Funcionais
 
