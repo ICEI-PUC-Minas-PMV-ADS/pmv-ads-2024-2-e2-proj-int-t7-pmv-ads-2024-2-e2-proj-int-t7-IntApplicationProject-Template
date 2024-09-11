@@ -55,7 +55,7 @@ Por exemplo:
 |**Requisito Associado** | RF-08 - O sistema deve permitir que os usuários visualizem o progresso de uma obra, exibindo claramente o percentual de conclusão e quais etapas já foram finalizadas. |
 | **Objetivo do Teste** 	| Validar a funcionalidade de visualização de uma obra, garantindo que o usuário possa ver o progresso total, identificar quais etapas foram concluídas e o quanto ainda falta para a conclusão total da obra. |
 | **Passos** 	| - Acesse a área de consulta de obras na plataforma. <br> - Selecionar uma obra específica para visualizar. <br> - Verifique o progresso total da obra, exibido em formato percentual ou gráfico. <br> - Verifique a lista de etapas da obra.
-<br> - Confirmar que as etapas já concluídas estão marcadas como finalizadas e as etapas pendentes ainda estão indicadas como em andamento. <br> - Validar que o sistema calcula corretamente o percentual de conclusão com base nas etapas finalizadas.  |
+<br> - Confirmar que as etapas já concluídas estão marcadas como finalizadas e as etapas pendentes ainda estão indicadas como em andamento. <br> - Validar que o sistema calcula corretamente o percentual de conclusão com base nas etapas finalizadas. |
 | **Critério de Êxito** | -  O usuário consegue visualizar o progresso total da obra, ver claramente as etapas finalizadas e o quanto ainda falta para a conclusão, com os dados exibidos de maneira clara e precisa. |
 |  	|  	|
 | **Caso de Teste** 	|  CT-09 - Verificação de Alertas Sobre Atrasos no Cronograma	|
