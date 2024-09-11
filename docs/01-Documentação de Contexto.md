@@ -37,8 +37,8 @@ Como objetivos específicos, é possível destacar:
 
 + Permitir a emissão de relatórios detalhados ou gerais com base no empreendimento escolhido;
 
-+ Fornecer alertas aos usuários sobre obras que estejam com prazo diverso do cronograma previsto, bem como sobre condições que podem afetar o andamento da obra (exemplo: cadastramento de etapas em épocas previstas como chuvosas);
-
++ Fornecer alertas aos usuários sobre obras que estejam com prazo diverso do cronograma previsto;
+  
 + Ter uma interface amigável e de fácil navegação, tornando-o acessível aos usuários, independentemente do seu nível de experiência tecnológica.
  
  </div>
