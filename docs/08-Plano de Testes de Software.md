@@ -20,6 +20,42 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
+---
+| **Caso de Teste** 	| **CT-01 – Registro** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-001 -  ⁠A aplicação deve permitir que os usuários realizarem o login/registro. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se registrar no site. |
+| Passos 	| 01-Acessar a página de registro. <br> 02-Inserir um e-mail no campo _E-mail_. <br> 03-Inserir uma senha no campo _Senha_. <br> 04-Clicar em _Registrar_. |
+|Critério de Êxito | Mensagem _Registro realizado com sucesso_. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-02 – Login** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-001 -  ⁠A aplicação deve permitir que os usuários realizarem o login/registro. |
+| Objetivo do Teste 	| Verificar se o usuário consegue efetuar login no site. |
+| Passos 	| 01-Acessar a página de login/registro. <br> 02-Inserir um e-mail no campo _E-mail_. <br> 03-Inserir uma senha no campo _Senha_. <br> 04-Clicar em _Login_. |
+|Critério de Êxito | Redirecionamento para a página inicial do site. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-03 – Recuperação de Acesso** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-003 -  Na tela de login deverá ter o “esqueceu a senha?” no qual redirecionará para uma nova página para recuperação de senha. |
+| Passos 	| 01-Acessar a página de login/registro. <br> 02-Clicar no link _Esqueci minha senha_. <br> 03-Inserir seu e-mail no campo _Confirme seu E-mail_. <br> 04-Clicar em _Receber código de acesso por E-mail_. |
+|Critério de Êxito | Redirecionamento para uma página solicitando código de acesso recebido. Após inserir o código, direcionar para a página inicial. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-04 – Informações sobre Fontes de Energia Renovável** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-004 -  A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Acessar a dashboard principal. <br> 03-Acessar o link _Fontes de Energia Renovável_. <br> 04-Clicar no link correspondente ao tipo de energia que o usuário quer a informação. <br> 05-Mostrar a informação. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Confirmar funcionamento dos links da página inicial** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-005 -  A aplicação web deve apresentar na dashboard principal menus de navegação. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar em cada um dos links do menu. <br> 04-Redirecionar o usuário para a página correspondente. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Usinas Cadastradas** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-005 -  O sistema deve apresentar a tela de usinas cadastradas. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas, aos quais o mesmo terá acesso às principais informações sobre elas. |
+|  	|  	|
 
  
 > **Links Úteis**:
