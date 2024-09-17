@@ -58,8 +58,8 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Fontes de Energia Cadastradas** 	|
 |:---:	|:---	|
-|	Requisito Associado 	| RF-007 -  A aplicação web deve apresentar uma página de relatórios. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Gerar Relatório_. <br> 06-Mostrar relatório. |
+|	Requisito Associado 	| RF-007 -  O sistema deve apresentar a tela de fontes de energia cadastradas. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Fontes de Energia_. <br> 06-Mostrar as fontes de energia. |
 |  	|  	|
 
  
