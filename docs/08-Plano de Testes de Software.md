@@ -77,19 +77,19 @@ Por exemplo:
 | Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Relatórios_. <br> Clicar no link _Gerar Relatórios_. |
 |Critério de Êxito | Mensagem _Relatório Gerado!_ e posteriormente o mesmo sendo mostrado em tela. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-09 – Relatórios** 	|
+| **Caso de Teste** 	| **CT-10 – Página de Administrador** 	|
 |:---:	|:---	|
-|	Requisito Associado 	| RF-009 -  A aplicação web deve apresentar uma página de relatórios. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Relatórios_. <br> Clicar no link _Gerar Relatórios_. |
-|Critério de Êxito | Mensagem _Relatório Gerado!_ e posteriormente o mesmo sendo mostrado em tela. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-10 – Relatórios** 	|
-|:---:	|:---	|
-|	Requisito Associado 	| RF-010 -  	A aplicação web deve apresentar uma página de administrador do site. |
+|	Requisito Associado 	| RF-010 -  A aplicação web deve apresentar uma página de administrador do site. |
 | Passos 	| 01-Acessar a página de login. <br> 02-Entrar com nome e senha pré-determinados. <br> 03-Redirecionamento para página inicial do administrador_.
 |Critério de Êxito | Visualização da página com funcionalidades específicas do administrador. |
 |  	|  	|
- 
+| **Caso de Teste** 	| **CT-11 – Cadastros e Detalhes** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-011 -  A aplicação deve permitir o cadastro de novas usinas de energia (solar, eólica, hidrelétrica, etc.), incluindo detalhes como localização, capacidade instalada, tipo de energia, data de início de operação, etc. |
+| Passos 	| 01-XXX.
+|Critério de Êxito | XXX. |
+|  	|  	|
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
