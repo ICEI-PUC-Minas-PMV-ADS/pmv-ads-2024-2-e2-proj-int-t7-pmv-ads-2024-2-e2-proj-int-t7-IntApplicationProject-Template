@@ -44,24 +44,51 @@ Por exemplo:
 | **Caso de Teste** 	| **CT-04 – Informações sobre Fontes de Energia Renovável** 	|
 |:---:	|:---	|
 |	Requisito Associado 	| RF-004 -  A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Acessar a dashboard principal. <br> 03-Acessar o link _Fontes de Energia Renovável_. <br> 04-Clicar no link correspondente ao tipo de energia que o usuário quer a informação. <br> 05-Mostrar a informação. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Acessar a dashboard principal. <br> 03-Acessar o link _Fontes de Energia Renovável_. <br> 04-Clicar no link correspondente ao tipo de energia que o usuário quer a informação. |
+|Critério de Êxito | _Mostrar a informação_. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-05 – Confirmar funcionamento dos links da página inicial** 	|
 |:---:	|:---	|
 |	Requisito Associado 	| RF-005 -  A aplicação web deve apresentar na dashboard principal menus de navegação. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar em cada um dos links do menu. <br> 04-Redirecionar o usuário para a página correspondente. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar em cada um dos links do menu. |
+|Critério de Êxito | _Redirecionar o usuário para a página correspondente_. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Usinas Cadastradas** 	|
 |:---:	|:---	|
 |	Requisito Associado 	| RF-006 -  O sistema deve apresentar a tela de usinas cadastradas. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas, aos quais o mesmo terá acesso às principais informações sobre elas. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. |
+|Critério de Êxito | _Redirecionar o usuário para a página de usinas, aos quais o mesmo terá acesso às principais informações sobre elas_. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Fontes de Energia Cadastradas** 	|
 |:---:	|:---	|
 |	Requisito Associado 	| RF-007 -  O sistema deve apresentar a tela de fontes de energia cadastradas. |
-| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Fontes de Energia_. <br> 06-Mostrar as fontes de energia. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Fontes de Energia_. |
+|Critério de Êxito | _Mostrar as fontes de energia_. |
 |  	|  	|
-
+| **Caso de Teste** 	| **CT-08 – Produção de Energia** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-008 -  O sistema deve apresentar a tela de produção de energia. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Produção de Energia_. |
+|Critério de Êxito | _Mostrar um gráfico/dados sobre a produção_. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-09 – Relatórios** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-009 -  A aplicação web deve apresentar uma página de relatórios. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Relatórios_. <br> Clicar no link _Gerar Relatórios_. |
+|Critério de Êxito | Mensagem _Relatório Gerado!_ e posteriormente o mesmo sendo mostrado em tela. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-09 – Relatórios** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-009 -  A aplicação web deve apresentar uma página de relatórios. |
+| Passos 	| 01-Acessar a página inicial. <br> 02-Clicar na dashboard principal. <br> 03-Clicar no link _Usinas_. <br> 04-Redirecionar o usuário para a página de usinas. <br> 05-Clicar no link _Relatórios_. <br> Clicar no link _Gerar Relatórios_. |
+|Critério de Êxito | Mensagem _Relatório Gerado!_ e posteriormente o mesmo sendo mostrado em tela. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-10 – Relatórios** 	|
+|:---:	|:---	|
+|	Requisito Associado 	| RF-010 -  	A aplicação web deve apresentar uma página de administrador do site. |
+| Passos 	| 01-Acessar a página de login. <br> 02-Entrar com nome e senha pré-determinados. <br> 03-Redirecionamento para página inicial do administrador_.
+|Critério de Êxito | Visualização da página com funcionalidades específicas do administrador. |
+|  	|  	|
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
