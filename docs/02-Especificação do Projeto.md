@@ -12,7 +12,8 @@ A partir da documentação de contexto, passará a se definir o problema e a id�
 <br/><br/>
 <div  align="center">
  
-![image](https://github.com/user-attachments/assets/0196483c-e935-430c-a48d-bb0944316720)
+![image](https://github.com/user-attachments/assets/25e2002e-e9ed-4852-81f5-d33d6689a40d)
+
 </div>
 <br/><br/>
 
@@ -20,7 +21,7 @@ A partir da documentação de contexto, passará a se definir o problema e a id�
 <br/><br/>
 <div  align="center">
 
-![image](https://github.com/user-attachments/assets/0195bff1-9679-44df-8151-c6459df60df5)
+![image](https://github.com/user-attachments/assets/1feb95d8-47cd-4767-9804-ee98f5bcd71b)
 
 </div>
 <br/><br/>
@@ -29,7 +30,7 @@ A partir da documentação de contexto, passará a se definir o problema e a id�
 <br/><br/>
 <div  align="center">
 
-![image](https://github.com/user-attachments/assets/71d436a9-6ffd-4853-8a47-cc6a24a1061b)
+![image](https://github.com/user-attachments/assets/20ab2afc-ea31-4d05-ae07-ac262dbf20da)
 
 </div>
 <br/><br/>
