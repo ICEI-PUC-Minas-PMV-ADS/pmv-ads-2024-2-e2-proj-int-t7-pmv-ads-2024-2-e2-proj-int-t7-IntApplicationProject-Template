@@ -1,15 +1,94 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+## 1. Objetivo do Teste
+Avaliar a eficácia e a usabilidade do sistema de gerenciamento de produção de energia renovável, identificando pontos fortes e áreas de melhoria na experiência do usuário para diferentes perfis, incluindo gestores de usinas, analistas de sustentabilidade, operadores de usinas, investidores e consultores de energia.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (ou cenários) em função dos requisitos levantados/implementados, dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), da ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+## 2. Perfis de Usuário (Personas)
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+### Gestor de Usinas de Energia (Bernardo)
+**Tarefas:**
+- Monitorar a produção de energia em tempo real de duas usinas.
+- Gerar relatório comparativo de desempenho entre as usinas nos últimos 30 dias.
+- Identificar falhas e tomar ações corretivas.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+### Analista de Sustentabilidade (Patrícia)
+**Tarefas:**
+- Acessar dados de produção de energia renovável e filtrar por tipo de fonte.
+- Criar relatório detalhado sobre o impacto ambiental.
+- Sugerir melhorias baseadas nos dados.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+### Operador de Usina (Jorge)
+**Tarefas:**
+- Monitorar operações diárias e identificar falhas.
+- Responder a alertas em tempo real de falhas em painéis solares.
+- Visualizar histórico de produção da usina.
+
+### Investidor em Energia Renovável (Carlos)
+**Tarefas:**
+- Verificar o retorno sobre investimento (ROI) no último trimestre.
+- Comparar o desempenho financeiro de três usinas.
+- Tomar decisões de investimento com base nos relatórios financeiros.
+
+### Consultora de Energia (Tereza)
+**Tarefas:**
+- Prever tendências de produção de energia para o próximo trimestre.
+- Gerar relatórios personalizados de eficiência energética para clientes.
+- Sugerir melhorias com base nos dados.
+
+## 3. Ferramentas para o Teste
+- **Plataforma de videoconferência e gravação:**
+  - Zoom: Para conduzir sessões de teste e gravar interações.
+  - Loom: Gravação adicional de tela com comentários.
+- **Plataforma de Teste de Usabilidade:**
+  - UserTesting: Para recrutar participantes, conduzir testes e analisar os resultados.
+
+## 4. Seleção de Participantes
+
+### Critérios
+- Profissionais com experiência em gestão de energia, sustentabilidade ou finanças.
+- Diversidade em termos de cargos e experiência técnica.
+
+### Recrutamento
+- UserTesting e LinkedIn para contato com profissionais dos perfis desejados.
+
+### Incentivo
+- Oferecer compensações financeiras ou cartões-presente.
+
+## 5. Tarefas a serem Testadas
+As tarefas foram selecionadas para cobrir cenários críticos para os diferentes perfis de usuários, garantindo que o sistema suporte uma ampla gama de necessidades.
+
+### Exemplo de Tarefas
+- **CT-01:** Monitorar a produção de duas usinas e gerar relatório de 30 dias.
+  - **Critério de Sucesso:** O usuário consegue acessar os dados e gerar o relatório em até 10 minutos.
+  - **Tempo:** 10 minutos.
+  
+- **CT-02:** Responder a um alerta em tempo real sobre falha em painel solar.
+  - **Critério de Sucesso:** O usuário identifica e responde ao alerta em até 5 minutos.
+  - **Tempo:** 5 minutos.
+  
+- **CT-03:** Verificar ROI e comparar o desempenho financeiro de usinas.
+  - **Critério de Sucesso:** O investidor acessa e analisa relatórios financeiros em até 8 minutos.
+  - **Tempo:** 8 minutos.
+
+## 6. Avaliação
+
+### Métricas Coletadas
+- **Tempo de conclusão das tarefas:** Tempo que o usuário leva para completar cada tarefa.
+- **Taxa de erro:** Quantidade e tipos de erros cometidos.
+- **Satisfação do usuário:** Avaliada por meio de questionários após o teste.
+
+### Métodos de Avaliação
+- **Observação direta:** As sessões de teste serão gravadas para análise posterior.
+- **Think-Aloud:** Os participantes serão incentivados a verbalizar seus pensamentos enquanto realizam as tarefas.
+- **Questionários:** Pré e pós-teste para avaliar expectativas e satisfação.
+
+## 7. Relatórios e Feedback
+
+### Análise dos Dados
+Revisar as gravações e notas dos observadores para identificar padrões de sucesso e dificuldades.
+
+### Relatório Final
+Incluirá introdução, metodologia, detalhes dos participantes, descobertas categorizadas por tarefas e recomendações de melhorias.
+
+### Documentação e Iteração
+As descobertas serão documentadas e apresentadas à equipe de desenvolvimento para implementação de melhorias e realização de novos testes, se necessário.
