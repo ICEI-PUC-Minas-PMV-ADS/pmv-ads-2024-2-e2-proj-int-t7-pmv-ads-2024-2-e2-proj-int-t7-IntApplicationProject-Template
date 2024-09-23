@@ -85,7 +85,7 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|A aplicação deve apresentar uma página de login.| ALTA |
+|RF-001|⁠A aplicação deve permitir que os usuários realizem login.| ALTA |
 |RF-002|A aplicação deve fornecer uma página de recuperação de senha que permita o envio de um link de redefinição para o email do usuário cadastrado.| ALTA |
 |RF-003|A aplicação deve disponibilizar uma página de contato que permita ao usuário enviar mensagens diretamente ao administrador, com campos para nome, empresa, localização, email, telefone e mensagem. | ALTA |
 |RF-004|O administrador deve ser capaz de cadastrar novos clientes e editá-los no sistema.| ALTA | 
