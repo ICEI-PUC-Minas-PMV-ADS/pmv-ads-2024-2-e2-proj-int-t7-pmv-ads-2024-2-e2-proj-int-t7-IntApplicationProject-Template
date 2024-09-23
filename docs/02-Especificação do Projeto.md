@@ -63,7 +63,7 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+<!-- |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001|⁠A aplicação deve permitir que os usuários realizarem o login/registro.| ALTA | 
 |RF-002|No campo de login deverá pedir e-mail e senha.| ALTA |
@@ -81,7 +81,19 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 |RF-014|O sistema deve gerar relatórios periódicos customizáveis de desempenho das usinas, contendo informações sobre produção, eficiência e desempenho ambiental.| ALTA |
 |RF-015|A aplicação deve enviar notificações e alertas sobre eventos importantes, como queda na produção, falhas ou necessidade de manutenção.| ALTA |
 |RF-016|A aplicação deve permitir o registro e acompanhamento de atividades de manutenção programada ou emergencial nas usinas, com alertas para futuras manutenções.| ALTA |
-|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente.| ALTA |
+|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente.| ALTA | -->
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001|A aplicação deve apresentar uma página de login.| ALTA |
+|RF-002|A aplicação deve fornecer uma página de recuperação de senha que permita o envio de um link de redefinição para o email do usuário cadastrado.| ALTA |
+|RF-003|A aplicação deve disponibilizar uma página de contato que permita ao usuário enviar mensagens diretamente ao administrador, com campos para nome, empresa, localização, email, telefone e mensagem. | ALTA |
+|RF-004|O administrador deve ser capaz de cadastrar novos clientes e editá-los no sistema.| ALTA | 
+|RF-005|O sistema deve permitir ao administrador gerenciar informações completas sobre usinas e fontes de energia, incluindo a criação, edição, exclusão e visualização de dados de produção para cada usina.| ALTA |
+|RF-006|O sistema deve gerar relatórios detalhados e gráficos sobre o desempenho energético.| ALTA |
+|RF-007|O sistema deve emitir alertas e notificações em tempo real sobre acontecimentos importantes na produção, eficiência energética e outros eventos.| ALTA |
+|RF-008|O sistema deve fornecer recomendações de melhorias na eficiência energética com base na análise de dados registrados e desempenho atual.| ALTA |
+|RF-009|O sistema deve permitir que os clientes visualizem e exportem relatórios de produção e eficiência energética.| ALTA |
 
 <br/>
 
