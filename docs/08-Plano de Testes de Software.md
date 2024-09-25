@@ -50,44 +50,37 @@ Por exemplo:
 | **Passos** | 01-O administrador deverá estar logado. <br> 02-Acessar a página _Clientes_. <br> 03-Clicar em _Adicionar Cliente_. <br> 04-Preencher os dados do cliente. <br> 05-Clicar em _Cadastrar_. |
 | **Critério de Êxito** | - Cliente aparece cadastrado na página. |
 |  	|  	|
-| **Caso de Teste** | **CT-05 – Gerenciamento de Usinas** |
+| **Caso de Teste** | **CT-05 – Gerenciamento** |
 |:---:	|:---:	|
 | **Requisito Associado** | RF-005 - O sistema deve permitir ao administrador gerenciar informações completas sobre usinas e fontes de energia, incluindo a criação, edição, exclusão e visualização de dados de produção para cada usina. |
-| **Objetivo do Teste** | Verificar se o administrador consegue gerenciar usinas no sistema. |
-| **Passos** | 01-O administrador deverá estar logado. <br> 02-Acessar a página _Usinas_. <br> 03-Clicar em _Adicionar Nova Usina_. <br> 04-Preencher os dados obrigatórios. <br> 05-Clicar no botão _Cadastrar_. |
-| **Critério de Êxito** | - Número de usinas cadastradas é atualizado. |
+| **Objetivo do Teste** | Verificar se o administrador consegue gerenciar usinas ou fontes de energia no sistema. |
+| **Passos** | 01-O administrador deverá estar logado. <br> 02-Acessar a página _Usinas_ ou _Fontes de Energia_. <br> 03-Clicar em _Adicionar Nova Usina_ ou _Adicionar Fontes de Energia_. <br> 04-Preencher os dados obrigatórios. <br> 05-Clicar no botão _Cadastrar_. |
+| **Critério de Êxito** | - Número de usinas ou fontes de energia cadastradas é atualizado. |
 |  	|  	|
-| **Caso de Teste** | **CT-06 – Gerenciamento de Fontes de Energia** |
-|:---:	|:---:	|
-| **Requisito Associado** | RF-005 - O sistema deve permitir ao administrador gerenciar informações completas sobre usinas e fontes de energia, incluindo a criação, edição, exclusão e visualização de dados de produção para cada usina. |
-| **Objetivo do Teste** | Verificar se o administrador consegue gerenciar fontes de energia no sistema. |
-| **Passos** | 01-O administrador deverá estar logado. <br> 02-Acessar a página _Fontes de Energia_. <br> 03-Clicar em _Adicionar Nova Fonte Energética_. <br> 04-Preencher os dados obrigatórios. <br> 05-Clicar no botão _Cadastrar_. |
-| **Critério de Êxito** | - Número de fontes de energia cadastradas é atualizado. |
-|  	|  	|
-| **Caso de Teste** | **CT-07 – Relatórios** |
+| **Caso de Teste** | **CT-06 – Relatórios** |
 |:---:	|:---:	|
 | **Requisito Associado** | RF-006 - O sistema deve gerar relatórios detalhados e gráficos sobre o desempenho energético. |
 | **Objetivo do Teste** | Verificar se o usuário consegue visualizar os relatórios gerados. |
 | **Passos** | 01-O usuário deverá estar logado. <br> 02-Acessar a página _Relatórios_. |
 | **Critério de Êxito** | - Relatório está visível e detalhado na página. |
 |  	|  	|
-| **Caso de Teste** | **CT-08 – Alertas** |
+| **Caso de Teste** | **CT-07 – Alertas** |
 |:---:	|:---:	|
 | **Requisito Associado** | RF-007 - O sistema deve emitir alertas e notificações em tempo real sobre acontecimentos importantes na produção, eficiência energética e outros eventos. |
 | **Objetivo do Teste** | Verificar se o administrador recebe alertas gerados no sistema. |
 | **Passos** | 01-O usuário deverá estar logado como _Administrador_. <br> 02-Acessar a página _Produção_. <br> 03-Clicar no botão _Gerar Evento_. <br> 04-Monitorar se o alerta foi recebido. |
 | **Critério de Êxito** | - Alerta recebido. |
 |  	|  	|
-| **Caso de Teste** | **CT-09 – Melhorias** |
+| **Caso de Teste** | **CT-08 – Melhorias** |
 |:---:	|:---:	|
 | **Requisito Associado** | RF-008 - O sistema deve fornecer recomendações de melhorias na eficiência energética com base na análise de dados registrados e desempenho atual. |
 | **Objetivo do Teste** | Verificar se o sistema gera recomendações de melhorias com base nos dados. |
 | **Passos** | 01-O usuário deverá estar logado. <br> 02-Acessar a página _Produção_. <br> 03-Analisar os dados apresentados. <br> 04-Verificar as recomendações geradas. |
 | **Critério de Êxito** | - Recomendações são geradas com base nos dados. |
 |  	|  	|
-| **Caso de Teste** | **CT-10 – Exportar Relatórios** |
+| **Caso de Teste** | **CT-09 – Exportar Relatórios** |
 |:---:	|:---:	|
-| **Requisito Associado** | RF-008 - Permitir que clientes visualizem e exportem relatórios. |
+| **Requisito Associado** | RF-009 - O sistema deve permitir que os clientes visualizem e exportem relatórios de produção e eficiência energética. |
 | **Objetivo do Teste** | Verificar se o usuário consegue exportar relatórios do sistema. |
 | **Passos** | 01-O usuário deverá estar logado. <br> 02-Acessar a página _Relatórios_. <br> 03-Clicar no botão _Exportar Relatório_. |
 | **Critério de Êxito** | - Relatório gerado em PDF. |
