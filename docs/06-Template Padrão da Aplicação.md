@@ -8,6 +8,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 ### Logo    
 <div align="justify">
 O nome Concreta possui relação direta com elementos da construção civil que refletem justamente o propósito da aplicação, qual seja, o gerenciamento de obras. Para a nossa logomarca, utilizamos o nome da ferramenta, acompanhado de uma ilustração de uma obra. 
+<br>
 
   <p align="center">
   <img src= "https://github.com/user-attachments/assets/85feebce-49c1-47f5-a312-8f3394faa0c2" width="500">
