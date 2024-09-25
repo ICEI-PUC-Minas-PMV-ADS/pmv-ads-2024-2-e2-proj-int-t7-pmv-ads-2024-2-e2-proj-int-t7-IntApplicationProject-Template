@@ -54,27 +54,29 @@ Avaliar a eficácia e a usabilidade do sistema de gerenciamento de produção de
 ### Incentivo
 - Oferecer compensações financeiras ou cartões-presente.
 
-## 5. Tarefas a serem Testadas
-As tarefas foram selecionadas para cobrir cenários críticos para os diferentes perfis de usuários, garantindo que o sistema suporte uma ampla gama de necessidades.
 
-### Exemplo de Tarefas
-- **CT-01:** Monitorar a produção de duas usinas e gerar relatório de 30 dias.
-  - **Critério de Sucesso:** O usuário consegue acessar os dados e gerar o relatório em até 10 minutos.
-  - **Tempo:** 10 minutos.
-  
-- **CT-02:** Responder a um alerta em tempo real sobre falha em painel solar.
-  - **Critério de Sucesso:** O usuário identifica e responde ao alerta em até 5 minutos.
-  - **Tempo:** 5 minutos.
-  
-- **CT-03:** Verificar ROI e comparar o desempenho financeiro de usinas.
-  - **Critério de Sucesso:** O investidor acessa e analisa relatórios financeiros em até 8 minutos.
-  - **Tempo:** 8 minutos.
+## Tarefas
 
+| ID    | Descrição da Tarefa                                                   | Requisito Associado                                                                                     | Tempo          |
+|-------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------|
+| CT-01 | Realizar login na aplicação                                          | RF-001 - A aplicação deve permitir que os usuários realizem login.                                    | Até 5 minutos  |
+| CT-02 | Recuperar senha                                                      | RF-002 - A aplicação deve fornecer uma página de recuperação de senha.                               | Até 5 minutos  |
+| CT-03 | Enviar mensagem através da página de contato                         | RF-003 - A aplicação deve disponibilizar uma página de contato.                                       | Até 7 minutos  |
+| CT-04 | Cadastrar um novo cliente como administrador                          | RF-004 - O administrador deve ser capaz de cadastrar novos clientes.                                   | Até 10 minutos |
+| CT-05 | Gerenciar informações de usinas e fontes de energia                  | RF-005 - O sistema deve permitir gerenciar informações sobre usinas.                                   | Até 15 minutos |
+| CT-06 | Gerar relatórios sobre desempenho energético                          | RF-006 - O sistema deve gerar relatórios detalhados sobre desempenho.                                  | Até 10 minutos |
+| CT-07 | Verificar alertas e notificações                                     | RF-007 - O sistema deve emitir alertas em tempo real.                                                 | Até 5 minutos  |
+| CT-08 | Analisar recomendações de melhorias na eficiência energética          | RF-008 - O sistema deve fornecer recomendações de melhorias.                                           | Até 10 minutos |
+| CT-09 | Visualizar e exportar relatórios de produção                         | RF-009 - O sistema deve permitir que os clientes visualizem e exportem relatórios.                    | Até 10 minutos |
+
+---
+
+
+## Avaliação
 ## 6. Avaliação
 
 ### Métricas Coletadas
 - **Tempo de conclusão das tarefas:** Tempo que o usuário leva para completar cada tarefa.
-- **Taxa de erro:** Quantidade e tipos de erros cometidos.
 - **Satisfação do usuário:** Avaliada por meio de questionários após o teste.
 
 ### Métodos de Avaliação
