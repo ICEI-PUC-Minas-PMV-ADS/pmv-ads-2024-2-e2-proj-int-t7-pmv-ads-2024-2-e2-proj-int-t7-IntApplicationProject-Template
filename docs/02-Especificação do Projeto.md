@@ -105,7 +105,7 @@ Através do modelo gráfico, segue as relações de casos de uso e dos atores,  
 <br/><br/>
 <div  align="center">
  
-![Diagrama de caso de uso](https://github.com/user-attachments/assets/57b3283b-3ad4-4214-bbf5-3d9b534c9092)
+![Diagrama de caso de uso (1)](https://github.com/user-attachments/assets/0d88d7c6-53c5-4658-ae85-ec1e84659e7f)
 
 
 </div>
