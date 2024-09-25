@@ -184,38 +184,3 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   </td>
  </tr>
 </table>
-
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- 
- <tr>
-  <td>CT-05: Testar a exclusão de um paciente e verificar a remoção dos planos alimentares associados.
-  </td>
-  <td>
-   <ul>
-    <li>RF-05: A aplicação deve remover todas as informações associadas a um paciente quando ele for excluído.
-    </li>
-   </ul>
-  </td>
-  <td>Garantir que, ao excluir um paciente, os planos alimentares relacionados sejam também removidos.
-  </td>
-  <td>
-   <ol>
-    <li>Cadastrar um paciente, nutricionista e um plano alimentar associado.</li>
-    <li>Excluir o paciente do sistema.</li>
-    <li>Verificar se o plano alimentar vinculado ao paciente também foi removido.</li>
-   </ol>
-  </td>
-  <td>O plano alimentar deve ser removido após a exclusão do paciente.
-  </td>
-  <td>XXXXXXXXXXXXXXXXXXXXX
-  </td>
- </tr>
-</table>
