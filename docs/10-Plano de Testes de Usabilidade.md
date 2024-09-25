@@ -20,14 +20,14 @@ Avaliar a eficácia e a usabilidade do sistema de gerenciamento de produção de
 ### Operador de Usina (Jorge)
 **Tarefas:**
 - Monitorar operações diárias e identificar falhas.
-- Responder a alertas em tempo real de falhas em painéis solares.
+- Garantir que a produção de energia esteja conforme estabelecido
 - Visualizar histórico de produção da usina.
 
 ### Investidor em Energia Renovável (Carlos)
 **Tarefas:**
 - Verificar o retorno sobre investimento (ROI) no último trimestre.
 - Comparar o desempenho financeiro de três usinas.
-- Tomar decisões de investimento com base nos relatórios financeiros.
+- Identificar oportunidades de expansão.
 
 ### Consultora de Energia (Tereza)
 **Tarefas:**
