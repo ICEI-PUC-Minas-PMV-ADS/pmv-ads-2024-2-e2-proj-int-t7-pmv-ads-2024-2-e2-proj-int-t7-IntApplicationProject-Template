@@ -5,18 +5,37 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 <div>
 <br>
 
-### Logomarca    
+### Logo    
 <div align="justify">
 O nome Concreta possui relação direta com elementos da construção civil que refletem justamente o propósito da aplicação, qual seja, o gerenciamento de obras. Para a nossa logomarca, utilizamos o nome da ferramenta, acompanhado de uma ilustração de uma obra. 
 
   <p align="center">
-  <img src= "https://github.com/user-attachments/assets/3b5176ba-ff78-445b-8031-42a54677f696" width="400">
+  <img src= "https://github.com/user-attachments/assets/85feebce-49c1-47f5-a312-8f3394faa0c2" width="500">
+  <br>
+  Figura 1: Modelo do logo com o fundo azul e modelo sem o fundo.
 </p>
 
 ### Cores
 Utilizamos cores que se destacam entre si, porém que proporcional uma identidade sóbria e sofisficada, como o azul e o amarelo. 
 <p align="center">
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t1-pmv-ads-2024-1-e1-projecosaver/assets/145709183/ac201fee-586f-4131-b03e-0cd98fe61ebe" alt="Cores RGB" width="500">
+  <img src="https://github.com/user-attachments/assets/05ccd3f0-161a-4338-8f34-a10fb5910e0e" alt="Cores RGB" width="500">
   <br>
   Figura 2: Cores RGB utilizadas no template padrão.
 </p>
+
+### Tipografia
+Assim como as cores, utilizamos fontes que proporcionam um seriedade e modernidade para a plataforma. 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5d7a368b-1857-41cf-bfac-8bf797cf0e20" alt="Tipografia" width="500">
+  <br>
+  Figura 3: Fontes escolhidas para a plataforma.
+</p>
+
+### HIGH-FIDELITY 
+Estruturadas de acordo com os wireframes, as telas buscam proporcionar uma interação simples e direta com o usuário da plataforma. Presando pela navegação fluída e de fácil utilização. 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa887916-384d-437b-a306-d82f823639e6" alt="hi-fi" width="500">
+  <br>
+  Figura 4: Template Padrão de telas.
+</p>
+
