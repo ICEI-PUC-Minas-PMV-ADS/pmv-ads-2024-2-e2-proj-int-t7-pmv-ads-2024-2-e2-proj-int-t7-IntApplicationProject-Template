@@ -27,7 +27,7 @@ Por exemplo:
 | **Requisito Associado** | RF-001 - A aplicação deve permitir que os usuários realizem login. |
 | **Objetivo do Teste** | Verificar se o usuário consegue realizar login na aplicação. |
 | **Passos** | 01-Acessar a Página de Login. <br> 02-Preencher os campos _E-mail_ e _Senha_ com os respectivos dados de acesso. <br> 03-Clicar no botão _Login_. |
-| **Critério de Êxito** | - Mensagem _Bem-vindo_. |
+| **Critério de Êxito** | - Logar. |
 |  	|  	|
 | **Caso de Teste** | **CT-02 – Recuperação de Senha** |
 | **Requisito Associado** | RF-002 - A aplicação deve fornecer uma página de recuperação de senha que permita o envio de um link de redefinição para o email do usuário cadastrado. |
