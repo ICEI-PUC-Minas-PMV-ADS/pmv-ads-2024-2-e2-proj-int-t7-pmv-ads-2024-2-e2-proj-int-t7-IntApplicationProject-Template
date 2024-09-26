@@ -1,96 +1,69 @@
-# Plano de Testes de Usabilidade
+# Plano de Testes de Usabilidade - EcoLogic
 
-## 1. Objetivo do Teste
-Avaliar a eficácia e a usabilidade do sistema de gerenciamento de produção de energia renovável, identificando pontos fortes e áreas de melhoria na experiência do usuário para diferentes perfis, incluindo gestores de usinas, analistas de sustentabilidade, operadores de usinas, investidores e consultores de energia.
+## Objetivos dos Testes de Usabilidade
 
-## 2. Perfis de Usuário (Personas)
+Os testes de usabilidade visam:
 
-### Gestor de Usinas de Energia (Bernardo)
-**Tarefas:**
-- Monitorar a produção de energia em tempo real de duas usinas.
-- Gerar relatório comparativo de desempenho entre as usinas nos últimos 30 dias.
-- Identificar falhas e tomar ações corretivas.
+- **Avaliar a navegação e a utilização das funcionalidades:** Observar como os usuários interagem com a interface e acessam diferentes áreas do sistema de forma fluida.
+- **Analisar a clareza das informações:** Verificar se dados sobre produção de energia, relatórios e alertas são apresentados de maneira clara e acessível.
+- **Medir a eficiência no cadastro e login:** Avaliar o tempo e o número de tentativas necessários para que os usuários acessem suas contas.
+- **Confirmar a facilidade na geração de relatórios:** Assegurar que os usuários possam criar e visualizar relatórios de desempenho energético de forma intuitiva.
+- **Testar a eficácia das notificações:** Analisar se os usuários conseguem perceber e agir sobre alertas em tempo real, garantindo que as informações sejam práticas.
 
-### Analista de Sustentabilidade (Patrícia)
-**Tarefas:**
-- Acessar dados de produção de energia renovável e filtrar por tipo de fonte.
-- Criar relatório detalhado sobre o impacto ambiental.
-- Sugerir melhorias baseadas nos dados.
+## Critérios de Seleção dos Participantes
 
-### Operador de Usina (Jorge)
-**Tarefas:**
-- Monitorar operações diárias e identificar falhas.
-- Garantir que a produção de energia esteja conforme estabelecido
-- Visualizar histórico de produção da usina.
+- **Faixa Etária:** Selecionar usuários de diversas idades, garantindo uma representação ampla de perspectivas.
+- **Experiência:** Incluir tanto iniciantes quanto usuários com experiência em sistemas de gerenciamento de energia, permitindo uma avaliação mais completa.
+- **Interesse em Energia Renovável:** Escolher participantes que tenham um interesse específico em tecnologias e soluções de energia renovável, assegurando que o feedback seja pertinente.
 
-### Investidor em Energia Renovável (Carlos)
-**Tarefas:**
-- Verificar o retorno sobre investimento (ROI) no último trimestre.
-- Comparar o desempenho financeiro de três usinas.
-- Identificar oportunidades de expansão.
+## Procedimentos e Método
 
-### Consultora de Energia (Tereza)
-**Tarefas:**
-- Prever tendências de produção de energia para o próximo trimestre.
-- Gerar relatórios personalizados de eficiência energética para clientes.
-- Sugerir melhorias com base nos dados.
+- **Método:** Adotar uma abordagem que utilize gravações de tela e áudio para avaliações remotas, além de realizar testes presenciais quando necessário.
+- **Local:** Conduzir as sessões em um espaço apropriado que permita um acompanhamento eficaz, enquanto também disponibilizamos a opção de testes remotos para maior comodidade dos participantes.
+- **Instruções:** Oferecer diretrizes claras e detalhadas aos participantes antes do início dos testes, garantindo que eles compreendam plenamente as tarefas a serem realizadas.
 
-## 3. Ferramentas para o Teste
-- **Plataforma de videoconferência e gravação:**
-  - Zoom: Para conduzir sessões de teste e gravar interações.
-  - Loom: Gravação adicional de tela com comentários.
-- **Plataforma de Teste de Usabilidade:**
-  - UserTesting: Para recrutar participantes, conduzir testes e analisar os resultados.
+## Tarefas a Serem Executadas
 
-## 4. Seleção de Participantes
+- **Cadastro e Login:** Realizar o processo de cadastro inicial e acessar uma conta existente para verificar a fluidez do sistema.
+- **Geração de Relatórios:** Criar e visualizar relatórios sobre o desempenho energético, testando a intuitividade do processo.
+- **Navegação e Consulta de Alertas:** Explorar as diferentes seções do sistema e verificar a recepção de notificações em tempo real.
+- **Verificação de Clareza das Informações:** Avaliar como as informações e alertas são apresentados, focando na legibilidade e facilidade de compreensão.
 
-### Critérios
-- Profissionais com experiência em gestão de energia, sustentabilidade ou finanças.
-- Diversidade em termos de cargos e experiência técnica.
+## Dados a Serem Coletados
 
-### Recrutamento
-- UserTesting e LinkedIn para contato com profissionais dos perfis desejados.
+- **Satisfação do Usuário:** Coletar feedback sobre a experiência geral por meio de questionários realizados após as tarefas.
+- **Tempo de Execução:** Registrar quanto tempo os participantes levam para completar cada atividade.
+- **Número de Cliques:** Anotar quantos cliques são necessários para finalizar as tarefas.
+- **Desvios no Processo:** Contar quantas vezes os usuários precisam voltar ou corrigir o percurso durante suas interações.
 
-### Incentivo
-- Oferecer compensações financeiras ou cartões-presente.
+## Ordem de Execução
+
+As tarefas serão realizadas na seguinte ordem: cadastro e login, geração de relatórios, navegação e consulta de alertas, e verificação da clareza das informações.
+
+## Métricas Coletadas
+
+- **Feedback do Usuário:** Coletar as impressões dos participantes através de questionários após as atividades.
+- **Eficácia do Uso:** Analisar a quantidade de erros, cliques e o tempo necessário para a realização de cada tarefa.
+- **Interação com o Sistema:** Avaliar com que frequência os usuários utilizam as diferentes funcionalidades e interagem com as informações.
+
+## Observações Finais
+
+Todos os dados coletados serão tratados de forma anônima para garantir a conformidade com a LGPD. Este plano de teste de usabilidade oferece uma estrutura abrangente para avaliar a experiência do usuário no EcoLogic, assegurando que a interface seja intuitiva, segura e envolvente para todos os perfis de usuários.
 
 
-## Tarefas
-
-| ID    | Descrição da Tarefa                                                   | Requisito Associado                                                                                     | Tempo          |
-|-------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------|
-| CT-01 | Realizar login na aplicação                                          | RF-001 - A aplicação deve permitir que os usuários realizem login.                                    | Até 5 minutos  |
-| CT-02 | Recuperar senha                                                      | RF-002 - A aplicação deve fornecer uma página de recuperação de senha.                               | Até 5 minutos  |
-| CT-03 | Enviar mensagem através da página de contato                         | RF-003 - A aplicação deve disponibilizar uma página de contato.                                       | Até 7 minutos  |
-| CT-04 | Cadastrar um novo cliente como administrador                          | RF-004 - O administrador deve ser capaz de cadastrar novos clientes.                                   | Até 10 minutos |
-| CT-05 | Gerenciar informações de usinas e fontes de energia                  | RF-005 - O sistema deve permitir gerenciar informações sobre usinas.                                   | Até 15 minutos |
-| CT-06 | Gerar relatórios sobre desempenho energético                          | RF-006 - O sistema deve gerar relatórios detalhados sobre desempenho.                                  | Até 10 minutos |
-| CT-07 | Verificar alertas e notificações                                     | RF-007 - O sistema deve emitir alertas em tempo real.                                                 | Até 5 minutos  |
-| CT-08 | Analisar recomendações de melhorias na eficiência energética          | RF-008 - O sistema deve fornecer recomendações de melhorias.                                           | Até 10 minutos |
-| CT-09 | Visualizar e exportar relatórios de produção                         | RF-009 - O sistema deve permitir que os clientes visualizem e exportem relatórios.                    | Até 10 minutos |
-
----
+Além disso, montamos um guia prático para o plano de usabilidade. Cada tarefa, relacionada às funcionalidades principais, é descrita junto com seu critério de sucesso e os aspectos a serem avaliados. O intuito é oferecer uma visão clara da experiência do usuário, focando em usabilidade, eficiência e satisfação.
 
 
-## Avaliação
-## 6. Avaliação
 
-### Métricas Coletadas
-- **Tempo de conclusão das tarefas:** Tempo que o usuário leva para completar cada tarefa.
-- **Satisfação do usuário:** Avaliada por meio de questionários após o teste.
+| Tarefas                                              | Critério de Êxito                                                       | O que será avaliado                                                       |
+|-----------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Realizar login na aplicação                          | O usuário consegue efetuar login em até 2 tentativas, levando menos de 30 segundos. | - Facilidade de localizar o campo de login. <br> - Clareza nas instruções apresentadas. <br> - Tempo total para realizar o login. <br> - Necessidade de recuperação de senha. |
+| Recuperar senha                                      | O usuário completa a recuperação de senha em até 5 minutos, com sucesso confirmado. | - Facilidade para encontrar a opção de recuperação. <br> - Clareza das instruções do processo. <br> - Tempo até receber o e-mail ou SMS. <br> - Sucesso na alteração da senha. |
+| Enviar mensagem pela página de contato              | O usuário envia uma mensagem e recebe confirmação em até 7 minutos.     | - Facilidade de acesso à página de contato. <br> - Clareza das informações solicitadas. <br> - Tempo para envio e confirmação da mensagem. |
+| Cadastrar novo cliente como administrador           | O administrador completa o cadastro em menos de 10 minutos, recebendo a confirmação. | - Intuitividade do formulário de cadastro. <br> - Clareza nas informações requeridas. <br> - Respostas do sistema a entradas inválidas ou incompletas. |
+| Gerenciar informações de usinas e fontes de energia | O usuário gerencia as informações em até 15 minutos.                   | - Facilidade de navegação nas seções de gerenciamento. <br> - Clareza das informações exibidas. <br> - Eficiência nas opções de edição e exclusão. |
+| Gerar relatórios de desempenho energético           | O usuário gera um relatório em até 10 minutos e consegue visualizar os dados. | - Facilidade de acesso à função de geração de relatórios. <br> - Clareza e relevância dos dados apresentados. <br> - Tempo necessário para visualizar e exportar o relatório. |
+| Verificar alertas e notificações                     | O usuário percebe e compreende os alertas em até 5 minutos.             | - Visibilidade dos alertas na interface. <br> - Clareza das informações contidas nos alertas. <br> - Facilidade em agir com base nas notificações. |
+| Analisar recomendações de melhorias na eficiência energética | O usuário revisa as recomendações em até 10 minutos e entende as sugestões. | - Clareza das recomendações apresentadas. <br> - Relevância das melhorias sugeridas. <br> - Facilidade em acessar informações adicionais. |
+| Visualizar e exportar relatórios de produção        | O usuário visualiza e exporta relatórios em até 10 minutos.             | - Facilidade de acesso à função de exportação. <br> - Clareza e formato dos dados exportados. <br> - Tempo total para visualizar e exportar. |
 
-### Métodos de Avaliação
-- **Observação direta:** As sessões de teste serão gravadas para análise posterior.
-- **Think-Aloud:** Os participantes serão incentivados a verbalizar seus pensamentos enquanto realizam as tarefas.
-- **Questionários:** Pré e pós-teste para avaliar expectativas e satisfação.
-
-## 7. Relatórios e Feedback
-
-### Análise dos Dados
-Revisar as gravações e notas dos observadores para identificar padrões de sucesso e dificuldades.
-
-### Relatório Final
-Incluirá introdução, metodologia, detalhes dos participantes, descobertas categorizadas por tarefas e recomendações de melhorias.
-
-### Documentação e Iteração
-As descobertas serão documentadas e apresentadas à equipe de desenvolvimento para implementação de melhorias e realização de novos testes, se necessário.
