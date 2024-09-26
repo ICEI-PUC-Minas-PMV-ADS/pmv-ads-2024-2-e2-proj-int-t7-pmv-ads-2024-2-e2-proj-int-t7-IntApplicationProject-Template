@@ -51,7 +51,8 @@ As tarefas serão realizadas na seguinte ordem: cadastro e login, geração de r
 Todos os dados coletados serão tratados de forma anônima para garantir a conformidade com a LGPD. Este plano de teste de usabilidade oferece uma estrutura abrangente para avaliar a experiência do usuário no EcoLogic, assegurando que a interface seja intuitiva, segura e envolvente para todos os perfis de usuários.
 
 
-Adicionalmente, desenvolvemos um roteiro simplificado para o plano de usabilidade, no qual cada tarefa, baseada nas funcionalidades necessárias, é apresentada com seu respectivo critério de sucesso e o foco da avaliação durante o teste. Esse roteiro visa garantir uma análise completa da experiência do usuário na plataforma, destacando aspectos como facilidade de uso, eficiência e satisfação.
+Além disso, montamos um guia prático para o plano de usabilidade. Cada tarefa, relacionada às funcionalidades principais, é descrita junto com seu critério de sucesso e os aspectos a serem avaliados. O intuito é oferecer uma visão clara da experiência do usuário, focando em usabilidade, eficiência e satisfação.
+
 
 
 | Tarefas                                              | Critério de Êxito                                                       | O que será avaliado                                                       |
