@@ -49,11 +49,46 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-02 – Cadastrar paciente</strong></th>
+        <th><strong>CT-02 – Nutricionista cadastra/edita/exclui paciente</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-002 - Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.).</td>
+        <td>RF-002 - Nutricionista cadastra um paciente e utiliza CRUD's para o seu gerenciamento.</td>
+    </tr>
+    <tr>
+        <td><strong>Objetivo do Teste</strong></td>
+        <td>Verificar se o nutricionista consegue criar, editar e excluir o perfil de paciente.</td>
+    </tr>
+    <tr>
+        <td><strong>Passos</strong></td>
+        <td>
+            - Acessar o menu "Pacientes". <br>
+            - Clicar em "Cadastrar novo Paciente". <br>         
+            - Preencher informações.<br>
+            - Clicar em "Enviar convite".<br>
+            - Clicar na ferramenta de edição do paciente.<br>
+            - Alterar dados.<br>
+            - Clicar em "Confirmar".<br>
+            - Clicar na ferramenta de exclusão do perfil de paciente.<br>
+            - Clicar em "Confirmar".
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Critério de Êxito</strong></td>
+        <td>Perfil do paciente deve ser exibido na lista, as alterações devem ser salvas com êxito e perfil deve ser excluído da lista.</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <tr>
+        <th><strong>Caso de Teste</strong></th>
+        <th><strong>CT-03 – Cadastrar paciente</strong></th>
+    </tr>
+    <tr>
+        <td><strong>Requisito Associado</strong></td>
+        <td>RF-003 - Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.).</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -83,28 +118,28 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-03 – Cadastrar plano alimentar</strong></th>
+        <th><strong>CT-04 – Testar login com e-mail e senha.</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-003 - Cadastrar um plano alimentar pelo nutricionista para seu respectivo paciente, com receitas, ingredientes, valor nutricional básico (calorias, proteínas, gorduras, etc.).</td>
+        <td>RF-004 - Realizar login utilizando e-mail e senha.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
-        <td>Verificar se o nutricionista consegue cadastrar um plano alimentar.</td>
+        <td>Verificar se o login com e-mail e senha está funcionando corretamente, validando as credenciais fornecidas.</td>
     </tr>
     <tr>
         <td><strong>Passos</strong></td>
         <td>
-            - Acessar o menu "Plano Alimentar". <br>
-            - Clicar em "Cadastrar novo Plano Alimentar". <br>         
-            - Preencher informações para o plano alimentar<br>
-            - Clicar em "Cadastrar Plano".
+            - Visualizar a página de "Inicio". <br>
+            - Clicar em "Login". <br>
+            - Inserir um e-mail e senha válidos. <br>
+            - Clicar em "Login".
         </td>
     </tr>
     <tr>
         <td><strong>Critério de Êxito</strong></td>
-        <td>O plano alimentar aparece na lista de planos associados ao paciente.</td>
+        <td>O usuário deve ser autenticado com sucesso quando fornecer um e-mail e senha corretos. Caso a combinação esteja errada, o sistema deve exibir uma mensagem de erro e não permitir o login.</td>
     </tr>
 </table>
 
@@ -113,11 +148,77 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-04 – Fazer comentário sobre o plano alimentar</strong></th>
+        <th><strong>CT-05 – Testar recuperação de senha.</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-004 - Fazer comentário sobre o plano alimentar pelo paciente.</td>
+        <td>RF-005 - Recuperar a senha através do e-mail registrado.</td>
+    </tr>
+    <tr>
+        <td><strong>Objetivo do Teste</strong></td>
+        <td>Verificar se o processo de recuperação de senha está funcionando corretamente e se o e-mail de redefinição é enviado.</td>
+    </tr>
+    <tr>
+        <td><strong>Passos</strong></td>
+        <td>
+            - Visualizar a página de "Inicio". <br>
+            - Clicar em "Login". <br>
+            - Clicar em "Esqueci a senha". <br>
+            - Inserir o e-mail um registrado. <br>
+            - Enviar solicitação.
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Critério de Êxito</strong></td>
+        <td>Um e-mail com o link de redefinição de senha deve ser fornecido, permitir que o úsuario redefina a senha e realize o login.</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <tr>
+        <th><strong>Caso de Teste</strong></th>
+        <th><strong>CT-06 – Cadastrar/editar/excluir plano alimentar</strong></th>
+    </tr>
+    <tr>
+        <td><strong>Requisito Associado</strong></td>
+        <td>RF-006 - Cadastrar um plano alimentar pelo nutricionista e utiliza CRUD's para o seu gerenciamento.</td>
+    </tr>
+    <tr>
+        <td><strong>Objetivo do Teste</strong></td>
+        <td>Verificar se o nutricionista consegue cadastrar/editar/excluir um plano alimentar.</td>
+    </tr>
+    <tr>
+        <td><strong>Passos</strong></td>
+        <td>
+            - Acessar o menu "Plano Alimentar". <br>
+            - Clicar em "Cadastrar novo Plano Alimentar". <br>         
+            - Preencher informações para o plano alimentar.<br>
+            - Clicar em "Cadastrar Plano".
+            - Clicar na ferramenta de edição do "Plano Alimentar".<br>
+            - Alterar dados.<br>
+            - Clicar em "Confirmar".<br>
+            - Clicar na ferramenta de exclusão do "Plano Alimentar"<br>
+            - Clicar em "Confirmar".
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Critério de Êxito</strong></td>
+        <td>O plano alimentar aparece na lista de planos associados ao paciente, é editado e atualizações salvas, plano alimentar é excluído com êxito.</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <tr>
+        <th><strong>Caso de Teste</strong></th>
+        <th><strong>CT-07 – Fazer comentário sobre o plano alimentar</strong></th>
+    </tr>
+    <tr>
+        <td><strong>Requisito Associado</strong></td>
+        <td>RF-007 - Fazer comentário sobre o plano alimentar pelo paciente.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -142,41 +243,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-05 – Fazer modificações no plano alimentar</strong></th>
+        <th><strong>CT-08 – Registrar diário alimentar</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-005 - Fazer modificações no plano alimentar do paciente pelo nutricionista.</td>
-    </tr>
-    <tr>
-        <td><strong>Objetivo do Teste</strong></td>
-        <td>Verificar se o nutricionista pode modificar o plano alimentar do paciente.</td>
-    </tr>
-    <tr>
-        <td><strong>Passos</strong></td>
-        <td>
-            - Acessar o menu "Plano Alimentar". <br>
-            - Clicar em na ferramenta de "Editar Plano". <br>
-            - Alterar detalhes da dieta (por exemplo, substituindo alimentos ou ajustando calorias). <br>
-            - Salvar as modificações.
-        </td>
-    </tr>
-    <tr>
-        <td><strong>Critério de Êxito</strong></td>
-        <td>O plano alimentar é atualizado com sucesso, e o paciente visualiza as alterações.</td>
-    </tr>
-</table>
-
-<br>
-
-<table>
-    <tr>
-        <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-06 – Registrar diário alimentar</strong></th>
-    </tr>
-    <tr>
-        <td><strong>Requisito Associado</strong></td>
-        <td>RF-006 - Registrar o diário alimentar do paciente.</td>
+        <td>RF-008 - Registrar o diário alimentar do paciente.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -201,11 +272,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-07 – Propor dicas de receitas</strong></th>
+        <th><strong>CT-09 – Propor/editar/excluir dicas de receitas</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-007 - Propor dicas de receitas por nutricionistas e pacientes.</td>
+        <td>RF-009 - Propor dicas de receitas por nutricionistas e pacientes e utiliza CRUD's para o seu gerenciamento.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -218,11 +289,16 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
             - Clicar em "Cadastrar nova Receita". <br>
             - Preencher as informações da receita. <br>
             - Clicar em "Cadastrar Receita". <br>
+            - Clicar na ferramenta de edição da "Receita". <br>
+            - Alterar dados.<br>
+            - Clicar em "Confirmar". <br>
+            - Clicar na ferramenta de exclusão da "Receita" <br>
+            - Clicar em "Confirmar".
         </td>
     </tr>
     <tr>
         <td><strong>Critério de Êxito</strong></td>
-        <td>A nova receita proposta é exibida na lista de dicas para outros usuários.</td>
+        <td>A nova receita proposta é exibida na lista de dicas para outros usuários, é editado e atualizações salvas, a receita é excluído com êxito. </td>
     </tr>
 </table>
 
@@ -231,11 +307,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-08 – Registrar perda de peso do paciente e exibir histórico</strong></th>
+        <th><strong>CT-10 – Registrar perda de peso do paciente e exibir histórico</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-008 - Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação.</td>
+        <td>RF-010 - Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -245,8 +321,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
         <td><strong>Passos</strong></td>
         <td>
             - Acessar o menu "Meu Perfil". <br>
-            - Inserir informações do "Histórico de Peso"
-            - Clicar em "Adicionar". <br>
+            - Inserir informações do "Histórico de Peso" <br>
+            - Clicar em "Adicionar".
         </td>
     </tr>
     <tr>
@@ -260,11 +336,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-09 – Avaliar as receitas</strong></th>
+        <th><strong>CT-11 – Avaliar as receitas</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-009 - Avaliar as receitas propostas (like ou joinha).</td>
+        <td>RF-011 - Avaliar as receitas propostas (like ou joinha).</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -275,7 +351,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
         <td>
             - Acessar o menu "Receitas". <br>
             - Selecionar uma receita da lista. <br>
-            - Clicar no ícone de "Coração". <br>
+            - Clicar no ícone de "Coração".
         </td>
     </tr>
     <tr>
@@ -289,11 +365,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th><strong>CT-10 – Calcular IMC</strong></th>
+        <th><strong>CT-12 – Calcular IMC</strong></th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-010 - Calcular índice de massa corpórea para o usuário nutricionista.</td>
+        <td>RF-012 - Calcular índice de massa corpórea para o usuário nutricionista.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -303,12 +379,40 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
         <td><strong>Passos</strong></td>
         <td>
             - Acessar o menu "Meu Perfil". <br>
-            - Inserir informações do "IMC"
-            - Clicar em "Calcularr". <br>
+            - Inserir informações do "IMC" <br>
+            - Clicar em "Calcularr".
         </td>
     </tr>
     <tr>
         <td><strong>Critério de Êxito</strong></td>
         <td>O IMC é calculado corretamente.</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <tr>
+        <th><strong>Caso de Teste</strong></th>
+        <th><strong>CT-13 – Testar alteração de dados de cadastro</strong></th>
+    </tr>
+    <tr>
+        <td><strong>Requisito Associado</strong></td>
+        <td>RF-013 - Permitir que tanto o paciente quanto o nutricionista alterem seus dados de cadastro.</td>
+    </tr>
+    <tr>
+        <td><strong>Objetivo do Teste</strong></td>
+        <td>Verificar se o paciente e o nutricionista conseguem alterar seus dados de cadastro</td>
+    </tr>
+    <tr>
+        <td><strong>Passos</strong></td>
+        <td>
+            - Acessar o menu "Meu Perfil". <br>
+            - Alterar informações de cadastro.
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Critério de Êxito</strong></td>
+        <td>Permiti que o paciente e o nutricionista alterem seus dados de perfil.</td>
     </tr>
 </table>
