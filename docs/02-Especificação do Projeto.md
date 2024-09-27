@@ -54,15 +54,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Cadastrar nutricionista como usuário, através da criação de um perfil com informações pessoais gerais ligadas a sua formação.| ALTA | 
-|RF-002| Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.) | ALTA |
-|RF-003| Cadastrar um plano alimentar pelo nutricionista para seu respectivo paciente, com receitas, ingredientes, valor nutricional básico (calorias, proteínas, gorduras, etc.) | ALTA |
-|RF-004| Fazer comentário sobre o plano alimentar pelo paciente| BAIXA | 
-|RF-005| Fazer modificações no plano alimentar do paciente pelo nutricionista | ALTA | 
-|RF-006| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável| ALTA | 
-|RF-007| Propor dicas de receitas por nutricionistas e pacientes| MÉDIA | 
-|RF-008| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação| ALTA | 
-|RF-009| Avaliar as receitas propostas (like ou joinha) | BAIXA | 
-|RF-010| Calcular índice de massa corpórea para o usuário nutricionista| ALTA |
+|RF-002| Nutricionista cadastra um paciente e utiliza CRUD's para o seu gerenciamento. | ALTA |
+|RF-003| Cadastrar um paciente como usuário, com informações pessoais em geral, objetivos e dados ligados a sua saúde (IMC, altura, idade, etc.). | ALTA |
+|RF-004| Realizar login utilizando e-mail e senha. | ALTA |
+|RF-005| Recuperar a senha através do e-mail registrado. | ALTA |
+|RF-006| Cadastrar um plano alimentar pelo nutricionista e utiliza CRUD's para o seu gerenciamento.| ALTA |
+|RF-007| Fazer comentário sobre o plano alimentar pelo paciente.| BAIXA | 
+|RF-008| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável.| ALTA | 
+|RF-009| Propor dicas de receitas por nutricionistas e pacientes e utiliza CRUD's para o seu gerenciamento.| MÉDIA | 
+|RF-010| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação.| ALTA | 
+|RF-011| Avaliar as receitas propostas (like ou joinha). | BAIXA | 
+|RF-012| Calcular índice de massa corpórea para o usuário nutricionista.| ALTA |
+|RF-013| Permitir que tanto o paciente quanto o nutricionista alterem seus dados de cadastro.| ALTA |
 
 
 ### Requisitos não Funcionais
