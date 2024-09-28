@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Recuperar a senha através do e-mail registrado. | ALTA |
 |RF-006| Cadastrar um plano alimentar pelo nutricionista e utiliza CRUD's para o seu gerenciamento.| ALTA |
 |RF-007| Fazer comentário sobre o plano alimentar pelo paciente.| BAIXA | 
-|RF-008| Registrar o diário alimentar do paciente com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável.| ALTA | 
+|RF-008| O paciente Registra o diário alimentar com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável.| ALTA | 
 |RF-009| Propor dicas de receitas por nutricionistas e pacientes e utiliza CRUD's para o seu gerenciamento.| MÉDIA | 
 |RF-010| Registrar perda de peso do paciente ao longo do tempo e exibir o histórico desta informação.| ALTA | 
 |RF-011| Avaliar as receitas propostas (like ou joinha). | BAIXA | 
