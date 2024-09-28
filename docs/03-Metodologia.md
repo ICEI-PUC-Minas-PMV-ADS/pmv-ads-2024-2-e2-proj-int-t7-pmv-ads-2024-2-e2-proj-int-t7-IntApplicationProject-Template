@@ -71,7 +71,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |------|-----------------------------------------|----|
 |Repositório de código fonte | GitHub |[Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem)| 
 |Gerenciamento do Projeto | GitHub Kanban |[GitHUB](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1496)|
-|Projeto de Interface e Wireframes |Figma |[]()|
+|Projeto de Interface e Wireframes |Figma |[Figma](https://www.figma.com)|
 |Comunicação e reuniões |Microsoft Teams e WhatsApp |Teams - WhatsApp|
 
 
