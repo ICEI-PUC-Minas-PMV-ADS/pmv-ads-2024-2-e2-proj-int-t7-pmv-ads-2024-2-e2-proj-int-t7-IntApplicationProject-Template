@@ -29,7 +29,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
  
 Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
-<img src="../img/diagramaEntidadeRelacionamento.jpeg">
+<img src="docs/img/diagramaEntidadeRelacionamento.jpeg">
 
 ## Tecnologias Utilizadas
 
