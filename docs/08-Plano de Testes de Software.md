@@ -247,7 +247,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-008 - Registrar o diário alimentar do paciente.</td>
+        <td>RF-008 - O paciente Registra o diário alimentar com informações sobre horário das refeições, calorias ingeridas, ingredientes consumidos, etc por meio de um campo Editável.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
