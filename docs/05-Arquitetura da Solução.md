@@ -22,4 +22,4 @@ No caso em apreço, se fez uso da ferramenta Draw.io. Segue diagrama abaixo:
 O Projeto da base de dados abaixo representa as entidades e os relaciomaneots identificados através de tabelas, incluindo as chaves primárias e estrangeiras. 
 Abaixo segue modelo da base de dados da aplicação: 
 
-![image](![image](https://github.com/user-attachments/assets/64ecc9fd-54ab-418a-b4e3-f83149402a64))
+![Screenshot 2024-09-28 091746](https://github.com/user-attachments/assets/01daba2d-1a3f-4715-b87b-492bf8ebdf2c)
