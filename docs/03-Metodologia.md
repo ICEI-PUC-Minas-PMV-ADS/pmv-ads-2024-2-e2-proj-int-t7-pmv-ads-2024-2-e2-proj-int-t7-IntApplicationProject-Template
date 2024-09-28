@@ -31,9 +31,9 @@ etiquetas:
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, escolhendo o Scrum como base para o processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-•	Scrum Master: Ana Clara Dunningham Matos Seixas
-•	Product Owner: Joel Onofre de São José Júnior 
-•	Equipe de Desenvolvimento: Cristhiane Maria Assi, Guilherme Henrique Salviano, Karina Reis, Victor Emanuel de Souza
+-	Scrum Master: Ana Clara Dunningham Matos Seixas
+-	Product Owner: Joel Onofre de São José Júnior 
+-	Equipe de Desenvolvimento: Cristhiane Maria Assi, Guilherme Henrique Salviano, Karina Reis, Victor Emanuel de Souza
 
 
 ### Processo
@@ -57,6 +57,7 @@ As ferramentas empregadas no projeto são:
 - Editor de código.
 - Ferramentas de comunicação
 - Ferramentas de desenho de tela (_wireframing_)
+- Ferramentas de diagramação
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
@@ -73,6 +74,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Gerenciamento do Projeto | GitHub Kanban |[GitHUB](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1496)|
 |Projeto de Interface e Wireframes |Figma |[Figma](https://www.figma.com)|
 |Comunicação e reuniões |Microsoft Teams e WhatsApp |Teams - WhatsApp|
+|Diagramação | Astah e Lucidchart | Astah (Local) - [Lucidchart](https://lucid.app/lucidchart/54cb2334-2892-4061-a6a0-5a118a05374f/edit?viewport_loc=-2484%2C844%2C7354%2C3602%2C0_0&invitationId=inv_f3689b65-465d-4921-b8ee-8787d7d2d7e1)|
 
 
 
