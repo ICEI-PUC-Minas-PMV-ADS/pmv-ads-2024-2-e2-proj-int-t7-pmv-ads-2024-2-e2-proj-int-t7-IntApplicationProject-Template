@@ -67,10 +67,12 @@ necessidades da nossa solução.
 Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-
-
-
-
+|Ambiente | Plataforma |Links de Acesso|
+|------|-----------------------------------------|----|
+|Repositório de código fonte | GitHub |[Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem)| 
+[|Gerenciamento do Projeto | GitHub Kanban |[GitHUB](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1496)|]
+|Projeto de Interface e Wireframes |Figma |[]()|
+|Comunicação e reuniões |Microsoft Teams e WhatsApp |Teams - WhatsApp|
 
 
 
