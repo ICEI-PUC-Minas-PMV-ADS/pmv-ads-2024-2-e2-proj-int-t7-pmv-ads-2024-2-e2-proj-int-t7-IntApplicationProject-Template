@@ -29,7 +29,7 @@ O projeto da base de dados corresponde à representação das entidades e relaci
  
 Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem/tree/main/docs/img">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem/blob/f59e253088cd42552149a6abbe5bd87676792b9a/docs/img/diagramaEntidadeRelacionamento.jpeg">
 
 ## Tecnologias Utilizadas
 
