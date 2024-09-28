@@ -15,7 +15,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER (Projeto Conceitual)
 
-<img src="" >
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem/blob/44153ab46b8d0795e4e5de24e50abf82b6ac01e5/docs/img/modeloEntidadeRelacionamento.jpg" >
 
 ## Projeto da Base de Dados
 
