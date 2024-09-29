@@ -4,7 +4,7 @@
 
 Nesta seção, será apresentada a solução e a definição detalhada do problema que a aplicação visa resolver, a partir da perspectiva dos usuários. O objetivo é garantir que o Sistema de Gerenciamento de Produção de Energia Renovável (EcoLogic) seja desenvolvido com base em necessidades reais e específicas de seus usuários, promovendo uma experiência eficiente e intuitiva.
 
-<br/><br/>
+<br>
 
 ## Personas
 
@@ -41,7 +41,7 @@ Nesta seção, será apresentada a solução e a definição detalhada do proble
 </p>
 <h4 align="center">FIGURA 05</h4>
 
-<br/><br/>
+<br>
 
 ## Histórias de Usuários
 
@@ -55,7 +55,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Carlos (Investidor em Energia Renovável)|Preciso acessar relatórios financeiros claros e dados sobre o desempenho das usinas nas quais investi e quero visualizar comparações entre diferentes fontes de energia.|Para tomar decisões mais informadas sobre futuros investimentos.|
 |Tereza (Consultora de Energia)|Preciso de acesso a ferramentas que permitam a análise de dados de produção de energia e a previsão de tendências.|Para ajudar seus clientes a migrar para fontes renováveis e sugerir tecnologias e práticas que melhorem a eficiência energética.|
 
-<br/><br/>
+<br>
 
 ## Requisitos
 
@@ -87,7 +87,7 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 |RNF-004|A aplicação deve seguir protocolos de segurança, garantindo a proteção dos dados coletados.| ALTA | 
 |RNF-005|O sistema deverá ter um ótimo desempenho para lidar com vários usuários de uma única vez.| ALTA | 
 
-<br/><br/>
+<br>
 
 ## Restrições
 
@@ -108,13 +108,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 |011|Todo o material do projeto será disponibilizado em um repositório na plataforma GitHub.|
 |012|A aplicação requer uma conexão constante à internet para funcionar corretamente.|
 
-<br/><br/>
+<br>
 
 ## Diagrama de Casos de Uso
 
 <img width="1131" alt="image" src="https://github.com/user-attachments/assets/984d93c5-5f78-4614-8400-080ba8e0315b">
 
-<br/><br/>
+<br>
 
 > **Ferramentas utilizadas para o desenvolvimento das Especificações do Projeto**:
 > - Site: https://br.hubspot.com/make-my-persona
