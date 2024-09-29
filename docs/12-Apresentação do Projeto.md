@@ -1,8 +1,6 @@
 # Apresentação
 
-<video width="800" controls>
-        <source src="/presentation/apresentacaoecologic.mp4" type="video/mp4">
-</video>
+<video controls src="../presentation/apresentacaoecologic.mp4" title="Apresentação Ecologic"></video>
 
 ## EcoLogic
 
