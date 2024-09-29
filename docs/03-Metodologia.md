@@ -75,6 +75,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e Wireframes |Figma |[Figma](https://www.figma.com)|
 |Comunicação e reuniões |Microsoft Teams e WhatsApp |Teams - WhatsApp|
 |Diagramação | Astah e Lucidchart | Astah (Local) - [Lucidchart](https://lucid.app/lucidchart/54cb2334-2892-4061-a6a0-5a118a05374f/edit?viewport_loc=-2484%2C844%2C7354%2C3602%2C0_0&invitationId=inv_f3689b65-465d-4921-b8ee-8787d7d2d7e1)|
+|Modelo Entidade - Relacionamento |UMLet|Aplicação para desktop|
 
 
 
