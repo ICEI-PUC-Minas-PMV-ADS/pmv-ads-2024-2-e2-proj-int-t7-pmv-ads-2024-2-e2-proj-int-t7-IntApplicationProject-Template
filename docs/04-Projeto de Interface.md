@@ -9,7 +9,7 @@ Segue abaixo uma visão geral da interação do usuário pelas telas do sistema 
 
 <img width="470" alt="image" src="https://github.com/user-attachments/assets/45c6da4a-74b2-42da-8e75-1608a01088f4">
 <br></br>
-<img width="470" alt="image" src="https://github.com/user-attachments/assets/4bf25078-4f68-4080-9655-9a0e434a01ef">
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/15d343ef-d26e-4d88-98f1-293e20e76533">
 
 ## Wireframes
 Os Wireframes demonstram os protótipos usados em design de interface para demonstrar a estrutura do site web e seu relacionamento entre as suas páginas. 
