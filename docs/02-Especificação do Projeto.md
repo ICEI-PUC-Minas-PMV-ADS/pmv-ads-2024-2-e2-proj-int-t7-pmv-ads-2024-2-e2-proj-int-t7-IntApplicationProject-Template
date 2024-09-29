@@ -63,26 +63,6 @@ As tabelas a seguir apresentam uma descrição detalhada dos requisitos funciona
 
 ### Requisitos Funcionais
 
-<!-- |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001|⁠A aplicação deve permitir que os usuários realizarem o login/registro.| ALTA | 
-|RF-002|No campo de login deverá pedir e-mail e senha.| ALTA |
-|RF-003|Na tela de login deverá ter o “esqueceu a senha?” no qual redirecionará para uma nova página para recuperação de senha.| ALTA |
-|RF-004|A aplicação web deve apresentar na dashboard principal informações sobre as fontes de energia renovável.| ALTA |
-|RF-005|A aplicação web deve apresentar na dashboard principal menus de navegação.| ALTA |
-|RF-006|O sistema deve apresentar a tela de usinas cadastradas.| ALTA |
-|RF-007|O sistema deve apresentar a tela de fontes de energia cadastradas.| ALTA |
-|RF-008|O sistema deve apresentar a tela de produção de energia.| ALTA |
-|RF-009|A aplicação web deve apresentar uma página de relatórios.| ALTA |
-|RF-010|A aplicação web deve apresentar uma página de administrador do site.| ALTA |
-|RF-011|A aplicação deve permitir o cadastro de novas usinas de energia (solar, eólica, hidrelétrica, etc.), incluindo detalhes como localização, capacidade instalada, tipo de energia, data de início de operação, etc.| ALTA |
-|RF-012|A aplicação deve permitir a atualização das informações já cadastradas, como mudanças na capacidade de produção ou manutenção realizada.| ALTA |
-|RF-013|A aplicação deve fornecer uma interface para monitorar a produção de energia de cada usinas com dados atualizados.| ALTA |
-|RF-014|O sistema deve gerar relatórios periódicos customizáveis de desempenho das usinas, contendo informações sobre produção, eficiência e desempenho ambiental.| ALTA |
-|RF-015|A aplicação deve enviar notificações e alertas sobre eventos importantes, como queda na produção, falhas ou necessidade de manutenção.| ALTA |
-|RF-016|A aplicação deve permitir o registro e acompanhamento de atividades de manutenção programada ou emergencial nas usinas, com alertas para futuras manutenções.| ALTA |
-|RF-017|O sistema deve apresentar alertas em tempo real em caso de falha em algum componente.| ALTA | -->
-
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001|⁠A aplicação deve permitir que os usuários realizem login.| ALTA |
