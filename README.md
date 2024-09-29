@@ -19,7 +19,11 @@ O projeto em desenvolvimento é um Sistema de Gerenciamento de Produção de Ene
 
 * Alexsander Lima de Andrade Vieira
 * Ariane Silveira Almeida Moura
+* Breno Marques de Moura
+* Leticia Rodrigues de Oliveira Santos
+* Marytom Erllem Silva Sousa
 * Raphael Rodrigues de Figueiredo Lage
+* Vinicius Simoes dos Santos
 
 
 ## Orientador
