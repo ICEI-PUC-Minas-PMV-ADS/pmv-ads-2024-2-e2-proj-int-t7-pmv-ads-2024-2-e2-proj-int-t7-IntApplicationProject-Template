@@ -6,7 +6,6 @@
 ## Diagrama de Fluxo
 
 ![Exemplo de Diagrama de Fluxo](img/Diagrama%20de%20fluxo.jpg)
-
 ## Wireframes
 
 #### Tela Inicial
