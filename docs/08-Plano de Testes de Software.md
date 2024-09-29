@@ -60,7 +60,7 @@ O Plano de Testes é o documento responsável por apresentar o planejamento para
     </tr>
     <tr>
         <td><strong>Critério de Êxito</strong></td>
-        <td>- O sistema exibe mensagens de erro corretas para tentativa de login com credenciais incorretas, e o login é realizado com sucesso quando as informações corretas são inseridas.</td>
+        <td>- O login é realizado com sucesso quando as informações corretas são inseridas.</td>
     </tr>
 </table>
 
@@ -332,7 +332,7 @@ O Plano de Testes é o documento responsável por apresentar o planejamento para
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
-        <td>RF-11 - O sistema deve permitir que os usuários entrem em contato com a equipe de suporte da plataforma por meio de um formulário de contato ou outros meios disponibilizados, como e-mail ou chat.</td>
+        <td>RF-11 - O sistema deve permitir que os usuários entrem em contato com a equipe de suporte da plataforma por meio de um formulário de contato ou outros meio disponibilizado, como e-mail.</td>
     </tr>
     <tr>
         <td><strong>Objetivo do Teste</strong></td>
@@ -346,7 +346,7 @@ O Plano de Testes é o documento responsável por apresentar o planejamento para
             - Verifique se o sistema valida os campos obrigatórios (nome, e-mail e mensagem). <br>
             - Envie uma mensagem e verifique se há uma confirmação de envio. <br>
             - Verifique se a mensagem foi enviada corretamente e se o usuário recebe uma confirmação por e-mail. <br>
-            - Teste outros meios de contato, como e-mail direto ou chat, se disponíveis, para garantir o funcionamento adequado.
+            - Teste outros meios de contato, como e-mail direto, para garantir o funcionamento adequado.
         </td>
     </tr>
     <tr>
