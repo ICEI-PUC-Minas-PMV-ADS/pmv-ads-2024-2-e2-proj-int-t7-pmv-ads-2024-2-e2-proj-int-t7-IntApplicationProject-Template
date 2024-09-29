@@ -6,17 +6,22 @@
 
 <img src= "../docs/img/ecologictitulo.png" width="500" align="center">
 
-<img src= "../docs/img/logoecologic.png" width="600" align="center">>
 
 
-## Identidade Visual (Marca, Design)
+## Identidade Visual
 
-<img src= "../docs/img/logoecologic.png" width="600" align="center">>
+### Logomarca
+
+<br>
+
+<img src= "../docs/img/logoecologic.png" width="400" align="center">
 
 <!-- > **Links Úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
 > - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
 > - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos) -->
+
+<br>
 
 ## Conjunto de Slides
 
