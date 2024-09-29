@@ -17,17 +17,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
+Conforme especificação do projeto EcoLogic, o Modelo ER, com as relações entre as entidades, está representada nas figuras abaixo:
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<img width="2308" alt="Modelo_ER-Ecologic" src="https://github.com/user-attachments/assets/07b8af5f-8d1f-446f-a9f2-bca420ae5219">
 
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![Projeto_Base_de_Dados-EcoLogic](https://github.com/user-attachments/assets/1d8c5fe9-55fb-449b-b4c5-cdaf6e54d5b1)
+
 
 ## Tecnologias Utilizadas
 
