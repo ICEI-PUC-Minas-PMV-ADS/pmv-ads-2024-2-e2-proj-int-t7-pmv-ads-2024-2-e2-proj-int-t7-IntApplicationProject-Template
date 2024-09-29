@@ -26,7 +26,7 @@ O projeto em desenvolvimento é um Sistema de Gerenciamento de Produção de Ene
 
 * Bernardo Jeunon de Alencar
 
-## Instruções de utilização 
+<!-- ## Instruções de utilização 
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
@@ -34,7 +34,7 @@ Não deixe de informar o link onde a aplicação estiver disponível para acesso
 
 Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas. 
+O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.  -->
 
 # Documentação
 
