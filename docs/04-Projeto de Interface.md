@@ -34,4 +34,4 @@ Nesta seção, os usuários têm acesso a relatórios e gráficos que representa
 A Tela de Administrador oferece funcionalidades específicas para usuários com privilégios de administrador. Aqui, é possível gerenciar usuários, acessar configurações do sistema e ter uma visão geral do funcionamento da plataforma, garantindo a manutenção e a segurança do EcoLogic.
 
 
-Acesse o Protótipo Interativo: <a href="https://www.figma.com/proto/Db1zTIievwFgSJaRn6pPCc/EcoLogic?page-id=0%3A1&node-id=34-170&node-type=canvas&viewport=-924%2C1484%2C0.18&t=vakdleKlL0jGjySA-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A170&share=1">Wireframe Interativo</>
+Acesse o Protótipo Interativo: <a href="https://www.figma.com/proto/Db1zTIievwFgSJaRn6pPCc/EcoLogic?page-id=0%3A1&node-id=34-170&node-type=canvas&viewport=-924%2C1484%2C0.18&t=vakdleKlL0jGjySA-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=34%3A170&share=1">Wireframe Interativo
