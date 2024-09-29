@@ -1,9 +1,6 @@
 # Apresentação
 
-<!-- <video controls src="../presentation/apresentacaoecologic.mp4" title="Apresentação Ecologic"></video> -->
-
-
-<embed src="../presentation/presentacaoecologic.mp4" width="640" height="360" type="video/mp4">
+<a href="../presentation/apresentacaoecologic.mp4" download>Vídeo - Apresentação EcoLogic</a>
 
 ## EcoLogic
 
