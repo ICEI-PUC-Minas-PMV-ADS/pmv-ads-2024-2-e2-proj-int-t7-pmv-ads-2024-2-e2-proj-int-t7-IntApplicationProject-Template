@@ -1,29 +1,25 @@
 message: Please cite this software using these metadata.
-title:
+title: NUTRIBEM
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Clara Dunningham Matos Seixas
+    given-names: Ana
+  - family-names: Maria Assi
+    given-names: Cristhiane
+  - family-names: Henrique Salviano
+    given-names: Guilherme
+  - family-names: Onofre de Sao Jose Junior
+    given-names: Joel
+  - family-names: Reis
+    given-names: Karina
+  - family-names: Emanuel de Souza
+    given-names: Victor
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jeunon de Alencar
+    given-names: Bernardo
 keywords:
-  - 
-  - 
-repository-code: 
+  - Nutrição
+  - Acompanhamento
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-nutribem
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-09-29
