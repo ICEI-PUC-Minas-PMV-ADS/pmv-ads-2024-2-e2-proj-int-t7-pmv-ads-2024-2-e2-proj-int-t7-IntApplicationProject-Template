@@ -1,0 +1,6 @@
+@ConcretaAPI_HostAddress = http://localhost:5038
+
+GET {{ConcretaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
