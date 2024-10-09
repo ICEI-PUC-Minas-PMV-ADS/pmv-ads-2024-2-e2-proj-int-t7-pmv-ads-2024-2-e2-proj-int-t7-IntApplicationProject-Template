@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 175px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+}
+
+.logo img {
+    width: 235px;
+    height: 100px;
+    /* Mantém a proporção */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.botaonavbar {
+    margin-left: auto;
+}
+
+.botaonavbar button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botaonavbar button:hover {
+    background-color: #8DB5AD;
+}
+
+
+aside {
+    background: #1D6B59;
+    width: 375px;
+    height: 2426px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
+    top: 175px;
+    gap: 0px;
+    opacity: 0px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza os elementos horizontalmente */
+    padding-top: 20px;
+    /* Ajuste a margem superior conforme necessário */
+}
+
+
+.search-bar {
+    width: 339px;
+    height: 59px;
+    border-radius: 6px;
+    background: #24826F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 13px;
+}
+
+.search-bar input {
+    width: 100%;
+    /* O input ocupa todo o espaço disponível */
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    /* Remove o contorno */
+}
+
+.search-bar img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.botaousinas button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px 0;
+}
+
+.botaousinas button:hover {
+    background-color: #8DB5AD;
+}
+
+.botaofontedeenergia button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px 0;
+}
+
+.botaofontedeenergia button:hover {
+    background-color: #8DB5AD;
+}
+
+.botaoproducao button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px 0;
+}
+
+.botaoproducao button:hover {
+    background-color: #8DB5AD;
+}
+
+.botaorelatorios button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px 0;
+}
+
+.botaorelatorios button:hover {
+    background-color: #8DB5AD;
+}
+
+.botaoadm button {
+    display: flex;
+    width: 321px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px 0;
+}
+
+.botaoadm button:hover {
+    background-color: #8DB5AD;
+}
+
+.botaonsair button {
+    display: flex;
+    width: 163px;
+    height: 60px;
+    top: 2494px;
+    left: 106px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #569689;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    margin-top: 500px;
+    margin-bottom: 80px;
+
+}
+
+
+.botaonsair button:hover {
+    background-color: #8DB5AD;
+}
+
+/* 
+.search-bar {
+    width: 339px;
+    height: 59px;
+    top: 192px;
+    left: 18px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #24826F;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    fill: #24826F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+} */
+
+
+
+
+footer {
+    width: 100%;
+    height: 175px;
+    background-color: #FAAA30;
+    /* background: linear-gradient (#FAAA30 #fff #FAAA30); */
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.footer-content p {
+    margin: 12px 0;
+    margin-top: 36px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
