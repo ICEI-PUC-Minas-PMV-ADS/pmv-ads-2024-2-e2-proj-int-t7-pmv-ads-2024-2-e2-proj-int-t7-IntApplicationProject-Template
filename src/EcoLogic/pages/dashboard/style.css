@@ -68,8 +68,29 @@ header {
 }
 
 main {
-    flex: 0%;
+    flex: 1; /* Permite que o conteúdo ocupe a maior parte da altura da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Ocupa a largura total disponível */
+    padding: 20px; /* Adiciona um pouco de espaçamento interno */
+}
+
+article span {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+    font-weight: bold; /* Torna o texto em negrito, se desejado */
+    color: #fff; /* Garante que o texto fique branco */
+    margin-bottom: 20px; 
+}
+
 
 footer {
     width: 100%;
@@ -105,4 +126,63 @@ footer {
 .social-icons img {
     width: 24px;
     height: 24px;
+}
+
+
+
+
+
+/* Media Queries para Responsividade */
+
+/* Estilo para tablets e telas menores */
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px;
+        height: 80px;
+    }
+
+    .botaonavbar button {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 480px) {
+    header {
+        height: 140px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 60px;
+        margin-left: 16px;
+    }
+
+    .botaonavbar button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
 }
