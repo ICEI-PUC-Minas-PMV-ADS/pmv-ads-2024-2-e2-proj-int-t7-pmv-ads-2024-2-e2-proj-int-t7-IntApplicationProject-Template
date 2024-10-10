@@ -98,42 +98,78 @@ article span {
     font-weight: 275;
     line-height: 40px;
     letter-spacing: 0.5px;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    /* Garante que a imagem e o texto fiquem um ao lado do outro */
     align-items: flex-start;
+    /* Alinha o conteúdo ao topo */
     width: 100%;
-    padding: 20px;
-    flex-direction: column;
+    padding: 80px;
+}
+
+.content {
+    width: 100%;
+    /* O texto ocupa 50% da largura total */
+    display: flex;
+    padding: 16px;
+    text-align: left;
+    
+}
+
+.part1 {
+    margin-top: 26px;
 }
 
 .titulo1 {
-    width: 100%;
-    height: auto;
+    
+    flex-shrink: 0;
     color: #F3F3F3;
-    font-size: 20px;
-    font-weight: 250;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-size: 32px;
+    font-style: normal;
     line-height: 40px;
     letter-spacing: 0.5px;
-    text-align: left;
-    margin-bottom: 20px;
 }
 
 .text1 {
-    width: 50%;
-    height: auto;
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
     color: #F3F3F3;
-    font-size: 20px;
-    font-weight: 250;
-    line-height: 40px;
-    letter-spacing: 0.5px;
     text-align: justify;
-    word-wrap: break-word;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    margin-top: 46px;
+    
 }
+
+.energiaeolica {
+    display: flex;
+    align-items: center;
+    /* Espaçamento entre o texto e a imagem */
+}
+
+.energiaeolica img {
+    
+    width: 593px;
+    /* Defina a largura desejada para a imagem */
+    
+    /* Espaçamento entre o texto e a imagem */
+}
+
 
 #btn-contact {
     width: 227px;
@@ -147,24 +183,14 @@ article span {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: background 0.3s;
-    margin-top: 2rem;
+    margin-top: 66px;
 }
+
 
 #btn-contact:hover {
     background: #8DB5AD;
 }
 
-.energiaeolica {
-    display: flex;
-    align-items: flex-start;
-    margin-left: auto;
-}
-
-.energiaeolica img {
-    width: 593px;
-    height: auto;
-    margin-left: 20px;
-}
 
 footer {
     width: 100%;
