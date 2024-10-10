@@ -6,12 +6,14 @@
 }
 
 body {
+    margin: 0; /* Remove margens do body */
+    padding: 0; 
     background: #000;
     color: #fff;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 header {
@@ -68,7 +70,8 @@ header {
 }
 
 main {
-    flex: 1; /* Permite que o conteúdo ocupe a maior parte da altura da página */
+    flex: 1;
+    /* Permite que o conteúdo ocupe a maior parte da altura da página */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +83,121 @@ article {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%; /* Ocupa a largura total disponível */
-    padding: 20px; /* Adiciona um pouco de espaçamento interno */
+    width: 100%;
+    /* Ocupa a largura total disponível */
+    padding: 20px;
+    /* Adiciona um pouco de espaçamento interno */
 }
 
 article span {
-    font-size: 1.5rem; /* Ajusta o tamanho da fonte */
-    font-weight: bold; /* Torna o texto em negrito, se desejado */
-    color: #fff; /* Garante que o texto fique branco */
-    margin-bottom: 20px; 
+    font-size: 2.5rem;
+    /* Ajusta o tamanho da fonte */
+    color: #fff;
+    /* Garante que o texto fique branco */
+    margin-bottom: 10rem;
+    margin-top: 60px;
+    font-weight: 100;
+    /* Peso mínimo recomendado */
+    opacity: 0.8;
+    /* Ajusta a opacidade para suavizar */
 }
+
+
+.titulo1 {
+    display: flex;
+    width: 394px;
+    height: auto;
+    /* Use auto para que a altura se ajuste ao conteúdo */
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Alinha o conteúdo ao topo */
+    flex-shrink: 0;
+    color: #F3F3F3;
+    font-family: "Saira Condensed", sans-serif;
+    /* Inclui a fonte padrão */
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+.text1 {
+    display: flex;
+    width: 394px;
+    height: auto;
+    /* Use auto para que a altura se ajuste ao conteúdo */
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Alinha o conteúdo ao topo */
+    flex-shrink: 0;
+    color: #F3F3F3;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    /* Justifica o texto */
+    word-wrap: break-word;
+    /* Quebra a palavra se necessário */
+    margin-top: 20px;
+    /* Espaçamento entre o título e o texto */
+}
+
+.titulo1,
+.text1 {
+    margin-left: -60rem;
+    /* Ajuste o valor conforme necessário */
+}
+
+#btn-contact {
+    width: 227px;
+    /* Largura fixa */
+    height: 60px;
+    /* Altura fixa */
+    background: #24826F;
+    /* Cor de fundo */
+    border: 1px solid #24826F;
+    /* Borda */
+    color: #fff;
+    /* Cor do texto */
+    font-family: 'Saira Condensed', sans-serif;
+    /* Fonte */
+    font-size: 30px;
+    /* Tamanho da fonte */
+    font-weight: 700;
+    /* Peso da fonte */
+    text-align: center;
+    /* Centraliza o texto */
+    cursor: pointer;
+    /* Muda o cursor para pointer ao passar o mouse */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Sombra */
+    transition: background 0.3s;
+    /* Efeito de transição */
+    margin-top: 2rem;
+    margin-left: -70.5rem;
+}
+
+#btn-contact:hover {
+    background: #8DB5AD;
+    /* Cor de fundo ao passar o mouse */
+}
+
+.energiaeolica img {
+    width: 593px;
+    height: 575px;
+top: 337px;
+left: 778px;
+gap: 0px;
+opacity: 0px;
+
+    margin-right: -50rem;
+   
+}
+
 
 
 footer {
