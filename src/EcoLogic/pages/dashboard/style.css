@@ -105,28 +105,19 @@ article span {
 .container {
     display: flex;
     justify-content: space-between;
-    /* Garante que a imagem e o texto fiquem um ao lado do outro */
     align-items: flex-start;
-    /* Alinha o conteúdo ao topo */
     width: 100%;
     padding: 80px;
 }
 
 .content {
     width: 100%;
-    /* O texto ocupa 50% da largura total */
     display: flex;
     padding: 16px;
     text-align: left;
-    
-}
-
-.part1 {
-    margin-top: 26px;
 }
 
 .titulo1 {
-    
     flex-shrink: 0;
     color: #F3F3F3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -153,23 +144,16 @@ article span {
     line-height: 50px;
     letter-spacing: 0.5px;
     margin-top: 46px;
-    
 }
 
 .energiaeolica {
     display: flex;
-    align-items: center;
-    /* Espaçamento entre o texto e a imagem */
+    margin: -40px;
 }
 
 .energiaeolica img {
-    
     width: 593px;
-    /* Defina a largura desejada para a imagem */
-    
-    /* Espaçamento entre o texto e a imagem */
 }
-
 
 #btn-contact {
     width: 227px;
@@ -186,11 +170,9 @@ article span {
     margin-top: 66px;
 }
 
-
 #btn-contact:hover {
     background: #8DB5AD;
 }
-
 
 footer {
     width: 100%;
@@ -227,9 +209,12 @@ footer {
     height: 24px;
 }
 
-/* Media Queries para Responsividade */
 
-/* Estilo para tablets e telas menores */
+
+
+
+
+
 @media (max-width: 768px) {
     .logo img {
         width: 180px;
@@ -250,7 +235,7 @@ footer {
     }
 }
 
-/* Estilo para dispositivos móveis */
+
 @media (max-width: 480px) {
     header {
         height: 140px;
