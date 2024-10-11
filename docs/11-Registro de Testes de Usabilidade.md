@@ -8,7 +8,7 @@
 **Versão do Software:** 1.0  
 **Objetivo do Teste:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de criação de conta, acesso e logout.
 
-**Observação:** O teste foi acompanhado através de gravações de tela e áudio. Os participantes realizaram as seguintes tarefas: 
+**Observação:** O teste foi acompanhado através de gravações de tela e áudio. Os participantes realizaram as seguintes tarefas:
 
 - **Realizar login:** 
 - **Recuperar senha:** 
@@ -29,11 +29,11 @@
 
 ## Questionário de Satisfação
 
-| Usuário            | Os campos obrigatórios e instruções estão sinalizados de forma clara? | Teve algo especifico que te gerou dificuldae?                             | Você acredita que o acesso ao sistema é facil?               | Como você avaliaria sua experiência de fazer o login e recuperar senha?        |
+| Usuário            | Os campos obrigatórios e instruções estão sinalizados de forma clara? | Teve algo específico que te gerou dificuldade?                             | Você acredita que o acesso ao sistema é fácil?               | Como você avaliaria sua experiência de fazer o login e recuperar senha?        |
 |--------------------|---------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| nicole andrade      | Sim, todos os campos estavam marcados de forma nitida                   | Não, o processo foi tranquilo                                             | Sim, os campos estao bem sinalizados e nao ha complexidade  | experiencia execelente, superou minhas expectativas                          |
-| theo maciel    | Sim, nada a adicioanar                          | Tela muito simples e rapida                                                                   | Sim, nao senti dificuldade                     | Boa, dentro do que eu esperava            |
-| jade dutra         | Sim, tudo estava bem claro                                           | dificuldade nao, mas demorei alguns segundos para achar o campo de email em recuperar senha | sim, ele é fluido                      | Muito boa, mas colocaria com mais nitidez as opções de contato para recuperação de senha   |
+| Nicole Andrade      | Sim, todos os campos estavam marcados de forma nítida                   | Não, o processo foi tranquilo                                             | Sim, os campos estão bem sinalizados e não há complexidade  | Experiência excelente, superou minhas expectativas                          |
+| Theo Maciel    | Sim, nada a adicionar                          | Tela muito simples e rápida                                                                   | Sim, não senti dificuldade                     | Boa, dentro do que eu esperava            |
+| Jade Dutra         | Sim, tudo estava bem claro                                           | Dificuldade não, mas demorei alguns segundos para achar o campo de e-mail em recuperar senha | Sim, ele é fluido                      | Muito boa, mas colocaria com mais nitidez as opções de contato para recuperação de senha   |
 
 ### Teste 02 - Verificar informações de usinas, fontes de energia, relatórios de desempenho energético e também de alerta e notificações
 **Data do Teste:** 08 de outubro de 2024  
@@ -50,7 +50,7 @@
 ### Participantes:
 
 - **Usuário 1:** Juliano Castro, 53 anos, professor de engenharia elétrica na PUC Minas.
-- **Usuário 2:** Samuel Chaves, 33 anos, empreendedor, possui uma empresa de placa solar.
+- **Usuário 2:** Samuel Chaves, 33 anos, empreendedor, possui uma empresa de placas solares.
 - **Usuário 3:** Bernardo Rosa, 25 anos, possui placa solar em sua casa no interior.
 
 ### Resultados:
@@ -65,11 +65,9 @@
 
 | Usuário            | Dificuldade de navegação                                          | Satisfação com as informações                                     | Legibilidade da página                                   |
 |--------------------|-----------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
-| Juliano Castro   | Não. A interface foi bem clara                            | Alta. conseguiu verirficar de forma clara e sem nenhuma dificuldade as informações desejadas | Excelente. Informações claras       |
-| Samuel Chaves    | Não, nao tive dificuldades | Normal. Dentro do esperado                  | Boa. Nada a reclamar     |
-| Bernardo Rosa    | Sim. Nada que comprometa, mas gostaria de mais opções de filtros   . | Boa. informações completas e claras   |        Boa. aumentaria a letra   
-
-
+| Juliano Castro   | Não. A interface foi bem clara                            | Alta. Conseguiu verificar de forma clara e sem nenhuma dificuldade as informações desejadas | Excelente. Informações claras       |
+| Samuel Chaves    | Não, não tive dificuldades | Normal. Dentro do esperado                  | Boa. Nada a reclamar     |
+| Bernardo Rosa    | Sim. Nada que comprometa, mas gostaria de mais opções de filtros   | Boa. Informações completas e claras   | Boa. Aumentaria a letra    |
 
 ### Teste 03 - Visualizar recomendações e relatórios de produção
 **Data do Teste:** 08 de outubro de 2024  
@@ -98,10 +96,10 @@
 
 ### Questionário de Satisfação
 
-| Pergunta                                                        | Usuário 1:Mateus Henrique | Usuário 2: Wiliam Moura | Usuário 2: Tevis Renato |                                             
-|-----------------------------------------------------------------|------------------------|---------------------------|---------------------------|
-| Como você avaliaria a facilidade de acessar as recomendações e relatorio de produção? | Muito fácil            | Medio           | facil   |
-| A navegação até a seção foi intuitiva?             | Muito intuitivo        | Intuitiva                 |Intuitiva                 |
-| Como você descreveria a experiência?    | Muito boa              | Boa                       |Boa                       |
-| Foi fácil extrair as informações?        | Muito fácil            | normal                  |Fácil                     |
-| Você tem alguma sugestão para melhorar a navegação ou a apresentação? | Nada a observar | Opção para destacar informações | nada a adiconar|
+| Pergunta                                                        | Usuário 1: Mateus Henrique | Usuário 2: Wiliam Moura | Usuário 3: Tevis Renato |                                             
+|-----------------------------------------------------------------|----------------------------|--------------------------|-------------------------|
+| Como você avaliaria a facilidade de acessar as recomendações e relatórios de produção? | Muito fácil                | Médio                    | Fácil                   |
+| A navegação até a seção foi intuitiva?                         | Muito intuitivo            | Intuitiva                | Intuitiva               |
+| Como você descreveria a experiência?                           | Muito boa                  | Boa                      | Boa                     |
+| Foi fácil extrair as informações?                               | Muito fácil                | Normal                   | Fácil                   |
+| Você tem alguma sugestão para melhorar a navegação ou a apresentação? | Nada a observar            | Opção para destacar informações | Nada a adicionar      |
