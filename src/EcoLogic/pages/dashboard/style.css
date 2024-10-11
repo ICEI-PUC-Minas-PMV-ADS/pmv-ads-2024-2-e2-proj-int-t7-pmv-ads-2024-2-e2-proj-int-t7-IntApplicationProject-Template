@@ -243,7 +243,7 @@ article span {
 
 .grafico1 {
     display: flex;
-    margin-top: 60px;
+    margin-top: 46px;
 }
 
 .grafico1 img {
@@ -260,7 +260,7 @@ article span {
     line-height: 100px;
     letter-spacing: 0.5px;
     margin-left: 7rem;
-    margin-top: 5.6rem;
+    margin-top: 10rem;
     justify-content: center;
 
 }
@@ -299,17 +299,81 @@ article span {
 }
 
 
+.barraesquerda {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    top: 7rem;
+}
 
+.barraesquerda img {
+    width: 766px;
+    height: auto;
+    margin-right: 0;
+}
 
+.texto-sobre-imagem1 {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
 
+.texto-sobre-imagem1 p {
+    position: absolute;
+    font-size: 32px;
+    top: 20%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
 
+.numero-fontes {
+    position: absolute;
+    color: #fff;
+    font-family: "Saira Stencil One";
+    font-size: 64px;
+    bottom: -3.2rem;
+    right: 13rem;
+}
 
+.energiasolar {
+    display: flex;
+    margin: -40px;
+    margin-top: -6rem;
+}
 
+.energiasolar img {
+    position: absolute;
+    width: 593px;
+    right: 6rem;
+}
 
+.energiahidreletrica {
+    display: flex;
+    margin: 40px;
+    margin-top: 26rem;
+}
 
-
-
-
+.energiahidreletrica img {
+    position: absolute;
+    width: 593px;
+    left: 6rem;
+}
 
 
 footer {
