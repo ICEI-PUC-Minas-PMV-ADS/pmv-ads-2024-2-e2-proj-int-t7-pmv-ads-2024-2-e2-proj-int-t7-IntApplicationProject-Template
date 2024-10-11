@@ -1,33 +1,35 @@
 <nav class="navbar">
-    <div class="navbar-logo">
-        <a routerLink="/home">
-            <img src="../../assets/logo-concreta.svg" alt="Logo da Empresa" />
-        </a>
-    </div>
-    
-    <div class="navbar-menu" [ngClass]="{ 'open': isMenuOpen }">
-        <ul class="navbar-links">
-            <li class="navbar-link">
-                <a routerLink="/sobre" routerLinkActive="active">Sobre</a>
-            </li>
-            <li class="navbar-link">
-                <a routerLink="/ferramentas" routerLinkActive="active">Ferramentas</a>
-            </li>
-            <li class="navbar-link">
-            <a routerLink="/contato" routerLinkActive="active">Contato</a>
-            </li>
-        </ul>
-        <div class="navbar-user">
-            <a routerLink="/user">
-            <img src="../../assets/user-icon.svg" alt="Ícone de Usuário" />
+    <div class="navbar-container">
+        <div class="navbar-logo">
+            <a routerLink="/home">
+                <img src="../../assets/logo-concreta.svg" alt="Logo da Empresa" />
             </a>
         </div>
-    </div>
+        
+        <div class="navbar-menu" [ngClass]="{ 'open': isMenuOpen }">
+            <ul class="navbar-links">
+                <li class="navbar-link">
+                    <a routerLink="/sobre" routerLinkActive="active">Sobre</a>
+                </li>
+                <li class="navbar-link">
+                    <a routerLink="/ferramentas" routerLinkActive="active">Ferramentas</a>
+                </li>
+                <li class="navbar-link">
+                    <a routerLink="/contato" routerLinkActive="active">Contato</a>
+                </li>
+            </ul>
+            <div class="navbar-user">
+                <a routerLink="/user">
+                    <img src="../../assets/user-icon.svg" alt="Ícone de Usuário" />
+                </a>
+            </div>
+        </div>
 
-    <!-- Menu hamburguer para telas pequenas -->
-    <div class="navbar-toggle" (click)="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+        <!-- Menu hamburguer para telas pequenas -->
+        <div class="navbar-toggle" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
 </nav>
