@@ -4,6 +4,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { NavbarComponent } from '../../navbar/navbar.component';
 import { NavBarModule } from '../../navbar/navbar.module';
+import { FooterModule } from "../../footer/footer.module";
 
 
 
@@ -12,7 +13,8 @@ import { NavBarModule } from '../../navbar/navbar.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    NavBarModule
-  ]
+    NavBarModule,
+    FooterModule,
+]
 })
 export class HomeModule { }
