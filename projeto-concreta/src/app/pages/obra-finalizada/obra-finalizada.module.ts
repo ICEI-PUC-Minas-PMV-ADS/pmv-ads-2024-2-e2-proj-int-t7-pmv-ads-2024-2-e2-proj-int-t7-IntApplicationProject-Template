@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ObraAndamentoComponent } from './obra-andamento.component';
-import { obra_andamentoRoutingModule } from './obra-andamento-routing.module';
 import { NavBarModule } from '../../navbar/navbar.module';
 import { FooterModule } from '../../footer/footer.module';
+import { ObraFinalizadaComponent } from './obra-finalizada.component';
+import { obra_finalizadaRoutingModule } from './obra-finalizada-routing.module';
 
 
 
 @NgModule({
-  declarations: [ObraAndamentoComponent],
+  declarations: [ObraFinalizadaComponent],
   imports: [
-    CommonModule, 
-    obra_andamentoRoutingModule,
+    CommonModule,
+    obra_finalizadaRoutingModule,
     NavBarModule,
     FooterModule,
   ]
 })
-export class obra_andamentoModule { }
+export class obra_finalizadaModule { }
