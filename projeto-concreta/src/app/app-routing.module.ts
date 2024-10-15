@@ -14,7 +14,10 @@ const routes: Routes = [
   {
     path: 'menu-gestor-cliente',
     loadChildren: () => import('./pages/menu-gestor-cliente/menu-gestor-cliente.module').then(m => m.MenuGestorClienteModule)
-  }
+  }, { 
+    path: 'obra-andamento',
+    loadChildren: () => import('./pages/obra-andamento/obra-andamento.module').then(m => m.obra_andamentoModule)
+  },
 ];
 
 
