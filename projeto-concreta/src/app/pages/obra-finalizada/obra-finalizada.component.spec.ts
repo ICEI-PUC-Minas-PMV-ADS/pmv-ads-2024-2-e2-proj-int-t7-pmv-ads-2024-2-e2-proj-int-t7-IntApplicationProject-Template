@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ObrafinalizadaComponent } from './obra-andamento.component';
+import { ObraFinalizadaComponent } from './obra-finalizada.component';
 
 describe('ObraAndamentoComponent', () => {
-  let component: ObraAndamentoComponent;
-  let fixture: ComponentFixture<ObraAndamentoComponent>;
+  let component: ObraFinalizadaComponent;
+  let fixture: ComponentFixture<ObraFinalizadaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ObraAndamentoComponent]
+      declarations: [ObraFinalizadaComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ObraAndamentoComponent);
+    fixture = TestBed.createComponent(ObraFinalizadaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -20,3 +20,4 @@ describe('ObraAndamentoComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+});
