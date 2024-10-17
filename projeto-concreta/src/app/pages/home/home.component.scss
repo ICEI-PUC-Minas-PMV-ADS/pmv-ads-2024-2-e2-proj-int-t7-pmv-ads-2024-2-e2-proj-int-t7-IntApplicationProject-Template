@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*BANNER*/
 .banner {
@@ -66,23 +67,78 @@ h1 {
 
 .imagem-fundo {
     background-color: #025373;
-    width: 100%;
-    max-width: 420px;
-    height: 420px;
+    width: 90%;
+    max-width: 440px;
+    height: 100%;
+    max-height: 440px;
     border-radius: 20px;
-    transform: rotate(5deg);
+    transform: rotate(10deg);
     position: absolute;
     top: 10px;
     z-index: 1;
 }
 
 .imagem-equipe {
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     border-radius: 10px;
     position: relative;
-    top: 30px;
+    top: 20px;
     z-index: 2;
+}
+
+/*BENEFICIOS*/
+.beneficios {
+    background-color: #F2B705;
+    max-width: 100%;
+    margin-top: 40PX;
+    padding: 40px 20px;
+    text-align: center;
+
+    .beneficios-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 32px;
+        color: #023059;
+        margin-bottom: 20px;
+    }
+
+    .beneficios-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+        flex-direction: row;
+        gap: 200px;
+        }
+    }
+
+    .beneficio {
+        flex: 1;
+        text-align: left;
+
+        .beneficio-title {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: bold;
+            color: #023059;
+            font-size: 24px;
+            margin-bottom: 8px;
+
+            .numero {
+                font-size: 16px;
+                margin-right: 5px;
+            }
+        }
+
+        .beneficio-description {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: normal;
+            color: #023059;
+            font-size: 16px;
+        }
+    }
 }
 
 /* Responsividade para telas*/
@@ -135,6 +191,16 @@ h1 {
     
     .sobre-texto p {
         font-size: 16px;
+    }
+
+    /*BENEFICIOS*/
+    .beneficios-title {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .beneficios-container {
+        gap: 20px;
     }
 }
 
