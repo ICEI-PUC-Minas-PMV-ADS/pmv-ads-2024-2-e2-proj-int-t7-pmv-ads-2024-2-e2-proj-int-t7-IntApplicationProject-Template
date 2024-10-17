@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+/*BANNER*/
 .banner {
     background: url('../../../assets/banner-home.svg') no-repeat center center;
     background-size: cover;
@@ -25,8 +26,95 @@ h1 {
     font-size: 56px;
 }
 
-/* Responsividade para telas menores */
+/*SOBRE*/
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.sobre-texto {
+    max-width: 600px;
+    text-align: left;
+}
+
+.sobre-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: #023059;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #023059;
+    line-height: 1.5;
+}
+
+.sobre-imagem {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-fundo {
+    background-color: #025373;
+    width: 100%;
+    max-width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    transform: rotate(5deg);
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.imagem-equipe {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+/* Responsividade para telas*/
+@media (min-width: 1024px) {
+    /*SOBRE*/
+    .sobre-container {
+        padding: 80px 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*SOBRE*/
+    .sobre-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 60px 40px;
+    }
+
+    .sobre-texto {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .sobre-imagem {
+        flex: 1;
+        max-width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
+    /*BANNER*/
     .banner {
         display: flex;
         align-items: center;
@@ -40,4 +128,18 @@ h1 {
         margin: 0;
     }
 
+    /*SOBRE*/
+    .sobre-texto h2 {
+        font-size: 24px;
+    }
+    
+    .sobre-texto p {
+        font-size: 16px;
+    }
 }
+
+
+
+
+
+
