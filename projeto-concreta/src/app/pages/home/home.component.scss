@@ -109,7 +109,7 @@ h1 {
         max-width: 1200px;
         margin: 0 auto;
 
-        @media (min-width: 768px) {
+        @media (min-width: 1000px) {
         flex-direction: row;
         gap: 200px;
         }
