@@ -188,6 +188,88 @@ h1 {
     text-align: left;
 }
 
+/*CONTATO*/
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.contato-content {
+    display: flex;
+    max-width: 800px;
+    background-color: #023059;
+    border-radius: 20px;
+    width: 100%;
+    padding: 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 32px;
+        color: #F2B705;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .input-form {
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        color: #727272;
+        width: 90%;
+        background-color: #fff;
+
+        &::placeholder {
+            color: #727272;
+        }
+    }
+
+    .btn-enviar {
+        background-color: #F2B705;
+        color: #023059;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        width: 50%;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: darken(#F2B705, 5%);
+        }
+    }
+}
+
+.imagem-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
 /* Responsividade para telas*/
 @media (min-width: 1024px) {
     /*SOBRE*/
@@ -278,6 +360,26 @@ h1 {
 
     .ferramenta-texto {
         font-size: 16px;
+    }
+
+    /*CONTATO*/
+    .contato-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px; 
+    }
+    
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario h2 {
+        font-size: 24px;
+        text-align: center;
+        }
+
+    .imagem-container {
+        width: 80%;
     }
 }
 
