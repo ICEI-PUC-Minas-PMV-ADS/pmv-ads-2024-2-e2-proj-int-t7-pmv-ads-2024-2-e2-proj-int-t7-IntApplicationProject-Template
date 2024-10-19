@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NutriBem.Models.Receita>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Receitas</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Criar nova Receita</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IngredienteQuantidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MododePreparo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Observacoes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calorias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curtidas)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IngredienteQuantidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MododePreparo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacoes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calorias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curtidas)
+            </td>
+            <td>
+                 <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                 <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> 
+                 <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
