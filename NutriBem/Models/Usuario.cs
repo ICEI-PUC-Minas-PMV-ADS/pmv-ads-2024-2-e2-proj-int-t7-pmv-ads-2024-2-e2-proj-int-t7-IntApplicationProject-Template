@@ -2,6 +2,7 @@
 using Microsoft.Identity.Client;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NutriBem.Models
 {
@@ -15,26 +16,35 @@ namespace NutriBem.Models
 
         [Required(ErrorMessage = "Obrigatório informar a data de nascimento")]
         public required DateOnly DataNascimento { get; set; }
+
         public string Senha { get; set; }
+
         [Key]
         [Required(ErrorMessage = "Obrigatório informar o CPF")]
-        public required int Cpf { get; set; }
+        private readonly int _Cpf;
 
         [Required(ErrorMessage = "Obrigatório informar o telefone")]
         public required int Telefone { get; set; }
 
-        public Usuario(string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone)
+        public Usuario(
+            string nome, 
+            string email, 
+            DateOnly dataNascimento, 
+            string senha, 
+            int cpf, 
+            int telefone
+        )
         {
             Nome = nome;
             Email = email;
             DataNascimento = dataNascimento;
             Senha = senha;
-            Cpf = cpf;
+            _Cpf = cpf;
             Telefone = telefone;
-
         }
     }
 
+    [Table("Paciente")]
     public class Paciente : Usuario
     {
         [Required(ErrorMessage = "Obrigatório informar a altura")]
@@ -49,26 +59,25 @@ namespace NutriBem.Models
             double altura, double peso, string nome, string email, 
             DateOnly dataNascimento, string senha, int cpf, int telefone
            ) : 
-            base (
-                nome, email, dataNascimento, senha, cpf, telefone
-            )
+            base (nome, email, dataNascimento, senha, cpf, telefone)
         {
             Altura = altura;
             Peso = peso;
         }
     }
 
+    [Table("Nutricionista")]
     public class Nutricionista : Usuario
     {
         [Required(ErrorMessage = "Obrigatório informar o CRM")]
-        public required double Crm { get; set; }
+        private readonly double _Crm;
 
         public Nutricionista(
             double crm, string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone
         ) : 
             base (nome, email, dataNascimento, senha, cpf, telefone)
         {
-            Crm = crm;
+            _Crm = crm;
         }
     }
 
