@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriBem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e70f7d2f45ec74f104cc324dcbdfdb3f2ca83a72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bcf29defc364fdac6d088005f97b19e704831fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriBem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriBem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
