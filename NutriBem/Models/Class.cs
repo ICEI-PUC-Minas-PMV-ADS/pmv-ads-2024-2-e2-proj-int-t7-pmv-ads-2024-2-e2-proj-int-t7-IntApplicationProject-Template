@@ -1,4 +1,8 @@
-﻿namespace NutriBem.Models
+﻿using Humanizer;
+using Microsoft.Identity.Client;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+
+namespace NutriBem.Models
 {
     public abstract class Usuario
     {
@@ -8,6 +12,16 @@
         public string Senha { get; set; }
         public int Cpf { get; set; }
         public int Telefone { get; set; }
+        public Usuario(string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone)
+        {
+            Nome = nome;
+            Email = email;
+            DataNascimento = dataNascimento;
+            Senha = senha;
+            Cpf = cpf;
+            Telefone = telefone;
+
+        }
     }
 
     public class Paciente : Usuario
@@ -16,7 +30,11 @@
         public double Peso { get; set; }
         public bool Pagante { get; set; }
 
-
+        public Paciente(double altura, double peso) : base (Nome, Email, DataNascimento, Senha, Cpf, Telefone)
+        {
+            Altura = altura;
+            Peso = peso;
+        }
     }
 
 }
