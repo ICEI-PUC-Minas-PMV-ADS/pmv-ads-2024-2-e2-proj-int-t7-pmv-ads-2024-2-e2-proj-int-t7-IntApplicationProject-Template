@@ -37,4 +37,14 @@ namespace NutriBem.Models
         }
     }
 
+    public class Nutricionista : Usuario
+    {
+        public double Crm { get; set; }
+
+        public Nutricionista(double crm) : base(Nome, Email, DataNascimento, Senha, Cpf, Telefone)
+        {
+            Crm = crm;
+        }
+    }
+
 }
