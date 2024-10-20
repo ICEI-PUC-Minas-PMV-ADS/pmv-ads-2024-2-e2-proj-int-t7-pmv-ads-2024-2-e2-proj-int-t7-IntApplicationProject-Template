@@ -52,8 +52,14 @@ namespace NutriBem.Models
 
         [Required(ErrorMessage = "Obrigatório informar o peso")]
         public required double Peso { get; set; }
-        
+
         public bool Pagante { get; set; }
+
+
+        [ForeignKey("CpfNutricionista")]
+        public int CpfNutricionista {get; set;}
+        
+        public Nutricionista Nutricionista {  get; set; }
 
         public Paciente(
             double altura, double peso, string nome, string email, 
@@ -72,10 +78,12 @@ namespace NutriBem.Models
         [Required(ErrorMessage = "Obrigatório informar o CRM")]
         private readonly double _Crm;
 
-        public Nutricionista(
+        public ICollection<Paciente> Pacientes {get; set;}
+
+    public Nutricionista(
             double crm, string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone
-        ) : 
-            base (nome, email, dataNascimento, senha, cpf, telefone)
+        ) :
+            base(nome, email, dataNascimento, senha, cpf, telefone)
         {
             _Crm = crm;
         }
