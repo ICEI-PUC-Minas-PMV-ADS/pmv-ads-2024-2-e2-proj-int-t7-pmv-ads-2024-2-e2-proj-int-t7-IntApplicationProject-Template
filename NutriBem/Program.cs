@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using NutriBem.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+//teste guilherme
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
