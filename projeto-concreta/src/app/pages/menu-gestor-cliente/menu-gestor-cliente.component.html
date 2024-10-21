@@ -1,4 +1,11 @@
-<p>menu-gestor-cliente works!</p>
-dsad
-sadasdsa
-<div class="div"></div>
+<app-navbar />
+
+@if (menu === 'cliente') {
+        <app-menu-cliente />
+}
+
+@if (menu === 'gestor') {
+    <app-menu-gestor />
+}
+
+<app-footer />

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class MenuGestorClienteComponent {
 
+  menu: 'cliente' | 'gestor' = 'gestor'
+
 }
