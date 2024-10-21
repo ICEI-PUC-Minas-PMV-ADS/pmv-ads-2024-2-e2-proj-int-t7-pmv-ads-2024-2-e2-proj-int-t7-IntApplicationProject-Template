@@ -1,6 +1,8 @@
-<p>menu-gestor works!</p>
-
-<div style="width: 40px; height: 40px;" class="bg-green-700">
-    dsd
+<div class="custom-wrapper">
+    <div class="custom-container mt-5 border-round-2xl flex flex-column gap-3 align-items-center justify-content-center mx-auto">
+        <h1 class="text-white text-4xl text-center">Fique por dentro:</h1>
+        <p-button (onClick)="goToNovaObra()" label="Cadastrar Nova Obra"></p-button> 
+        <p-button (onClick)="goToObrasEmAndamento()" label="Obras em Andamento"></p-button> 
+        <p-button (onClick)="goToObrasFinalizadas()" label="Obras Finalizadas" class="mb-4"></p-button> 
+    </div>
 </div>
-

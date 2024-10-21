@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu-gestor',
@@ -6,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrl: './menu-gestor.component.scss'
 })
 export class MenuGestorComponent {
+
+  constructor(
+    private router: Router,
+  ) {
+  }
+
+  goToNovaObra() {
+    this.router.navigateByUrl(`cadastrar-obra`)
+  }
+
+  goToObrasEmAndamento() {
+    this.router.navigateByUrl(`obra-andamento`)
+  }
+  goToObrasFinalizadas() {
+    this.router.navigateByUrl(`obra-finalizada`)
+  }
 
 }
