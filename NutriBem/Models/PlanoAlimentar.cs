@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices;
 
 namespace NutriBem.Models
 {
@@ -21,6 +22,11 @@ namespace NutriBem.Models
         [Required(ErrorMessage = "Obrigatório informar o Objetivo.")]
 
         public string Objetivo { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório informar a descrição")]
+        public string Descricao { get; set; }
+        
+        public string Observacao {  get; set; }
 
     }
 }
