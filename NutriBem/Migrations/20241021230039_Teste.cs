@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NutriBem.Migrations
 {
     /// <inheritdoc />
-    public partial class tablePacienteNutricionista : Migration
+    public partial class Teste : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,21 +29,18 @@ namespace NutriBem.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Receitas",
+                name: "PlanosAlimentares",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    IngredienteQuantidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MododePreparo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Observacoes = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Calorias = table.Column<int>(type: "int", nullable: false),
-                    Curtidas = table.Column<int>(type: "int", nullable: false)
+                    Nomepaciente = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Objetivo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Receitas", x => x.Id);
+                    table.PrimaryKey("PK_PlanosAlimentares", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -86,7 +83,7 @@ namespace NutriBem.Migrations
                 name: "Paciente");
 
             migrationBuilder.DropTable(
-                name: "Receitas");
+                name: "PlanosAlimentares");
 
             migrationBuilder.DropTable(
                 name: "Nutricionista");

@@ -99,6 +99,31 @@ namespace NutriBem.Migrations
                     b.ToTable("Paciente");
                 });
 
+            modelBuilder.Entity("NutriBem.Models.PlanoAlimentar", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nomepaciente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Objetivo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PlanosAlimentares");
+                });
+
             modelBuilder.Entity("NutriBem.Models.Receita", b =>
                 {
                     b.Property<int>("Id")

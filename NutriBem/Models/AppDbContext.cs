@@ -9,6 +9,7 @@ namespace NutriBem.Models
         public DbSet<Receita> Receitas { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Nutricionista> Nutricionistas { get; set; }
+        public DbSet<PlanoAlimentar> PlanosAlimentares { get; set; }
 
     }
 }

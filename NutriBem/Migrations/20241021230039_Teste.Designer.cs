@@ -12,8 +12,8 @@ using NutriBem.Models;
 namespace NutriBem.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241020230600_tablePacienteNutricionista")]
-    partial class tablePacienteNutricionista
+    [Migration("20241021230039_Teste")]
+    partial class Teste
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -100,6 +100,31 @@ namespace NutriBem.Migrations
                     b.HasIndex("NutricionistaCpf");
 
                     b.ToTable("Paciente");
+                });
+
+            modelBuilder.Entity("NutriBem.Models.PlanoAlimentar", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nomepaciente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Objetivo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PlanosAlimentares");
                 });
 
             modelBuilder.Entity("NutriBem.Models.Receita", b =>
