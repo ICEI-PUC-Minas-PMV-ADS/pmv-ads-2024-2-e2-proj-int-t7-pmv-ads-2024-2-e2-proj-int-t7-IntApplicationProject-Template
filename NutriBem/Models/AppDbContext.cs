@@ -7,7 +7,8 @@ namespace NutriBem.Models
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Receita> Receitas { get; set; }
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Nutricionista> Nutricionistas { get; set; }
 
     }
 }

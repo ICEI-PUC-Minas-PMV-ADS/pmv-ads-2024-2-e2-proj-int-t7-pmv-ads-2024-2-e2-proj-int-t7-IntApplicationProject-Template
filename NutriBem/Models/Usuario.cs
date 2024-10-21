@@ -1,4 +1,5 @@
 ﻿using Humanizer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.ComponentModel.DataAnnotations;
@@ -6,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NutriBem.Models
 {
+    [PrimaryKey("Cpf")]
     public abstract class Usuario
     {
         [Required(ErrorMessage = "Obrigatório informar o nome")]
@@ -19,12 +21,14 @@ namespace NutriBem.Models
 
         public string Senha { get; set; }
 
-        [Key]
+        
         [Required(ErrorMessage = "Obrigatório informar o CPF")]
-        private readonly int _Cpf;
+        public readonly int Cpf;
 
         [Required(ErrorMessage = "Obrigatório informar o telefone")]
         public required int Telefone { get; set; }
+
+        public Usuario() { }
 
         public Usuario(
             string nome, 
@@ -39,7 +43,7 @@ namespace NutriBem.Models
             Email = email;
             DataNascimento = dataNascimento;
             Senha = senha;
-            _Cpf = cpf;
+            Cpf = cpf;
             Telefone = telefone;
         }
     }
@@ -61,6 +65,8 @@ namespace NutriBem.Models
         
         public Nutricionista Nutricionista {  get; set; }
 
+        public Paciente() { }  
+
         public Paciente(
             double altura, double peso, string nome, string email, 
             DateOnly dataNascimento, string senha, int cpf, int telefone
@@ -76,16 +82,18 @@ namespace NutriBem.Models
     public class Nutricionista : Usuario
     {
         [Required(ErrorMessage = "Obrigatório informar o CRM")]
-        private readonly double _Crm;
+        public readonly int Crn;
 
         public ICollection<Paciente> Pacientes {get; set;}
 
+        public Nutricionista() { }
+
     public Nutricionista(
-            double crm, string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone
+            int crn, string nome, string email, DateOnly dataNascimento, string senha, int cpf, int telefone
         ) :
             base(nome, email, dataNascimento, senha, cpf, telefone)
         {
-            _Crm = crm;
+            Crn = crn;
         }
     }
 
