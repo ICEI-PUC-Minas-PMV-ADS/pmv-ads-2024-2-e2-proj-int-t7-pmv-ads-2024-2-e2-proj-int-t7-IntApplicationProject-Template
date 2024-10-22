@@ -12,8 +12,8 @@ using NutriBem.Models;
 namespace NutriBem.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241022002911_UpdateTablePlanoAlimentar2")]
-    partial class UpdateTablePlanoAlimentar2
+    [Migration("20241022013722_Update")]
+    partial class Update
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -195,7 +195,7 @@ namespace NutriBem.Migrations
 
                     b.HasIndex("ReceitaId");
 
-                    b.ToTable("Refeicao");
+                    b.ToTable("Refeicoes");
                 });
 
             modelBuilder.Entity("NutriBem.Models.Paciente", b =>
@@ -209,13 +209,15 @@ namespace NutriBem.Migrations
 
             modelBuilder.Entity("NutriBem.Models.Refeicao", b =>
                 {
-                    b.HasOne("NutriBem.Models.PlanoAlimentar", null)
+                    b.HasOne("NutriBem.Models.PlanoAlimentar", "PlanoAlimentar")
                         .WithMany("Refeicoes")
                         .HasForeignKey("PlanoAlimentarId");
 
                     b.HasOne("NutriBem.Models.Receita", "Receita")
                         .WithMany()
                         .HasForeignKey("ReceitaId");
+
+                    b.Navigation("PlanoAlimentar");
 
                     b.Navigation("Receita");
                 });
