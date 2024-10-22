@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* Definindo a estrutura geral da página */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garantir que o body e html ocupem 100% da viewport */
+}
+
+.h-screen {
+    min-height: 100vh; /* O conteúdo ocupará pelo menos a altura total da viewport */
+    display: flex;
+    flex-direction: column; /* Configura o layout em coluna */
+    justify-content: space-between; /* Espaça o conteúdo entre o topo e o rodapé */
+}
+
+.login-box {
+    background-color: #023059;
+    width: 460px;
+    height: 370px;
+    padding: 2rem;
+    border-radius: 12px;
+    color: white;
+    margin: 3rem auto; /* Centraliza a caixa horizontalmente e adiciona espaçamento vertical */
+}
+
+/* Estilo do Footer */
+footer {
+    text-align: center;
+    background-color: #023059;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto; /* Mantém o footer no final da página */
+}
+/* Título de login */
+.login-title {
+    font-family: 'Oswald', sans-serif; /* Mesma fonte do título de criar conta */
+    font-size: 1.4rem; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    margin-bottom: 2.5rem; /* Espaçamento abaixo do título */
+    margin-top: 0; /* Remove a margem superior */
+    text-align: center; /* Centraliza o texto no meio do quadrado */
+}
+
+.input-field {
+    width: 80%; /* Largura dos campos */
+    height: 38px; /* Altura dos campos */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 1rem; /* Aumenta o padding interno */
+    margin: 0 auto 1.3rem auto; /* Margens automáticas para centralização */
+    border: none; /* Sem borda */
+    background-color: white; /* Cor de fundo dos campos */
+    color: #727272; /* Cor do texto */
+    display: block; /* Exibe como bloco */
+}
+
+.input-field::placeholder {
+    color: #727272; /* Cor do placeholder */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Botão de login */
+.login-button {
+    width: 26%; /* Mesma largura do botão de criar */
+    height: 38px; /* Altura */
+    background-color: #F2B705; /* Cor do botão */
+    color: #023059; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 0.5rem; /* Espaçamento interno */
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 3rem auto 0 auto; /* Aumenta a margem superior para descer o botão */
+    display: block; /* Exibe o botão como bloco */
+}
+
+.login-button:hover {
+    background-color: #e6e600; /* Cor do botão ao passar o mouse */
+}
+
+/* Link de esqueceu a senha */
+.forgot-password {
+    color: #F2B705; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 0.7rem; /* Tamanho da fonte */
+    margin-top: 0.5rem; /* Espaçamento superior abaixo do botão */
+    display: block; /* Exibe como bloco */
+    text-align: center; /* Centraliza o texto */
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
