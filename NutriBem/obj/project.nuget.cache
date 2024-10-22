@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TrntFaJbRjk=",
+=======
+  "dgSpecHash": "ThUT+bRUpwA=",
+>>>>>>> ffda2b9cd8f5fdd22f91e80f5b9c32509a99c8bb
   "success": true,
-  "projectFilePath": "C:\\Users\\Joel\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2024-2-e2-proj-int-t7-nutribem\\NutriBem\\NutriBem.csproj",
+  "projectFilePath": "C:\\Users\\Joel\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2024-2-e2-proj-int-t7-nutribem\\NutriBem\\NutriBem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Joel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
