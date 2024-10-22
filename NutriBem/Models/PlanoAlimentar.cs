@@ -28,5 +28,8 @@ namespace NutriBem.Models
         
         public string Observacao {  get; set; }
 
+        public virtual ICollection<Refeicao> Refeicoes { get; set; } = new List<Refeicao>();
+
+
     }
 }

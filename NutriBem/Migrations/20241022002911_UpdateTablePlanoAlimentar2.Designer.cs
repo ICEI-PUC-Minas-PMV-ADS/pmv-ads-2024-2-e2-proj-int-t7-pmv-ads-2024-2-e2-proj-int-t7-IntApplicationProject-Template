@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NutriBem.Models;
 
@@ -11,9 +12,11 @@ using NutriBem.Models;
 namespace NutriBem.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241022002911_UpdateTablePlanoAlimentar2")]
+    partial class UpdateTablePlanoAlimentar2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -206,15 +209,13 @@ namespace NutriBem.Migrations
 
             modelBuilder.Entity("NutriBem.Models.Refeicao", b =>
                 {
-                    b.HasOne("NutriBem.Models.PlanoAlimentar", "PlanoAlimentar")
+                    b.HasOne("NutriBem.Models.PlanoAlimentar", null)
                         .WithMany("Refeicoes")
                         .HasForeignKey("PlanoAlimentarId");
 
                     b.HasOne("NutriBem.Models.Receita", "Receita")
                         .WithMany()
                         .HasForeignKey("ReceitaId");
-
-                    b.Navigation("PlanoAlimentar");
 
                     b.Navigation("Receita");
                 });

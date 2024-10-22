@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NutriBem.Models;
 
@@ -11,9 +12,11 @@ using NutriBem.Models;
 namespace NutriBem.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241021235702_UpdateTablePlanoAlimentar")]
+    partial class UpdateTablePlanoAlimentar
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -165,36 +168,6 @@ namespace NutriBem.Migrations
                     b.ToTable("Receitas");
                 });
 
-            modelBuilder.Entity("NutriBem.Models.Refeicao", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateOnly>("Horario")
-                        .HasColumnType("date");
-
-                    b.Property<int?>("PlanoAlimentarId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ReceitaId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Tiporefeicao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PlanoAlimentarId");
-
-                    b.HasIndex("ReceitaId");
-
-                    b.ToTable("Refeicao");
-                });
-
             modelBuilder.Entity("NutriBem.Models.Paciente", b =>
                 {
                     b.HasOne("NutriBem.Models.Nutricionista", "Nutricionista")
@@ -204,29 +177,9 @@ namespace NutriBem.Migrations
                     b.Navigation("Nutricionista");
                 });
 
-            modelBuilder.Entity("NutriBem.Models.Refeicao", b =>
-                {
-                    b.HasOne("NutriBem.Models.PlanoAlimentar", "PlanoAlimentar")
-                        .WithMany("Refeicoes")
-                        .HasForeignKey("PlanoAlimentarId");
-
-                    b.HasOne("NutriBem.Models.Receita", "Receita")
-                        .WithMany()
-                        .HasForeignKey("ReceitaId");
-
-                    b.Navigation("PlanoAlimentar");
-
-                    b.Navigation("Receita");
-                });
-
             modelBuilder.Entity("NutriBem.Models.Nutricionista", b =>
                 {
                     b.Navigation("Pacientes");
-                });
-
-            modelBuilder.Entity("NutriBem.Models.PlanoAlimentar", b =>
-                {
-                    b.Navigation("Refeicoes");
                 });
 #pragma warning restore 612, 618
         }
