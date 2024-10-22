@@ -1,7 +1,5 @@
-﻿using Humanizer;
+﻿using FluentNHibernate.Conventions.Helpers;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -23,7 +21,7 @@ namespace NutriBem.Models
 
         
         [Required(ErrorMessage = "Obrigatório informar o CPF")]
-        public readonly int Cpf;
+        public int Cpf { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o telefone")]
         public required int Telefone { get; set; }
@@ -82,7 +80,7 @@ namespace NutriBem.Models
     public class Nutricionista : Usuario
     {
         [Required(ErrorMessage = "Obrigatório informar o CRM")]
-        public readonly int Crn;
+        public int Crn { get; set; }
 
         public ICollection<Paciente> Pacientes {get; set;}
 
