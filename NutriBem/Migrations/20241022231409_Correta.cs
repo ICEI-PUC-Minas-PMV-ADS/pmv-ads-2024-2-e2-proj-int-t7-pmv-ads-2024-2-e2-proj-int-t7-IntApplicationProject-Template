@@ -5,7 +5,7 @@
 namespace NutriBem.Migrations
 {
     /// <inheritdoc />
-    public partial class ModelUsuarioCorrigida : Migration
+    public partial class Correta : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

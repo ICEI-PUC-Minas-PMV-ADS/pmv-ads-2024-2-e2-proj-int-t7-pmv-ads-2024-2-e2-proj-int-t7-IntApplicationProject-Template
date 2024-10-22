@@ -2255,3 +2255,9 @@ C:\Users\Admin\Desktop\Guilherme\Nutribem\NutriBem\bin\Debug\net8.0\Iesi.Collect
 C:\Users\Admin\Desktop\Guilherme\Nutribem\NutriBem\bin\Debug\net8.0\NHibernate.dll
 C:\Users\Admin\Desktop\Guilherme\Nutribem\NutriBem\bin\Debug\net8.0\Remotion.Linq.dll
 C:\Users\Admin\Desktop\Guilherme\Nutribem\NutriBem\bin\Debug\net8.0\Remotion.Linq.EagerFetching.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\Antlr3.Runtime.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\FluentNHibernate.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\Iesi.Collections.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\NHibernate.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\Remotion.Linq.dll
+C:\Users\Joel\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2024-2-e2-proj-int-t7-nutribem\NutriBem\bin\Debug\net8.0\Remotion.Linq.EagerFetching.dll
