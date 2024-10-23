@@ -152,5 +152,39 @@ namespace NutriBem.Controllers
         {
             return _context.Receitas.Any(e => e.Id == id);
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Like(int id, bool like)
+        {
+            var receita = await _context.Receitas.FindAsync(id);
+
+            if (receita == null)
+            {
+                return NotFound();
+            }
+
+            // Atualiza o número de curtidas
+            if (like)
+            {
+                receita.Curtidas += 1;
+            }
+            else
+            {
+                receita.Curtidas -= 1;
+            }
+
+            await _context.SaveChangesAsync();
+
+            // Retorna o novo número de curtidas
+            return Json(receita.Curtidas);
+        }
+
+
+
     }
+
+
+
+
 }
