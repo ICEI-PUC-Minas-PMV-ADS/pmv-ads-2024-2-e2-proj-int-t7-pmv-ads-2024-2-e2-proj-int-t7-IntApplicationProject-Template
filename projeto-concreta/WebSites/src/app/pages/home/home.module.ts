@@ -5,6 +5,10 @@ import { HomeComponent } from './home.component';
 import { NavbarComponent } from '../../navbar/navbar.component';
 import { NavBarModule } from '../../navbar/navbar.module';
 import { FooterModule } from "../../footer/footer.module";
+import {ContatoComponent} from "../../contato/contato.component";
+import { ContatoModule } from '../../contato/contato.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,6 +19,9 @@ import { FooterModule } from "../../footer/footer.module";
     HomeRoutingModule,
     NavBarModule,
     FooterModule,
+    ContatoModule,
+    HttpClientModule,
+    FormsModule
 ]
 })
 export class HomeModule { }
