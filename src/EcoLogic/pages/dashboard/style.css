@@ -329,7 +329,7 @@ article span {
 .texto-sobre-imagem1 p {
     position: absolute;
     font-size: 32px;
-    top: 20%;
+    top: 36%;
     transform: translateY(-50%);
     color: #fff;
     text-align: center;
@@ -348,7 +348,7 @@ article span {
     font-family: "Saira Stencil One";
     font-size: 64px;
     bottom: -3.2rem;
-    right: 13rem;
+    right: 13.4rem;
 }
 
 .energiasolar {
@@ -366,14 +366,267 @@ article span {
 .energiahidreletrica {
     display: flex;
     margin: 40px;
-    margin-top: 26rem;
+    margin-top: 36rem;
 }
 
 .energiahidreletrica img {
     position: absolute;
     width: 593px;
     left: 6rem;
+    bottom: -122.6rem;
 }
+
+.barradireita1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    top: 4rem;
+}
+
+.barradireita1 img {
+    width: 766px;
+    height: auto;
+    margin-right: 0;
+}
+
+
+.texto-sobre-imagem2 {
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    transform: translateY(-50%);
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.texto-sobre-imagem2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    right: 10rem;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.numero-producaoeng {
+    position: absolute;
+    color: #fff;
+    font-family: "Saira Stencil One";
+    font-size: 40px;
+    bottom: -4rem;
+    left: 35rem;
+}
+
+
+.energiageotermica {
+    display: flex;
+    margin: -40px;
+    margin-top: 13rem;
+}
+
+.energiageotermica img {
+    position: absolute;
+    width: 760px;
+    right: 0.1rem;
+}
+
+
+#sobre-nos h1 {
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-right: 66rem;
+    margin-top: 16rem;
+    font-size: 26px;
+    margin-bottom: 12rem;
+}
+
+#sobre-nos p {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    
+}
+
+
+#missao h1 {
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-left: 66rem; /* Reduzido de 66rem */
+    font-size: 26px;
+    margin-bottom: 3rem; /* Reduzido de 12rem */
+    margin-top: 4rem; /* Reduzido de 26rem */
+}
+
+
+#missao p {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    font-size: 21px;
+    margin-left: 46rem;
+}
+
+
+.biomassa {
+    display: flex;
+    margin: 40px;
+}
+
+.biomassa img {
+    position: absolute;
+    width: 663px;
+    left: 6rem;
+    margin-top: -14rem;
+}
+
+
+.pcgraficos2 {
+    display: flex;
+    margin: -40px;
+    margin-top: 16rem;
+}
+
+.pcgraficos2 img {
+    position: absolute;
+    width: 660px;
+    right: 2rem;
+}
+
+
+
+/* Estilo para o título Resultados */
+#resultados h1 {
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-right: 66rem;
+    margin-top: 30rem;
+    font-size: 26px;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Estilizando os itens de lista */
+#resultados ul li {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+}
+
+#resultados ul li svg {
+    margin-right: 6px;
+}
+
+/* Posicionamento das listas lado a lado */
+#resultados {
+    display: flex;
+    flex-direction: column;
+}
+
+#resultados ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilizando os itens de lista */
+#resultados1 ul li {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+}
+
+#resultados1 ul li svg {
+    margin-right: 6px;
+}
+
+/* Posicionamento das listas lado a lado */
+#resultados1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#resultados1 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
 
 
 footer {
