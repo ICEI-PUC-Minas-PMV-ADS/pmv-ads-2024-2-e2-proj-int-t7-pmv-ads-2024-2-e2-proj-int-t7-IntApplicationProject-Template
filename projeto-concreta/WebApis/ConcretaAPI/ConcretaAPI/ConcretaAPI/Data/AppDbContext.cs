@@ -10,6 +10,7 @@ namespace ConcretaAPI.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         // Definir DbSet para as suas entidades
+        public DbSet<Contato> Contatos { get; set; }
         public DbSet<ObraModel> Obras { get; set; }
 
         // Configurações adicionais do modelo (opcional)
