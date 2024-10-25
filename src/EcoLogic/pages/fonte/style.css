@@ -304,3 +304,44 @@ footer {
     width: 24px;
     height: 24px;
 }
+#GFE{
+    font-family: Saira Condensed;
+font-size: 40px;
+font-weight: 60PX;
+line-height: 60px;
+text-align: center;
+margin-top:5%;
+margin-left: 30%;
+
+}
+
+#EMS{
+   width:500px ;
+   color: #eae4e4;
+   text-align: center;
+   height: 80px;
+   margin-top: 0%;
+   margin-left: 52%;
+   font-family: Saira Condensed;
+font-size: 36px;
+font-weight: 25;
+line-height: 40px;
+letter-spacing: 0.5px;
+text-align: center;
+
+}
+#NTFE{
+    width: 490px;
+height: 69px;
+top: 424px;
+left: 661px;
+gap: 0px;
+opacity: 0px;
+font-family: Saira Condensed;
+font-size: 32px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.5px;
+text-align: justified;
+margin-left: 54%;
+}
