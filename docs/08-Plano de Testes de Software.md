@@ -328,7 +328,7 @@ O Plano de Testes é o documento responsável por apresentar o planejamento para
 <table>
     <tr>
         <th><strong>Caso de Teste</strong></th>
-        <th>CT-11 - Emissão de Relatório - Validação de Relatórios Simples e Complexos</th>
+        <th>CT-11 - Formulário - contato com a plataforma </th>
     </tr>
     <tr>
         <td><strong>Requisito Associado</strong></td>
