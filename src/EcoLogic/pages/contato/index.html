@@ -23,20 +23,50 @@
             </div>
 
             <div class="botaonavbar">
-                <button type="button">Login</button>
+                <button type="button" class="btn">Login</button>
             </div>
 
         </nav>
     </header>
-    
+
     <main>
         <article>
+            <h1>EcoLogic Management Software</h1>
+            <h2>Contact Us</h2>
+            <p>Uma gestão energética eficiente e sustentável será essencial nos próximos anos. Fale com nossos
+                especialistas e descubra como o <strong>EcoLogic</strong> pode ajudar sua usina a superar esse desafio.
+            </p>
 
+            <form action="enviar_mensagem.php" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo*" required>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Telefone*" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="E-mail*" required>
+                    <input type="text" id="localizacao" name="localizacao" placeholder="Localização" required>
+                </div>
+
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..."
+                    required></textarea>
+
+                <div class="terms-container">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Sim, desejo receber informações personalizadas do EcoLogic com base nos meus
+                        interesses e dou meu consentimento para o envio de conteúdo relevante.</label>
+                    <button type="submit" class="btn btn-enviar">Enviar</button>
+                </div>
+            </form>
         </article>
     </main>
 
-    <section> 
-        
+    <section id="infofinal">
+        <div class="logosemfundo">
+            <img src="../../images/logosemfundo.png" alt="logomarca">
+        </div>
+        <p>Sua <strong>usina</strong>, seu <strong>controle</strong>, seu <strong>impacto positivo</strong> no
+            planeta!</p>
     </section>
 
     <footer>
