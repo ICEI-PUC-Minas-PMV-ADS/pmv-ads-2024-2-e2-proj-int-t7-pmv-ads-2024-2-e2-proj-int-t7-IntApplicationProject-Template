@@ -1,8 +1,19 @@
 <p-toast></p-toast>
-<h2>Fale Conosco</h2>
-<form [formGroup]="formGroup">
-    <input type="text" formControlName="nome" placeholder="Nome" required />
-    <input type="email" formControlName="email" placeholder="E-mail" required />
-    <textarea formControlName="mensagem" placeholder="Mensagem" required></textarea>
-    <button type="submit" (click)="enviarFormulario()">Enviar</button>
+
+<form [formGroup]="formGroup" (ngSubmit)="enviarFormulario()">
+
+    <div class="p-field">
+        <input pInputText id="nome" type="text" pInputText formControlName="nome" placeholder="Nome" required />
+    </div> 
+
+    <div class="p-field">
+        <input  class="mt-4" id="email" type="email" pInputText formControlName="email" placeholder="E-mail" required />
+    </div>
+
+    <div class="p-field">
+        <textarea pInputTextarea class="mt-4 mb-4 h-4rem" id="mensagem" pInputTextarea formControlName="mensagem" placeholder="Mensagem" required></textarea>
+    </div>
+
+    <p-button type="submit" label="Enviar" icon="pi pi-send"></p-button> 
+
 </form>

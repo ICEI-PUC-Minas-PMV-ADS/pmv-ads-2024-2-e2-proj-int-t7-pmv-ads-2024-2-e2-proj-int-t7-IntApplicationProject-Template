@@ -7,6 +7,7 @@ import { MessageService } from 'primeng/api';
 @Component({
   selector: 'app-contato',
   templateUrl: './contato.component.html',
+  styleUrl: './contato.component.scss'
 })
 export class ContatoComponent implements OnInit {
   nome: string = '';

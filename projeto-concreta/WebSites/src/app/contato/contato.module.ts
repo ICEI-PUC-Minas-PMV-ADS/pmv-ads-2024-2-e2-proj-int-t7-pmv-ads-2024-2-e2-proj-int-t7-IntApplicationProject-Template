@@ -6,6 +6,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
 import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { InputTextareaModule } from 'primeng/inputtextarea';
 
 @NgModule({
     declarations: [ContatoComponent],
@@ -13,8 +16,11 @@ import { RippleModule } from 'primeng/ripple';
         CommonModule,
         FormsModule,
         ReactiveFormsModule,
+        ButtonModule,
         ToastModule,
-        RippleModule
+        RippleModule,
+        InputTextModule,
+        InputTextareaModule
     ], exports: [
         ContatoComponent
     ], providers: [
