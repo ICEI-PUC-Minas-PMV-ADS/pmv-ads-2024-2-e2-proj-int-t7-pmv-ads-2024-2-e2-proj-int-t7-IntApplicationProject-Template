@@ -9,10 +9,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// **Adicione o DbContext aqui, antes de chamar builder.Build()**
+// Adicione o DbContext aqui, antes de chamar builder.Build()
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString)); // Para SQL Server, use UseMySql ou UseSqlite conforme necessário
+
+// Configuração do CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin() // Permite qualquer origem
+               .AllowAnyMethod() // Permite qualquer método (GET, POST, etc.)
+               .AllowAnyHeader(); // Permite qualquer cabeçalho
+    });
+});
 
 var app = builder.Build(); // Construa o aplicativo após adicionar todos os serviços
 
@@ -24,6 +35,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAllOrigins"); // Habilite o CORS
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

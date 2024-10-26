@@ -1,0 +1,7 @@
+<h2>Fale Conosco</h2>
+<form [formGroup]="formGroup">
+    <input type="text" formControlName="nome" placeholder="Nome" required />
+    <input type="email" formControlName="email" placeholder="E-mail" required />
+    <textarea formControlName="mensagem" placeholder="Mensagem" required></textarea>
+    <button type="submit" (click)="enviarFormulario()">Enviar</button>
+</form>

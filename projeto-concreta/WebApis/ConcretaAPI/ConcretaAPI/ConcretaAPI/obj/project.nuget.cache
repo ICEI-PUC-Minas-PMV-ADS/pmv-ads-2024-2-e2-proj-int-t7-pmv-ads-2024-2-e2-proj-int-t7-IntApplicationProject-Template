@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gs50B6MWdqxkB3SMdWKzJJ0Etb2n8VP1Ovf3WLubV4Yvbs6LHSOMZmj+MCxM8DnfiwQ71NEQ80msVZN2Un5vzA==",
+  "dgSpecHash": "s7wRPihMe5YmxZBuB0OxJERT3/ykJrbWenKotNNUbnocaVEOwV9p7ibsrlWcQymT9/V22/lBAnHqzkLql2lwBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\poney\\OneDrive\\Documentos\\GitHub\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.10\\microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.10\\microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
+    "C:\\Users\\poney\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.10\\microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\poney\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
