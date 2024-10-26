@@ -12,6 +12,7 @@ namespace ConcretaAPI.Data
         // Definir DbSet para as suas entidades
         public DbSet<Contato> Contatos { get; set; }
         public DbSet<ObraModel> Obras { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         // Configurações adicionais do modelo (opcional)
         protected override void OnModelCreating(ModelBuilder modelBuilder)
