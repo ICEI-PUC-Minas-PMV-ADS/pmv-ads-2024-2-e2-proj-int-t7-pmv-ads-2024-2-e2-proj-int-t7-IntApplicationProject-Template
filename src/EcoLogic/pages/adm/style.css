@@ -282,6 +282,28 @@ main {
     padding: 20px;
 }
 
+main h1 {
+    text-align: center;      
+    margin-bottom: 10px; 
+    font-family: 'Saira Condensed', sans-serif;
+    margin-top: 3rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+main h2 {
+    font-size: 1.8rem; 
+    text-align: center;    
+    margin-bottom: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
 .content-article {
     width: 80%;             
     max-width: 600px;       
@@ -294,16 +316,25 @@ main {
 .content-article h3 {
     font-size: 1.2rem;
     color: #fff;
+    text-align: center;     
+    margin-bottom: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    margin-top: 16px;
+    font-weight: 100;
 }
 
 #total-usinas {
     font-size: 2rem;
     color: #fff;
+    text-align: center; 
+    margin-bottom: 16px;
 }
 
 #total-fontes {
     font-size: 2rem;
     color: #fff;
+    text-align: center; 
+    margin-bottom: 16px;
 }
 
 footer {
