@@ -71,7 +71,7 @@ header {
 aside {
     background: #1D6B59;
     width: 375px;
-    height: 1028px;
+    height: auto;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
     top: 175px;
     gap: 0px;
@@ -262,8 +262,8 @@ aside {
     transition: background-color 0.3s;
     backdrop-filter: blur(4px);
     box-shadow: 0px 4px 4px 0px #00000040 inset;
-    margin-top: 16rem;
-    margin-bottom: 16rem;
+    margin-top: 56rem;
+    margin-bottom: 10rem;
 }
 
 .botaonsair button:hover {
@@ -335,6 +335,99 @@ main h2 {
     color: #fff;
     text-align: center; 
     margin-bottom: 16px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+    width: 70%; /* ou 100% */
+    max-width: none; 
+}
+
+.form-section h2 {
+    margin-bottom: 36px; 
+}
+
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #F3F3F3;
+    font-family: "Saira Condensed";
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+
+.form-group input {
+    width: 400px;
+    padding: 16px;
+    border: 1px solid #8DB5AD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #8DB5AD;
+    color: #F3F3F3;
+}
+
+.form-group label {
+    width: 200px;
+    font-size: 12px;
+}
+
+.form-group textarea {
+    height: 100px; 
+}
+
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+textarea {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #8DB5AD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #8DB5AD;
+}
+
+button,
+.submit-btn {
+    padding: 13px 50px;
+    background-color: #1D6B59;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+    margin-left: auto;
+}
+
+button:hover,
+.submit-btn:hover {
+    background-color: #548d80;
 }
 
 footer {
