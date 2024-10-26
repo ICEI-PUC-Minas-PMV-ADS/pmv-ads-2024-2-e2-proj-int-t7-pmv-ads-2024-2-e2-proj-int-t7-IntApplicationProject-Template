@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ContatoService {
-  private apiUrl = 'http://localhost:5190/api/contato'; // URL da sua API
+  private apiUrl = 'http://localhost:5190/api/Contato'; // URL da sua API
 
   constructor(private http: HttpClient) {}
 
