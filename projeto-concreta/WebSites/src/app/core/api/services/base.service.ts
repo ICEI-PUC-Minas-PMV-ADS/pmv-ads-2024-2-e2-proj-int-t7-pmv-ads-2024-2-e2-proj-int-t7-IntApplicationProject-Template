@@ -83,8 +83,10 @@ const httpOptions = {
       }
     
       post<T>(rota: string, data?: T): Observable<T> {
-        return this.http.post(`${this.url}${rota}`, data) as Observable<T>;
-      }
+        const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+        return this.http.post<T>(`${this.url}${rota}`, data, { headers });
+    }
+    
     
       put<T>(rota: string, data: T): Observable<T> {
         return this.http.put(`${this.url}${rota}`, data) as Observable<T>;

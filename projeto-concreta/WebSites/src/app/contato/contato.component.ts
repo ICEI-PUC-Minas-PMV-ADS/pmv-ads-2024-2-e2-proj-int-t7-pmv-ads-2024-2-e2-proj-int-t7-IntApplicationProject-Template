@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ContatoService } from '../contato.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ContatosService } from '../core/api/services/contatos/contatos.service';
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-contato',
@@ -16,7 +17,8 @@ export class ContatoComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private contatoService: ContatosService
+    private contatoService: ContatosService,
+    private messageService: MessageService
   ) {}
 
   ngOnInit(): void {
@@ -31,6 +33,15 @@ export class ContatoComponent implements OnInit {
     });
   }
 
+  oi() {
+    const value = "oi"
+    this.messageService.add({
+      severity: 'success',
+      summary: 'Success',
+      detail: value || 'Contato enviado com sucesso!'
+    });
+  }
+
   enviarFormulario() {
     const contato = {
       nome: this.formGroup.controls['nome'].value,
@@ -42,9 +53,27 @@ export class ContatoComponent implements OnInit {
 
     this.contatoService.enviarContato(contato).subscribe({
       next: (value: any) => {
-        this.formGroup.reset();
+        console.log(value)
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Success',
+          detail: value.message || 'Contato enviado com sucesso!'
+        });
+        this.formGroup.reset({
+          nome: '',
+          email: '',
+          mensagem: ''
+        });
+      },
+      error: (err: any) => {
+        this.messageService.add({
+          severity: 'error',
+          summary: 'Erro',
+          detail: 'Erro ao enviar contato. Tente novamente.'
+        });
       }
     });
+    
 
   }
 }

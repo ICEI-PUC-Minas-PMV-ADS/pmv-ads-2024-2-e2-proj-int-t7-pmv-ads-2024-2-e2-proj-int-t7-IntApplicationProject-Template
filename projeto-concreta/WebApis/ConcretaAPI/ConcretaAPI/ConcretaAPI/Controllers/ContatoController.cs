@@ -94,7 +94,7 @@ namespace ConcretaAPI.Controllers
                 await smtp.SendMailAsync(mensagem);
             }
 
-            return Ok("Mensagem enviada com sucesso!");
+            return Ok(new { message = "Mensagem enviada com sucesso!" });
         }
     }
 }
