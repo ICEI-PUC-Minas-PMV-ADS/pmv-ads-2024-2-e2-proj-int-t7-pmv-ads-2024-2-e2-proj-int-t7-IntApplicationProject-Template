@@ -70,8 +70,9 @@ header {
 
 aside {
     background: #1D6B59;
+    position:absolute;
     width: 375px;
-    height: 1028px;
+    height: 1710px;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
     top: 175px;
     gap: 0px;
@@ -262,7 +263,7 @@ aside {
     transition: background-color 0.3s;
     backdrop-filter: blur(4px);
     box-shadow: 0px 4px 4px 0px #00000040 inset;
-    margin-top: 16rem;
+    margin-top: 70rem;
 }
 
 .botaonsair button:hover {
@@ -271,7 +272,8 @@ aside {
 
 footer {
     width: 100%;
-    height: 175px;
+    height: 170px;
+    margin-top:1710px ;
     background-color: #FAAA30;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -304,14 +306,16 @@ footer {
     width: 24px;
     height: 24px;
 }
+/*Configuração dos titulos*/ 
+
 #GFE{
     font-family: Saira Condensed;
-font-size: 40px;
+font-size: 55px;
 font-weight: 60PX;
 line-height: 60px;
 text-align: center;
 margin-top:5%;
-margin-left: 30%;
+margin-left: 25%;
 
 }
 
@@ -320,7 +324,7 @@ margin-left: 30%;
    color: #eae4e4;
    text-align: center;
    height: 80px;
-   margin-top: 0%;
+   margin-top: 1%;
    margin-left: 52%;
    font-family: Saira Condensed;
 font-size: 36px;
@@ -344,4 +348,167 @@ line-height: 40px;
 letter-spacing: 0.5px;
 text-align: justified;
 margin-left: 54%;
+}
+#obg{
+width: 162px;
+height: 4px;
+opacity: 0px;
+font-size:25px;
+margin-top: 2%;
+margin-left: 30%;
+
+}
+
+/*Adicionar novas usinas*/
+
+#form-cadastro {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#nome {
+    width: 350px;
+    height: 60px;
+    margin-top: 7%;
+    margin-left: 10%; 
+    opacity: 0px;
+    background-color: #8DB5AD;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+#localidade {
+    
+    width: 350px;
+    height: 60px;
+    opacity: 0px;
+    margin-top: -1%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: #8DB5AD;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#eficiencia {
+    width: 350px;
+    height: 60px;
+    opacity: 0px;
+    margin-top: -1%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: #8DB5AD;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#descricao {
+    width: 350px;
+    height: 174px;
+    opacity: 0px;
+    margin-top: -1%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: #8DB5AD;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#tipo {
+    width: 350px;
+    height: 60px;
+    margin-left: 5%; 
+    opacity: 0px;
+    background-color: #8DB5AD;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#estado {
+  width: 350px;
+    height: 60px;
+
+    margin-left: 5%; 
+    opacity: 0px;
+    background-color: #8DB5AD;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#capacidade {
+    width: 350px;
+    height: 60px;
+    margin-left: 5%; 
+    opacity: 0px;
+    background-color: #8DB5AD;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#data {
+    width: 350px;
+    height: 60px;
+    margin-left: 5%;
+    opacity: 0px;
+    background-color: #8DB5AD;
+    margin-bottom: 20%;
+    font-size:x-large;
+    color: #eae4e4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#btn-cadastrar {
+    width: 346px;
+    height: 69px;
+    margin-top: 25%;
+    margin-left: 30%;
+    top: 2066px;
+    left: 591px;
+    opacity: 0px;
+    font-family: Saira Condensed;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: justified;
+    background-color: #1D6B59A1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-cadastrar:hover {
+    background-color: #2d7b5e;
+}
+
+#lista-cadastro {
+    margin-top: 0px;
+    background-color: #eae4e4;
+color: #FAAA30;
+}
+
+.item-cadastro {
+    background-color: #f5eeee;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-cadastro:last-child {
+    border-bottom: none;
+}
+::placeholder{
+    font-family: Saira Condensed;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: justified;
+    color: #eae4e4;
 }
