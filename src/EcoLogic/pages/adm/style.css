@@ -8,12 +8,10 @@
 body {
     background: #000;
     color: #fff;
-    font-family: 'Saira Condensed', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-size: 1rem;
-    margin: 0;
+    font-size: 1rem; 
 }
 
 header {
@@ -21,9 +19,6 @@ header {
     width: 100%;
     height: 175px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-    position: fixed; /* Fixar o header no topo */
-    top: 0;
-    z-index: 1; /* Colocar o header acima do aside */
 }
 
 .logo img {
@@ -73,31 +68,18 @@ header {
     background-color: #8DB5AD;
 }
 
-.main-container {
-    display: flex;
-    width: 100%; /* Ocupa toda a largura disponível */
-    max-width: 2426px; /* Define uma largura máxima maior */
-    min-height: 100vh; /* Garante que a altura seja ao menos da viewport */
-    margin: 0 auto; /* Centraliza o contêiner */
-    padding: 20px; /* Aumenta o espaçamento interno */
-    gap: 20px; /* Espaçamento entre os elementos filhos */
-}
-
 aside {
     background: #1D6B59;
     width: 375px;
-    max-width: 2426px;
-    min-height: 100vh;
+    height: 1028px;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
+    top: 175px;
+    gap: 0px;
+    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    position: fixed; /* Adiciona uma posição fixa ao lado esquerdo */
-    top: 175px; /* Posiciona o aside abaixo do header */
-    left: 0;
-    justify-content: space-between;
-    padding: 20px;
 }
 
 .search-bar {
@@ -259,8 +241,6 @@ aside {
     background-color: #8DB5AD;
 }
 
-
-
 .botaosair button {
     display: flex;
     width: 163px;
@@ -290,54 +270,41 @@ aside {
     background-color: #8DB5AD;
 }
 
+.corpo {
+    display: flex;
+}
+
 main {
     flex: 1;
-    margin-left: 375px; /* Espaçamento para que o main não sobreponha o aside */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;  
+    align-items: center;    
     padding: 20px;
 }
 
-article {
-    text-align: center;
-    max-width: 800px;
-    width: 100%;
-    padding: 0 15px;
+.content-article {
+    width: 80%;             
+    max-width: 600px;       
+    margin: 0 auto;          
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #282626e9;
 }
 
-article h1 h2 p {
-    text-align: center;
+.content-article h3 {
+    font-size: 1.2rem;
+    color: #fff;
 }
 
-h1 {
-    margin: 20px 0;
-    color: #F3F3F3;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: "Saira Condensed";
-    font-size: 32px;
-    font-weight: 475;
-    line-height: 40px;
-    letter-spacing: 0.5px;
-    margin-bottom: 4rem;
-    margin-top: 8rem;
+#total-usinas {
+    font-size: 2rem;
+    color: #fff;
 }
 
-h2 {
-    margin: 15px 0;
-    color: #F3F3F3;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: "Saira Condensed";
-    font-size: 32px;
-    font-weight: 275;
-    line-height: 40px;
-    letter-spacing: 0.5px;
-    margin-bottom: 6rem;
-    margin-top: 2.6rem;
-    padding: 15px 20px;
-    display: inline-block;
+#total-fontes {
+    font-size: 2rem;
+    color: #fff;
 }
-
 
 footer {
     width: 100%;
@@ -361,7 +328,6 @@ footer {
 .footer-content p {
     margin: 12px 0;
     margin-top: 36px;
-    font-size: 16px;
 }
 
 .social-icons {
