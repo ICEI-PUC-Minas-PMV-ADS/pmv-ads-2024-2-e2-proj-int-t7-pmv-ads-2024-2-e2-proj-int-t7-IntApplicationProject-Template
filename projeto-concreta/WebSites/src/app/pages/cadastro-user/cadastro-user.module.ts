@@ -5,8 +5,10 @@ import { CadastroUserComponent } from './cadastro-user.component';
 import { NavBarModule } from '../../navbar/navbar.module';
 import { FooterModule } from "../../footer/footer.module";
 import { RadioButtonModule } from 'primeng/radiobutton';
-
-
+import { FormsModule } from '@angular/forms';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { FloatLabelModule } from 'primeng/floatlabel';
 
 @NgModule({
   declarations: [CadastroUserComponent],
@@ -16,6 +18,10 @@ import { RadioButtonModule } from 'primeng/radiobutton';
     NavBarModule,
     FooterModule,
     RadioButtonModule,
-]
+    FormsModule,
+    ButtonModule,
+    InputTextModule,
+    FloatLabelModule,
+  ]
 })
 export class CadastroUserModule { }
