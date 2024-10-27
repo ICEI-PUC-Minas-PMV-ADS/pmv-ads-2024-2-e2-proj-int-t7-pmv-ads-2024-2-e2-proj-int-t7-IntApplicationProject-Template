@@ -1,5 +1,7 @@
 # Template Padrão da Aplicação
 
+<br>
+
 <p align="center">
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/0b2f5e6b-9e0f-4189-abd6-95536845cc34">
 </p>
@@ -7,9 +9,13 @@
 <img width="260" alt="image" src="https://github.com/user-attachments/assets/48d052b1-d465-45fb-aba3-6c8c5049de77">
 </p>
 
+<br>
+
 O design padrão do site foi desenvolvido utilizando as linguagens de marcação HTML e CSS, e as linguagens de programação JavaScript e C#, além do Entity Framework e Broostrap Framework.
 
 As páginas contarão com elementos padrão, incluindo o menu de navegação, o cabeçalho (header) e o rodapé (footer), além dos elementos de identidade visual mencionados abaixo:
+
+<br>
 
 **•	Cores:**
 
@@ -42,7 +48,6 @@ As páginas contarão com elementos padrão, incluindo o menu de navegação, o 
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado pela URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/EcoLogic
 
 <br>
-<br>
 
 ## Estrutura Padrão da Aplicação
 
@@ -57,6 +62,9 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 A criação da logomarca da aplicação web EcoLogic buscou representar visualmente a missão e os valores associados à energia renovável, à ecologia, e à inovação tecnológica. Com o uso das cores verde e laranja terroso, a logomarca se alinha ao propósito sustentável e moderno do projeto.
 
+<br>
+<br>
+
 ## Elementos Visuais e Cores
 
 <p align="center">
@@ -67,9 +75,14 @@ A cor verde, presente em diferentes tons (#24826F e #8DB5AD), simboliza sustenta
 
 A cor laranja terroso (#FAAA30) transmite uma sensação de energia, inovação e dinamismo. Essa cor traz calor e vitalidade ao design, representando a confiança e o entusiasmo do projeto em promover uma mudança positiva no gerenciamento de recursos renováveis.
 
+<br>
+<br>
+
 **Fonte e Conceito**
 
 A fonte Saira Condensed, escolhida para o texto "EcoLogic", traz um toque de modernidade e minimalismo, alinhando-se aos conceitos de tecnologia e lógica embutidos no sistema. Esse estilo de fonte representa a eficiência e a clareza que o EcoLogic deseja trazer ao gerenciamento de usinas de energia renovável.
+
+<br>
 
 **Símbolos e Significados**
 
@@ -78,14 +91,11 @@ A fonte Saira Condensed, escolhida para o texto "EcoLogic", traz um toque de mod
 <img width="326" alt="image" src="https://github.com/user-attachments/assets/16d875c2-cceb-495f-b7e1-1ea3e330bd8d">
 
 
+- *Energia:* Representada pelas formas dinâmicas e o símbolo de um raio, conectando a ideia de eletricidade e renovação.
 
+- *Ecossistema e Meio Ambiente:* As cores e o design remetem ao equilíbrio com a natureza, essencial para o projeto.
 
-
-- Energia: Representada pelas formas dinâmicas e o símbolo de um raio, conectando a ideia de eletricidade e renovação.
-
-- Ecossistema e Meio Ambiente: As cores e o design remetem ao equilíbrio com a natureza, essencial para o projeto.
-
-- Inovação e Modernidade: A estrutura da logomarca é projetada para refletir uma interface avançada e inteligente, que está em sintonia com as mais recentes tecnologias de gerenciamento de energia.
+- *Inovação e Modernidade:* A estrutura da logomarca é projetada para refletir uma interface avançada e inteligente, que está em sintonia com as mais recentes tecnologias de gerenciamento de energia.
 
 
 
