@@ -1,12 +1,38 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+<p align="center">
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/0b2f5e6b-9e0f-4189-abd6-95536845cc34">
+</p>
+<p align="center">
+<img width="260" alt="image" src="https://github.com/user-attachments/assets/48d052b1-d465-45fb-aba3-6c8c5049de77">
+</p>
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O design padrão do site foi desenvolvido utilizando as linguagens de marcação HTML e CSS, e as linguagens de programação JavaScript e C#, além do Entity Framework e Broostrap Framework.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+As páginas contarão com elementos padrão, incluindo o menu de navegação, o cabeçalho (header) e o rodapé (footer), além dos elementos de identidade visual mencionados abaixo:
+
+**•	Cores:**
+
+<br>
+<br>
+
+<p align="center">
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/bc8b1525-28d7-4b38-ba3f-ccb454516a8d">
+
+
+<img width="235" alt="image" src="https://github.com/user-attachments/assets/e9ab1b36-9b01-4af0-913d-456d7f8becef">
+
+<br>
+<br>
+<br>
+<br>
+
+**•	Font-family:**
+
+<br>
+<br>
+
+<img width="412" alt="image" src="https://github.com/user-attachments/assets/c3cd12b3-b4df-4f24-876d-e12830bb217e">
+
+
+

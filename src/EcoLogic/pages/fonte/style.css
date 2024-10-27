@@ -479,17 +479,23 @@ label {
 }
 
 #lista-usinas {
-    margin-top: 150px;
+    margin-top: 60px;
     width: 250px;
-margin-left: 500px;    
-background-color: #070707;
-color: #FAAA30;
+margin-left: 500px;  
+font-family: Saira Condensed;
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 0.5px;
+text-align: justified;
+
+background-color:black;
+color: #d6d2cd;
 }
 
 .item-cadastro {
-    background-color: #f5eeee;
+    background-color: #b1a6a6;
 
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #d6c4c4;
 }
 
 .item-cadastro:last-child {
