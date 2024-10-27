@@ -25,7 +25,26 @@
             <div class="botaonavbar">
                 <button type="button">Login</button>
             </div>
-
+            <h1>Registro de Produção de Energia</h1>
+            <label for="data">Data:</label>
+            <input type="date" id="data" required>
+            <label for="usina">Nome da Usina:</label>
+            <input type="text" id="usina" required>
+            <button onclick="calcularEnergia()">Calcular e Registrar</button>
+        
+            <h2 id="resultado"></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Nome da Usina</th>
+                        <th>Produção (kWh)</th>
+                    </tr>
+                </thead>
+                <tbody id="registro">
+                    <!-- Registros serão adicionados aqui -->
+                </tbody>
+            </table>
         </nav>
     </header>
 
