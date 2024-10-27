@@ -59,6 +59,8 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <p align="center">
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/dbbe7339-9fd7-4e19-b63c-72b06f1f7588">
 
+  <br>
+<br>
 
 A criação da logomarca da aplicação web EcoLogic buscou representar visualmente a missão e os valores associados à energia renovável, à ecologia, e à inovação tecnológica. Com o uso das cores verde e laranja terroso, a logomarca se alinha ao propósito sustentável e moderno do projeto.
 
@@ -67,9 +69,12 @@ A criação da logomarca da aplicação web EcoLogic buscou representar visualme
 
 ## Elementos Visuais e Cores
 
+<br>
+
 <p align="center">
 <img width="616" alt="image" src="https://github.com/user-attachments/assets/bf2af0f2-fa61-49d9-9e3b-b61534298b05">
 
+<br>
 
 A cor verde, presente em diferentes tons (#24826F e #8DB5AD), simboliza sustentabilidade, crescimento, e a conexão com o meio ambiente, refletindo o compromisso do EcoLogic com a energia limpa e renovável. O verde destaca a harmonia entre a tecnologia e a natureza, um dos pilares do sistema de gerenciamento de energias renováveis.
 
@@ -78,18 +83,28 @@ A cor laranja terroso (#FAAA30) transmite uma sensação de energia, inovação 
 <br>
 <br>
 
-**Fonte e Conceito**
+### Fonte e Conceito
+
+<br>
+
+<p align="center">
+  <img width="268" alt="image" src="https://github.com/user-attachments/assets/ef789dd3-53f6-4aff-86d4-8b64d5ba6e45">
+
+<br>
 
 A fonte Saira Condensed, escolhida para o texto "EcoLogic", traz um toque de modernidade e minimalismo, alinhando-se aos conceitos de tecnologia e lógica embutidos no sistema. Esse estilo de fonte representa a eficiência e a clareza que o EcoLogic deseja trazer ao gerenciamento de usinas de energia renovável.
 
 <br>
 
-**Símbolos e Significados**
+## Símbolos e Significados
+
+<br>
 
 <p align="right">
-  
-<img width="326" alt="image" src="https://github.com/user-attachments/assets/16d875c2-cceb-495f-b7e1-1ea3e330bd8d">
 
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/16d875c2-cceb-495f-b7e1-1ea3e330bd8d">
+
+<br>
 
 - *Energia:* Representada pelas formas dinâmicas e o símbolo de um raio, conectando a ideia de eletricidade e renovação.
 
