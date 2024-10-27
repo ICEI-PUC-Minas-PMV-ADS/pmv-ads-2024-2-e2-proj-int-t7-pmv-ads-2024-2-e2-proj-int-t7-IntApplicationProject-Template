@@ -69,15 +69,19 @@
             <article class="content-article">
 
                 <h3>Número Total de Usinas Cadastradas:</h3>
-                <p id="total-usinas">16</p>
+                <p id="total-usinas">0</p>
 
                 <h3>Número Total de Fontes de Energia:</h3>
-                <p id="total-fontes">78</p>
+                <p id="total-fontes">0</p>
 
             </article>
 
+            <div class="prodtotal">
+                <p><strong>Total de Produção de Energia:</strong> 0 kWh</p>
+            </div>
+
             <section class="form-section">
-                <h2>+ Cadastro de Usuário e Empresa</h2>
+                <h2>+ Cadastro de Usuário e/ou Empresa</h2>
                 <form class="registration-form" action="#" method="post">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Nome Completo*" required>
@@ -105,15 +109,18 @@
                     </div>
 
                     <div class="form-group">
+                        <label>Data de Início:</label>
                         <input type="date" id="start-date" name="start-date" placeholder="Data Início*">
+                        </label>
                     </div>
-<div>
-                    <div class="form-group">
-                        <textarea id="description" name="description" placeholder="Descrição..." rows="4"></textarea>
-                    </div>
-                    <div class="botaoenviar">
-                        <button type="submit" class="submit-btn">Cadastrar</button>
-                    </div>
+                    <div>
+                        <div class="form-group">
+                            <textarea id="description" name="description" placeholder="Descrição..."
+                                rows="4"></textarea>
+                        </div>
+                        <div class="botaoenviar">
+                            <button type="submit" class="submit-btn">Cadastrar</button>
+                        </div>
                     </div>
                 </form>
             </section>
