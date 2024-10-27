@@ -1,22 +1,46 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
-
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-001 - A aplicação deve permitir que os usuários realizem login. |
 |Registro de evidência | www.teste.com.br/drive/ct-01 |
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+| **Caso de Teste** 	| **CT-02 – Recuperação de Senha** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
+|	Requisito Associado 	| RF-002 - A aplicação deve fornecer uma página de recuperação de senha que permita o envio de um link de redefinição para o email do usuário cadastrado. |
 |Registro de evidência | www.teste.com.br/drive/ct-02 |
 
-## Avaliação
+| **Caso de Teste** 	| **CT-03 – Página de Contato** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003 - A aplicação deve disponibilizar uma página de contato que permita ao usuário enviar mensagens diretamente ao administrador, com campos para nome, empresa, localização, email, telefone e mensagem. |
+|Registro de evidência | www.teste.com.br/drive/ct-03 |
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+| **Caso de Teste** 	| **CT-04 – Cadastro de Clientes** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-004 - O administrador deve ser capaz de cadastrar novos clientes e editá-los no sistema. |
+|Registro de evidência | www.teste.com.br/drive/ct-04 |
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+| **Caso de Teste** 	| **CT-05 – Gerenciamento** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - O sistema deve permitir ao administrador gerenciar informações completas sobre usinas e fontes de energia, incluindo a criação, edição, exclusão e visualização de dados de produção para cada usina. |
+|Registro de evidência | www.teste.com.br/drive/ct-05 |
+
+| **Caso de Teste** 	| **CT-06 – Relatórios** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - O sistema deve gerar relatórios detalhados e gráficos sobre o desempenho energético. |
+|Registro de evidência | www.teste.com.br/drive/ct-06 |
+
+| **Caso de Teste** 	| **CT-07 – Alertas** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - O sistema deve emitir alertas e notificações em tempo real sobre acontecimentos importantes na produção, eficiência energética e outros eventos. |
+|Registro de evidência | www.teste.com.br/drive/ct-07 |
+
+| **Caso de Teste** 	| **CT-08 – Melhorias** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008 - O sistema deve fornecer recomendações de melhorias na eficiência energética com base na análise de dados registrados e desempenho atual. |
+|Registro de evidência | www.teste.com.br/drive/ct-08 |
+
+| **Caso de Teste** 	| **CT-09 – Exportar Relatórios** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-009 - O sistema deve permitir que os clientes visualizem e exportem relatórios de produção e eficiência energética. |
+|Registro de evidência | www.teste.com.br/drive/ct-09 |
