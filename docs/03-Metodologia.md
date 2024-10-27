@@ -102,3 +102,10 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ➤	**Visual Studio Code (VS Code):** O VS Code é utilizado como ambiente de desenvolvimento pela equipe. Ele oferece recursos avançados de edição de código, integração com o GitHub e da suporte a diversas linguagens de programação, facilitando o desenvolvimento e a colaboração entre os membros da equipe.
 
 ➤	**Diagrams:** Ferramenta utilizada para criar diagramas e visualizar fluxos de trabalho, facilitando a compreensão e comunicação de processos e arquitetura do sistema.
+
+<br>
+
+### Estratégia de Organização de Codificação 
+
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/blob/main/src/README.md). 
+
