@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+   
 }
 
 .botaonavbar {
@@ -70,9 +70,9 @@ header {
 
 aside {
     background: #1D6B59;
-    position:absolute;
+    position: absolute;
     width: 375px;
-    height: 1710px;
+    height: 1899px;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
     top: 175px;
     gap: 0px;
@@ -273,7 +273,7 @@ aside {
 footer {
     width: 100%;
     height: 170px;
-    margin-top:1710px ;
+    margin-top:1900px ;
     background-color: #FAAA30;
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -311,8 +311,8 @@ footer {
 #GFE{
     font-family: Saira Condensed;
 font-size: 55px;
-font-weight: 60PX;
-line-height: 60px;
+weight: 10PX;
+height: 65px;
 text-align: center;
 margin-top:5%;
 margin-left: 25%;
@@ -325,11 +325,11 @@ margin-left: 25%;
    text-align: center;
    height: 80px;
    margin-top: 1%;
-   margin-left: 52%;
+   margin-left: 51%;
    font-family: Saira Condensed;
 font-size: 36px;
-font-weight: 25;
-line-height: 40px;
+font-weight: 25px;
+line-height: 35px;
 letter-spacing: 0.5px;
 text-align: center;
 
@@ -337,17 +337,15 @@ text-align: center;
 #NTFE{
     width: 490px;
 height: 69px;
-top: 424px;
-left: 661px;
 gap: 0px;
 opacity: 0px;
 font-family: Saira Condensed;
 font-size: 32px;
-font-weight: 500;
-line-height: 40px;
+font-weight: 500px;
+line-height: 10px;
 letter-spacing: 0.5px;
 text-align: justified;
-margin-left: 54%;
+margin-left: 53%;
 }
 #obg{
 width: 162px;
@@ -379,7 +377,6 @@ label {
     opacity: 0px;
     background-color: #8DB5AD;
     margin-bottom: 20px;
-    padding: 10px;
     box-sizing: border-box;
 
 }
@@ -392,7 +389,6 @@ label {
     margin-left: 10%;
     margin-bottom: 20px;
     background-color: #8DB5AD;
-    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -404,7 +400,6 @@ label {
     margin-left: 10%;
     margin-bottom: 20px;
     background-color: #8DB5AD;
-    padding: 10px;
     box-sizing: border-box;
 }
 #descricao {
@@ -415,7 +410,6 @@ label {
     margin-left: 10%;
     margin-bottom: 20px;
     background-color: #8DB5AD;
-    padding: 10px;
     box-sizing: border-box;
 }
 #tipo {
@@ -425,18 +419,16 @@ label {
     opacity: 0px;
     background-color: #8DB5AD;
     margin-bottom: 20px;
-    padding: 10px;
+  
     box-sizing: border-box;
 }
 #estado {
   width: 350px;
     height: 60px;
-
     margin-left: 5%; 
     opacity: 0px;
     background-color: #8DB5AD;
     margin-bottom: 20px;
-    padding: 10px;
     box-sizing: border-box;
 }
 #capacidade {
@@ -446,7 +438,6 @@ label {
     opacity: 0px;
     background-color: #8DB5AD;
     margin-bottom: 20px;
-    padding: 10px;
     box-sizing: border-box;
 }
 #data {
@@ -458,7 +449,6 @@ label {
     margin-bottom: 20%;
     font-size:x-large;
     color: #eae4e4;
-    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -488,15 +478,17 @@ label {
     background-color: #2d7b5e;
 }
 
-#lista-cadastro {
-    margin-top: 0px;
-    background-color: #eae4e4;
+#lista-usinas {
+    margin-top: 150px;
+    width: 250px;
+margin-left: 500px;    
+background-color: #070707;
 color: #FAAA30;
 }
 
 .item-cadastro {
     background-color: #f5eeee;
-    padding: 20px;
+
     border-bottom: 1px solid #ccc;
 }
 

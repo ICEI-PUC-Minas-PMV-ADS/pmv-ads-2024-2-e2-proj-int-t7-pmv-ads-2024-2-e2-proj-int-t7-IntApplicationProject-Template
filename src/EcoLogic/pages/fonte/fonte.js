@@ -40,20 +40,30 @@ document.getElementById('btn-cadastrar').addEventListener('click', function(even
 function atualizarLista() {
     const lista = document.getElementById('lista-usinas');
     lista.innerHTML = '';
-
+  
     listaCadastro.forEach((item, index) => {
-        const div = document.createElement('div');
-        div.classList.add('lista-usinas');
-        div.innerHTML = `
-            <2>${item.nome}</h2>
-            <p>Localidade: ${item.localidade}</p>
-            <p>Eficiência: ${item.eficiencia}</p>
-            <p>Descrição: ${item.descricao}</p>
-            <p>Tipo: ${item.tipo}</p>
-            <p>Estado: ${item.estado}</p>
-            <p>Capacidade: ${item.capacidade}</p>
-            <p>Data: ${item.data}</p>
-        `;
-        lista.appendChild(div);
-    });
-}
+      const div = document.createElement('div');
+      div.classList.add('lista-usinas');
+      div.innerHTML = `
+        <h2>${item.nome}</h2>
+        <p>Localidade: ${item.localidade}</p>
+        <p>Eficiência: ${item.eficiencia}</p>
+        <p>Descrição: ${item.descricao}</p>
+        <p>Tipo: ${item.tipo}</p>
+        <p>Estado: ${item.estado}</p>
+        <p>Capacidade: ${item.capacidade}</p>
+        <p>Data: ${item.data}</p>
+        <button class="remover">Remover</button>
+      `;
+  
+      // Adiciona evento de click ao botão remover
+      div.querySelector('.remover').addEventListener('click', () => {
+        listaCadastro.splice(index, 1);
+        atualizarLista();
+      });
+  
+      lista.appendChild(div);
+    });
+  }
+  
+  
