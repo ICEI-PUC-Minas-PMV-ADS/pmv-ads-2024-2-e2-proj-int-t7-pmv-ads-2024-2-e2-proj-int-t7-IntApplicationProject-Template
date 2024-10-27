@@ -96,7 +96,7 @@ A fonte Saira Condensed, escolhida para o texto "EcoLogic", traz um toque de mod
 
 <br>
 
-## Símbolos e Significados
+### Símbolos e Significados
 
 <br>
 
