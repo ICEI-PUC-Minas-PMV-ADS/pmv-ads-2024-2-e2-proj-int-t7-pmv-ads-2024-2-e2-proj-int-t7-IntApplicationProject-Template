@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
+import { ToastModule } from 'primeng/toast';
 
 @NgModule({
   declarations: [CadastroUserComponent],
@@ -22,6 +23,7 @@ import { FloatLabelModule } from 'primeng/floatlabel';
     ButtonModule,
     InputTextModule,
     FloatLabelModule,
+    ToastModule
   ]
 })
 export class CadastroUserModule { }
