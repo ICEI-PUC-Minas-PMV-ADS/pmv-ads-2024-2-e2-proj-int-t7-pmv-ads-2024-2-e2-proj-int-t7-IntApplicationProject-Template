@@ -7,9 +7,7 @@
     <meta name="description" content="Sistema de Gerenciamento de Produção de Energia Renovável - EcoLogic">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>EcoLogic - Gerenciamento de Energia Renovável</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,79 +15,93 @@
 <body>
     <header>
         <nav class="navbar">
-
             <div class="logo">
                 <img src="img/logo2.png" alt="Logomarca">
             </div>
-
-            <div class="botaonavbar">
-                
-            </div>
-
+            <div class="botaonavbar"></div>
         </nav>
     </header>
     
     <main>
-        <article>
-
-        </article>
+        <article></article>
     </main>
 
     <section> 
-        <head>
-            <link rel="stylesheet" href="pagina-login.css">
-        </head>
-        <body>
-            
-            <div class="frame"></div>
-    
-            <h1 class="login-title">LOGIN</h1>
-            <h2 class="software-title">EcoLogic Management Software</h2>
-            
-            <div class="form-group">
-                <p class="obrigatorio">*Obrigatório</p>
-                <div class="textfield">
-                    <input type="text" name="email" placeholder="E-mail*">
-                </div>
-            </div>
+        <link rel="stylesheet" href="pagina-login.css">
         
-            <div class="form-group">
-                <div class="textfield">
-                    <input type="password" name="senha" placeholder="Senha*">
-                </div>
-            </div>
-        
-            <button class="btn-login">Entrar</button>
-            
-            <p class="esqueceu-senha"><a href="recuperar-senha.html">Esqueceu sua senha?</a></p>
-            <img src="img/logosemfundo2.png" alt="logo" style="width: 200px; height: auto; margin-left: -370px;">
+        <div class="frame"></div>
 
+        <h1 class="login-title">LOGIN</h1>
+        <h2 class="software-title">EcoLogic Management Software</h2>
         
-            <p class="text-final">Sua usina, seu controle, seu impacto positivo no planeta!</p>
-       
-        
-        </body>
-        </html>
+        <div class="form-group">
+            <p class="obrigatorio">*Obrigatório</p>
+            <div class="textfield">
+                <input type="text" id="email" name="email" placeholder="E-mail*">
+            </div>
+        </div>
     
-
+        <div class="form-group">
+            <div class="textfield">
+                <input type="password" id="senha" name="senha" placeholder="Senha*">
+            </div>
+        </div>
         
+        <p id="mensagem" style="color:green; text-align: center;"></p> <!-- Mensagem em verde -->
+
+        <button class="btn-login" id="btn-login">Entrar</button>
+        
+        <p class="esqueceu-senha"><a href="recuperar-senha.html">Esqueceu sua senha?</a></p>
+        <img src="img/logosemfundo2.png" alt="logo" style="width: 200px; height: auto; margin-left: -370px;">
+        <p class="text-final">Sua usina, seu controle, seu impacto positivo no planeta!</p>
     </section>
 
     <footer>
         <div class="footer-content">
-
             <p>&copy; 2024 EcoLogic - Todos os direitos reservados.</p>
-
             <div class="social-icons">
                 <img id="cel-icon" src="img/phone2.png" alt="Phone">
                 <img src="img/whatsapp2.png" alt="Whatsapp">
                 <img src="img/email2.png" alt="Email">
-                
             </div>
         </div>
     </footer>
 
+    <script>
+        document.getElementById('btn-login').addEventListener('click', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
 
+            const email = document.getElementById('email').value;
+            const senha = document.getElementById('senha').value;
+            const mensagem = document.getElementById('mensagem');
+            mensagem.textContent = ''; // Limpa mensagens anteriores
+
+            // Verificação se os campos estão preenchidos
+            if (email === '' || senha === '') {
+                mensagem.style.color = 'red'; // Mensagem de erro em vermelho
+                mensagem.textContent = 'Os campos têm que estar preenchidos.';
+                return;
+            }
+
+            // Validação do formato do email
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const hasLetter = /[a-zA-Z]/.test(email); // Verifica se tem pelo menos uma letra
+            const hasCharacterBeforeAt = email.split('@')[0].length > 0; // Verifica se tem pelo menos um caractere antes do @
+
+            if (!emailPattern.test(email) || !hasLetter || !hasCharacterBeforeAt) {
+                mensagem.style.color = 'red'; // Mensagem de erro em vermelho
+                mensagem.textContent = 'Por favor, insira um email válido contendo letras e um caractere antes do @.';
+                return;
+            }
+
+            // Se tudo estiver correto
+            mensagem.style.color = 'green'; // Mensagem de sucesso em verde
+            mensagem.textContent = 'Login realizado com sucesso!'; // Aqui você pode adicionar a lógica de login
+
+            // Redirecionar para a página desejada
+            window.location.href = 'http://127.0.0.1:5502/src/EcoLogic/pages/adm/index.html';
+        });
+    </script>
 </body>
 
 </html>

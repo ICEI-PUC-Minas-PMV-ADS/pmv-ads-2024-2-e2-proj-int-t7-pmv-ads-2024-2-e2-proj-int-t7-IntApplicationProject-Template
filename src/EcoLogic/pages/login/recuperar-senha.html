@@ -19,47 +19,40 @@
             <div class="logo">
                 <img src="img/logo2.png" alt="Logomarca">
             </div>
-            <div class="botaonavbar">
-             
-            </div>
+            <div class="botaonavbar"></div>
         </nav>
     </header>
     
     <main>
-        <article>
-        </article>
+        <article></article>
     </main>
 
     <section> 
-        <head>
-            <link rel="stylesheet" href="recuperar-senha.css">
-        </head>
-        <body>
-            <div class="frame"></div>
+        <link rel="stylesheet" href="recuperar-senha.css">
+        
+        <div class="frame"></div>
     
-            <h1 class="login-title">RECUPERAÇÃO DE SENHA</h1>
-            <h2 class="software-title">EcoLogic Management Software</h2>
-            
-            <div class="form-group">
-                <p class="obrigatorio">*Insira o e-mail para receber um link de recuperação</p>
-                <div class="textfield">
-                    <input type="text" name="email" placeholder="E-mail*">
-                </div>
-                <p class="obrigatorio" style="display: inline; margin-left: 670px;">*obrigatório</p>
-            </div>
+        <h1 class="login-title">RECUPERAÇÃO DE SENHA</h1>
+        <h2 class="software-title">EcoLogic Management Software</h2>
         
-            <p class="esqueceu-senha" style="color: rgba(240, 248, 255, 0.475);">Verifique seu e-mail para redefinir sua senha</p>
-            <p class="lembra-senha"> <a href="pagina-login.html" class="btn-voltar" style="color: rgba(240, 248, 255, 0.501);">Lembra sua senha? Volte ao Login</a></p>
-        
-            <div style="position: relative; height: auto; display: flex; justify-content: center; align-items: center;">
-                <button class="btn-recuperar" style="width: 337px; height: 50px; background: rgba(29, 107, 89, 1); color: rgb(255, 255, 255); font-family: 'Saira Condensed', sans-serif; font-size: 22px; font-weight: 900; border: none; border-radius: 3px 0 0 0; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); cursor: pointer; opacity: 1;">
-                    Enviar Link de Recuperação
-                </button>
+        <div class="form-group">
+            <p class="obrigatorio">*Insira o e-mail para receber um link de recuperação</p>
+            <div class="textfield">
+                <input type="text" id="email" name="email" placeholder="E-mail*">
             </div>
-            
-            
-           
-        </body>
+            <p class="obrigatorio" style="display: inline; margin-left: 670px;">*obrigatório</p>
+        </div>
+        
+        <p id="mensagem" style="color: green; text-align: center;"></p> <!-- Mensagem em verde -->
+
+        <div style="position: relative; height: auto; display: flex; justify-content: center; align-items: center;">
+            <button class="btn-recuperar" id="btn-recuperar" style="width: 337px; height: 50px; background: rgba(29, 107, 89, 1); color: rgb(255, 255, 255); font-family: 'Saira Condensed', sans-serif; font-size: 22px; font-weight: 900; border: none; border-radius: 3px 0 0 0; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); cursor: pointer; opacity: 1;">
+                Enviar Link de Recuperação
+            </button>
+        </div>
+        
+        <p class="esqueceu-senha" style="color: rgba(240, 248, 255, 0.475);">Verifique seu e-mail para redefinir sua senha</p>
+        <p class="lembra-senha"> <a href="pagina-login.html" class="btn-voltar" style="color: rgba(240, 248, 255, 0.501);">Lembra sua senha? Volte ao Login</a></p>
     </section>
 
     <footer>
@@ -69,10 +62,43 @@
                 <img id="cel-icon" src="img/phone2.png" alt="Phone">
                 <img src="img/whatsapp2.png" alt="Whatsapp">
                 <img src="img/email2.png" alt="Email">
-            
             </div>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('btn-recuperar').addEventListener('click', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+
+            const email = document.getElementById('email').value;
+            const mensagem = document.getElementById('mensagem');
+            mensagem.textContent = ''; // Limpa mensagens anteriores
+
+            // Verificação se o campo está preenchido
+            if (email === '') {
+                mensagem.style.color = 'red'; // Mensagem de erro em vermelho
+                mensagem.textContent = 'O campo de e-mail deve estar preenchido.';
+                return;
+            }
+
+            // Validação do formato do email
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const hasLetter = /[a-zA-Z]/.test(email); // Verifica se tem pelo menos uma letra
+            const hasCharacterBeforeAt = email.split('@')[0].length > 0; // Verifica se tem pelo menos um caractere antes do @
+
+            if (!emailPattern.test(email) || !hasLetter || !hasCharacterBeforeAt) {
+                mensagem.style.color = 'red'; // Mensagem de erro em vermelho
+                mensagem.textContent = 'Por favor, insira um e-mail válido contendo letras e um caractere antes do @.';
+                return;
+            }
+
+            // Se tudo estiver correto
+            mensagem.style.color = 'green'; // Mensagem de sucesso em verde
+            mensagem.textContent = 'Link de recuperação enviado com sucesso!'; // Aqui você pode adicionar a lógica de envio do link
+
+            // Não há redirecionamento após o sucesso
+        });
+    </script>
 </body>
 
 </html>
