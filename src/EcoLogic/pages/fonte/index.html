@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,7 @@
 
 <body>
     <header>
+        
         <nav class="navbar">
 
             <div class="logo">
@@ -25,13 +26,41 @@
             <div class="botaonavbar">
                 <button type="button">Login</button>
             </div>
+            
+</nav>
 
-        </nav>
-        <h1 id="GFE">Gerenciador - Fontes de Energia</h1>
-        <h2 id="EMS">Ecologic Management Software</h2>
-        <h3 id="NTFE">Número Total de Fontes de Energia:</h3>
+<h1 id="GFE">Gerenciador - Fontes de Energia</h1>
+<h2 id="EMS">Ecologic Management Software</h2>
+<h3 id="NTFE">Número Total de Fontes de Energia:</h3><br>
+<div id="lista-usinas"></div>
+        <button id="btn-cadastrar"> + Adicionar Nova Fonte Energética</button>
+        
+
+        <h4 id="obg">*Obrigatório</h4>
+       
+<form id="form-cadastro">
+            
+        <input type="text" id="nome" placeholder="Nome da Usina">
+
+        <input type="text" id="tipo" placeholder="Tipo de Fonte Energética"><br><br>
+
+        <input type="text" id="localidade" placeholder="Localidade">
+
+        <input type="text" id="estado" placeholder="Estado"><br><br>
+
+        <input type="text" id="eficiencia" placeholder="Eficiência">
+
+        <input type="text" id="capacidade" placeholder="Capacidade"><br><br>
+
+        <input type="text" id="descricao" placeholder="Descrição">
+
+        <input type="date" id="data" placeholder="Data de Inicio"><br><br>
+
+</form>
+
+        
          
-    </header>
+</header>
 
     <aside>
         <div class="search-bar">
@@ -84,7 +113,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/EcoLogic/pages/fonte/fonte.js"></script>
 </body>
 
 </html>
