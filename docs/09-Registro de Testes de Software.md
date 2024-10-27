@@ -1,22 +1,47 @@
 # Registro de Testes de Software
-
+<div align="justify">
+  
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+<br><br>
+Para cada caso de teste definido no Plano de testes de software, foi realizado o registro das evidências dos testes feitos na aplicação pela equipe, que comprovam que o critério de êxito foi alcançado.
+<br>
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+## Caso de Teste 01 – Cadastro na Plataforma
+**Requisito associado:**  RF-01 - O sistema deve permitir o cadastro de novos usuários, incluindo gestores da obra e clientes, com a coleta de informações básicas como nome, e-mail, senha e tipo de usuário.
+<br><br>
+**Registro de evidência:**
+xxxxx vídeo
+<br><br>
+**Conclusão**: Os testes foram bem sucedidos. Ao optar pelo cadastro, o usuário é direcionado para a página, onde poderá inserir suas informações para o cadastro. Inserindo caracteres inválidos, o sistema não registrará o cadastro.  
+<br>
 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+## Caso de Teste 02 – Login na Plataforma
+**Requisito associado:** RF-02 - O sistema deve permitir que os usuários façam login utilizando suas credenciais (e-mail e senha) e devem exibir mensagens de erro caso as informações estejam incorretas ou incompletas.
+<br><br>
+**Registro de evidência:**
+xxxxx vídeo
+<br><br>
+**Conclusão**: Os testes foram bem sucedidos.Ao realizar o cadastro, o usuário será direcionado para a tela de login. Na tela de login, o usuário poderá inserir seu email e senha e estando corretos, será direcionado para a página inicial. Conforme o teste, o sistema não aceita caracteres inválidos e e-mails/senhas incorretos.  
+<br>
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+## Caso de Teste 03 – Formulário - contato com a plataforma
+**Requisito associado:** RF-11 - O sistema deve permitir que os usuários entrem em contato com a equipe de suporte da plataforma por meio de um formulário de contato ou outros meio disponibilizado, como e-mail.
+<br><br>
+**Registro de evidência:**
 
-## Avaliação
+https://github.com/user-attachments/assets/323c8618-8113-42aa-9569-ece40ea557e6
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+<br>
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+**Conclusão**: Os testes foram bem sucedidos. Ao acessar o formulário na página inicial, o usuário poderá entrar em contato com a plataforma, informando o seu nome, e-mail e a mensagem. O sistema não aceita carácteres inválidos. 
+</div>
+<br>
+
+
+
+
+
+
+
+
+
