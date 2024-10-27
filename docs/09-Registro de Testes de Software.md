@@ -10,7 +10,13 @@ Para cada caso de teste definido no Plano de testes de software, foi realizado o
 **Requisito associado:**  RF-01 - O sistema deve permitir o cadastro de novos usuários, incluindo gestores da obra e clientes, com a coleta de informações básicas como nome, e-mail, senha e tipo de usuário.
 <br><br>
 **Registro de evidência:**
-xxxxx vídeo
+
+
+
+https://github.com/user-attachments/assets/1d331dc6-6905-4b74-8f08-f379f3baffa3
+
+
+
 <br><br>
 **Conclusão**: Os testes foram bem sucedidos. Ao optar pelo cadastro, o usuário é direcionado para a página, onde poderá inserir suas informações para o cadastro. Inserindo caracteres inválidos, o sistema não registrará o cadastro.  
 <br>
@@ -19,7 +25,13 @@ xxxxx vídeo
 **Requisito associado:** RF-02 - O sistema deve permitir que os usuários façam login utilizando suas credenciais (e-mail e senha) e devem exibir mensagens de erro caso as informações estejam incorretas ou incompletas.
 <br><br>
 **Registro de evidência:**
-xxxxx vídeo
+
+
+
+https://github.com/user-attachments/assets/3ccd398b-e713-4cff-a811-f38336b24736
+
+
+
 <br><br>
 **Conclusão**: Os testes foram bem sucedidos.Ao realizar o cadastro, o usuário será direcionado para a tela de login. Na tela de login, o usuário poderá inserir seu email e senha e estando corretos, será direcionado para a página inicial. Conforme o teste, o sistema não aceita caracteres inválidos e e-mails/senhas incorretos.  
 <br>
