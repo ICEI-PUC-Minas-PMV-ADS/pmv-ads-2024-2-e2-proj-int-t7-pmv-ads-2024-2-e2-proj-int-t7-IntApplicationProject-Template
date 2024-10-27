@@ -1,29 +1,25 @@
 message: Please cite this software using these metadata.
 title:
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Silveira Almeida Moura
+    given-names: Ariane
+  - family-names: Rodrigues de Figueiredo Lage
+    given-names: Raphael
+  - family-names: Lima de Andrade Vieira 
+    given-names: Alexsander
+  - family-names: Simoes dos Santos
+    given-names: Vinicius 
+  - family-names: Rodrigues de Oliveira Santos
+    given-names: Leticia
+  - family-names: Marques de Moura
+    given-names: Breno
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jeunon de Alencar
+    given-names: Bernardo
 keywords:
-  - 
-  - 
+  - EcoLogic
+  - Projeto
 repository-code: 
 version: 1.0.0
 date-released: 2023-10-31
