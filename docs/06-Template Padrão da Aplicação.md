@@ -19,7 +19,7 @@ O nome Concreta possui relação direta com elementos da construção civil que 
 ### Cores
 Utilizamos cores que se destacam entre si, porém que proporcional uma identidade sóbria e sofisficada, como o azul e o amarelo. 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/05ccd3f0-161a-4338-8f34-a10fb5910e0e" alt="Cores RGB" width="500">
+  <img src="https://github.com/user-attachments/assets/db92e865-29cf-4b8d-9a67-40da92b96866" alt="Cores RGB" width="500">
   <br>
   Figura 2: Cores RGB utilizadas no template padrão.
 </p>
