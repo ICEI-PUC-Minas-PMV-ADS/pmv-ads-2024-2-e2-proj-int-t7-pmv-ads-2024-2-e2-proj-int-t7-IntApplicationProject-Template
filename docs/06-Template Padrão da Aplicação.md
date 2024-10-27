@@ -1,5 +1,5 @@
 # Template Padrão da Aplicação
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-concreta/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-concreta/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-concreta/blob/main/docs/03-Metodologia.md"> Metodologia</a>
 <div align="justify">
 O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo. Para a operacionalização da ferramenta, será utilizada a linguagem C#. 
 <div>
@@ -39,4 +39,6 @@ Estruturadas de acordo com os wireframes, as telas buscam proporcionar uma inter
   <br>
   Figura 4: Template Padrão de telas.
 </p>
+<br>
+O template de alta fidelidade pode ser visto no <a href="https://www.figma.com/design/qmgol0NwN9CYx1xjDDwo2i/Concreta?node-id=18-1147&t=883Ppxc7zJo8llUD-1">Figma</a>.
 
