@@ -1,0 +1,76 @@
+@model app.Models.EditUsinaViewModel
+
+@{
+    Layout = "_ContentLayout";
+    ViewData["Title"] = "Editar Usina";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Nome">Nome</label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CapacidadeKW">Capacidade (KW)</label>
+        <input asp-for="CapacidadeKW" class="form-control" />
+        <span asp-validation-for="CapacidadeKW" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DataInicio">Data de Início</label>
+        <input asp-for="DataInicio" class="form-control" />
+        <span asp-validation-for="DataInicio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StatusOperacional">Status Operacional</label>
+        <input asp-for="StatusOperacional" class="form-control" />
+        <span asp-validation-for="StatusOperacional" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Endereco">Endereço</label>
+        <input asp-for="Endereco" class="form-control" />
+        <span asp-validation-for="Endereco" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CidadeId">Cidade</label>
+        <select asp-for="CidadeId" asp-items="@(new SelectList(Model.Cidades, "Id", "Name"))" class="form-control">
+            <option value="">Selecione uma cidade</option>
+        </select>
+        <span asp-validation-for="CidadeId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClienteId">Cliente</label>
+        <select asp-for="ClienteId" asp-items="@(new SelectList(Model.Clientes, "Id", "Nome"))" class="form-control">
+            <option value="">Selecione um cliente</option>
+        </select>
+        <span asp-validation-for="ClienteId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FonteDeEnergiaId">Tipo de Energia</label>
+        <select asp-for="FonteDeEnergiaId" asp-items="@(new SelectList(Model.FontesDeEnergia, "Id", "Tipo"))"
+            class="form-control">
+            <option value="">Selecione um tipo de energia</option>
+        </select>
+        <span asp-validation-for="FonteDeEnergiaId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

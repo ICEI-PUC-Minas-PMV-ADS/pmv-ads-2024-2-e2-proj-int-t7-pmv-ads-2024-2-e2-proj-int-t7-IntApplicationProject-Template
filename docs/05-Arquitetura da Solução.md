@@ -27,13 +27,50 @@ Conforme a Especificação do Projeto EcoLogic, o Modelo ER, que apresenta as re
 <br>
 <h4 align="center">FIGURA 19</h4>
 
-<!-- ## Tecnologias Utilizadas
+<br>
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+## Tecnologias Utilizadas no Projeto EcoLogic
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário. 
+Para o desenvolvimento do Projeto EcoLogic, diversas tecnologias foram utilizadas para criar uma solução robusta e eficiente para o gerenciamento de usinas de energia renovável. Abaixo estão listadas as principais ferramentas e tecnologias adotadas, que abrangem desde o design do front-end até a estrutura de banco de dados e o back-end da aplicação:
 
-## Hospedagem
+### Tecnologias Utilizadas
+- **HTML e CSS:** Utilizados para a estrutura e estilo das páginas web. HTML define a estrutura e o conteúdo, enquanto CSS aplica o design visual, garantindo que o layout seja responsivo e atraente para diferentes tamanhos de tela.
+  
+- **JavaScript:** Responsável pela interatividade do site e pelas funcionalidades dinâmicas, como manipulação de eventos e validações de dados no lado do cliente.
+  
+- **C#:** Linguagem de programação principal utilizada no back-end para a lógica de negócio e controle da aplicação. C# é também empregado para a integração com o banco de dados e manipulação dos dados na aplicação.
+  
+- **ASP.NET Core 8.0:** Framework de desenvolvimento web utilizado para criar a API e gerenciar as interações do usuário com o back-end. ASP.NET Core oferece uma estrutura poderosa para desenvolvimento de aplicações modernas e escaláveis, permitindo a criação de rotas, serviços e controle de autenticação e autorização.
+  
+- **Entity Framework:** Utilizado como ORM (Object-Relational Mapping) para facilitar a comunicação entre o código C# e o banco de dados SQL Server. Entity Framework simplifica a criação de operações CRUD (Create, Read, Update, Delete) e garante uma maior flexibilidade na manipulação de dados.
+
+- **SQL Server:** Banco de dados relacional utilizado para armazenamento persistente das informações da aplicação, como dados das usinas, produção de energia, relatórios, entre outros. SQL Server permite uma gestão eficiente dos dados, oferecendo segurança e integridade.
+  
+- **Bootstrap:** Utilizado no front-end para estilização e responsividade. Com seus componentes pré-desenhados, o Bootstrap facilita a criação de interfaces modernas e adaptáveis a dispositivos móveis, reduzindo o tempo de desenvolvimento do design.
+  
+
+### Ferramentas e IDEs
+- **Visual Studio Code:** Utilizado para editar e organizar os arquivos HTML, CSS, JavaScript e IDE principal para desenvolvimento com C# e ASP.NET Core, facilitando o trabalho com o back-end e integração com o SQL Server.
+  
+- **Git e GitHub:** Plataforma para controle de versão e colaboração, onde o código é armazenado e versionado, facilitando o trabalho em equipe e a documentação do projeto.
+
+
+### Interação e Fluxo de Dados
+Abaixo, descrevemos como as tecnologias interagem no fluxo de uma operação do usuário:
+
+— *Interação do Usuário:* O usuário acessa a interface da aplicação através de um navegador, interagindo com as telas de monitoramento, relatórios e gestão de usinas.
+
+— *Front-End:* A interface HTML/CSS, com funcionalidades dinâmicas em JavaScript e elementos responsivos do Bootstrap, processa a interação do usuário e envia as requisições para o servidor.
+
+— *Back-End:* O ASP.NET Core recebe as requisições do front-end e, por meio dos serviços e controladores, processa a lógica de negócios em C#.
+
+— *Banco de Dados (SQL Server):* Através do Entity Framework, o ASP.NET Core interage com o SQL Server, realizando operações de consulta, atualização e exclusão conforme necessário. O Entity Framework facilita a conversão dos dados entre o banco e os objetos da aplicação, mantendo a integridade dos dados.
+
+— *Resposta ao Usuário:* Após o processamento da requisição e obtenção dos dados, o back-end envia a resposta de volta ao front-end, que exibe os resultados ao usuário na interface da aplicação.
+
+Essas tecnologias, trabalhando em conjunto, proporcionam uma aplicação escalável, segura e eficiente para o monitoramento e gestão de usinas de energia renovável no EcoLogic.
+
+<!-- ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
@@ -43,3 +80,9 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) -->
+
+
+### Hospedagem
+
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/app). 
+

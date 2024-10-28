@@ -1,0 +1,41 @@
+@model app.Models.IndexClientesViewModel;
+
+@{
+    Layout = "_ContentLayout";
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>Clientes</h1>
+
+<a asp-action="Add" class="btn btn-primary">Adicionar Cliente</a>
+
+@if (Model.Clientes.Count == 0)
+{
+    <p>Nenhum cliente encontrado</p>
+}
+else
+{
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CpfCnpj</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model.Clientes)
+            {
+                <tr>
+                    <td>@cliente.Nome</td>
+                    <td>@cliente.CpfCnpj</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@cliente.Id" class="btn btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@cliente.Id" class="btn btn-danger">Deletar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
