@@ -72,10 +72,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 <br>
 
-### Etapa 1 e 2:
+
+#### Etapa 1 e 2:
 ![image](https://github.com/user-attachments/assets/4ddb709c-cd54-41e7-80ee-0ef89f2dee03)
 
-<h4 align="center">FIGURA 06</h4>
+<!-- <h4 align="center">FIGURA 06</h4> -->
 
 <br>
 
@@ -98,7 +99,7 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 <br>
 
-### Etapa 3:
+#### Etapa 3:
 
 ![Screenshot_1](https://github.com/user-attachments/assets/01b2c83d-4d82-4415-8089-1828c2902294)
 
