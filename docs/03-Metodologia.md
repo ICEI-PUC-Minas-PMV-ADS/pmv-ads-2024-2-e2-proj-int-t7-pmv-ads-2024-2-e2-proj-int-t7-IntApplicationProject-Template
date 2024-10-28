@@ -100,7 +100,7 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 ### Etapa 3:
 
-FOTO KANBAN ETAPA 3
+![Screenshot_1](https://github.com/user-attachments/assets/01b2c83d-4d82-4415-8089-1828c2902294)
 
 <br>
 
