@@ -3,7 +3,7 @@
 # Informações Gerais #
 Data do Registro: 27 de outubro de 2024
 Versão do Software: 1.0
-Responsável pelo Teste: Ariane Moura
+Responsável pelo Teste: Vinícius Simões
 
 | **Registro de Teste** 	| **CT-01 – Login** 	|
 |:---:	|:---:	|
