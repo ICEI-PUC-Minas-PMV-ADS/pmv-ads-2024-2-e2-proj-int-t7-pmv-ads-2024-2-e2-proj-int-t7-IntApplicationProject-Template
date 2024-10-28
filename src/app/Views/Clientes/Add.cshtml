@@ -1,0 +1,20 @@
+@{
+    Layout = "_ContentLayout";
+    ViewData["Title"] = "Adicionar Cliente";
+}
+
+<h1>Adicionar Cliente</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" />
+    </div>
+
+    <div class="form-group">
+        <label for="cpfCnpj">CpfCnpj</label>
+        <input type="text" class="form-control" id="cpfCnpj" name="cpfCnpj" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
