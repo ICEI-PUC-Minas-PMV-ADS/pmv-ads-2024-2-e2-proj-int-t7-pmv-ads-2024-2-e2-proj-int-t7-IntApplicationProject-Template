@@ -80,3 +80,9 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) -->
+
+
+### Hospedagem
+
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/app). 
+
