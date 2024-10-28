@@ -125,4 +125,4 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/blob/main/src/README.md). 
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/app). 
