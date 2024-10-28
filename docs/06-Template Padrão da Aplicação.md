@@ -51,6 +51,10 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 ## Estrutura Padrão da Aplicação
 
+
+https://github.com/user-attachments/assets/18e55c44-b41a-4a05-b9b7-ed7760af8406
+
+
 <br>
 <br>
 
