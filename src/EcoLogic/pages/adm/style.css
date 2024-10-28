@@ -345,6 +345,145 @@ main h2 {
     margin-top: 3rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+.container {
+    height: calc(100% - 150px);
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+  }
+  
+  .card {
+    background-color: #282626e9;
+    width: 260px;
+    height: 180px;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    margin-bottom: 56px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1)
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+  
+  .header-content span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 6rem;
+  }
+  
+  .header-content strong {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+
+  .table {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 2px solid #fff;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #fff
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #fff;
+  }
+  
+  .table .table {
+    background-color: #fff;
+  }
+  
+  .table-hover tbody tr:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #000;
+  }
+  
+
+  .table-usinas {
+    width: 50%;
+    padding: 0 94px;
+  }
+  
+  .table-usinas h1 {
+    font-size: 24px; 
+    color: #fff;     
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .table-producao h1 {
+    font-size: 24px; 
+    color: #fff;    
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .table-producao {
+    width: 50%;
+    padding: 0 94px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 .form-section {
     display: flex;
     flex-direction: column;
