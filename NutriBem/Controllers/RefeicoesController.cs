@@ -53,23 +53,23 @@ namespace NutriBem.Controllers
             return View();
         }
 
-        // POST: Refeicoes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Tipo,Hora,PlanoAlimentarId,ReceitaId")] Refeicao refeicao)
+        public async Task<IActionResult> Create([Bind("Tipo,Hora,PlanoAlimentarId,ReceitaId")] Refeicao refeicao)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(refeicao);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return Json(new { success = true }); // Retorna sucesso como JSON para manipulação no front-end
             }
-            ViewData["PlanoAlimentarId"] = new SelectList(_context.PlanosAlimentares, "Id", "Descricao", refeicao.PlanoAlimentarId);
-            ViewData["ReceitaId"] = new SelectList(_context.Receitas, "Id", "IngredienteQuantidade", refeicao.ReceitaId);
-            return View(refeicao);
+
+            // Captura os erros de validação
+            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+            return Json(new { success = false, message = "Erro na validação.", errors });
         }
+
 
         // GET: Refeicoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -126,7 +126,7 @@ namespace NutriBem.Controllers
             return View(refeicao);
         }
 
-        // GET: Refeicoes/Delete/5
+        /* GET: Refeicoes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -145,21 +145,32 @@ namespace NutriBem.Controllers
 
             return View(refeicao);
         }
+        */
 
         // POST: Refeicoes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
         {
-            var refeicao = await _context.Refeicao.FindAsync(id);
-            if (refeicao != null)
+            // Tente encontrar a refeição pelo ID
+            var refeicao = await _context.Refeicoes.FindAsync(id);
+
+            if (refeicao == null)
             {
-                _context.Refeicao.Remove(refeicao);
+                // Retornar uma resposta indicando que a refeição não foi encontrada
+                return Json(new { success = false, message = "Refeição não encontrada." });
             }
 
+            // Remover a refeição do contexto
+            _context.Refeicoes.Remove(refeicao);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+
+            // Retornar uma resposta de sucesso
+            return Json(new { success = true });
         }
+
+
+
+
 
         private bool RefeicaoExists(int id)
         {
