@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.form-container {
+    background-color: #023059;
+    width: 100%;
+    min-width: 40rem;
+    height: auto;
+    padding: 4.5rem;
+}
+main {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.step {
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
