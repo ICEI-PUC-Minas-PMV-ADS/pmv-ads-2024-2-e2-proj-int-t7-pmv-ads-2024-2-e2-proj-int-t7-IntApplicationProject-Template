@@ -35,6 +35,14 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then(m => m.LoginModule)
   },
+  {
+    path: 'obra-especifica-gestor',
+    loadChildren: () => import('./pages/obra-especifica-gestor/obra-especifica-gestor.module').then(m => m.ObraEspecificaGestorModule)
+  },
+  {
+    path: 'obra-especifica-cliente',
+    loadChildren: () => import('./pages/obra-especifica-cliente/obra-especifica-cliente.module').then(m => m.ObraEspecificaClienteModule)
+  },
 ];
 
 
