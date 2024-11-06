@@ -1,0 +1,32 @@
+/*CAPA*/
+.container-capa {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.edit-button {
+    position: absolute; /* Posiciona o lápis*/
+    top: 10px;
+    right: 10px; 
+    background-color: transparent; 
+    border: none; 
+    color: #fff; 
+    cursor: pointer; 
+    font-size: 15px; /* Tamanho do lápis */
+  }
+  
+  .capa {
+    position: relative; 
+    background-color: #023059;
+    border-radius: 15px;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+.capa img {
+    max-width: 80%; 
+    border-radius: 10px; 
+}
