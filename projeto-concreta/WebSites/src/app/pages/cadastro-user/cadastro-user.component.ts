@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { UsuarioService } from '../../services/usuario.service';
 import { CadastrarUsuarioDto } from '../../dto/cadastrar-usuario.dto';
-import { HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-cadastro-user',
@@ -18,16 +18,25 @@ export class CadastroUserComponent {
   };
 
   confirmarSenha: string = '';
-  mensagem: string | null = null;
   senhaIncorreta: boolean = false; 
 
-  constructor(private usuarioService: UsuarioService, private router: Router) {}
+  constructor(
+    private usuarioService: UsuarioService, 
+    private router: Router,
+    private messageService: MessageService
+  ) {}
 
   onSubmit() {
     this.senhaIncorreta = false;
 
+    if (!this.usuario.Nome || !this.usuario.Email || !this.usuario.Senha || !this.confirmarSenha) {
+      this.messageService.add({ severity: 'error', summary: 'Erro', detail: 'Todos os campos são obrigatórios.' });
+      return;
+    }
+
     if (this.usuario.Senha !== this.confirmarSenha) {
       this.senhaIncorreta = true; 
+      this.messageService.add({ severity: 'error', summary: 'Erro', detail: 'As senhas não coincidem.' });
       return;
     }
 
@@ -41,26 +50,14 @@ export class CadastroUserComponent {
 
     this.usuarioService.cadastrarUsuario(usuarioDto).subscribe({
       next: response => {
-        this.mostrarMensagem('Usuário cadastrado com sucesso!');
+        this.messageService.add({ severity: 'success', summary: 'Sucesso', detail: 'Usuário cadastrado com sucesso!' });
         this.router.navigate(['/login']); 
       },
       error: err => {
-        console.error(err);
         const mensagem = err.error?.mensagem || 'Erro ao cadastrar usuário. Tente novamente.';
-        this.mostrarMensagem(mensagem);
+        this.messageService.add({ severity: 'error', summary: 'Erro', detail: mensagem });
       }
     });
-  }
-
-  mostrarMensagem(msg: string) {
-    this.mensagem = msg;
-    setTimeout(() => {
-      this.mensagem = null;
-    }, 10000);
-  }
-
-  fecharMensagem() {
-    this.mensagem = null;
   }
 
   goToLogin() {

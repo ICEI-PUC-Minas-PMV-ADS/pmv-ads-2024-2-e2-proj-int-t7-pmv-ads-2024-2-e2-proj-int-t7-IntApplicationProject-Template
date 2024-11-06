@@ -2,9 +2,21 @@
 
 <div class="login-box">
     <h2 class="login-title">Faça seu login</h2>
-    <input type="email" class="input-field" placeholder="E-mail">
-    <input type="password" class="input-field" placeholder="Senha">
-    <button class="login-button">ENTRAR</button>
+    <input 
+        type="email" 
+        class="input-field" 
+        placeholder="E-mail" 
+        [(ngModel)]="email" 
+        required
+    >
+    <input 
+        type="password" 
+        class="input-field" 
+        placeholder="Senha" 
+        [(ngModel)]="senha" 
+        required
+    >
+    <button class="login-button" (click)="onLogin()">ENTRAR</button>
     <a href="#" class="forgot-password">Esqueceu a senha?</a>
 </div>
 

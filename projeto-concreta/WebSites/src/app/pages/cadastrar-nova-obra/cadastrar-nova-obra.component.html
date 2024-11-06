@@ -1,1 +1,67 @@
-<p>cadastrar-nova-obra works!</p>
+<app-navbar></app-navbar>
+
+<main>
+  <h1>Siga o passo a passo para efetuar o <strong>cadastro</strong> da sua <strong>obra com sucesso!</strong></h1>
+  <section class="step">
+    <h2>1º Passo</h2>
+    <div class="form-container">
+      <h3>Sobre a obra:</h3>
+      <form>
+        <label for="nome-obra">Nome da obra</label>
+        <input type="text" id="nome-obra" name="nome-obra">
+
+        <label for="construtora">Construtora</label>
+        <input type="text" id="construtora" name="construtora">
+
+        <label for="localizacao">Localização (Cidade - Estado)</label>
+        <input type="text" id="localizacao" name="localizacao">
+
+        <label for="prazo-conclusao">Prazo de conclusão geral</label>
+        <input type="date" id="prazo-conclusao" name="prazo-conclusao">
+
+        <label for="imagem-capa">Anexar imagem capa da obra</label>
+        <input type="file" id="imagem-capa" name="imagem-capa">
+      </form>
+    </div>
+  </section>
+  <section class="step">
+    <h2>2º Passo</h2>
+    <div class="form-container">
+      <h3>Etapas da obra:</h3>
+      <div class="etapa">
+        <h4>Etapa 1</h4>
+        <form>
+          <label for="nome-etapa-1">Nome da etapa</label>
+          <input type="text" id="nome-etapa-1" name="nome-etapa-1">
+
+          <label for="descricao-etapa-1">Descrição</label>
+          <textarea id="descricao-etapa-1" name="descricao-etapa-1"></textarea>
+
+          <label for="prazo-etapa-1">Prazo de conclusão</label>
+          <input type="date" id="prazo-etapa-1" name="prazo-etapa-1">
+
+          <label for="imagem-etapa-1">Anexar imagem do processo</label>
+          <input type="file" id="imagem-etapa-1" name="imagem-etapa-1">
+        </form>
+      </div>
+      <div class="etapa">
+        <h4>Etapa 2</h4>
+        <form>
+          <label for="nome-etapa-2">Nome da etapa</label>
+          <input type="text" id="nome-etapa-2" name="nome-etapa-2">
+
+          <label for="descricao-etapa-2">Descrição</label>
+          <textarea id="descricao-etapa-2" name="descricao-etapa-2"></textarea>
+
+          <label for="prazo-etapa-2">Prazo de conclusão</label>
+          <input type="date" id="prazo-etapa-2" name="prazo-etapa-2">
+
+          <label for="imagem-etapa-2">Anexar imagem do processo</label>
+          <input type="file" id="imagem-etapa-2" name="imagem-etapa-2">
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<app-footer></app-footer>
