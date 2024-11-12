@@ -6,9 +6,11 @@
     "\\projeto-concreta\\WebApis\\ConcretaAPI",
     "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI",
     "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI",
-    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Data",
-    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Models"
+    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\obj",
+    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\obj\\Release",
+    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\obj\\Release\\net8.0",
+    "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\obj",
+    "\\projeto-concreta\\WebSites"
   ],
-  "SelectedNode": "\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Data\\AppDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
