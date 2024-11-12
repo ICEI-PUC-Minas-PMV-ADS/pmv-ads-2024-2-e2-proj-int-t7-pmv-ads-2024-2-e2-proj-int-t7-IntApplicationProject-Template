@@ -4544,5 +4544,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Vinicius\\Documents\\development\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

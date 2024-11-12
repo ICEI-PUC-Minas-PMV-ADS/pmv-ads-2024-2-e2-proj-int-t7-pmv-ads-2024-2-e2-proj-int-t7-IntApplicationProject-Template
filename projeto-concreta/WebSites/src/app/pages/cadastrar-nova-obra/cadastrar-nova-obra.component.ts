@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './cadastrar-nova-obra.component.scss'
 })
 export class CadastrarNovaObraComponent {
-
+  
 }

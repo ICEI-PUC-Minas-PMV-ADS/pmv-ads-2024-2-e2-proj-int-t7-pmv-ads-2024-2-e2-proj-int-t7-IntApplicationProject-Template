@@ -148,8 +148,8 @@
   background-color: #023059;
   padding: 20px;
   border-radius: 8px;
-  flex: 1 1 45%; /* Flexível, ocupa 60% da largura em telas grandes */
-  margin-bottom: 20px; /* Espaçamento inferior para telas menores */
+  flex: 1 1 45%; /* Ocupa 60% da largura em telas grandes */
+  margin-bottom: 20px; 
   margin-right: 50px;
 }
 
@@ -178,14 +178,14 @@
 
 .file-icon {
   margin-left: 10px;
-  color: #023059; /* Ajuste conforme necessário */
+  color: #023059; 
 }
 
 .compartilhar-right {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaçamento entre os botões */
-  flex: 1 1 20%; /* Flexível, ocupa 30% da largura em telas grandes */
+  gap: 20px; 
+  flex: 1 1 20%; /* Ocupa 30% da largura em telas grandes */
 }
 
 .btn {
@@ -220,17 +220,17 @@
   }
 
   .compartilhar-container {
-    flex-direction: column; /* Alinha os elementos verticalmente em telas menores */
+    flex-direction: column;
     align-items: stretch; /* Faz com que os itens ocupem toda a largura */
 }
 
 .compartilhar-left,
 .compartilhar-right {
-    width: 100%; /* Ocupa toda a largura em telas menores */
-    margin-bottom: 20px; /* Espaço entre os elementos */
+    width: 100%; 
+    margin-bottom: 20px; 
 }
 
 .link-container {
-    margin-bottom: 10px; /* Espaço abaixo do campo de link */
+    margin-bottom: 10px; 
 }
 }

@@ -1,67 +1,79 @@
 <app-navbar></app-navbar>
 
-<main>
-  <h1>Siga o passo a passo para efetuar o <strong>cadastro</strong> da sua <strong>obra com sucesso!</strong></h1>
-  <section class="step">
-    <h2>1º Passo</h2>
-    <div class="form-container">
-      <h3>Sobre a obra:</h3>
-      <form>
+<!-- Título Principal -->
+<header class="titulo-principal">
+  <h1>Siga o passo a passo para efetuar o <span class="negrito">cadastro</span> da sua <span class="negrito">obra com sucesso!</span></h1>
+</header>
+
+<!-- Passo 1 -->
+<section class="passo passo-1">
+  <h2>1º Passo</h2>
+  <hr>
+  <div class="form-container">
+    <h3>Sobre a obra:</h3>
+    <form>
+      <div class="campo">
         <label for="nome-obra">Nome da obra</label>
-        <input type="text" id="nome-obra" name="nome-obra">
-
+        <input type="text" id="nome-obra" placeholder="Nome da obra" required>
+      </div>
+      <div class="campo">
         <label for="construtora">Construtora</label>
-        <input type="text" id="construtora" name="construtora">
-
+        <input type="text" id="construtora" placeholder="Construtora" required>
+      </div>
+      <div class="campo">
         <label for="localizacao">Localização (Cidade - Estado)</label>
-        <input type="text" id="localizacao" name="localizacao">
-
-        <label for="prazo-conclusao">Prazo de conclusão geral</label>
-        <input type="date" id="prazo-conclusao" name="prazo-conclusao">
-
-        <label for="imagem-capa">Anexar imagem capa da obra</label>
-        <input type="file" id="imagem-capa" name="imagem-capa">
-      </form>
-    </div>
-  </section>
-  <section class="step">
-    <h2>2º Passo</h2>
-    <div class="form-container">
-      <h3>Etapas da obra:</h3>
-      <div class="etapa">
-        <h4>Etapa 1</h4>
-        <form>
-          <label for="nome-etapa-1">Nome da etapa</label>
-          <input type="text" id="nome-etapa-1" name="nome-etapa-1">
-
-          <label for="descricao-etapa-1">Descrição</label>
-          <textarea id="descricao-etapa-1" name="descricao-etapa-1"></textarea>
-
-          <label for="prazo-etapa-1">Prazo de conclusão</label>
-          <input type="date" id="prazo-etapa-1" name="prazo-etapa-1">
-
-          <label for="imagem-etapa-1">Anexar imagem do processo</label>
-          <input type="file" id="imagem-etapa-1" name="imagem-etapa-1">
-        </form>
+        <input type="text" id="localizacao" placeholder="Localização (Cidade - Estado)" required>
       </div>
-      <div class="etapa">
-        <h4>Etapa 2</h4>
-        <form>
-          <label for="nome-etapa-2">Nome da etapa</label>
-          <input type="text" id="nome-etapa-2" name="nome-etapa-2">
-
-          <label for="descricao-etapa-2">Descrição</label>
-          <textarea id="descricao-etapa-2" name="descricao-etapa-2"></textarea>
-
-          <label for="prazo-etapa-2">Prazo de conclusão</label>
-          <input type="date" id="prazo-etapa-2" name="prazo-etapa-2">
-
-          <label for="imagem-etapa-2">Anexar imagem do processo</label>
-          <input type="file" id="imagem-etapa-2" name="imagem-etapa-2">
-        </form>
+      <div class="campo prazo-conclusao">
+        <label for="prazo-conclusao">Prazo de conclusão</label>
+        <input type="date" id="prazo-etapa">
       </div>
+      <div class="campo anexar-imagem">
+        <input type="file" id="imagem-capa" accept=".jpg, .jpeg, .png" hidden>
+        <label for="imagem-capa">Imagem Capa</label>
+          <input type="text" placeholder="Anexar imagem capa da obra" disabled>
+          <i class="fa fa-paperclip clip-icon"></i>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Passo 2 -->
+<section class="passo passo-2">
+  <h2>2º Passo</h2>
+  <hr>
+  <div class="form-container">
+    <h3>Etapas da obra:</h3>
+    <h4>Etapa 1</h4>
+    <form>
+      <div class="campo">
+        <label for="nome-etapa">Nome da etapa</label>
+        <input type="text" id="nome-etapa" placeholder="Nome da etapa" required>
+      </div>
+      <div class="campo">
+        <label for="descricao-etapa">Descrição da etapa</label>
+        <textarea id="descricao-etapa" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+      <div class="campo prazo-conclusao">
+        <label for="prazo-conclusao">Prazo de conclusão</label>
+        <input type="date" id="prazo-etapa">
+      </div>
+      <div class="campo anexar-imagem">
+        <input type="file" id="imagem-etapa" accept=".jpg, .jpeg, .png" hidden>
+        <label for="imagem-etapa">Imagem da Etapa</label>
+          <input type="text" placeholder="Anexar imagem capa da etapa" disabled>
+          <i class="fa fa-paperclip clip-icon"></i>
+      </div>
+    </form>
+    <div class="nova-etapa">
+      <a href="#" class="nova-etapa-link">+ Nova Etapa</a>
     </div>
-  </section>
-</main>
+  </div>
+  <!-- Botões Cancelar e Cadastrar -->
+  <div class="botoes-container">
+    <button class="btn-cadastrar">CADASTRAR</button>
+    <button class="btn-cancelar">CANCELAR</button>
+  </div>
+</section>
 
 <app-footer></app-footer>
