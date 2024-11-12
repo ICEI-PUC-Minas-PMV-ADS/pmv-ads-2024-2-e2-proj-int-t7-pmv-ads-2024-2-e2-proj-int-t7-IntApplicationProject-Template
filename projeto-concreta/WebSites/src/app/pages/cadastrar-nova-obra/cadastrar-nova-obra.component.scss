@@ -1,40 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Titulo */
+.titulo-principal h1 {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #023059;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.negrito {
+  font-weight: 700;
+}
+
+/* 1º Passo */
+.primeiro-passo {
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #023059;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #023059;
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 
 .form-container {
-    background-color: #023059;
-    width: 100%;
-    min-width: 40rem;
-    height: auto;
-    padding: 4.5rem;
-}
-main {
-  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #023059;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-h1 {
-  margin-bottom: 2rem;
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.step {
-  margin-bottom: 2rem;
-}
-
-.form-container {
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-input, textarea {
+input[type="text"],
+input[type="file"],
+input[type="date"] {
   width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #fff;
+  color: #727272;
+}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder {
+  color: #727272;
+}
+
+.prazo-conclusao {
+  position: relative;
+}
+
+.prazo-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #727272;
+  font-size: 14px;
+  transition: 0.2s;
+  pointer-events: none; /* Ignora eventos para o label */
+}
+
+.hidden {
+  opacity: 0; /* Oculta o label */
+}
+
+/* Oculta o "dd/mm/aa" no campo de data em navegadores compatíveis */
+.prazo-conclusao input[type="date"]::-webkit-datetime-edit-text,
+.prazo-conclusao input[type="date"]::-webkit-datetime-edit-day-field,
+.prazo-conclusao input[type="date"]::-webkit-datetime-edit-month-field,
+.prazo-conclusao input[type="date"]::-webkit-datetime-edit-year-field {
+  color: transparent; /* Torna o placeholder invisível */
+}
+
+.prazo-conclusao input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  padding-right: 30px; /* Para o ícone de calendário */
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #fff;
+  color: #727272;
+}
+
+/* Campo de anexar imagem */
+.anexar-imagem {
+  position: relative;
+}
+
+.anexar-imagem label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anexar-imagem input[type="text"] {
+  padding-right: 30px; /* Espaço para o ícone de clipe */
+}
+
+.anexar-imagem .clip-icon {
+  position: absolute;
+  right: 30px;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #023059;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .titulo-principal h1 {
+    max-width: 90%;
+    font-size: 24px;
+  }
+
+  .primeiro-passo {
+    margin: 0 auto;
+    max-width: 90%;
+  }
 }
