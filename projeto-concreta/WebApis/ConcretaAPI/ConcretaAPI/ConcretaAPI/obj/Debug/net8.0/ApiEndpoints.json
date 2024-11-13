@@ -17,15 +17,15 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
-    "Method": "PostObras",
-    "RelativePath": "api/ObraModel",
-    "HttpMethod": "POST",
+    "Method": "GetObra",
+    "RelativePath": "api/ObraModel/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "obra",
-        "Type": "ConcretaAPI.Models.ObraModel",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -43,21 +43,21 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
-    "Method": "GetObra",
-    "RelativePath": "api/ObraModel/{id}",
-    "HttpMethod": "GET",
+    "Method": "PostObras",
+    "RelativePath": "api/ObraModel/cadastrar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "obraDto",
+        "Type": "ConcretaAPI.DTOs.ObraDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ConcretaAPI.Models.ObraModel",
+        "Type": "ConcretaAPI.DTOs.ObraDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

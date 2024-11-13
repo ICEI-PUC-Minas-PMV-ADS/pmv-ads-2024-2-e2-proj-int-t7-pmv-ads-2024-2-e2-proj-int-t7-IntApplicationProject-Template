@@ -14,6 +14,6 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Vinicius\Documents\development\pmv-ads-2024-2-e2-proj-int-t7-concreta\projeto-concreta\WebApis\ConcretaAPI\ConcretaAPI\ConcretaAPI
 build_property._RazorSourceGeneratorDebug = 

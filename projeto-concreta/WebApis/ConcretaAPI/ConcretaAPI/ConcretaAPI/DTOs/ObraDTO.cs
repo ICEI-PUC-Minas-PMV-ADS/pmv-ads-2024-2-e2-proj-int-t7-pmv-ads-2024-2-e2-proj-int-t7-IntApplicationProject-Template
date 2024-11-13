@@ -4,6 +4,7 @@
     {
         public int IdObra { get; set; }
         public string Nome { get; set; }
+        public string Construtora { get; set; }
         public string Localizacao { get; set; }
         public string Descricao { get; set; }
         public DateTime DataInicio { get; set; }
