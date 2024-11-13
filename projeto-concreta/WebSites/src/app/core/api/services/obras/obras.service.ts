@@ -12,13 +12,19 @@ export class ObrasService extends BaseService {
 
   private rotabase: string = 'ObraModel/Cadastrar';
 
+  private apiUrl = 'ObraModel/em-andamento';
+
 
   constructor(httpClient: HttpClient) {
     super(httpClient)
   }
- 
+
   public cadastrarObra(data: ObrasModel) {
     return this.post(`${this.rotabase}`, data);
   }
 
+  // Método para pegar as obras em andamento
+  public getObrasEmAndamento(): Observable<ObrasModel[]> {
+    return this.get<ObrasModel[]>(this.apiUrl);
+  }
 }

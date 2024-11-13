@@ -4,7 +4,8 @@ using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
 using ConcretaAPI.Data;
-using ConcretaAPI.DTOs; // Para acessar o DbContext
+using ConcretaAPI.DTOs;
+using Microsoft.EntityFrameworkCore; // Para acessar o DbContext
 
 namespace ConcretaAPI.Controllers
 {
@@ -41,15 +42,27 @@ namespace ConcretaAPI.Controllers
             return CreatedAtAction("GetObra", new { id = obraDto.IdObra }, obraDto);
         }
 
-
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ObraModel>> GetObra(int id)
+        [HttpGet("em-andamento")]
+        public async Task<ActionResult<IEnumerable<ObraModel>>> GetObrasEmAndamento()
         {
-            var obra = await _context.Obras.FindAsync(id);
-            if (obra == null) return NotFound();
-            return obra;
+            var obrasEmAndamento = await _context.Obras
+                .Where(obra => obra.DataFim == null || obra.DataFim > DateTime.Now)
+                .ToListAsync();
+            return obrasEmAndamento;
         }
+
+        [HttpGet("obras-finalizadas")]
+        public async Task<ActionResult<IEnumerable<ObraModel>>> GetObrasFinalizadas()
+        {
+            var obrasFinalizadas = await _context.Obras
+                .Where(obra => obra.DataFim != null && obra.DataFim <= DateTime.Now)
+                .ToListAsync();
+
+            return obrasFinalizadas;
+        }
+
     }
 }
+
 
 

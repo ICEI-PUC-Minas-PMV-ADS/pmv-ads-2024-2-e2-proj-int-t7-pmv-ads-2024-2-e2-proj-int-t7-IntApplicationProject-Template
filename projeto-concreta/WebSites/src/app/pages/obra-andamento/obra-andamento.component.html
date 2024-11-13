@@ -10,51 +10,32 @@
             <th>Nome da obra</th>
             <th>Construtora</th>
             <th>Localização</th>
-            <th>Última atualização</th>
+            <th>Data provável de conclusão</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+          <!-- Iterando sobre as obras em andamento e exibindo os dados -->
+          <tr *ngFor="let obra of obrasEmAndamento">
+            <td>{{ obra.nome }}</td>
+            <td>{{ obra.construtora }}</td>
+            <td>{{ obra.localizacao }}</td>
+            <td>{{ obra.dataFim }}</td>
           </tr>
         </tbody>
       </table>
-
     </div>
+
     <div class="buttons" style="margin-top: 10px;">
+      <button class="btn back">
+        <img src="../../assets/icone-voltar.svg" alt="Ícone de voltar" />
+        Voltar para o menu
+      </button>
 
-        <button class="btn back">
-          <img src="../../assets/icone-voltar.svg" alt="Ícone de voltar" />
-          Voltar para o menu
-        </button>
+      <button class="btn load-more">
+        <img src="../../assets/icone-andamento.svg" alt="Ícone de andamento"/>
+        Carregar mais obras
+      </button>
+    </div>
+</div>
 
-        <button class="btn load-more">
-          <img src="../../assets/icone-andamento.svg" alt="Ícone de andamento"/>
-          Carregar mais obras
-        </button>
-      </div>
-  </div>
-  
- <app-footer/>
-
+<app-footer/>

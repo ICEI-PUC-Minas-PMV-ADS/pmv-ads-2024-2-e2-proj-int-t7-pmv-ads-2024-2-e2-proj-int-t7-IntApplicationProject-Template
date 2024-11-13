@@ -9,6 +9,7 @@ import { ToastModule } from 'primeng/toast';
 import { RippleModule } from 'primeng/ripple';
 import { MessageService } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ObrasService } from '../app/core/api/services/obras/obras.service'; // Ajuste o caminho conforme necessário
 
 
 @NgModule({
