@@ -26,6 +26,7 @@ namespace ConcretaAPI.Controllers
             var obra = new ObraModel
             {
                 Nome = obraDto.Nome,
+                Construtora = obraDto.Construtora, // Adicionando o campo Construtora
                 Localizacao = obraDto.Localizacao,
                 Descricao = obraDto.Descricao,
                 DataInicio = obraDto.DataInicio,
