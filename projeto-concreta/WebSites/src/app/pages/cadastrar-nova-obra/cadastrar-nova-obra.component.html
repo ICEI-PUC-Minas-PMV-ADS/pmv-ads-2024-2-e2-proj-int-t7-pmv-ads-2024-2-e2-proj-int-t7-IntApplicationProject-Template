@@ -1,5 +1,5 @@
 <app-navbar></app-navbar>
-
+<div [formGroup]="formGroup">
 <!-- Título Principal -->
 <header class="titulo-principal">
   <h1>Siga o passo a passo para efetuar o <span class="negrito">cadastro</span> da sua <span class="negrito">obra com sucesso!</span></h1>
@@ -11,28 +11,28 @@
   <hr>
   <div class="form-container">
     <h3>Sobre a obra:</h3>
-    <form>
+    <form [formGroup]="formGroup">
       <div class="campo">
         <label for="nome-obra">Nome da obra</label>
-        <input type="text" id="nome-obra" placeholder="Nome da obra" required>
+        <input type="text" id="nome-obra" placeholder="Nome da obra" required formControlName="nomeObra">
       </div>
       <div class="campo">
         <label for="construtora">Construtora</label>
-        <input type="text" id="construtora" placeholder="Construtora" required>
+        <input type="text" id="construtora" placeholder="Construtora" required formControlName="construtora">
       </div>
       <div class="campo">
         <label for="localizacao">Localização (Cidade - Estado)</label>
-        <input type="text" id="localizacao" placeholder="Localização (Cidade - Estado)" required>
+        <input type="text" id="localizacao" placeholder="Localização (Cidade - Estado)" required formControlName="localizacao">
       </div>
       <div class="campo prazo-conclusao">
         <label for="prazo-conclusao">Prazo de conclusão</label>
-        <input type="date" id="prazo-etapa">
+        <input type="date" id="prazo-etapa" formControlName="prazoConclusao">
       </div>
       <div class="campo anexar-imagem">
         <input type="file" id="imagem-capa" accept=".jpg, .jpeg, .png" hidden>
         <label for="imagem-capa">Imagem Capa</label>
-          <input type="text" placeholder="Anexar imagem capa da obra" disabled>
-          <i class="fa fa-paperclip clip-icon"></i>
+        <input type="text" placeholder="Anexar imagem capa da obra" disabled>
+        <i class="fa fa-paperclip clip-icon"></i>
       </div>
     </form>
   </div>
@@ -45,24 +45,24 @@
   <div class="form-container">
     <h3>Etapas da obra:</h3>
     <h4>Etapa 1</h4>
-    <form>
+    <form [formGroup]="etapasForm">
       <div class="campo">
         <label for="nome-etapa">Nome da etapa</label>
-        <input type="text" id="nome-etapa" placeholder="Nome da etapa" required>
+        <input type="text" id="nome-etapa" placeholder="Nome da etapa" required formControlName="nomeEtapa">
       </div>
       <div class="campo">
         <label for="descricao-etapa">Descrição da etapa</label>
-        <textarea id="descricao-etapa" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        <textarea id="descricao-etapa" placeholder="Escreva sua mensagem aqui..." required formControlName="descricaoEtapa"></textarea>
       </div>
       <div class="campo prazo-conclusao">
         <label for="prazo-conclusao">Prazo de conclusão</label>
-        <input type="date" id="prazo-etapa">
+        <input type="date" id="prazo-etapa" formControlName="prazoConclusaoEtapa">
       </div>
       <div class="campo anexar-imagem">
         <input type="file" id="imagem-etapa" accept=".jpg, .jpeg, .png" hidden>
         <label for="imagem-etapa">Imagem da Etapa</label>
-          <input type="text" placeholder="Anexar imagem capa da etapa" disabled>
-          <i class="fa fa-paperclip clip-icon"></i>
+        <input type="text" placeholder="Anexar imagem capa da etapa" disabled>
+        <i class="fa fa-paperclip clip-icon"></i>
       </div>
     </form>
     <div class="nova-etapa">
@@ -71,9 +71,9 @@
   </div>
   <!-- Botões Cancelar e Cadastrar -->
   <div class="botoes-container">
-    <button class="btn-cadastrar">CADASTRAR</button>
+    <button class="btn-cadastrar" (click)="save()">CADASTRAR</button>
     <button class="btn-cancelar">CANCELAR</button>
   </div>
 </section>
-
+</div>
 <app-footer></app-footer>

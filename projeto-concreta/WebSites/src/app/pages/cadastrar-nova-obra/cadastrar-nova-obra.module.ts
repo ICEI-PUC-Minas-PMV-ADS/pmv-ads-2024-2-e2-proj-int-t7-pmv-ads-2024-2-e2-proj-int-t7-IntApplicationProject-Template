@@ -7,7 +7,7 @@ import { FooterModule } from '../../footer/footer.module';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -16,6 +16,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     CadastrarNovaObraRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     NavBarModule,
     FooterModule,
     ButtonModule,
