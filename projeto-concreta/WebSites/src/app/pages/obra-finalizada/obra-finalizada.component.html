@@ -14,29 +14,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+          <!-- Iteração das obras finalizadas -->
+          <tr *ngFor="let obra of obraFinalizada">
+            <td>{{ obra.nome }}</td>
+            <td>{{ obra.construtora }}</td>
+            <td>{{ obra.localizacao }}</td>
+            <td>{{ obra.dataFim | date: 'shortDate' }}</td>
           </tr>
         </tbody>
       </table>

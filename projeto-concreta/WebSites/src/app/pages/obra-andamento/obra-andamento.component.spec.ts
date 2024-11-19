@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ObraAndamentoComponent } from './obra-andamento.component';
+
+import { ObrasService } from '../../core/api/services/obras/obras.service';
 
 @Component({
   selector: 'app-obra-andamento',

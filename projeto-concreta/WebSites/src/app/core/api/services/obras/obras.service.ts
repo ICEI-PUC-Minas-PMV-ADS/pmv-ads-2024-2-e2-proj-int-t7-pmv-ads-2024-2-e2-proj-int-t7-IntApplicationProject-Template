@@ -14,6 +14,8 @@ export class ObrasService extends BaseService {
 
   private apiUrl = 'ObraModel/em-andamento';
 
+  private obraFinalizadaEndpoint = 'ObraModel/obra-finalizada';
+
 
   constructor(httpClient: HttpClient) {
     super(httpClient)
@@ -25,6 +27,13 @@ export class ObrasService extends BaseService {
 
   // Método para pegar as obras em andamento
   public getObrasEmAndamento(): Observable<ObrasModel[]> {
+    console.log("aaaa")
     return this.get<ObrasModel[]>(this.apiUrl);
   }
+
+  // Método para pegar as obras finalizadas
+public getObraFinalizada(): Observable<ObrasModel[]> {
+  console.log("bbbb")
+  return this.get<ObrasModel[]>(this.obraFinalizadaEndpoint);
+}
 }

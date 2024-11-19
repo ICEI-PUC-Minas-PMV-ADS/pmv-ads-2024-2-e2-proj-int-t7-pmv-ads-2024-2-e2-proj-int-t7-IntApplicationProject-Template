@@ -20,7 +20,7 @@ export class MenuGestorComponent {
   goToObrasEmAndamento() {
     this.router.navigateByUrl(`obra-andamento`)
   }
-  goToObrasFinalizadas() {
+  goToObraFinalizada() {
     this.router.navigateByUrl(`obra-finalizada`)
   }
 

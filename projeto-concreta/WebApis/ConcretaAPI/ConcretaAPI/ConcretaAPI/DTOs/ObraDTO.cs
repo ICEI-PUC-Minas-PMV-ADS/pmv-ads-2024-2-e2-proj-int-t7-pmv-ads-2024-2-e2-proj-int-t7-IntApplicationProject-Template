@@ -11,7 +11,7 @@
         public DateTime? DataFim { get; set; }
         public int IdGestor { get; set; }   // Relacionamento com o Gestor da Obra
         public int IdUf { get; set; }       // Relacionamento com UF
-        public byte[] ArquivoFoto { get; set; }   // O arquivo da foto em formato binário
+        public string? ArquivoFoto { get; set; }   // O arquivo da foto em formato binário
         public int? IdArquivoFoto { get; set; }   // Identificador opcional do arquivo da foto
     }
 

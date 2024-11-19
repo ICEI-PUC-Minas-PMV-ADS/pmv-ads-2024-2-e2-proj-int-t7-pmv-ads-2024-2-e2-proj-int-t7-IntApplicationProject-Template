@@ -16,6 +16,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
+    "Method": "PostEtapa",
+    "RelativePath": "api/EtapaModel/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "etapaDto",
+        "Type": "ConcretaAPI.DTOs.EtapaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ConcretaAPI.DTOs.EtapaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
+    "Method": "GetEtapasByObra",
+    "RelativePath": "api/EtapaModel/obras/{idObra}/etapas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idObra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConcretaAPI.DTOs.EtapaDTO, ConcretaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
     "Method": "PostObras",
     "RelativePath": "api/ObraModel/cadastrar",
@@ -63,8 +115,8 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
-    "Method": "GetObrasFinalizadas",
-    "RelativePath": "api/ObraModel/obras-finalizadas",
+    "Method": "GetObraFinalizada",
+    "RelativePath": "api/ObraModel/obra-finalizada",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

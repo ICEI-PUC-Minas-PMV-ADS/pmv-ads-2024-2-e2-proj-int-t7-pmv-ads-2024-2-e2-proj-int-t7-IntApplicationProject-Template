@@ -23,6 +23,9 @@ namespace ConcretaAPI.Controllers
         [HttpPost("cadastrar")]
         public async Task<ActionResult<ObraDTO>> PostObras(ObraDTO obraDto)
         {
+            //Verificar na model (e por onde passa) o campo UrlFoto (ArquivoFoto) esta com o tipo invalido gerando erro 400 bad request
+            //O ajuste abaixo faz com que o banco salve porem ocorre um erro interno de servidor (error 500)
+            //O erro se originou na mudanca desse metodo para o ObraDTO com o novo campo Construtora
             var obra = new ObraModel
             {
                 Nome = obraDto.Nome,
@@ -32,6 +35,7 @@ namespace ConcretaAPI.Controllers
                 DataInicio = obraDto.DataInicio,
                 DataFim = obraDto.DataFim,
                 IdUf = obraDto.IdUf,
+                UrlFoto = obraDto.ArquivoFoto,
                 IdArquivoFoto = obraDto.IdArquivoFoto,
             };
 
@@ -52,16 +56,15 @@ namespace ConcretaAPI.Controllers
             return obrasEmAndamento;
         }
 
-        [HttpGet("obras-finalizadas")]
-        public async Task<ActionResult<IEnumerable<ObraModel>>> GetObrasFinalizadas()
+        [HttpGet("obra-finalizada")]
+        public async Task<ActionResult<IEnumerable<ObraModel>>> GetObraFinalizada()
         {
-            var obrasFinalizadas = await _context.Obras
+            var obraFinalizada = await _context.Obras
                 .Where(obra => obra.DataFim != null && obra.DataFim <= DateTime.Now)
                 .ToListAsync();
-
-            return obrasFinalizadas;
+            return obraFinalizada;
         }
-
+  
     }
 }
 

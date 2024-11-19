@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ObraFinalizadaComponent } from './obra-finalizada.component';
 
-describe('ObraAndamentoComponent', () => {
+describe('ObraFinalizadaComponent', () => {
   let component: ObraFinalizadaComponent;
   let fixture: ComponentFixture<ObraFinalizadaComponent>;
 
@@ -21,3 +21,6 @@ describe('ObraAndamentoComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
+
