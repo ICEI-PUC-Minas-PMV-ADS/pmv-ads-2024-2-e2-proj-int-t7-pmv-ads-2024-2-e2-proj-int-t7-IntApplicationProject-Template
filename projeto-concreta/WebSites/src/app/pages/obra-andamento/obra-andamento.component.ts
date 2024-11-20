@@ -19,8 +19,8 @@ export class ObraAndamentoComponent implements OnInit {
   ngOnInit(): void {
     // Chama o serviço para obter as obras em andamento
     this.obrasService.getObrasEmAndamento().subscribe(
-      (dados: any) => {
-        this.obrasEmAndamento = dados;
+      (dados: any[]) => {
+        this.obrasEmAndamento = dados.filter(obra => !obra.estaConcluido);
       },
       (error: any) => {
         console.error('Erro ao buscar obras em andamento', error);
@@ -35,6 +35,10 @@ export class ObraAndamentoComponent implements OnInit {
   
   carregarMaisObras() {
     this.visibleCount += 4; // Incrementa o número de itens visíveis
+  }
+  
+  irParaObraEspecifica(id: number): void {
+    this.router.navigate(['/obra-especifica-gestor', id]);
   }
   
 }

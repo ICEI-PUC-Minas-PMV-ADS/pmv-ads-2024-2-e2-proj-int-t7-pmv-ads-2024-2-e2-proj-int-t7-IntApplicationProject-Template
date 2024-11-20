@@ -115,6 +115,63 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
+    "Method": "GetObraById",
+    "RelativePath": "api/ObraModel/obra-escolhida/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ConcretaAPI.Models.ObraModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
+    "Method": "AtualizarCampoEstaConcluido",
+    "RelativePath": "api/ObraModel/obra-escolhida/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ConcretaAPI.Models.AtualizarObraRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ConcretaAPI.Models.ObraModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
     "Method": "GetObraFinalizada",
     "RelativePath": "api/ObraModel/obra-finalizada",
     "HttpMethod": "GET",

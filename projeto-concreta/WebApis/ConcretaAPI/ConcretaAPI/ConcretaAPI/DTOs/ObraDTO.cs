@@ -13,6 +13,7 @@
         public int IdUf { get; set; }       // Relacionamento com UF
         public string? ArquivoFoto { get; set; }   // O arquivo da foto em formato binário
         public int? IdArquivoFoto { get; set; }   // Identificador opcional do arquivo da foto
+        public bool EstaConcluido { get; set; } = false;
     }
 
 }

@@ -37,6 +37,7 @@ namespace ConcretaAPI.Controllers
                 IdUf = obraDto.IdUf,
                 UrlFoto = obraDto.ArquivoFoto,
                 IdArquivoFoto = obraDto.IdArquivoFoto,
+                EstaConcluido = obraDto.EstaConcluido,
             };
 
             _context.Obras.Add(obra);
@@ -51,7 +52,6 @@ namespace ConcretaAPI.Controllers
         public async Task<ActionResult<IEnumerable<ObraModel>>> GetObrasEmAndamento()
         {
             var obrasEmAndamento = await _context.Obras
-                .Where(obra => obra.DataFim == null || obra.DataFim > DateTime.Now)
                 .ToListAsync();
             return obrasEmAndamento;
         }
@@ -60,11 +60,47 @@ namespace ConcretaAPI.Controllers
         public async Task<ActionResult<IEnumerable<ObraModel>>> GetObraFinalizada()
         {
             var obraFinalizada = await _context.Obras
-                .Where(obra => obra.DataFim != null && obra.DataFim <= DateTime.Now)
                 .ToListAsync();
             return obraFinalizada;
         }
-  
+
+        [HttpGet("obra-escolhida/{id}")]
+        public async Task<ActionResult<ObraModel>> GetObraById(int id)
+        {
+            // Busca a obra pelo ID
+            var obra = await _context.Obras.FindAsync(id);
+
+            // Verifica se a obra foi encontrada
+            if (obra == null)
+            {
+                return NotFound(new { message = "Obra não encontrada." });
+            }
+
+            return Ok(obra);
+        }
+
+        [HttpPut("obra-escolhida/{id}")]
+        public async Task<ActionResult<ObraModel>> AtualizarCampoEstaConcluido(int id, [FromBody] AtualizarObraRequest request)
+        {
+            var obra = await _context.Obras.FindAsync(id);
+
+            if (obra == null)
+            {
+                return NotFound(new { message = "Obra não encontrada." });
+            }
+
+            // Atualizando apenas o campo "estaConcluido"
+            obra.EstaConcluido = request.EstaConcluido;
+
+            _context.Obras.Update(obra);
+            await _context.SaveChangesAsync();
+
+            return Ok(obra);
+        }
+
+
+
+
     }
 }
 

@@ -16,6 +16,8 @@ export class ObrasService extends BaseService {
 
   private obraFinalizadaEndpoint = 'ObraModel/obra-finalizada';
 
+  private obraEscolhidaEndpoint = 'ObraModel/obra-escolhida';
+
 
   constructor(httpClient: HttpClient) {
     super(httpClient)
@@ -27,13 +29,30 @@ export class ObrasService extends BaseService {
 
   // Método para pegar as obras em andamento
   public getObrasEmAndamento(): Observable<ObrasModel[]> {
-    console.log("aaaa")
+
     return this.get<ObrasModel[]>(this.apiUrl);
   }
 
   // Método para pegar as obras finalizadas
 public getObraFinalizada(): Observable<ObrasModel[]> {
-  console.log("bbbb")
   return this.get<ObrasModel[]>(this.obraFinalizadaEndpoint);
 }
+
+public getObraEscolhida(id: number): Observable<ObrasModel> {
+  const url = `${this.obraEscolhidaEndpoint}/${id}`; // Concatena o id à rota
+  return this.get<ObrasModel>(url); // Faz a requisição GET
+}
+
+atualizarEstaConcluido(id: number, estaConcluido: boolean): Observable<any> {
+  const obraAtualizada = {
+    idObra: id,
+    estaConcluido: estaConcluido
+  };
+
+  const url = `ObraModel/obra-escolhida/${id}`;
+  return this.put<any>(url, obraAtualizada);
+}
+
+
+
 }
