@@ -15,11 +15,11 @@
         </thead>
         <tbody>
           <!-- Iteração das obras finalizadas -->
-          <tr *ngFor="let obra of obraFinalizada">
+          <tr *ngFor="let obra of obraFinalizada | slice: 0:visibleCount">
             <td>{{ obra.nome }}</td>
             <td>{{ obra.construtora }}</td>
             <td>{{ obra.localizacao }}</td>
-            <td>{{ obra.dataFim | date: 'shortDate' }}</td>
+            <td>{{ obra.dataFim | date: 'dd/MM/yyyy' }}</td>
           </tr>
         </tbody>
       </table>
@@ -27,12 +27,12 @@
     </div>
     <div class="buttons" style="margin-top: 10px;">
 
-        <button class="btn back">
+        <button class="btn back" (click)="voltarParaMenu()">
           <img src="../../assets/icone-voltar.svg" alt="Ícone de voltar" />
           Voltar para o menu
         </button>
 
-        <button class="btn load-more">
+        <button class="btn load-more" *ngIf="visibleCount < obraFinalizada.length" (click)="carregarMaisObras()">
           <img src="../../assets/icone-andamento.svg" alt="Ícone de andamento"/>
           Carregar mais obras
         </button>

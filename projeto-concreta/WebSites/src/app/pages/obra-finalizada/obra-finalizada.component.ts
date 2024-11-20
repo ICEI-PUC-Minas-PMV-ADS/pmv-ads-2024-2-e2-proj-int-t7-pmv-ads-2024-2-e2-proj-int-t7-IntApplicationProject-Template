@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ObrasService } from "../../core/api/services/obras/obras.service"; // Ajuste o caminho
 import { ObrasModel } from '../../core/api/models/obras/obras.models'; // Ajuste o caminho
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -10,8 +11,10 @@ import { ObrasModel } from '../../core/api/models/obras/obras.models'; // Ajuste
 })
 export class ObraFinalizadaComponent implements OnInit {
   obraFinalizada: ObrasModel[] = []; // Armazena as obras recebidas do backend
+  tipoUsuario: number = 1; //pegar tipo usuario dinamicamente depois (1 para gestor e 2 para cliente)
+  visibleCount = 4; // Quantidade inicial de itens visíveis
 
-  constructor(private obrasService: ObrasService) {}
+  constructor(private obrasService: ObrasService, private router: Router) {}
 
   ngOnInit(): void {
     this.carregarObraFinalizada();
@@ -27,6 +30,16 @@ export class ObraFinalizadaComponent implements OnInit {
       }
     });
   }
+
+  voltarParaMenu() {
+    const rota = this.tipoUsuario === 1 ? 'menu-gestor-cliente/gestor' : 'menu-gestor-cliente/cliente';
+    this.router.navigate([rota]);
+  }
+
+  carregarMaisObras() {
+    this.visibleCount += 4; // Incrementa o número de itens visíveis
+  }
+
 }
 
 
