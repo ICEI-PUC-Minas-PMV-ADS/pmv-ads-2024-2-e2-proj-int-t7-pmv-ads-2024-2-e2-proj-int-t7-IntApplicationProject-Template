@@ -9,5 +9,7 @@ export interface ObrasModel {
     idGestor: number;
     idUf: number;
     arquivoFoto: string;
-    idArquivoFoto: number;  
+    idArquivoFoto: number;
+    estaConcluido: boolean;
+    
   }

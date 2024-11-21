@@ -19,6 +19,9 @@ namespace ConcretaAPI.Models
         public string? UrlFoto { get; set; }   // URL da foto
                                               // Relacionamento "um para muitos"
         public ICollection<EtapaModel> Etapas { get; set; } = new List<EtapaModel>();
+
+        public bool EstaConcluido { get; set; } = false;
+
     }
 
 }

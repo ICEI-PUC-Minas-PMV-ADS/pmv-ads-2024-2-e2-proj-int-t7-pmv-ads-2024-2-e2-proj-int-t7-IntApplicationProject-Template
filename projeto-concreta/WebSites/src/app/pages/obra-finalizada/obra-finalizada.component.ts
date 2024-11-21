@@ -22,8 +22,8 @@ export class ObraFinalizadaComponent implements OnInit {
 
   carregarObraFinalizada(): void {
     this.obrasService.getObraFinalizada().subscribe({
-      next: (data) => {
-        this.obraFinalizada = data; // Recebe os dados do backend
+      next: (data: any[]) => {
+        this.obraFinalizada = data.filter(obra => obra.estaConcluido);
       },
       error: (error) => {
         console.error('Erro ao carregar obras finalizadas:', error);
