@@ -128,7 +128,7 @@ namespace ConcretaAPI.Controllers
             var tokenString = tokenHandler.WriteToken(token);
 
 
-            var link = $"http://localhost:5190/redefinir-senha?token={tokenString}";
+            var link = $"http://localhost:4200/redefinir-senha?token={tokenString}";
 
             var body = $@"
             <html>

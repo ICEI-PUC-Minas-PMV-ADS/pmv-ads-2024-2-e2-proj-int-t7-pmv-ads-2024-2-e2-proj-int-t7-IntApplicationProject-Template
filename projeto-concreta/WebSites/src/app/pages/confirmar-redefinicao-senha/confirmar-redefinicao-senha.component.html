@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+
+<div class="page-container">
+  <div class="confirmar-redefinicao-senha-box">
+    <h2 class="title">Confirmar Redefinição de Senha</h2>
+
+    <input 
+      type="password" 
+      class="input-field" 
+      placeholder="Nova Senha"
+      [(ngModel)]="novaSenha" 
+      required
+    >
+
+    <input 
+      type="password" 
+      class="input-field" 
+      placeholder="Confirmar Nova Senha"
+      [(ngModel)]="confirmarSenha" 
+      required
+    >
+
+    <button class="confirmar-button" (click)="onConfirmarRedefinicao()">Confirmar</button>
+  </div>
+</div>
+
+<app-footer></app-footer>

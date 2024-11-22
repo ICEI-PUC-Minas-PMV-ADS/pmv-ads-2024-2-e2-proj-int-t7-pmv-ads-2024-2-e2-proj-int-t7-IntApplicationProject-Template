@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<div class="page-container">
+    <div class="esqueceu-box">
+        <h2 class="esqueceu-title">Digite seu e-mail</h2>
+        <input 
+            type="email" 
+            class="input-field" 
+            placeholder="E-mail" 
+            [(ngModel)]="email" 
+            required
+        >
+        <button class="esqueceu-button" (click)="onSolicitar()">Enviar</button>
+    </div>
+</div>
+
+<app-footer></app-footer>
