@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConcretaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb318a76a0b57c372773ab16f74b4e6b78bcb5a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af19644f42fc403059bc984c06a004278a73756e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConcretaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConcretaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

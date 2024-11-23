@@ -15,12 +15,11 @@ namespace ConcretaAPI.Models
         public DateTime DataInicio { get; set; }
         public DateTime? DataFim { get; set; }
         public int IdUf { get; set; }        // Referência à Unidade Federativa (UF)
-        public int? IdArquivoFoto { get; set; }   // Referência opcional à foto
-        public string? UrlFoto { get; set; }   // URL da foto
-                                              // Relacionamento "um para muitos"
         public ICollection<EtapaModel> Etapas { get; set; } = new List<EtapaModel>();
 
         public bool EstaConcluido { get; set; } = false;
+
+        public int IdUsuario { get; set; } // Relacionamento com o usuário
 
     }
 

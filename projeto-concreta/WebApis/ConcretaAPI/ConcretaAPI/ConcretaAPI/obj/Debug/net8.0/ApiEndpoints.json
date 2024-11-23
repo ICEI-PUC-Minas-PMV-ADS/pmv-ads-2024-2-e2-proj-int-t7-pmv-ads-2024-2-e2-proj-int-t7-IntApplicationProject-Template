@@ -79,6 +79,11 @@
         "Name": "obraDto",
         "Type": "ConcretaAPI.DTOs.ObraDTO",
         "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -178,6 +183,32 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConcretaAPI.Models.ObraModel, ConcretaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
+    "Method": "GetObrasPorUsuario",
+    "RelativePath": "api/ObraModel/obras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[ConcretaAPI.Models.ObraModel, ConcretaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

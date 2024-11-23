@@ -8,8 +8,5 @@ export interface ObrasModel {
     dataFim: Date;
     idGestor: number;
     idUf: number;
-    arquivoFoto: string;
-    idArquivoFoto: number;
     estaConcluido: boolean;
-    
   }

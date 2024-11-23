@@ -13,6 +13,7 @@ namespace ConcretaAPI.Controllers
     {
         private readonly AppDbContext _context;
 
+
         public UsuarioController(AppDbContext context)
         {
             _context = context;
@@ -88,7 +89,6 @@ namespace ConcretaAPI.Controllers
                 return Unauthorized(new { mensagem = "Senha incorreta." });
             }
 
-            return Ok(new { mensagem = "Login realizado com sucesso!", idTipoUsuario = usuario.IdTipoUsuario });
         }
 
     }

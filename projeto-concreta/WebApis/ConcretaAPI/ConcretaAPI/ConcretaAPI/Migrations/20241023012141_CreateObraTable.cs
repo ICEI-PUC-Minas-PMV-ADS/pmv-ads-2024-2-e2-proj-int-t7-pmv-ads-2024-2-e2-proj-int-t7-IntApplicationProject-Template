@@ -23,8 +23,6 @@ namespace ConcretaAPI.Migrations
                     DataInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DataFim = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IdUf = table.Column<int>(type: "int", nullable: false),
-                    IdArquivoFoto = table.Column<int>(type: "int", nullable: true),
-                    UrlFoto = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
