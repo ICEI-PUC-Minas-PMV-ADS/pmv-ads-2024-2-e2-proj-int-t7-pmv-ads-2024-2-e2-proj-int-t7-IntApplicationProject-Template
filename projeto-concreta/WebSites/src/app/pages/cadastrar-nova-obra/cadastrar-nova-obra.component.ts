@@ -6,6 +6,7 @@ import { ObrasModel } from '../../core/api/models/obras/obras.models';
 import { EtapasService } from '../../core/api/services/etapas/etapas.service';
 import { EtapasModel } from '../../core/api/models/etapas/etapas.model';
 import { MessageService } from 'primeng/api';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cadastrar-nova-obra',
@@ -18,7 +19,7 @@ export class CadastrarNovaObraComponent implements OnInit {
   idUsuario!: number;
   mmensagem: string = '';
 
-  constructor(private fb: FormBuilder, private obraService: ObrasService, private etapasService: EtapasService, private messageService: MessageService) {}
+  constructor(private fb: FormBuilder, private obraService: ObrasService, private etapasService: EtapasService, private messageService: MessageService, private router: Router,) {}
 
   ngOnInit(): void {
     this.idUsuario = parseInt(localStorage.getItem('userId') || '0', 10);
@@ -51,7 +52,7 @@ export class CadastrarNovaObraComponent implements OnInit {
     const novaObra: ObrasModel = {
       idObra: 0, //nao alterei na model pois era usado em outros arquivos
       nome: this.formGroup.controls['nomeObra'].value,
-      descricao: this.formGroup.controls['construtora'].value,
+      descricao: "",
       localizacao: this.formGroup.controls['localizacao'].value,
       dataInicio: today,
       dataFim: this.formGroup.controls['prazoConclusao'].value,
@@ -62,7 +63,7 @@ export class CadastrarNovaObraComponent implements OnInit {
       idUf: 0, //nao alterei na model pois era usado em outros arquivos
     }
     
-    console.log("aaa" + novaObra)
+    console.log("Nova obra model " + novaObra.idUsuario)
 
     this.obraService.cadastrarObra(novaObra).subscribe({
       next: (response: any) => { // Aqui você pode usar o tipo correto (ObrasModel)
@@ -89,7 +90,10 @@ export class CadastrarNovaObraComponent implements OnInit {
         this.etapasService.cadastrarEtapa(novaEtapa).subscribe({
           next: etapaResponse => {
             this.messageService.add({ severity: 'success', summary: 'cadasto de etapa bem-sucedido', detail: 'Etapa cadastrada com sucesso!' });
-            console.log("Etapa cadastrada com sucesso:", etapaResponse);
+            console.log("Etapa cadastrada com sucesso:", etapaResponse);//colocar navegacao de rota abaixo dessa linha
+            this.router.navigate(['/obra-andamento']);
+
+
           },
           error: etapaError => {
             console.error("Erro ao cadastrar etapa:", etapaError);
