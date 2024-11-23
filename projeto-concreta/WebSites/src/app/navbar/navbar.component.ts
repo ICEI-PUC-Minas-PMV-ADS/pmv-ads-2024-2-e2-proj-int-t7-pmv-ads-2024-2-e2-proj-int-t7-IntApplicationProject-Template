@@ -8,11 +8,14 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
   isMenuOpen = false;
+  isUserMenuOpen = false;
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
-
+  toggleUserMenu() {
+    this.isUserMenuOpen = !this.isUserMenuOpen;
+  }
   constructor(
     private router: Router,
   ) {

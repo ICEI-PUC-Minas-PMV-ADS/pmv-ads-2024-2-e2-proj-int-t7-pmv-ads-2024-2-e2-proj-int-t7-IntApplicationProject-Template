@@ -18,7 +18,7 @@
             align-items: center;
 
             img {
-            height: 50px; 
+            height: 50px;
             }
         }
     }
@@ -51,17 +51,41 @@
         }
 
         .navbar-user {
-        margin-left: 20px;
+          margin-left: 20px;
+          position: relative;
 
-        a {
-            display: flex;
-            align-items: center;
+          a {
+              display: flex;
+              align-items: center;
 
-            img {
-                height: 30px; 
-            }
-        }
-        }
+              img {
+                  height: 30px;
+              }
+          }
+
+          .user-menu {
+              display: block;
+              position: absolute;
+              top: 30px; /* Ajuste conforme necessário */
+              right: 0;
+              background-color: #023059;
+              padding: 10px;
+              border-radius: 5px;
+              z-index: 10;
+
+              .user-link {
+                  display: block;
+                  padding: 8px 12px;
+                  color: #fff;
+                  text-decoration: none;
+                  font-family: 'Oswald', sans-serif;
+
+                  &:hover {
+                      background-color: #d9a25f;
+                  }
+              }
+          }
+      }
     }
 
     .navbar-toggle {
