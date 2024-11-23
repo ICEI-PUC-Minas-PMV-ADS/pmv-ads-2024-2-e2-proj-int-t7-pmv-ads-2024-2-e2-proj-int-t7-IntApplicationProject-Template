@@ -47,7 +47,7 @@ const routes: Routes = [
     path: 'editar-obra',
     loadChildren: () => import('./pages/editar-obra/editar-obra.module').then(m => m.EditarObraModule)
   },
-  
+
 ];
 
 

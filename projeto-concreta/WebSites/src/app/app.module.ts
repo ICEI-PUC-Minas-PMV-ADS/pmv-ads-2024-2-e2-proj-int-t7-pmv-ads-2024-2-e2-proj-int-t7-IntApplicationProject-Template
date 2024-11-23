@@ -9,7 +9,10 @@ import { ToastModule } from 'primeng/toast';
 import { RippleModule } from 'primeng/ripple';
 import { MessageService } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ObrasService } from '../app/core/api/services/obras/obras.service'; // Ajuste o caminho conforme necessário
+import { ObrasService } from '../app/core/api/services/obras/obras.service';
+
+import { LoginModule } from './pages/login/login.module';
+import { CadastroUserModule } from './pages/cadastro-user/cadastro-user.module';
 
 
 @NgModule({
@@ -23,7 +26,9 @@ import { ObrasService } from '../app/core/api/services/obras/obras.service'; // 
     ToastModule,
     RippleModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+
+
   ],
   providers: [
     provideClientHydration(),
