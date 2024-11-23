@@ -93,7 +93,7 @@ namespace ConcretaAPI.Controllers
             {
                 return Unauthorized(new { mensagem = "Senha incorreta." });
             }
-
+            return Ok(new { mensagem = "Login realizado com sucesso!", idTipoUsuario = usuario.IdTipoUsuario, idUsuario = usuario.IdUsuario });
         }
 
         [HttpPost("solicitar-redefinicao-senha")]

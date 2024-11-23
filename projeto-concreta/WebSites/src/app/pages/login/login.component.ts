@@ -26,6 +26,9 @@ export class LoginComponent {
     this.loginservice.login(loginDto).subscribe({
       next: (response) => {
         const idTipoUsuario = response.idTipoUsuario;
+        const idUsuario = response.idUsuario;
+        console.log("id usuario salvo no localStorage = " + idUsuario.toString());
+        localStorage.setItem('userId', idUsuario.toString());
         localStorage.setItem('idTipoUsuario', idTipoUsuario);
         
         if (idTipoUsuario === 1) {

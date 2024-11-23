@@ -34,7 +34,7 @@ namespace ConcretaAPI.Controllers
 
             etapaDto.IdEtapa = etapa.IdEtapa;
 
-            return CreatedAtAction("GetEtapa", new { id = etapaDto.IdEtapa }, etapaDto);
+            return Ok(new { mensagem = "Etapa cadastrada com sucesso!", id = etapaDto.IdEtapa, etapaDto });
         }
 
         // Método para listar as etapas de uma obra

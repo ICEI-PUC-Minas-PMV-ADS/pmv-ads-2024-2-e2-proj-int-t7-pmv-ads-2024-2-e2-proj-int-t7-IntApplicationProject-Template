@@ -239,6 +239,22 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.UsuarioController",
+    "Method": "ConfirmarRedefinicaoSenha",
+    "RelativePath": "api/Usuario/confirmar-redefinicao-senha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcretaAPI.DTOs.RedefinirSenhaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.UsuarioController",
     "Method": "Login",
     "RelativePath": "api/Usuario/login",
     "HttpMethod": "POST",
@@ -248,6 +264,22 @@
       {
         "Name": "loginDto",
         "Type": "ConcretaAPI.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.UsuarioController",
+    "Method": "SolicitarRedefinicaoSenha",
+    "RelativePath": "api/Usuario/solicitar-redefinicao-senha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcretaAPI.DTOs.SolicitarRedefinicaoSenhaDTO",
         "IsRequired": true
       }
     ],

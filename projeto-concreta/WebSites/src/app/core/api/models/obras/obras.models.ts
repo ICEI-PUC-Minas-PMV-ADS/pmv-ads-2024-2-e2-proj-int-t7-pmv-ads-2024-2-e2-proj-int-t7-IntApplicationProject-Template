@@ -7,6 +7,7 @@ export interface ObrasModel {
     dataInicio: Date;
     dataFim: Date;
     idGestor: number;
+    idUsuario: number
     idUf: number;
     estaConcluido: boolean;
   }

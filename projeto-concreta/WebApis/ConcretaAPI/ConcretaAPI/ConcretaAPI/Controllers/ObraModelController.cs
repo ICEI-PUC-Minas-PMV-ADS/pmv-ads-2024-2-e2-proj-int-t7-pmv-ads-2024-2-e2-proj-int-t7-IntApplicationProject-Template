@@ -32,24 +32,25 @@ namespace ConcretaAPI.Controllers
 
             var obra = new ObraModel
 
-                {
-                    Nome = obraDto.Nome,
-                    Construtora = obraDto.Construtora, // Adicionando o campo Construtora
-                    Localizacao = obraDto.Localizacao,
-                    Descricao = obraDto.Descricao,
-                    DataInicio = obraDto.DataInicio,
-                    DataFim = obraDto.DataFim,
-                    IdUf = obraDto.IdUf,
-                    EstaConcluido = obraDto.EstaConcluido,
-                    IdUsuario = userId, // Associa a obra ao ID do usuário logado
+            {
+                Nome = obraDto.Nome,
+                Construtora = obraDto.Construtora, // Adicionando o campo Construtora
+                Localizacao = obraDto.Localizacao,
+                Descricao = obraDto.Descricao,
+                DataInicio = obraDto.DataInicio,
+                DataFim = obraDto.DataFim,
+                IdUf = obraDto.IdUf,
+                EstaConcluido = obraDto.EstaConcluido,
+                IdUsuario = userId, // Associa a obra ao ID do usuário logado
             };
 
-                _context.Obras.Add(obra);
-                await _context.SaveChangesAsync();
+            _context.Obras.Add(obra);
+            await _context.SaveChangesAsync();
 
-                obraDto.IdObra = obra.IdObra;
+            obraDto.IdObra = obra.IdObra;
 
-                return CreatedAtAction("GetObra", new { id = obraDto.IdObra }, obraDto);
+            return Ok(new { mensagem = "obra cadastrada com sucesso!", id = obraDto.IdObra, obraDto });
+
         }
 
             [HttpGet("em-andamento")]
