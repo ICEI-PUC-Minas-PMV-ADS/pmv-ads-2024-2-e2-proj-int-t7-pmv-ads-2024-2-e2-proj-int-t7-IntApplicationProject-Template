@@ -83,7 +83,7 @@ public class AuthController : Controller
         return RedirectToAction("Index", "Home");
     }
 
-   // Método para exibir a página de recuperação de senha
+    // Método para exibir a página de recuperação de senha
     [HttpGet]
     public IActionResult RecuperarSenha()
     {
@@ -169,7 +169,7 @@ public class AuthController : Controller
     private async Task EnviarEmailAsync(string email, string assunto, string mensagem)
     {
         // Implementar envio de e-mail
-        // Placeholder
+        // Placeholder (?)
         Console.WriteLine($"Email enviado para {email}: {mensagem}");
         await Task.CompletedTask;
     }
