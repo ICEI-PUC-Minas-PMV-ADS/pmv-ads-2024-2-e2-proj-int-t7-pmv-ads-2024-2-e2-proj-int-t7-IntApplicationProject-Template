@@ -22,7 +22,6 @@ O projeto visa desenvolver uma ferramenta de gestão de obras, denominada "Concr
 * Luiz Fernando Ribeiro Rocha
 * Paloma Caroline de Sá Bassani
 * Rafael de Castro Leles
-* Thiago Soares de Souza
 
 ## Orientador
 
