@@ -24,6 +24,8 @@ namespace app.Database
         public DbSet<Permissao> Permissoes { get; set; }
         public DbSet<GrupoPermissao> GruposPermissoes { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<TokenRecuperacaoSenha> TokensRecuperacaoSenha { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

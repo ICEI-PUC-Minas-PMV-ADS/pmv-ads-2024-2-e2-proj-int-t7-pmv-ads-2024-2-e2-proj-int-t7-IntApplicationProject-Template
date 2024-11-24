@@ -1,0 +1,56 @@
+@using app.Models.ViewModels
+
+@model RedefinirSenhaViewModel
+
+@{
+    Layout = "_MainLayout";
+    ViewData["Title"] = "Redefinir Senha";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <h2 class="text-center mb-4">Redefinir Senha</h2>
+
+        <!-- Mensagem de sucesso ou erro -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-info">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form asp-action="RedefinirSenha" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Campo para a nova senha -->
+            <div class="form-group mb-3">
+                <label for="NovaSenha">Nova Senha</label>
+                <input asp-for="NovaSenha" type="password" id="NovaSenha" class="form-control" required />
+                <span asp-validation-for="NovaSenha" class="text-danger"></span>
+            </div>
+
+            <!-- Campo para confirmação da nova senha -->
+            <div class="form-group mb-3">
+                <label for="ConfirmarSenha">Confirme a Nova Senha</label>
+                <input asp-for="ConfirmarSenha" type="password" id="ConfirmarSenha" class="form-control" required />
+                <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
+            </div>
+
+            <!-- Campo oculto para o token -->
+            <input asp-for="Token" type="hidden" />
+
+            <button type="submit" class="btn btn-primary w-100">Redefinir Senha</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="@Url.Action("Login", "Auth")">Voltar para a página de Login</a>
+        </div>
+    </div>
+</div>

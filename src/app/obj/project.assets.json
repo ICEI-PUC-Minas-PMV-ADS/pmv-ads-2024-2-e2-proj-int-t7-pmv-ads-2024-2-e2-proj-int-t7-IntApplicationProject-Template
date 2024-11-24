@@ -4857,19 +4857,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/raphaelrodrigues/.nuget/packages/": {}
+    "C:\\Users\\vinis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
+      "projectUniqueName": "C:\\Users\\vinis\\OneDrive\\Área de Trabalho\\pmv-ads-2024-2-e2-proj-int-t7-ecologic\\src\\app\\app.csproj",
       "projectName": "app",
-      "projectPath": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
-      "packagesPath": "/Users/raphaelrodrigues/.nuget/packages/",
-      "outputPath": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/",
+      "projectPath": "C:\\Users\\vinis\\OneDrive\\Área de Trabalho\\pmv-ads-2024-2-e2-proj-int-t7-ecologic\\src\\app\\app.csproj",
+      "packagesPath": "C:\\Users\\vinis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinis\\OneDrive\\Área de Trabalho\\pmv-ads-2024-2-e2-proj-int-t7-ecologic\\src\\app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/raphaelrodrigues/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vinis\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4946,7 +4946,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
