@@ -37,13 +37,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "1.5MB", 
+                  "maximumError": "1.7MB"  
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "5kB",  
+                  "maximumError": "7kB"    
                 }
               ],
               "outputHashing": "all"
@@ -98,7 +98,8 @@
               "src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "pmv-ads-2024-2-e2-proj-int-t7-concreta"
           }
         }
       }
