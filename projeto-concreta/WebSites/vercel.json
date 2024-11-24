@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "package.json",
+        "src": "dist/projeto-concreta/server/main.js",
         "use": "@vercel/node"
       }
     ],
