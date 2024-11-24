@@ -1,0 +1,15 @@
+<div class="min-h-screen flex flex-column">
+  <app-navbar />
+
+  <div class="flex-grow-1 flex justify-content-center ">
+    @if (menu === 'cliente') {
+    <app-menu-cliente />
+    } @if (menu === 'gestor') {
+    <app-menu-gestor />
+    }
+  </div>
+
+  <p-button (onClick)="menu = menu === 'gestor' ? 'cliente' : 'gestor'"></p-button>
+
+  <app-footer />
+</div>

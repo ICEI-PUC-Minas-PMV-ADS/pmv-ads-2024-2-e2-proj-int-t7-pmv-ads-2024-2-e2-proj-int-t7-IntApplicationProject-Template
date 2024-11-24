@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.navbar {
+    background-color: #023059;
+    padding: 10px 20px;
+
+    .navbar-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-logo {
+        a {
+            display: flex;
+            align-items: center;
+
+            img {
+            height: 50px;
+            }
+        }
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+
+            .navbar-links {
+                list-style-type: none;
+                display: flex;
+                margin: 0;
+                padding: 0;
+
+            .navbar-link {
+                margin-right: 20px;
+
+                a {
+                    font-family: 'Oswald', sans-serif;
+                    color: #fff;
+                    text-decoration: none;
+                    transition: color 0.3s;
+
+                    &:hover,
+                    &.active {
+                        color: #d9a25f;
+                    }
+                }
+            }
+        }
+
+        .navbar-user {
+          margin-left: 20px;
+          position: relative;
+
+          a {
+              display: flex;
+              align-items: center;
+
+              img {
+                  height: 30px;
+              }
+          }
+
+          .user-menu {
+              display: block;
+              position: absolute;
+              top: 30px; /* Ajuste conforme necessário */
+              right: 0;
+              background-color: #023059;
+              padding: 10px;
+              border-radius: 5px;
+              z-index: 10;
+
+              .user-link {
+                  display: block;
+                  padding: 8px 12px;
+                  color: #fff;
+                  text-decoration: none;
+                  font-family: 'Oswald', sans-serif;
+
+                  &:hover {
+                      background-color: #d9a25f;
+                  }
+              }
+          }
+      }
+    }
+
+    .navbar-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+
+        span {
+            background: #fff;
+            height: 2px;
+            width: 25px;
+            margin: 4px 0;
+            transition: 0.3s;
+        }
+    }
+
+    /* Estilo responsivo para telas menores */
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #023059;
+        position: absolute; /* Mantém o posicionamento absoluto */
+        top: 60px;
+        left: 0; /* Alinha à esquerda */
+        width: 100%; /* Ocupa toda a largura */
+        padding: 10px 0;
+
+        .navbar-links {
+            flex-direction: column;
+            align-items: center;
+
+            .navbar-link {
+                margin: 10px 0;
+                text-align: center;
+            }
+        }
+
+        .navbar-user {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    .navbar-menu.open {
+        display: flex; /* Exibe o menu quando estiver aberto */
+    }
+
+    .navbar-toggle {
+        display: flex; /* Exibe o ícone do menu hamburguer */
+    }
+}
+}

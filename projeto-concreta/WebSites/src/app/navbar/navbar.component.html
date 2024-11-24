@@ -1,0 +1,39 @@
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-logo">
+            <a routerLink="/home" >
+                <img src="../../assets/logo-concreta.svg" alt="Logo da Empresa" />
+            </a>
+        </div>
+
+        <div class="navbar-menu" [ngClass]="{ 'open': isMenuOpen }">
+            <ul class="navbar-links">
+                <li class="navbar-link">
+                    <a (click)="scrollToSection('sobre')" class="cursor-pointer" routerLink="/sobre" routerLinkActive="active">Sobre</a>
+                </li>
+                <li class="navbar-link">
+                    <a (click)="scrollToSection('ferramentas')" class="cursor-pointer" routerLink="/ferramentas" routerLinkActive="active">Ferramentas</a>
+                </li>
+                <li class="navbar-link">
+                    <a (click)="scrollToSection('contato')" class="cursor-pointer" routerLink="/contato" routerLinkActive="active">Contato</a>
+                </li>
+            </ul>
+            <div class="navbar-user" (click)="toggleUserMenu()">
+              <a>
+                  <img src="../../assets/user-icon.svg" alt="Ícone de Usuário"/>
+              </a>
+              <div *ngIf="isUserMenuOpen" class="user-menu">
+                  <a routerLink="/login" class="user-link">Login</a>
+                  <a routerLink="/cadastro-user" class="user-link">Cadastro</a>
+              </div>
+          </div>
+        </div>
+
+        <!-- Menu hamburguer para telas pequenas -->
+        <div class="navbar-toggle" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>

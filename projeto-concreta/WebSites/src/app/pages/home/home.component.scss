@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*BANNER*/
+.banner {
+    background: url('../../../assets/banner-home.svg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1600px;
+    height: 100vh;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.banner-content {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    margin-right: 150px;
+    font-size: 56px;
+}
+
+/*SOBRE*/
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.sobre-texto {
+    max-width: 600px;
+    text-align: left;
+}
+
+.sobre-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: #023059;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #023059;
+    line-height: 1.5;
+}
+
+.sobre-imagem {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-fundo {
+    background-color: #025373;
+    width: 90%;
+    max-width: 440px;
+    height: 100%;
+    max-height: 440px;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.imagem-equipe {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    z-index: 2;
+}
+
+/*BENEFICIOS*/
+.beneficios {
+    background-color: #F2B705;
+    max-width: 100%;
+    margin-top: 40PX;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    .beneficios-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 32px;
+        color: #023059;
+        margin-bottom: 20px;
+    }
+
+    .beneficios-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        @media (min-width: 1000px) {
+        flex-direction: row;
+        gap: 200px;
+        }
+    }
+
+    .beneficio {
+        flex: 1;
+        text-align: left;
+
+        .beneficio-title {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: bold;
+            color: #023059;
+            font-size: 24px;
+            margin-bottom: 8px;
+
+            .numero {
+                font-size: 16px;
+                margin-right: 5px;
+            }
+        }
+
+        .beneficio-description {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: normal;
+            color: #023059;
+            font-size: 16px;
+        }
+    }
+}
+
+/*FERRAMENTAS*/
+.ferramentas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.ferramentas-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    color: #023059;
+    margin-bottom: 40px;
+}
+
+.ferramentas-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 180px;
+    margin-bottom: 40px;
+}
+
+.ferramenta-item {
+    display: flex;
+    align-items: center;
+    border: 2px solid #023059;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    width: 100px;
+}
+
+.ferramenta-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.ferramenta-texto {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #023059;
+    text-align: left;
+}
+
+/*CONTATO*/
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.contato-content {
+    display: flex;
+    max-width: 800px;
+    background-color: #023059;
+    border-radius: 20px;
+    width: 100%;
+    padding: 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 32px;
+        color: #F2B705;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .input-form {
+        margin-bottom: 40px;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        color: #727272;
+        width: 90%;
+        background-color: #fff;
+
+        &::placeholder {
+            color: #727272;
+        }
+    }
+
+    .btn-enviar {
+        background-color: #F2B705;
+        color: #023059;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        width: 50%;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: darken(#F2B705, 5%);
+        }
+    }
+}
+
+.imagem-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+/* Responsividade para telas*/
+@media (min-width: 1024px) {
+    /*SOBRE*/
+    .sobre-container {
+        padding: 80px 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*SOBRE*/
+    .sobre-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 60px 40px;
+    }
+
+    .sobre-texto {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .sobre-imagem {
+        flex: 1;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    /*BANNER*/
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    /*SOBRE*/
+    .sobre-texto h2 {
+        font-size: 24px;
+    }
+    
+    .sobre-texto p {
+        font-size: 16px;
+    }
+
+    /*BENEFICIOS*/
+    .beneficios-title {
+        font-size: 24px !important; 
+        text-align: left;
+    }
+
+    .beneficio-title {
+        font-size: 16px !important;
+    }
+
+
+    .beneficios-container {
+        gap: 20px;
+    }
+
+    /*FERRAMENTAS*/
+    .ferramentas-titulo {
+        font-size: 24px;
+    }
+
+    .ferramentas-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .ferramenta-item {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .ferramenta-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ferramenta-texto {
+        font-size: 16px;
+    }
+
+    /*CONTATO*/
+    .contato-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px; 
+    }
+    
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario h2 {
+        font-size: 24px;
+        text-align: center;
+        }
+
+    .imagem-container {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
