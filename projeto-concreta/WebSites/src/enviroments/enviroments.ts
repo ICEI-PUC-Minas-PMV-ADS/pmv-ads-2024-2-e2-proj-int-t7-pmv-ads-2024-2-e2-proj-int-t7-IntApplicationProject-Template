@@ -1,3 +1,3 @@
 export const environment = {
-    apiUrl: 'http://localhost:5190/api/'
+    apiUrl: 'http://concreta-001-site1.ntempurl.com/'
 };
