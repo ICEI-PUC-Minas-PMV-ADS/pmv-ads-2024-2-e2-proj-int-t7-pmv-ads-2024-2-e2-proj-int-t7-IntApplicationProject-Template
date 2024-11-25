@@ -6,9 +6,14 @@
 
 ## Diagrama de Classes
 
-<img width="2000" alt="image" src="https://github.com/user-attachments/assets/c3010792-1f7c-45bf-ace8-71c6ee7ee1c2">
-<br>
+<div align="center">
+ 
+![image](https://github.com/user-attachments/assets/654caea2-5054-464f-8cb2-0e49343ed5ba)
+
+</div>
+
 <h4 align="center">FIGURA 17</h4>
+
 
 <br>
 
