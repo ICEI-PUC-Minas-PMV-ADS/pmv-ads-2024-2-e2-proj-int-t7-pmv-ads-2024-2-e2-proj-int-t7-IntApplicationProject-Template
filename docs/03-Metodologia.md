@@ -105,6 +105,26 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 <br>
 
+#### Etapa 4:
+O planejamento desta etapa foi realizado utilizando a metodologia ágil SCRUM, com foco na entrega incremental das funcionalidades do sistema de gerenciamento de usinas de energia. Após revisar o backlog do projeto, a equipe definiu as prioridades desta Sprint, alinhando-as ao objetivo principal de aprimorar a eficiência na gestão energética e promover a sustentabilidade.
+
+As seguintes funcionalidades foram priorizadas para desenvolvimento:
+
+• Dashboard para monitoramento da eficiência energética das usinas;
+
+• Testes e validações de usabilidade do sistema.
+
+• Correção de todos os diagramas (conforme o professor pediu) (Finalizado)
+
+• Continuar a implementação do backend.
+
+A Sprint Planning resultou na divisão clara de tarefas, alinhadas aos papéis definidos pela metodologia SCRUM, e funcionalidades menos prioritárias foram movidas para o backlog do produto, sem impactar os objetivos centrais do projeto. O progresso das atividades foi acompanhado em reuniões semanais, garantindo a colaboração entre os membros e a resolução de impedimentos.
+
+Figura referente ao quadro Kanban na etapa 4:
+
+![Captura de tela 2024-11-24 220644](https://github.com/user-attachments/assets/bcc1099e-8714-4b98-8f28-bb1b93128e21)
+
+
 ### Ferramentas
 
 ➤ **GitHub:** É utilizado como plataforma de hospedagem de repositórios de código-fonte. O GitHub permite que a equipe mantenha todos os arquivos do projeto organizados. Através dele, os membros realizam commits regulares e criam branches para desenvolver novas funcionalidades ou corrigir bugs. Além disso, o GitHub é utilizado para gerenciar um quadro Kanban, facilitando a organização e o acompanhamento das tarefas do projeto.
