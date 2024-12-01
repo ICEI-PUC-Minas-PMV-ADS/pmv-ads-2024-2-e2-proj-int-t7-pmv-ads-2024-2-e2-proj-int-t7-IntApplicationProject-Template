@@ -13,19 +13,36 @@ export class ObraAndamentoComponent implements OnInit {
   tipoUsuario: number = 1; //pegar tipo usuario dinamicamente depois (1 para gestor e 2 para cliente)
   obrasEmAndamento: ObrasModel[] = [];
   visibleCount = 4; // Quantidade inicial de itens visíveis
+  obrasFiltradas: ObrasModel[] = [];
+  idUsuario!: number;
 
   constructor(private obrasService: ObrasService, private router: Router) {}
 
   ngOnInit(): void {
     // Chama o serviço para obter as obras em andamento
+    
     this.obrasService.getObrasEmAndamento().subscribe(
       (dados: any[]) => {
         this.obrasEmAndamento = dados.filter(obra => !obra.estaConcluido);
       },
       (error: any) => {
         console.error('Erro ao buscar obras em andamento', error);
+      },
+    ); 
+     // Recupera o ID do usuário do localStorage
+     this.idUsuario = 7
+     console.log("deveria " + this.idUsuario);
+
+      if (this.idUsuario) {
+        // Filtra as obras para mostrar apenas as obras do usuário atual
+        this.obrasFiltradas = this.obrasEmAndamento.filter(obra => obra.idUsuario === Number(this.idUsuario));
+        console.log("deveria passar aqui");
+        console.log(this.obrasFiltradas);
+      } else {
+        (error: any) => 
+        console.error('ID do usuário não encontrado no localStorage');
       }
-    );
+
   }
 
   voltarParaMenu() {
@@ -40,7 +57,7 @@ export class ObraAndamentoComponent implements OnInit {
   irParaObraEspecifica(id: number): void {
     this.router.navigate(['/obra-especifica-gestor', id]);
   }
-  
+
 }
 
 

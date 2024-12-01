@@ -15,7 +15,8 @@
         </thead>
         <tbody>
           <!-- Iterando sobre as obras em andamento e exibindo os dados -->
-          <tr *ngFor="let obra of obrasEmAndamento | slice: 0:visibleCount" (click)="irParaObraEspecifica(obra.idObra)" style="cursor: pointer;">
+          <!--<tr *ngFor="let obra of obrasEmAndamento | slice: 0:visibleCount" (click)="irParaObraEspecifica(obra.idObra)" style="cursor: pointer;"> -->
+            <tr *ngFor="let obra of obrasFiltradas | slice: 0:visibleCount" (click)="irParaObraEspecifica(obra.idObra)" style="cursor: pointer;">
             <td>{{ obra.nome }}</td>
             <td>{{ obra.construtora }}</td>
             <td>{{ obra.localizacao }}</td>
@@ -23,6 +24,17 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!--acrescentei isso-->
+    <div *ngIf="obrasFiltradas.length > 0">
+      <div *ngFor="let obra of obrasFiltradas">
+        <h3>{{ obra.nome }}</h3>
+        <p>{{ obra.descricao }}</p>
+        <p><strong>Construtora:</strong> {{ obra.construtora }}</p>
+        <p><strong>Localização:</strong> {{ obra.localizacao }}</p>
+        <p><strong>Data de conclusão:</strong> {{ obra.dataFim | date: 'dd/MM/yyyy' }}</p>
+      </div>
     </div>
 
     <div class="buttons" style="margin-top: 10px;">
