@@ -1,33 +1,35 @@
-# TÍTULO DO PROJETO
+# EcoLogic
 
-`CURSO`
+`Análise e Desenvolvimento de Sistema - PUC Minas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2º Semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+
+
+<p align="center">
+  <img src= "https://github.com/user-attachments/assets/421f29b0-8a8a-4948-8b61-d087fa89c79a" width="400">
+</p>
+
+
+O projeto em desenvolvimento é um Sistema de Gerenciamento de Produção de Energia Renovável. Esta aplicação web terá como objetivo principal gerenciar e monitorar usinas de energia renovável, abrangendo diferentes fontes de energia como solar, eólica e hidrelétrica. O sistema oferecerá funcionalidades para o registro e atualização das informações das usinas, além de permitir a visualização e análise da produção de energia. Também incluirá a capacidade de gerar relatórios detalhados e gráficos que facilitarão a avaliação do desempenho das usinas. Com um enfoque na automação e na entrega eficiente de resultados, o sistema permitirá que equipes de dados acompanhem e otimizem a produção de energia sem a necessidade de interações diretas com a manipulação de dados.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alexsander Lima de Andrade Vieira
+* Ariane Silveira Almeida Moura
+* Breno Marques de Moura
+* Leticia Rodrigues de Oliveira Santos
+* Marytom Erllem Silva Sousa
+* Raphael Rodrigues de Figueiredo Lage
+* Vinicius Simoes dos Santos
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 

@@ -1,0 +1,35 @@
+@model app.Models.EditFonteDeEnergiaViewModel
+
+@{
+    Layout = "_ContentLayout";
+    ViewData["Title"] = "Editar Fonte de Energia";
+}
+
+<h2>Editar Fonte de Energia</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Tipo" class="control-label"></label>
+        <input asp-for="Tipo" class="form-control" />
+        <span asp-validation-for="Tipo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EficienciaMedia" class="control-label"></label>
+        <input asp-for="EficienciaMedia" class="form-control" />
+        <span asp-validation-for="EficienciaMedia" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Voltar para a lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,43 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A produção de energia renovável é uma das principais estratégias globais para reduzir as emissões de gases de efeito estufa e mitigar os efeitos das mudanças climáticas. Com o aumento da capacidade de geração de energia renovável, que atingiu mais de 3.000 gigawatts (GW) globalmente em 2023, sendo a energia solar e eólica responsáveis por cerca de 70% dessa capacidade (IRENA, 2023), torna-se imperativo o desenvolvimento de ferramentas que permitam a gestão eficiente e sustentável desses recursos. Países como China, Estados Unidos e Brasil têm investido massivamente na expansão de energias limpas; por exemplo, em 2023, o Brasil registrou um aumento de 28% na capacidade instalada de energia solar (ANEEL, 2023).
+
+O crescimento dessas fontes trouxe novos desafios operacionais, especialmente no que diz respeito à coleta e análise de grandes volumes de dados gerados por turbinas eólicas, painéis solares e outras fontes de energia renovável. As usinas precisam gerenciar informações complexas, como previsões de geração, monitoramento de desempenho e diagnóstico de falhas, tudo em tempo real. Um sistema de gerenciamento de produção de energia renovável oferece uma solução integrada para essas questões, promovendo a eficiência operacional e contribuindo para a transição energética global.
+<br>
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Apesar dos avanços na tecnologia de energia renovável, a gestão eficaz de múltiplas fontes de energia ainda é um grande desafio. Usinas localizadas em diferentes regiões ou com diferentes tipos de geração enfrentam dificuldades para unificar dados e transformar essas informações em insights acionáveis. A ausência de sistemas integrados e automatizados que possam consolidar esses dados e emitir alertas sobre problemas operacionais reduz a eficiência, aumentando os custos e a complexidade das operações (GIELEN et al., 2022).
+<br>
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral:
+Desenvolver um sistema de gerenciamento de produção de energia renovável capaz de centralizar, monitorar e analisar dados de diferentes fontes de energia (eólica, solar, biomassa, etc.), automatizando processos e gerando relatórios para otimizar a operação das usinas.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivos Específicos:
+1.	Implementar um sistema que permita o monitoramento em tempo real de diferentes fontes de energia renovável.
+2.	Desenvolver módulos de geração automática de relatórios sobre a performance das usinas, incluindo análises de eficiência e manutenção preventiva.
+3.	Automatizar o processo de alerta para falhas ou inconsistências na produção, facilitando a rápida tomada de decisão por parte da equipe técnica.
+4.	Criar uma interface intuitiva que permita a visualização clara e concisa dos dados, auxiliando gestores e engenheiros na análise de performance.
+5.	Assegurar que o sistema seja escalável, possibilitando a adição de novas usinas e fontes de energia sem comprometer o desempenho.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A necessidade de ferramentas digitais eficazes na gestão de energia renovável é crucial em um cenário onde a capacidade instalada de geração renovável aumenta exponencialmente. Em 2023, a capacidade global de energia renovável ultrapassou 3.068 GW, com destaque para a energia solar (1.055 GW) e eólica (914 GW) (IRENA, 2023). O Brasil, em particular, destaca-se como um dos líderes na adoção de fontes renováveis, com mais de 70% de sua matriz energética proveniente de energias limpas (BP, 2023).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O desenvolvimento de um sistema de gerenciamento específico para usinas de energia renovável justifica-se pela crescente necessidade de integrar operações, otimizar o uso de recursos, reduzir custos operacionais e aumentar a confiabilidade na produção de energia. A automação de processos de monitoramento e geração de relatórios ajuda as empresas a melhorar o desempenho de suas operações, além de permitir respostas rápidas a problemas técnicos, garantindo a continuidade do fornecimento de energia. Com o aumento da escala das operações de energia renovável, ferramentas digitais que otimizem a produção são indispensáveis para garantir a viabilidade econômica e ambiental dessas fontes (ZHANG; KUMAR, 2020).
+<br>
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O sistema será destinado a gestores de usinas de energia renovável, engenheiros de energia, analistas de dados e empresas que gerenciam operações com múltiplas fontes de energia. Além disso, ele será útil para startups e pequenas empresas do setor energético que buscam otimizar suas operações e reduzir custos operacionais.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+<br>
+
+
+

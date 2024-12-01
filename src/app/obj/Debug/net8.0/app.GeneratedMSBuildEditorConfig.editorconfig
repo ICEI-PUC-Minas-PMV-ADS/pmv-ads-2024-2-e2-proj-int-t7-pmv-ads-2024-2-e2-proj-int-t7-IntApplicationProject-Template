@@ -1,0 +1,207 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = app
+build_property.RootNamespace = app
+build_property.ProjectDir = C:\Users\vinis\OneDrive\Área de Trabalho\pmv-ads-2024-2-e2-proj-int-t7-ecologic\src\app\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\vinis\OneDrive\Área de Trabalho\pmv-ads-2024-2-e2-proj-int-t7-ecologic\src\app
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Auth/RecuperarSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWN1cGVyYXJTZW5oYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Auth/RedefinirSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWRlZmluaXJTZW5oYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Cidades/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Cidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Cidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Cidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Estados/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Estados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Estados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Estados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/FontesDeEnergia/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzRGVFbmVyZ2lhXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/FontesDeEnergia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzRGVFbmVyZ2lhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/FontesDeEnergia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzRGVFbmVyZ2lhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/FontesDeEnergia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzRGVFbmVyZ2lhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/FontesDeEnergia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzRGVFbmVyZ2lhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zUGVybWlzc29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zUGVybWlzc29lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zUGVybWlzc29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zUGVybWlzc29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzc29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjYW9EZUVuZXJnaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjYW9EZUVuZXJnaWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjYW9EZUVuZXJnaWFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjYW9EZUVuZXJnaWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjYW9EZUVuZXJnaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/_ContentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db250ZW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usinas/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNpbmFzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNpbmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNpbmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNpbmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vinis/OneDrive/Área de Trabalho/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uwi58k5n9p

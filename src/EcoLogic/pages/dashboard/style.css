@@ -1,0 +1,738 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 175px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 235px;
+    height: 100px;
+    margin-left: 36px;
+    margin-top: 26px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.botaonavbar {
+    margin-left: auto;
+    margin-right: 26px;
+    margin-top: 6px;
+}
+
+.botaonavbar button {
+    display: flex;
+    width: 223px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24826F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botaonavbar button:hover {
+    background-color: #8DB5AD;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+article span {
+    display: flex;
+    width: 1331px;
+    height: 144px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 6rem;
+    margin-top: 2.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.titulo1 {
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+.text1 {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    margin-top: 46px;
+}
+
+.energiaeolica {
+    display: flex;
+    margin: -40px;
+    margin-top: -6rem;
+}
+
+.energiaeolica img {
+    width: 593px;
+}
+
+#btn-contact {
+    width: 227px;
+    height: 60px;
+    background: #24826F;
+    border: 1px solid #24826F;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: background 0.3s;
+    margin-top: 66px;
+}
+
+#btn-contact:hover {
+    background: #8DB5AD;
+}
+
+.barradireita {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    top: 4rem;
+}
+
+.barradireita img {
+    width: 766px;
+    height: auto;
+    margin-right: 0;
+}
+
+.texto-sobre-imagem {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.texto-sobre-imagem p {
+    position: absolute;
+    font-size: 32px;
+    top: 40%;
+    right: 80px;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.numero-usinas {
+    position: absolute;
+    color: #fff;
+    font-family: "Saira Stencil One";
+    font-size: 64px;
+    bottom: -3.2rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.content1 {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.grafico1 {
+    display: flex;
+    margin-top: 46px;
+}
+
+.grafico1 img {
+    width: 593px;
+    margin-left: -70px;
+}
+
+.titulo2 {
+    display: flex;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    line-height: 100px;
+    letter-spacing: 0.5px;
+    margin-left: 7rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.titulo2 span {
+    display: flex;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+}
+
+.text2 ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F3F3F3;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-left: 8rem;
+}
+
+.barraesquerda {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    top: 7rem;
+}
+
+.barraesquerda img {
+    width: 766px;
+    height: auto;
+    margin-right: 0;
+}
+
+.texto-sobre-imagem1 {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.texto-sobre-imagem1 p {
+    position: absolute;
+    font-size: 32px;
+    top: 36%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.numero-fontes {
+    position: absolute;
+    color: #fff;
+    font-family: "Saira Stencil One";
+    font-size: 64px;
+    bottom: -3.2rem;
+    right: 13.4rem;
+}
+
+.energiasolar {
+    display: flex;
+    margin: -40px;
+    margin-top: -6rem;
+}
+
+.energiasolar img {
+    position: absolute;
+    width: 593px;
+    right: 6rem;
+}
+
+.energiahidreletrica {
+    display: flex;
+    margin: 40px;
+    margin-top: 36rem;
+}
+
+.energiahidreletrica img {
+    position: absolute;
+    width: 593px;
+    left: 6rem;
+    bottom: -122.6rem;
+}
+
+.barradireita1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    top: 4rem;
+}
+
+.barradireita1 img {
+    width: 766px;
+    height: auto;
+    margin-right: 0;
+}
+
+.texto-sobre-imagem2 {
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    transform: translateY(-50%);
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.texto-sobre-imagem2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    right: 10rem;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    width: 442px;
+    height: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.numero-producaoeng {
+    position: absolute;
+    color: #fff;
+    font-family: "Saira Stencil One";
+    font-size: 40px;
+    bottom: -4rem;
+    left: 35rem;
+}
+
+.energiageotermica {
+    display: flex;
+    margin: -40px;
+    margin-top: 13rem;
+}
+
+.energiageotermica img {
+    position: absolute;
+    width: 760px;
+    right: 0.1rem;
+}
+
+#sobre-nos h1 {
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-right: 66rem;
+    margin-top: 16rem;
+    font-size: 26px;
+    margin-bottom: 12rem;
+}
+
+#sobre-nos p {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+}
+
+#missao h1 {
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-left: 66rem;
+    font-size: 26px;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+#missao p {
+    display: flex;
+    width: 394px;
+    height: 272px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-style: normal;
+    font-weight: 250;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    font-size: 21px;
+    margin-left: 46rem;
+}
+
+.biomassa {
+    display: flex;
+    margin: 40px;
+}
+
+.biomassa img {
+    position: absolute;
+    width: 663px;
+    left: 6rem;
+    margin-top: -14rem;
+}
+
+.pcgraficos2 {
+    display: flex;
+    margin: -40px;
+    margin-top: 26rem;
+}
+
+.pcgraficos2 img {
+    position: absolute;
+    width: 660px;
+    right: 2rem;
+}
+
+.titulo5 {
+    display: flex;
+    flex-shrink: 0;
+    color: #F3F3F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Saira Condensed";
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-top: 36rem;
+    font-size: 26px;
+    margin-bottom: 2rem;
+    margin-right: 50rem;
+}
+
+#resultados ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 100px 100px;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#resultados ul li {
+    display: flex;
+    max-width: 390px;
+    color: #F3F3F3;
+    text-align: justify;
+    font-family: "Saira Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    background-color: rgba(154, 150, 150, 0.2);
+    box-shadow: #494747;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#resultados ul li svg {
+    width: 100%;
+    margin: auto;
+    margin-top: 8px;
+    margin-right: 1rem;
+}
+
+#infofinal p {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 6rem;
+    margin-left: 27rem;
+}
+
+#infofinal {
+    margin-top: 6rem;
+}
+
+.logosemfundo {
+    margin-top: 16rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logosemfundo img {
+    width: 320px;
+    height: 121px;
+}
+
+.contato,
+.endereco,
+.horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.contato ul,
+.endereco ul,
+.horario span {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10rem;
+    font-family: "Saira Condensed";
+    font-style: normal;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.contato {
+    margin-top: 5rem;
+}
+
+.horario {
+    margin-bottom: 6rem;
+}
+
+footer {
+    width: 100%;
+    height: 175px;
+    background-color: #FAAA30;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.footer-content p {
+    margin: 12px 0;
+    margin-top: 36px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px;
+        height: 80px;
+    }
+
+    .botaonavbar button {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 140px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 60px;
+        margin-left: 16px;
+    }
+
+    .botaonavbar button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+
+    .social-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .container1,
+    .content,
+    .content1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        font-size: 0.875rem;
+    }
+
+    .botaonavbar button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
