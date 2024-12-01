@@ -1,109 +1,112 @@
 # Especificações do Projeto
-
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<div align="justify">
+A partir da documentação de contexto, passará a se definir o problema e a idéia de solução com base no usuário. Para isso, será definido abaixo o diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. 
+ <br/>
+</div>
 
 ## Personas
+<div align="justify">
+ 
+**Persona 1 - Engenheiro civil:**
+<br/><br/>
+<div  align="center">
+ 
+![image](https://github.com/user-attachments/assets/25e2002e-e9ed-4852-81f5-d33d6689a40d)
 
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
+</div>
+<br/><br/>
 
-Utilize também como referência o exemplo abaixo:
+**Persona 2 - Proprietária de imóvel:**
+<br/><br/>
+<div  align="center">
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+![image](https://github.com/user-attachments/assets/1feb95d8-47cd-4767-9804-ee98f5bcd71b)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+</div>
+<br/><br/>
 
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+**Persona 3 - Gestor de obras:**
+<br/><br/>
+<div  align="center">
+
+![image](https://github.com/user-attachments/assets/20ab2afc-ea31-4d05-ae07-ac262dbf20da)
+
+</div>
+<br/><br/>
 
 ## Histórias de Usuários
+<div align="justify">
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ...  |PARA ...     |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|Engenheiro Civil  | Usar a ferramenta para monitorar em tempo real o progresso de cada etapa da obra que estou gerenciando, com acesso detalhado ao progresso percentual de cada tarefa.          | Identificar quaisquer desvios do cronograma, ajustar as operações de forma ágil, garantir que os prazos acordados com os clientes sejam cumpridos, minimizando riscos de atrasos e assegurando a satisfação do cliente e a rentabilidade do projeto.               |
+|Cliente/proprietário do imóvel.    | Usar a ferramenta para acompanhar remotamente o progresso detalhado de cada fase da reforma, visualizando o progresso percentual e recebendo atualizações em forma de relatórios gerais ou detalhados com fotos.           | Ter uma visão clara e confiável do andamento dos trabalhos, ter acesso às informações sobre eventuais atrasos, e garantir que a reforma esteja sendo conduzida conforme planejado, mantendo o estilo e integridade do imóvel, e assegurando a conclusão do projeto dentro do cronograma. |
+|Gestor de Obras   | Que meu usuário cadastrado seja capaz de inserir e editar obras permitindo o monitoramento e ajustes do progresso em cada etapa. Também quero esclarecer dúvidas com a plataforma sobre cadastros de obras e etapas. | Identificar  o status das tarefas (no prazo, atrasadas ou concluídas), evitando atrasos e garantindo a entrega dentro do prazo. |
+|Gerente de Projetos   | Preciso que o sistema integre dados e permita o acompanhamento das obras que tenho interesse          | Garantir uma colaboração eficiente e execução harmoniosa do projeto, minimizando mal-entendidos e atrasos.. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
-
+<div align="justify">
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+<br/>
+</div>
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+| ID    | Descrição do Requisito                                                                                                                                                           | Prioridade |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01 | Permitir o cadastro e login de usuarios. | ALTA  |
+| RF-02 | Possibilitar ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.  | ALTA  |
+| RF-04 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.   | ALTA     |
+| RF-05 | Enviar notificações automáticas sobre mudanças nos cronogramas, garantindo que o projeto se mantenha dentro dos prazos estabelecidos. | MÉDIA   |
+| RF-06 | Possibilitar aos clientes acompanhar o progresso percentual das etapas da obra. | MEDIA  |
+| RF-07 | Permitir o envio de fotos atualizadas da execução da obra para os clientes, permitindo uma visão clara do andamento sem a necessidade de presença física no local. | BAIXA |
+| RF- 08 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
+| RF-09 |  fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
+| RF-10 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
+| RF-11 | Permitir que o usuário entre em contato com a plataforma. | MÉDIA    |
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID     | Descrição do Requisito                                                                                                                                                           | Prioridade |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RNF-01 | O sistema deve ser capaz de processar e exibir as informações em tempo real sem causar lentidão.               | ALTA  |
+| RNF-02 | Todas as informações sensíveis, como dados de projetos e credenciais dos usuários, devem ser armazenadas, garantindo a confidencialidade e integridade dos dados. | ALTA   |
+| RNF-03 | A interface do sistema deve ser intuitiva e fácil de usar, permitindo que os diferentes perfis de usuários (engenheiros, arquitetos, gestores, clientes) possam navegar e realizar suas tarefas sem dificuldades. | ALTA       |
+| RNF-04 | O sistema deve ser compatível com os principais navegadores do mercado, como Google Chrome, Firefox e Microsoft Edge, garantindo uma experiência consistente em todas as plataformas. | MÉDIA      |
+| RNF-05 | O sistema deve ser responsivo, adaptando-se automaticamente a diferentes tamanhos de tela, incluindo desktops, tablets e smartphones, sem comprometer a usabilidade ou a apresentação dos dados. | MÉDIA      |
+| RNF-06 |  Permitir o download de relatórios e documentos em formatos PDF e HTML, garantindo que esses arquivos sejam gerados de forma rápida e acessível para os usuários. | MÉDIA      |
+| RNF-07 |  Ter um plano de contingência em caso de falha, incluindo backups regulares e procedimentos para recuperação rápida dos dados, minimizando o impacto de possíveis problemas técnicos. | BAIXA      |
+| RNF-08 | O sistema deve ser escalável, permitindo a adição de novos módulos e funcionalidades sem comprometer a performance existente.                                                     | MÉDIA      |
+</div>
 
 ## Restrições
-
+<div align="justify">
 O projeto está restrito pelos itens apresentados na tabela a seguir.
+<br/><br/>
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID   | Restrição                                                |
+|-----|-------------------------------------------------------|
+|RE-01| A equipe deve realizar todas as etapas do projeto de forma colaborativa, garantindo que todos os membros participem ativamente das decisões e do desenvolvimento das tarefas.|
+|RE-02| Todo o conteúdo utilizado no site deve ser original ou de fontes de domínio público, sem violação de direitos autorais.|
+|RE-03| O projeto deve ser desenvolvido utilizando ferramentas e softwares acessíveis gratuitamente ou com licenças acadêmicas, garantindo a viabilidade do uso por todos os integrantes da equipe.|
+|RE-04|  Cada integrante da equipe ficará responsável pelo desenvolvimento (Back-End e Front-End) das funcionalidades pelas quais ficou responsável.|
+|RE-05| O site não pode conter conteúdos de caráter ofensivo, discriminatório ou que viole o código de ética da instituição.|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+<br/>
+</div>
 
 ## Diagrama de Casos de Uso
+<div align="justify">
+Através do modelo gráfico, segue as relações de casos de uso e dos atores,  com o detalhamento dos requisitos funcionais e sua associação e relacionamento com os atores. 
+<br/><br/>
+<div  align="center">
+ 
+![Diagrama de caso de uso (1)](https://github.com/user-attachments/assets/0d88d7c6-53c5-4658-ae85-ec1e84659e7f)
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+</div>
+<br/><br/>

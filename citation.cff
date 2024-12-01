@@ -1,29 +1,23 @@
-message: Please cite this software using these metadata.
-title:
+message: Sistema para gerenciamento de Obras.
+title: Concreta.
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Souza de Faria
+    given-names: Danillo
+  - family-names: Maria Silva
+    given-names: Jéssica
+  - family-names: Ribeiro Rocha
+    given-names: Luiz Fernando
+  - family-names: Caroline de Sá Bassani
+    given-names: Paloma
+  - family-names: de Castro Leles
+    given-names: Rafael
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jeunon de Alencar
+    given-names: Bernardo
 keywords:
-  - 
-  - 
-repository-code: 
+  - Obra
+  - Construção
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-concreta
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-11-24

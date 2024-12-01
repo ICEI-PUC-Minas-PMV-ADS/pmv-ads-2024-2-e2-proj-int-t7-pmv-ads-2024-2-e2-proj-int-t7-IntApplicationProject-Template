@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Título Principal */
+.titulo-principal h1 {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #023059;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.negrito {
+  font-weight: 700;
+}
+
+/* Passos */
+.passo {
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #023059;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #F2B705;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #023059;
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Container do Formulário */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #023059;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Campos */
+label {
+  color: #D9A25F;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #fff;
+  color: #727272;
+}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder,
+textarea::placeholder {
+  color: #727272;
+}
+
+/* Prazo de Conclusão */
+.prazo-conclusao {
+  position: relative;
+}
+
+.prazo-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #727272;
+  font-size: 14px;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* Anexar Imagem */
+.anexar-imagem {
+  position: relative;
+}
+
+.anexar-imagem label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anexar-imagem .clip-icon {
+  position: absolute;
+  right: 15px;
+  top: 55%;
+  font-size: 15px;
+  color: #023059;
+  cursor: pointer;
+}
+
+/* "+ Nova Etapa" */
+.nova-etapa {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nova-etapa-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: #D9A25F;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nova-etapa-link:hover {
+  text-decoration: underline;
+}
+
+/* Container dos botões */
+.botoes-container {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Estilo do botão CANCELAR */
+.btn-cancelar {
+  padding: 10px 20px;
+  border: 2px solid #025373;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #025373;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cancelar:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo do botão CADASTRAR */
+.btn-cadastrar {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #F2B705;
+  color: #023059;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cadastrar:hover {
+  background-color: #e0a500;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .titulo-principal h1 {
+    max-width: 90%;
+    font-size: 24px;
+  }
+
+  .passo {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .botoes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-cancelar,
+  .btn-cadastrar {
+    width: 60%;
+    margin: 15px 0;
+  }
+}

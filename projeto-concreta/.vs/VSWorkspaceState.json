@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApis",
+    "\\WebApis\\ConcretaAPI",
+    "\\WebApis\\ConcretaAPI\\ConcretaAPI",
+    "\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI",
+    "\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers",
+    "\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Models",
+    "\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\obj",
+    "\\WebSites"
+  ],
+  "SelectedNode": "\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

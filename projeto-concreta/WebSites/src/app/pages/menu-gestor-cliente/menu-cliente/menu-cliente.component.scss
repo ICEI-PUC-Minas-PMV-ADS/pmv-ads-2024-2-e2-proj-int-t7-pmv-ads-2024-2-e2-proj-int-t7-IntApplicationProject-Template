@@ -1,0 +1,50 @@
+:host ::ng-deep .p-button {
+    background-color: #F2B705;
+    border: none;
+    width: 20rem;
+    color: #023059;
+}
+
+:host ::ng-deep .p-inputtext {
+    width: 20rem;
+}
+
+.custom-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%; 
+}
+
+.custom-container {
+    background-color: #023059;
+    width: 100%;
+    min-width: 40rem;
+    height: auto;
+    padding: 4.5rem;
+}
+
+@media (max-height: 685px) {
+    .custom-wrapper {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .custom-container {
+        min-width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        min-width: 20rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-container {
+        min-width: 15rem;
+    }
+}

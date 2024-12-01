@@ -1,23 +1,31 @@
-# TÍTULO DO PROJETO
+<p align="center">
+  <img src= "https://github.com/user-attachments/assets/3b5176ba-ff78-445b-8031-42a54677f696" width="400">
+</p>
 
-`CURSO`
+# CONCRETA - Plataforma de Gerenciamento de Obra
 
-`DISCIPLINA`
+`Análise e Desenvolvimento de Sistema - PUC Minas`
 
-`SEMESTRE`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`2º Semestre/2024`
+<div align="justify">
+O projeto visa desenvolver uma ferramenta de gestão de obras, denominada "Concreta" que permita aos usuários (gestores de obras, proprietários de construtoras e até clientes), obter informações claras e acessíveis sobre os estágios de cada etapa em uma obra. Além de terem acesso à relatório detalhados e gerais, bem  como alertas sobre eventuais atrasos e alterações nos cronogramas previamente cadastrados. 
+<br/>
+</div>
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Danillo Souza de Faria
+* Jéssica Maria Silva
+* Luiz Fernando Ribeiro Rocha
+* Paloma Caroline de Sá Bassani
+* Rafael de Castro Leles
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 73vh;
+    padding: 1rem;
+}
+
+
+.confirmar-redefinicao-senha-box {
+    background-color: #023059;
+    width: 460px;
+    padding: 2rem;
+    border-radius: 12px;
+    color: white;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #023059;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.input-field {
+    width: 80%;
+    height: 38px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0 auto 1.3rem auto;
+    border: none;
+    background-color: white;
+    color: #727272;
+    display: block;
+}
+
+.input-field::placeholder {
+    color: #727272;
+}
+
+
+.confirmar-button {
+    width: 26%;
+    height: 38px;
+    background-color: #F2B705;
+    color: #023059;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 3rem auto 0 auto;
+    display: block;
+}
+
+.confirmar-button:hover {
+    background-color: #e6e600;
+}
+
+
+@media (max-width: 768px) {
+    .confirmar-redefinicao-senha-box {
+        width: 80%;
+    }
+
+    .confirmar-button {
+        width: 60%;
+    }
+}

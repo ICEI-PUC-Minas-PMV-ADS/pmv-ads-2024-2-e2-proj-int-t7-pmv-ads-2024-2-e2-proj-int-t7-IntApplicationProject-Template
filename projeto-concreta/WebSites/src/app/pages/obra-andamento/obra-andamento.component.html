@@ -1,0 +1,41 @@
+<app-navbar/>
+
+<div class="container" style="margin-bottom: 100px; margin-top: 100px">
+    <h2 style=" text-align: center;">OBRAS EM ANDAMENTO</h2>
+    <div class="content">
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Nome da obra</th>
+            <th>Construtora</th>
+            <th>Localização</th>
+            <th>Data provável de conclusão</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Iterando sobre as obras em andamento e exibindo os dados -->
+          <tr *ngFor="let obra of obrasEmAndamento | slice: 0:visibleCount" (click)="irParaObraEspecifica(obra.idObra)" style="cursor: pointer;">
+            <td>{{ obra.nome }}</td>
+            <td>{{ obra.construtora }}</td>
+            <td>{{ obra.localizacao }}</td>
+            <td>{{ obra.dataFim | date: 'dd/MM/yyyy' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="buttons" style="margin-top: 10px;">
+      <button class="btn back" (click)="voltarParaMenu()">
+        <img src="../../assets/icone-voltar.svg" alt="Ícone de voltar" />
+        Voltar para o menu
+      </button>
+
+      <button class="btn load-more" *ngIf="visibleCount < obrasEmAndamento.length" (click)="carregarMaisObras()">
+        <img src="../../assets/icone-andamento.svg" alt="Ícone de andamento"/>
+        Carregar mais obras
+      </button>
+    </div>
+</div>
+
+<app-footer/>

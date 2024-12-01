@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "dist/projeto-concreta/server/main.server.mjs", 
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/dist/projeto-concreta/server/main.server.mjs"  
+      }
+    ]
+  }
+  

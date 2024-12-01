@@ -1,0 +1,62 @@
+<app-navbar></app-navbar>
+
+<!--CAPA-->
+<section class="container-capa">
+    <div class="capa">
+        <img [src]="imageSrc" alt="Imagem de capa" />
+        <button class="edit-button" (click)="editImage()">
+            <i class="fas fa-pencil-alt"></i> <!-- Ícone de lápis -->
+        </button>
+    </div>
+</section>
+
+<!--DADOS OBRA-->
+<div class="container-dados">
+    <div class="dados-obra">
+        <section class="etapas">
+            <h2>ETAPAS</h2>
+            <div class="etapa">
+                Etapa 1 - Nome da Etapa - Finalizada
+            </div>
+            <div class="etapa">
+                Etapa 2 - Nome da Etapa - Em andamento
+            </div>
+            <div class="etapa">
+                Etapa 3 - Nome da Etapa - Em andamento
+            </div>
+            <div class="etapa">
+                Etapa 4 - Nome da Etapa - Aguardando início
+            </div>
+            <button class="editar">EDITAR</button>
+        </section>
+
+        <section class="info-obra">
+            <h1>NOME DA OBRA</h1>
+            <h2>CONSTRUTORA</h2>
+            <h2>LOCALIZAÇÃO</h2>
+            <div class="relatorios">
+                <h3>RELATÓRIOS</h3>
+                <a href="#">Simples</a>
+                <a href="#">Detalhado</a>
+            </div>
+        </section>
+    </div>
+</div>
+
+<!--COMPARTILHAR-->
+<div class="container">
+<div class="compartilhar">
+    <div class="compartilhar-left">
+        <h2 class="compartilhar-title">COMPARTILHAR</h2>
+        <div class="link-container">
+            <input type="text" class="link-input" placeholder="Link de compartilhamento" />
+            <i class="file-icon fas fa-file"></i>
+        </div>
+    </div>
+    <div class="compartilhar-right">
+        <button class="btn obra-concluida" (click)="marcarComoConcluida()">OBRA CONCLUÍDA</button>
+        <button class="btn excluir-obra">EXCLUIR OBRA</button>
+    </div>
+</div>
+</div>
+<app-footer></app-footer>
