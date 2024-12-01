@@ -24,24 +24,22 @@ export class ObraAndamentoComponent implements OnInit {
     this.obrasService.getObrasEmAndamento().subscribe(
       (dados: any[]) => {
         this.obrasEmAndamento = dados.filter(obra => !obra.estaConcluido);
+        // Recupera o ID do usuário do localStorage
+        this.idUsuario = parseInt(localStorage.getItem('userId') || '0', 10);
+
+      if (this.idUsuario != null) {
+        // Filtra as obras para mostrar apenas as obras do usuário atual
+        this.obrasFiltradas = this.obrasEmAndamento.filter(obra => obra.idUsuario === Number(this.idUsuario));
+        console.log(this.obrasFiltradas);
+      } else {
+        console.error('ID do usuário não encontrado no localStorage');
+      }
+
       },
       (error: any) => {
         console.error('Erro ao buscar obras em andamento', error);
       },
     ); 
-     // Recupera o ID do usuário do localStorage
-     this.idUsuario = 7
-     console.log("deveria " + this.idUsuario);
-
-      if (this.idUsuario) {
-        // Filtra as obras para mostrar apenas as obras do usuário atual
-        this.obrasFiltradas = this.obrasEmAndamento.filter(obra => obra.idUsuario === Number(this.idUsuario));
-        console.log("deveria passar aqui");
-        console.log(this.obrasFiltradas);
-      } else {
-        (error: any) => 
-        console.error('ID do usuário não encontrado no localStorage');
-      }
 
   }
 

@@ -40,9 +40,17 @@ namespace ConcretaAPI.Controllers
                 DataInicio = obraDto.DataInicio,
                 DataFim = obraDto.DataFim,
                 IdUf = obraDto.IdUf,
+                Etapas = obraDto.Etapas,
                 EstaConcluido = obraDto.EstaConcluido,
-                IdUsuario = userId, // Associa a obra ao ID do usuário logado
+                IdUsuario = obraDto.IdUsuario, // Associa a obra ao ID do usuário logado
             };
+
+            Console.WriteLine("userId " + userId);
+            Console.WriteLine("obraDto.IdUsuario " + obraDto.IdUsuario);
+
+            Console.WriteLine("--/-/-/----");
+
+            Console.WriteLine("obraDto" + obra);
 
             _context.Obras.Add(obra);
             await _context.SaveChangesAsync();

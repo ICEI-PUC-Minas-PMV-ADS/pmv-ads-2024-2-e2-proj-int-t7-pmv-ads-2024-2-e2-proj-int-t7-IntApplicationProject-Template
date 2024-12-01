@@ -27,13 +27,13 @@
             <div class="etapa">
                 Etapa 4 - Nome da Etapa - Aguardando início
             </div>
-            <button class="editar">EDITAR</button>
+            <button class="editar" *ngIf="isGestor">EDITAR</button>
         </section>
 
         <section class="info-obra">
-            <h1>NOME DA OBRA</h1>
-            <h2>CONSTRUTORA</h2>
-            <h2>LOCALIZAÇÃO</h2>
+            <h1>{{obra?.nome}}</h1>
+            <h2>{{obra?.construtora}}</h2>
+            <h2>{{obra?.localizacao}}</h2>
             <div class="relatorios">
                 <h3>RELATÓRIOS</h3>
                 <a href="#">Simples</a>
@@ -44,12 +44,12 @@
 </div>
 
 <!--COMPARTILHAR-->
-<div class="container">
+<div class="container" *ngIf="isGestor">
 <div class="compartilhar">
     <div class="compartilhar-left">
         <h2 class="compartilhar-title">COMPARTILHAR</h2>
         <div class="link-container">
-            <input type="text" class="link-input" placeholder="Link de compartilhamento" />
+            <input type="text" class="link-input" placeholder="Link de compartilhamento"  value="{{linkObra}}"/>
             <i class="file-icon fas fa-file"></i>
         </div>
     </div>

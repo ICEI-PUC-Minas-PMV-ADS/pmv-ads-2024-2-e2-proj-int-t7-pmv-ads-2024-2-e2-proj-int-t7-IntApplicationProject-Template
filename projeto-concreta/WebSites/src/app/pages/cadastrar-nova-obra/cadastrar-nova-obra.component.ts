@@ -69,6 +69,7 @@ export class CadastrarNovaObraComponent implements OnInit {
       next: (response: any) => { // Aqui você pode usar o tipo correto (ObrasModel)
         // Se response.obraDto for o retorno esperado
         const idObra = response.obraDto?.idObra;
+        console.log(novaObra)
     
         if (!idObra) {
           console.error("Erro: idObra não encontrado na resposta.");

@@ -15,7 +15,7 @@
         </thead>
         <tbody>
           <!-- Iteração das obras finalizadas -->
-          <tr *ngFor="let obra of obraFinalizada | slice: 0:visibleCount">
+          <tr *ngFor="let obra of obrasFiltradas | slice: 0:visibleCount">
             <td>{{ obra.nome }}</td>
             <td>{{ obra.construtora }}</td>
             <td>{{ obra.localizacao }}</td>
