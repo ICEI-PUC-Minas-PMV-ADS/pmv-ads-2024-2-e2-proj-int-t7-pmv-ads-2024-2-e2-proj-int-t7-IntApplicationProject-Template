@@ -24,34 +24,34 @@ namespace ConcretaAPI.Controllers
             _context = context;
         }
 
-        //Método para adicionar uma nova Obra com mapeamento entre DTO e entidade
-        [HttpPost("cadastrar")]
-        public async Task<ActionResult<ObraDTO>> PostObras(ObraDTO obraDto, int userId)
-        {
-            // Cria a nova obra e associa o IdUsuario à obra
-
-            var obra = new ObraModel
-
+            //Método para adicionar uma nova Obra com mapeamento entre DTO e entidade
+            [HttpPost("cadastrar")]
+            public async Task<ActionResult<ObraDTO>> PostObras(ObraDTO obraDto, int userId)
             {
-                Nome = obraDto.Nome,
-                Construtora = obraDto.Construtora, // Adicionando o campo Construtora
-                Localizacao = obraDto.Localizacao,
-                Descricao = obraDto.Descricao,
-                DataInicio = obraDto.DataInicio,
-                DataFim = obraDto.DataFim,
-                IdUf = obraDto.IdUf,
-                EstaConcluido = obraDto.EstaConcluido,
-                IdUsuario = obraDto.IdUsuario, // Associa a obra ao ID do usuário logado
-            };
+                // Cria a nova obra e associa o IdUsuario à obra
 
-            _context.Obras.Add(obra);
-            await _context.SaveChangesAsync();
+                var obra = new ObraModel
 
-            obraDto.IdObra = obra.IdObra;
+                {
+                    Nome = obraDto.Nome,
+                    Construtora = obraDto.Construtora, // Adicionando o campo Construtora
+                    Localizacao = obraDto.Localizacao,
+                    Descricao = obraDto.Descricao,
+                    DataInicio = obraDto.DataInicio,
+                    DataFim = obraDto.DataFim,
+                    IdUf = obraDto.IdUf,
+                    EstaConcluido = obraDto.EstaConcluido,
+                    IdUsuario = obraDto.IdUsuario, // Associa a obra ao ID do usuário logado
+                };
 
-            return Ok(new { mensagem = "obra cadastrada com sucesso!", id = obraDto.IdObra, obraDto });
+                _context.Obras.Add(obra);
+                await _context.SaveChangesAsync();
 
-        }
+                obraDto.IdObra = obra.IdObra;
+
+                return Ok(new { mensagem = "obra cadastrada com sucesso!", id = obraDto.IdObra, obraDto });
+
+            }
 
             [HttpGet("em-andamento")]
             public async Task<ActionResult<IEnumerable<ObraModel>>> GetObrasEmAndamento()
@@ -120,7 +120,26 @@ namespace ConcretaAPI.Controllers
                 return Ok(obras);
             }
 
-    }
+            // Excluir uma obra
+            [HttpDelete("excluir/{id}")]
+            public async Task<IActionResult> DeleteObraById(int id)
+            {
+                var obras = await _context.Obras.FindAsync(id);
+                if (obras == null)
+                {
+                    // Retorna erro 404 se a obra não for encontrada
+                    return NotFound();
+                }
+
+                // Remove a obra do banco de dados
+                _context.Obras.Remove(obras);
+                await _context.SaveChangesAsync();
+
+                // Retorna status 204 (sem conteúdo) após a exclusão
+                return NoContent();
+            }
+
+        }
 
     }
 

@@ -65,6 +65,18 @@ export class ObraEspecificaGestorComponent {
     );
   }
 
+  excluirObra() {
+    this.obrasService.excluirObra(this.obra!.idObra).subscribe(
+      (response) => {
+        this.router.navigate(['/obra-andamento']);
+        console.log('Obra excluída:', response);
+      },
+      (error) => {
+        console.error('Erro ao excluir obra:', error);
+      }
+    );
+  }
+
   editImage() {
     const input = document.createElement('input');
     input.type = 'file';

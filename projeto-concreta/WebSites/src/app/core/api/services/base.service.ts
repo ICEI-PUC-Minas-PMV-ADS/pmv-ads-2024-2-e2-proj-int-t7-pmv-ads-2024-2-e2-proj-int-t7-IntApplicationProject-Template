@@ -22,7 +22,7 @@ const httpOptions = {
     SetUrl(url: string) {
         this.url = url;
       }
-      delete(rota: string) {
+      delete(rota: string, options: { body: { idObra: number; }; }) {
         return this.http.delete(`${this.url}${rota}`);
     }
   

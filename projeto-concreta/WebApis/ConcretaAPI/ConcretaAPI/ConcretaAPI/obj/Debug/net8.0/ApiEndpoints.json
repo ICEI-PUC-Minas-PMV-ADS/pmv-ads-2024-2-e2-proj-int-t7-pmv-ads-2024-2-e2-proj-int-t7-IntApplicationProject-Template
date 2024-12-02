@@ -183,6 +183,22 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
+    "Method": "DeleteObraById",
+    "RelativePath": "api/ObraModel/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
     "Method": "GetObraById",
     "RelativePath": "api/ObraModel/obra-escolhida/{id}",
     "HttpMethod": "GET",

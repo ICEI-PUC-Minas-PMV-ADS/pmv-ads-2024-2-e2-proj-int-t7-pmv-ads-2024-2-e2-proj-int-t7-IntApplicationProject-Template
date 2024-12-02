@@ -48,11 +48,22 @@ atualizarEstaConcluido(id: number, estaConcluido: boolean): Observable<any> {
     idObra: id,
     estaConcluido: estaConcluido
   };
-
   const url = `ObraModel/obra-escolhida/${id}`;
   return this.put<any>(url, obraAtualizada);
+
 }
 
-
+excluirObra(id: number): Observable<any> {
+  const obraExcluida = {
+    idObra: id,
+  };
+  const url = `ObraModel/excluir/${id}`;
+  // Adicionar o corpo no objeto de opções
+  const options = {
+    body: obraExcluida
+  };
+  
+  return this.delete(url, options);
+}
 
 }
