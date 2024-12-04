@@ -17,6 +17,32 @@
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
+    "Method": "GetEtapa",
+    "RelativePath": "api/EtapaModel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ConcretaAPI.DTOs.EtapaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
     "Method": "PostEtapa",
     "RelativePath": "api/EtapaModel/cadastrar",
     "HttpMethod": "POST",
@@ -40,6 +66,43 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
+    "Method": "PutEtapa",
+    "RelativePath": "api/EtapaModel/editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "etapaDto",
+        "Type": "ConcretaAPI.DTOs.EtapaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
+    "Method": "DeleteEtapa",
+    "RelativePath": "api/EtapaModel/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.EtapaModelController",
@@ -117,6 +180,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ConcretaAPI.Controllers.ObraModelController",
+    "Method": "DeleteObraById",
+    "RelativePath": "api/ObraModel/excluir/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ConcretaAPI.Controllers.ObraModelController",

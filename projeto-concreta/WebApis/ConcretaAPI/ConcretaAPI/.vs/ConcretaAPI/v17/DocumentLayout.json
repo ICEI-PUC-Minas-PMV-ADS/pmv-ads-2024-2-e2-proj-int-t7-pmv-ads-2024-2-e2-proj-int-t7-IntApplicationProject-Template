@@ -1,29 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\",
-  "Documents": [
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|c:\\users\\vinicius\\documents\\development\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\webapis\\concretaapi\\concretaapi\\concretaapi\\controllers\\obramodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|solutionrelative:concretaapi\\controllers\\obramodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|c:\\users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\webapis\\concretaapi\\concretaapi\\concretaapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|solutionrelative:concretaapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|c:\\users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\webapis\\concretaapi\\concretaapi\\concretaapi\\dtos\\redefinirsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|solutionrelative:concretaapi\\dtos\\redefinirsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|c:\\users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\webapis\\concretaapi\\concretaapi\\concretaapi\\dtos\\solicitarredefinicaosenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|solutionrelative:concretaapi\\dtos\\solicitarredefinicaosenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|c:\\users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\webapis\\concretaapi\\concretaapi\\concretaapi\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104EC69B-3365-41AE-987D-83E3B3479734}|ConcretaAPI\\ConcretaAPI.csproj|solutionrelative:concretaapi\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Vinicius\\Documents\\development\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -31,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 673,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,84 +25,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContatoController.cs",
-              "DocumentMoniker": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\ContatoController.cs",
-              "RelativeDocumentMoniker": "ConcretaAPI\\Controllers\\ContatoController.cs",
-              "ToolTip": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\ContatoController.cs",
-              "RelativeToolTip": "ConcretaAPI\\Controllers\\ContatoController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAADgv1AAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:12:20.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< Updated upstream
-              "Title": "ObraModelController.cs",
-              "DocumentMoniker": "C:\\Users\\Vinicius\\Documents\\development\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\ObraModelController.cs",
-              "RelativeDocumentMoniker": "ConcretaAPI\\Controllers\\ObraModelController.cs",
-              "ToolTip": "C:\\Users\\Vinicius\\Documents\\development\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\ObraModelController.cs*",
-              "RelativeToolTip": "ConcretaAPI\\Controllers\\ObraModelController.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T23:38:11.423Z",
-              "EditorCaption": ""
-=======
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "ConcretaAPI\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "ConcretaAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAUwH8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:49:20.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RedefinirSenhaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\DTOs\\RedefinirSenhaDTO.cs",
-              "RelativeDocumentMoniker": "ConcretaAPI\\DTOs\\RedefinirSenhaDTO.cs",
-              "ToolTip": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\DTOs\\RedefinirSenhaDTO.cs",
-              "RelativeToolTip": "ConcretaAPI\\DTOs\\RedefinirSenhaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:51:21.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SolicitarRedefinicaoSenhaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\DTOs\\SolicitarRedefinicaoSenhaDTO.cs",
-              "RelativeDocumentMoniker": "ConcretaAPI\\DTOs\\SolicitarRedefinicaoSenhaDTO.cs",
-              "ToolTip": "C:\\Users\\contt\\source\\repos\\pmv-ads-2024-2-e2-proj-int-t7-concreta\\projeto-concreta\\WebApis\\ConcretaAPI\\ConcretaAPI\\ConcretaAPI\\DTOs\\SolicitarRedefinicaoSenhaDTO.cs",
-              "RelativeToolTip": "ConcretaAPI\\DTOs\\SolicitarRedefinicaoSenhaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T21:50:25.38Z"
->>>>>>> Stashed changes
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

@@ -2,9 +2,9 @@
     <div class="custom-container mt-5 border-round-2xl flex flex-column gap-3 align-items-center justify-content-center mx-auto">
         <h1 class="text-white text-4xl text-center">Fique por dentro:</h1>
         <p-floatLabel>
-            <input pInputText id="username" />
+            <input pInputText id="username" [(ngModel)]="encryptedData" />
             <label for="username">Insira o link da obra</label>
         </p-floatLabel>
-        <p-button  label="Acessar"></p-button> 
+        <p-button label="Acessar" (onClick)="acessarObra()"></p-button>          
     </div>
 </div>

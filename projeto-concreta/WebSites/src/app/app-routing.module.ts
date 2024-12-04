@@ -16,6 +16,14 @@ const routes: Routes = [
     loadChildren: () => import('./pages/menu-gestor-cliente/menu-gestor-cliente.module').then(m => m.MenuGestorClienteModule)
   },
   {
+    path: 'menu-gestor-cliente/gestor',
+    loadChildren: () => import('./pages/menu-gestor-cliente/menu-gestor/menu-gestor.component').then(m => m.MenuGestorComponent)
+  },
+  {
+    path: 'menu-gestor-cliente/cliente',
+    loadChildren: () => import('./pages/menu-gestor-cliente/menu-cliente/menu-cliente.component').then(m => m.MenuClienteComponent)
+  },
+  {
     path: 'obra-andamento',
     loadChildren: () => import('./pages/obra-andamento/obra-andamento.module').then(m => m.obra_andamentoModule)
   },
@@ -39,13 +47,14 @@ const routes: Routes = [
     path: 'obra-especifica-gestor/:id',
     loadChildren: () => import('./pages/obra-especifica-gestor/obra-especifica-gestor.module').then(m => m.ObraEspecificaGestorModule)
   },
-  {
-    path: 'obra-especifica-cliente',
-    loadChildren: () => import('./pages/obra-especifica-cliente/obra-especifica-cliente.module').then(m => m.ObraEspecificaClienteModule)
-  },
+  
   {
     path: 'editar-obra',
     loadChildren: () => import('./pages/editar-obra/editar-obra.module').then(m => m.EditarObraModule)
+  },
+  {
+    path: 'esqueceu-senha',
+    loadChildren: () => import('./pages/solicitar-esqueceu-senha/solicitar-esqueceu-senha.module').then(m => m.SolicitarEsqueceuSenhaModule)
   },
 
 ];

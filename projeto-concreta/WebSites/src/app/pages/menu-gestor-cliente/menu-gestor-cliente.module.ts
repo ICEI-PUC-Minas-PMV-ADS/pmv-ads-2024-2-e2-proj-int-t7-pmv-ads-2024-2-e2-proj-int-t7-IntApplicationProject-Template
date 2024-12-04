@@ -9,6 +9,7 @@ import { FooterModule } from '../../footer/footer.module';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabelModule } from 'primeng/floatlabel';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [MenuGestorClienteComponent, MenuGestorComponent, MenuClienteComponent],
@@ -19,7 +20,8 @@ import { FloatLabelModule } from 'primeng/floatlabel';
     FooterModule,
     ButtonModule,
     InputTextModule,
-    FloatLabelModule
+    FloatLabelModule,
+    FormsModule,
   ]
 })
 export class MenuGestorClienteModule { }
