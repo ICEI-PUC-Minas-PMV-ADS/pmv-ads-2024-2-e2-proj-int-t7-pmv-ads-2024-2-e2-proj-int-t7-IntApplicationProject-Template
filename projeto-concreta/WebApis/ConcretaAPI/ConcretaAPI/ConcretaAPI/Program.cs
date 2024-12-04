@@ -1,4 +1,5 @@
 using ConcretaAPI.Data;
+using ConcretaAPI.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +26,7 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader(); // Permite qualquer cabeçalho
     });
 });
+builder.Services.AddHostedService<AtrasosMonitorService>();
 
 var app = builder.Build(); // Construa o aplicativo após adicionar todos os serviços
 

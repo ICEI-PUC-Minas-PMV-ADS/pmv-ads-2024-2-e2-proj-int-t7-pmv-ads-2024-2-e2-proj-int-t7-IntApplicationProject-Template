@@ -13,7 +13,7 @@ namespace ConcretaAPI.Models
         [Required]
         public required string Descricao { get; set; }  
 
-        public DateTime DataConclusao { get; set; }  
+        public DateTime? DataConclusao { get; set; }  
 
         public int IdObra { get; set; }  // Chave estrangeira para a Obra (relacionando com o Cadastro da Obra)
 
