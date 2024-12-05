@@ -27,7 +27,7 @@
             <div class="etapa">
                 Etapa 4 - Nome da Etapa - Aguardando início
             </div>
-            <button class="editar" *ngIf="isGestor">EDITAR</button>
+             <button class="editar" *ngIf="isGestor">EDITAR</button>
         </section>
 
         <section class="info-obra">
@@ -36,8 +36,8 @@
             <h2>{{obra?.localizacao}}</h2>
             <div class="relatorios">
                 <h3>RELATÓRIOS</h3>
-                <a href="#">Simples</a>
-                <a href="#">Detalhado</a>
+                 <a href="#" (click)="gerarRelatorioSimples($event)">Simples</a> 
+                 <a href="" (click)="gerarRelatorioDetalhado($event)">Detalhado</a> 
             </div>
         </section>
     </div>

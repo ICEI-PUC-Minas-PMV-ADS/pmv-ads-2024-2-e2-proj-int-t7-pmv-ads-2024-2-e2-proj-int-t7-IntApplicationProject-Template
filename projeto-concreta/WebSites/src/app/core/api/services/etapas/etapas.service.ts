@@ -11,7 +11,6 @@ export class EtapasService extends BaseService {
 
   private cadastrarEtapaEndpoint: string = 'EtapaModel/cadastrar';
 
-
   constructor(httpClient: HttpClient) {
     super(httpClient)
   }
@@ -19,5 +18,12 @@ export class EtapasService extends BaseService {
   public cadastrarEtapa(data: EtapasModel) {
     return this.post(`${this.cadastrarEtapaEndpoint}`, data);
   }
+
+  public getEtapaEscolhida(idObra: number): Observable<EtapasModel[]> {
+    const url = `EtapaModel/obras/${idObra}/etapas`; // Concatena o id à rota
+    return this.get<EtapasModel[]>(url); // Faz a requisição GET e espera uma lista
+  }
+
+
 
 }
