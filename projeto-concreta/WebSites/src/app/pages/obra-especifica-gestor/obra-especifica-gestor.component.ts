@@ -150,6 +150,10 @@ export class ObraEspecificaGestorComponent {
       }
     });
 
+  }  
+
+  irParaEditarEtapa() : void {
+    this.router.navigate(['/editar-obra', this.idObra]);
   }
 
   encodeIdObra(idObra: number): string {

@@ -1,58 +1,77 @@
 <app-navbar/>
 
-<div class="container" style="margin-bottom: 100px; margin-top: 100px">
-    <h2 style=" text-align: center;">Etapa 1</h2>
-    <div class="content">
-        <form>
-            <!-- Nome da etapa input with icon -->
-        <div class="input-wrapper"  style="margin-bottom: 16px;">
-            <input type="text" id="nome-etapa" name="nome-etapa" placeholder="Nome da etapa">
-            <img src="../../assets/edit-pencil-icon.svg" alt="Ícone de edição" class="input-icon">
+<div class="container" style="margin-bottom: 100px; margin-top: 100px" *ngFor="let etapa of etapas; let i = index">
+  <!-- Título com a numeração da etapa -->
+  <h2 style="text-align: center;">Etapa {{ i + 1 }}</h2>
+  <div class="content">
+    <form>
+      <!-- Nome da etapa input with icon -->
+      <div class="input-wrapper" style="margin-bottom: 16px;">
+        <input 
+          type="text" 
+          id="nome-etapa-{{ i }}" 
+          name="nome-etapa-{{ i }}" 
+          placeholder="Nome da etapa" 
+          [(ngModel)]="etapa.nomeEtapa"
+        />
+        <img src="../../assets/edit-pencil-icon.svg" alt="Ícone de edição" class="input-icon">
+      </div>
+
+      <!-- Status input with icon and Prazo Final date input -->
+      <div class="input-row">
+        <!-- Status input with icon -->
+        <div class="input-wrapper" style="flex: 1 1 70%;">
+          <input 
+            type="text" 
+            id="status"
+            name="status-{{ i }}" 
+            placeholder="Status" 
+            [value]="getStatus(etapa.dataConclusao)"
+            style="margin-top: 8px;"
+            readonly
+          />
         </div>
 
-        <!-- Status input with icon and Prazo Final date input -->
-        <div class="input-row">
-            <!-- Status input with icon -->
-            <div class="input-wrapper" style="flex: 1 1 70%;">
-                <input type="text" id="status" name="status" placeholder="Status" style="margin-top: 8px;">
-                <img src="../../assets/edit-pencil-icon.svg" alt="Ícone de edição" class="input-icon">
-            </div>
+        <input 
+            type="date" 
+            id="status"
+            name="prazo-final-{{ i }}" 
+            [ngModel]="etapa.dataConclusao | date:'yyyy-MM-dd'" 
+            placeholder="Prazo Final"
+        />
 
-            
-            <input type="date" id="prazo-final" name="prazo-final" placeholder="Prazo Final">
-        </div>
-            
-            
-                <div class="textarea-wrapper">
-                    <textarea id="descricao" name="descricao" placeholder="Descrição"></textarea>
-                    <img src="../../assets/edit-pencil-icon.svg" alt="Ícone de edição" class="textarea-icon">
-                </div>        
-            
-        </form>
+      </div>
 
-        <div class="button-container">
-            <button class="btn salvar">Salvar</button>
-            <button class="btn finalizar-etapa">Finalizar Etapa</button>
-            <button class="btn excluir-etapa">Excluir Etapa</button>
-        </div>
-        
+      <!-- Descrição da etapa -->
+      <div class="textarea-wrapper">
+        <textarea 
+          id="descricao" 
+          name="descricao-{{ i }}" 
+          placeholder="Descrição"
+          [(ngModel)]="etapa.descricao"
+        ></textarea>
+        <img src="../../assets/edit-pencil-icon.svg" alt="Ícone de edição" class="textarea-icon">
+      </div>
+    </form>
+
+    <div class="button-container">
+      <button class="btn salvar" (click)="salvarEtapa(i, false)">Salvar</button>
+      <button class="btn finalizar-etapa" (click)="salvarEtapa(i, true)">Finalizar Etapa</button>
+      <button class="btn excluir-etapa" (click)="deleteEtapa(i)">Excluir Etapa</button>
     </div>
+  </div>
 </div>
 
+  
+  
 
-<div class="button-container" style="margin-bottom: 50px; margin-top: -50px;">
-    <button class="voltar" >
+
+<div class="button-container" style="margin-bottom: 200px; margin-top: -50px;">
+    <button class="voltar" (click)="voltarPagina()" style="cursor: pointer;">
         <img src="../../assets/editar-obra-voltar.svg" alt="Ícone de voltar" />
         <span style="padding-left: 8px;">Voltar</span>
     </button>
-    <button class="nova-etapa">
-        <span style="padding-right: 8px;">Nova Etapa</span>
-        <img src="../../assets/editar-obra-mais.svg" alt="Ícone de mais"  />
-    </button>
 </div>
-
-
-
 
 <app-footer/>
 

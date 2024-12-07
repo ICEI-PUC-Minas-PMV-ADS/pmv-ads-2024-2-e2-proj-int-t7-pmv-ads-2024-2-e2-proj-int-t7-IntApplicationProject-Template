@@ -4,6 +4,7 @@ import { NavBarModule } from '../../navbar/navbar.module';
 import { FooterModule } from '../../footer/footer.module';
 import { EditarObraComponent  } from './editar-obra.component';
 import { EditarObraRoutingModule } from './editar-obra-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -13,6 +14,7 @@ import { EditarObraRoutingModule } from './editar-obra-routing.module';
     CommonModule,
     EditarObraRoutingModule,
     NavBarModule,
+    FormsModule,
     FooterModule,
     ]
 })

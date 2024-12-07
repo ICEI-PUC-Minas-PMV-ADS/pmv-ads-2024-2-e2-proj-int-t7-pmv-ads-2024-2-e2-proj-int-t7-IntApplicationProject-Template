@@ -47,9 +47,8 @@ const routes: Routes = [
     path: 'obra-especifica-gestor/:id',
     loadChildren: () => import('./pages/obra-especifica-gestor/obra-especifica-gestor.module').then(m => m.ObraEspecificaGestorModule)
   },
-  
   {
-    path: 'editar-obra',
+    path: 'editar-obra/:id',
     loadChildren: () => import('./pages/editar-obra/editar-obra.module').then(m => m.EditarObraModule)
   },
   {

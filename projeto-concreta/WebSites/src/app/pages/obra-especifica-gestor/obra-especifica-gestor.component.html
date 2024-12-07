@@ -18,7 +18,7 @@
             <div class="etapa" *ngFor="let e of etapas">
               {{ e.nomeEtapa }} - {{ e.descricao }} - {{ getStatus(e.dataConclusao) }}
             </div>
-            <button class="editar" *ngIf="isGestor">EDITAR</button>
+            <button class="editar" *ngIf="isGestor" (click)="irParaEditarEtapa()">EDITAR</button>
           </section>
           
 
