@@ -13,6 +13,7 @@ import { ObrasService } from '../app/core/api/services/obras/obras.service';
 
 import { LoginModule } from './pages/login/login.module';
 import { CadastroUserModule } from './pages/cadastro-user/cadastro-user.module';
+import { HomeModule } from './pages/home/home.module';
 
 
 @NgModule({
@@ -21,12 +22,14 @@ import { CadastroUserModule } from './pages/cadastro-user/cadastro-user.module';
   ],
   imports: [
     BrowserModule,
+    HomeModule,
     AppRoutingModule,
     HttpClientModule,
     ToastModule,
     RippleModule,
     BrowserAnimationsModule,
     FormsModule,
+
 
 
   ],
