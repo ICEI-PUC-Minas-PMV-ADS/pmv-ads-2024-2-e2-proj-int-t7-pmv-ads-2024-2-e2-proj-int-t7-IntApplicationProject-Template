@@ -15,20 +15,12 @@
     <div class="dados-obra">
         <section class="etapas">
             <h2>ETAPAS</h2>
-            <div class="etapa">
-                Etapa 1 - Nome da Etapa - Finalizada
+            <div class="etapa" *ngFor="let e of etapas">
+              {{ e.nomeEtapa }} - {{ e.descricao }} - {{ getStatus(e.dataConclusao) }}
             </div>
-            <div class="etapa">
-                Etapa 2 - Nome da Etapa - Em andamento
-            </div>
-            <div class="etapa">
-                Etapa 3 - Nome da Etapa - Em andamento
-            </div>
-            <div class="etapa">
-                Etapa 4 - Nome da Etapa - Aguardando início
-            </div>
-             <button class="editar" *ngIf="isGestor">EDITAR</button>
-        </section>
+            <button class="editar" *ngIf="isGestor">EDITAR</button>
+          </section>
+          
 
         <section class="info-obra">
             <h1>{{obra?.nome}}</h1>

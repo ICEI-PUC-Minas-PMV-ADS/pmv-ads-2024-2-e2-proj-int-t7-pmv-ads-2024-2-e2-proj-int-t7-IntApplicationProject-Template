@@ -19,6 +19,7 @@ export class ObraEspecificaGestorComponent {
   obra: ObrasModel | null = null;
   etapasRelatorio: EtapasModel[] = []; // Inicialize como um array vazio
   etapa: EtapasModel | null = null;
+  etapas: EtapasModel[] = [];
   linkObra: String | null = null;
   idTipoUsuario: number | null = null;
   isGestor: boolean | null = null;
@@ -35,7 +36,7 @@ export class ObraEspecificaGestorComponent {
     this.idObra = +this.route.snapshot.paramMap.get('id')!; // Captura o parâmetro 'id'
     // Aqui você pode usar o ID para buscar detalhes da obra na API, por exemplo.
     this.carregarObraEscolhida(this.idObra);
-    this.carregarEtapaEscolhida(1);
+    this.carregarEtapaEscolhida(this.idObra);
   }
 
   gerarRelatorioSimples(event: Event) {
@@ -104,10 +105,27 @@ export class ObraEspecificaGestorComponent {
 
   }
 
+  getStatus(dataConclusao: string | Date): string {
+    const hoje = new Date();
+    const data = new Date(dataConclusao);
+  
+    if (hoje > data) {
+      return 'Finalizado';
+    } else if (hoje.toDateString() === data.toDateString()) {
+      return 'Em Andamento';
+    } else if (hoje < data) {
+      return 'Aguardando Início';
+    }
+  
+    return '';
+  }
+  
+
   carregarEtapaEscolhida(idObra: number): void {
     console.log("entrei no método")
     this.etapasService.getEtapaEscolhida(idObra).subscribe({
       next: (data) => {
+        this.etapas = data;
         this.etapasRelatorio = [];
         data.forEach((dado, index) => {
           this.etapa = dado;
