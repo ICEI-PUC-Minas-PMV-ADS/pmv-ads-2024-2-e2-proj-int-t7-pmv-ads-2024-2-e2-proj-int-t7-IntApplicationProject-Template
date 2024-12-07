@@ -33,35 +33,36 @@
 </section>
 
 <!-- Passo 2 -->
-<section class="passo passo-2">
-  <h2>2º Passo</h2>
-  <hr>
+<h2>2º Passo</h2>
+<hr>
+<section *ngFor="let etapa of etapas; let i = index" class="passo">
   <div class="form-container">
     <h3>Etapas da obra:</h3>
-    <h4>Etapa 1</h4>
-    <form [formGroup]="etapasForm">
+    <h4>Etapa {{ i + 1 }}</h4>
+    <form [formGroup]="etapasForms[i]">
       <div class="campo">
-        <label for="nome-etapa">Nome da etapa</label>
-        <input type="text" id="nome-etapa" placeholder="Nome da etapa" required formControlName="nomeEtapa">
+        <label for="nome-etapa-{{i}}">Nome da etapa</label>
+        <input type="text" id="nome-etapa-{{i}}" placeholder="Nome da etapa" required formControlName="nomeEtapa">
       </div>
       <div class="campo">
-        <label for="descricao-etapa">Descrição da etapa</label>
-        <textarea id="descricao-etapa" placeholder="Escreva sua mensagem aqui..." required formControlName="descricaoEtapa"></textarea>
+        <label for="descricao-etapa-{{i}}">Descrição da etapa</label>
+        <textarea id="descricao-etapa-{{i}}" placeholder="Escreva sua mensagem aqui..." required formControlName="descricaoEtapa"></textarea>
       </div>
       <div class="campo prazo-conclusao">
-        <label for="prazo-conclusao">Prazo de conclusão</label>
-        <input type="date" id="prazo-etapa" formControlName="prazoConclusaoEtapa">
+        <label for="prazo-conclusao-etapa-{{i}}">Prazo de conclusão</label>
+        <input type="date" id="prazo-conclusao-etapa-{{i}}" formControlName="prazoConclusaoEtapa">
       </div>
     </form>
-    <div class="nova-etapa">
-      <a href="#" class="nova-etapa-link">+ Nova Etapa</a>
-    </div>
-  </div>
-  <!-- Botões Cancelar e Cadastrar -->
-  <div class="botoes-container">
-    <button class="btn-cadastrar" (click)="save()">CADASTRAR</button>
-    <button class="btn-cancelar">CANCELAR</button>
   </div>
 </section>
+<div class="nova-etapa">
+  <a href="#" (click)="adicionarEtapa($event)" class="nova-etapa-link">+ Nova Etapa</a>
+</div>
+
+<div class="botoes-container">
+  <button class="btn-cadastrar" (click)="save()">CADASTRAR</button>
+  <button class="btn-cancelar">CANCELAR</button>
+</div>
+
 </div>
 <app-footer></app-footer>

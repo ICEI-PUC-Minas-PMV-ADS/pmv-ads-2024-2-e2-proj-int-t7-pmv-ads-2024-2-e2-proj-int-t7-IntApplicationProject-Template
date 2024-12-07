@@ -1,6 +1,6 @@
 <app-navbar/>
 
-<div class="container" style="margin-bottom: 100px; margin-top: 100px">
+<div class="container" style="margin-bottom: 210px; margin-top: 210px">
     <h2 style=" text-align: center;">OBRAS FINALIZADAS</h2>
     <div class="content">
       
@@ -15,7 +15,7 @@
         </thead>
         <tbody>
           <!-- Iteração das obras finalizadas -->
-          <tr *ngFor="let obra of obraFinalizada | slice: 0:visibleCount">
+          <tr *ngFor="let obra of obrasFiltradas | slice: 0:visibleCount">
             <td>{{ obra.nome }}</td>
             <td>{{ obra.construtora }}</td>
             <td>{{ obra.localizacao }}</td>

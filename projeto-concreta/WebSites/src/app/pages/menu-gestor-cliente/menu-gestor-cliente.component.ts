@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './menu-gestor-cliente.component.scss'
 })
 export class MenuGestorClienteComponent {
-
-  menu: 'cliente' | 'gestor' = 'gestor'
+  menu: 'cliente' | 'gestor' = parseInt(localStorage.getItem('idTipoUsuario') || '0', 10) === 1 ? 'gestor' : 'cliente';
 
 }

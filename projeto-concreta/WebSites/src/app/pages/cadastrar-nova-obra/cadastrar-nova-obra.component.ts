@@ -15,7 +15,8 @@ import { Router } from '@angular/router';
 })
 export class CadastrarNovaObraComponent implements OnInit {
   formGroup!: FormGroup;
-  etapasForm!: FormGroup;
+  etapasForms: FormGroup[] = []; // Lista de formulários para cada etapa
+  etapas: EtapasModel[] = []; // Lista de objetos de etapas
   idUsuario!: number;
   mmensagem: string = '';
 
@@ -29,30 +30,49 @@ export class CadastrarNovaObraComponent implements OnInit {
 
   configureForm() {
     this.formGroup = this.fb.group({
-      // Informações sobre a obra
       nomeObra: [null, [Validators.required]],
       construtora: [null, [Validators.required]],
       localizacao: [null, [Validators.required]],
-      prazoConclusao: [null], // Não obrigatório
+      prazoConclusao: [null],
     });
-    
-    this.etapasForm = this.fb.group({
+  
+    // Inicializar a primeira etapa
+    this.adicionarEtapa(null);
+  }
+
+  adicionarEtapa(event: Event | null): void {
+    if (event) {
+      event.preventDefault(); // Evita o redirecionamento do link
+    }
+  
+    const novaEtapaForm = this.fb.group({
       nomeEtapa: [null, [Validators.required]],
       descricaoEtapa: [null, [Validators.required]],
-      prazoConclusaoEtapa: [null], // Não obrigatório
+      prazoConclusaoEtapa: [null], // Prazo de conclusão opcional
+    });
+  
+    this.etapasForms.push(novaEtapaForm);
+    this.etapas.push({
+      nomeEtapa: '',
+      descricao: '',
+      dataConclusao: new Date(),
+      idEtapa: 0,
+      idObra: 0,
     });
   }
   
+  
+  
+  
   save() {
     const today = new Date();
-    let idObraCriada: number;
 
-    console.log("interno save button " + this.idUsuario);
-
+    console.log("id user "  + this.idUsuario)
+  
     const novaObra: ObrasModel = {
-      idObra: 0, //nao alterei na model pois era usado em outros arquivos
+      idObra: 0,
       nome: this.formGroup.controls['nomeObra'].value,
-      descricao: "",
+      descricao: '',
       localizacao: this.formGroup.controls['localizacao'].value,
       dataInicio: today,
       dataFim: this.formGroup.controls['prazoConclusao'].value,
@@ -60,56 +80,48 @@ export class CadastrarNovaObraComponent implements OnInit {
       estaConcluido: false,
       idGestor: this.idUsuario,
       idUsuario: this.idUsuario,
-      idUf: 0, //nao alterei na model pois era usado em outros arquivos
-    }
-    
-    console.log("Nova obra model " + novaObra.idUsuario)
+      idUf: 0,
+    };
 
+    console.log("Nova obra model " + novaObra.idUsuario)
+  
     this.obraService.cadastrarObra(novaObra).subscribe({
-      next: (response: any) => { // Aqui você pode usar o tipo correto (ObrasModel)
-        // Se response.obraDto for o retorno esperado
+      next: (response: any) => {
         const idObra = response.obraDto?.idObra;
-    
+        console.log(novaObra)
+  
         if (!idObra) {
-          console.error("Erro: idObra não encontrado na resposta.");
+          console.error('Erro: idObra não encontrado na resposta.');
           return;
         }
-    
-        console.log("response.idObra antes: " + idObra);
-    
-        const novaEtapa: EtapasModel = {
-          nomeEtapa: this.etapasForm.get('nomeEtapa')?.value,
-          descricao: this.etapasForm.get('descricaoEtapa')?.value,
-          dataConclusao: this.etapasForm.get('dataConclusaoEtapa')?.value,
-          idEtapa: 0,
-          idObra: idObra,
-        };
-    
-        console.log("response.idObra depois: " + idObra);
-    
-        this.etapasService.cadastrarEtapa(novaEtapa).subscribe({
-          next: etapaResponse => {
-            this.messageService.add({ severity: 'success', summary: 'cadasto de etapa bem-sucedido', detail: 'Etapa cadastrada com sucesso!' });
-            console.log("Etapa cadastrada com sucesso:", etapaResponse);//colocar navegacao de rota abaixo dessa linha
-            this.router.navigate(['/obra-andamento']);
-
-
-          },
-          error: etapaError => {
-            console.error("Erro ao cadastrar etapa:", etapaError);
-          }
+  
+        // Salvar todas as etapas
+        this.etapasForms.forEach((etapaForm, index) => {
+          const etapa: EtapasModel = {
+            nomeEtapa: etapaForm.controls['nomeEtapa'].value,
+            descricao: etapaForm.controls['descricaoEtapa'].value,
+            dataConclusao: etapaForm.controls['prazoConclusaoEtapa'].value,
+            idEtapa: 0,
+            idObra: idObra,
+          };
+  
+          this.etapasService.cadastrarEtapa(etapa).subscribe({
+            next: (etapaResponse) => {
+              console.log(`Etapa ${index + 1} cadastrada com sucesso:`, etapaResponse);
+            },
+            error: (etapaError) => {
+              console.error(`Erro ao cadastrar etapa ${index + 1}:`, etapaError);
+            },
+          });
         });
-    
-        this.messageService.add({ severity: 'success', summary: 'cadasto de obra bem-sucedido', detail: 'Obra cadastrada!' });
-        console.log("Obra cadastrada:", response);
+  
+        this.messageService.add({ severity: 'success', summary: 'Cadastro realizado', detail: 'Obra e etapas cadastradas com sucesso!' });
+        this.router.navigate(['/obra-andamento']);
       },
-      error: error => {
-        console.error("Erro ao cadastrar obra:", error);
-      }
+      error: (error) => {
+        console.error('Erro ao cadastrar obra:', error);
+      },
     });
-    
-    
-
-
   }
+  
 }

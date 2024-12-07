@@ -6,26 +6,32 @@
     font-family: 'Oswald', sans-serif;
   }
   
-  body {
+  .body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex: 1; /* Faz com que o conteúdo principal ocupe o espaço disponível */
   }
-  
+
+
   .container {
+    
     background-color: #023059;
     padding-top: 20px;
     padding-left: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-right: 80px;
     margin: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 75%;
+    width: 100%;
+    min-width: 80rem;
+
   }
   
   .content {
+    flex: 100; 
     padding: 20px;
     border-radius: 20px;
     text-align: center;
