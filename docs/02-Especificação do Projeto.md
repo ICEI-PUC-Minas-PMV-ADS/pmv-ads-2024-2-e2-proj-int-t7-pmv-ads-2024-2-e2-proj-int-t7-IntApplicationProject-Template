@@ -60,14 +60,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | RF-01 | Permitir o cadastro e login de usuarios. | ALTA  |
 | RF-02 | Possibilitar ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.  | ALTA  |
-| RF-04 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.   | ALTA     |
-| RF-05 | Enviar notificações automáticas sobre mudanças nos cronogramas, garantindo que o projeto se mantenha dentro dos prazos estabelecidos. | MÉDIA   |
-| RF-06 | Possibilitar aos clientes acompanhar o progresso percentual das etapas da obra. | MEDIA  |
-| RF-07 | Permitir o envio de fotos atualizadas da execução da obra para os clientes, permitindo uma visão clara do andamento sem a necessidade de presença física no local. | BAIXA |
-| RF- 08 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
-| RF-09 |  fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
-| RF-10 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
-| RF-11 | Permitir que o usuário entre em contato com a plataforma. | MÉDIA    |
+| RF-03 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.   | ALTA     |
+| RF-04 | Enviar notificações automáticas sobre mudanças nos cronogramas, garantindo que o projeto se mantenha dentro dos prazos estabelecidos. | MÉDIA   |
+| RF-05 | Possibilitar aos clientes acompanhar o progresso percentual das etapas da obra. | MEDIA  |
+| RF- 06 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
+| RF-07 | Fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
+| RF-08 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
+| RF-09 | Permitir que o usuário entre em contato com a plataforma. | MÉDIA    |
 
 ### Requisitos Não Funcionais
 
