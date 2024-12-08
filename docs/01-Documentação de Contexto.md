@@ -97,7 +97,7 @@ A exemplo de algumas ferramentas existentes hoje no mercado (obrafit [https://ww
     <td>Enfoque prioritário em relatórios de pagamentos, medições de serviços, gerenciamento de pendências, controle financeiro e mapa de cotações.</td>
     <td>Enfoque prioritário em medições, arquivos e visitas técnicas, suprimentos e financeiro.</td>
     <td>Enfoque em orçamentos de obras, compras e contratações, gestão de equipamentos, contrato de empreiteiros, gestão de documentos e planejamentos físico-econômicos.</td>
-    <td>Enfoque principal em fornecer uma ferramenta simples e prática que permita gerenciar as etapas e uma obra, emitindo alertas de  atrasos (inclusive sobre épocas de cheias), bem como permitir a impressão de relatórios gerais e específicos a depender do objetivo do usuário. </td>
+    <td>Enfoque principal em fornecer uma ferramenta simples e prática que permita gerenciar as etapas e uma obra, emitindo alertas de  atrasos, bem como permitir a impressão de relatórios gerais e específicos a depender do objetivo do usuário. </td>
   </tr>
 </table>
 <br/>
