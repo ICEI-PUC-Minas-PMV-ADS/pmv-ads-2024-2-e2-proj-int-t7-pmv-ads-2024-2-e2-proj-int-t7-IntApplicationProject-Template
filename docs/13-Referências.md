@@ -4,7 +4,7 @@ AGÊNCIA CBIC. Titulo: CBIC eleva para 3% projeção de crescimento da Construç
 <br><br>
 CRUZ, Fabio. Titulo: Scrum e PMBOK unidos no Gerenciamento de Projetos. Rio de Janeiro. Editora: BRASPORT Livros e Mutimidia LTDA. 2013
 <br/><br/>
-Kuebler, Martin. Titulo: Secas x chuvas extremas: como a mudança climática acelera crise no ciclo global da água. Disponível em: https://g1.globo.com/meio-ambiente/noticia/2024/05/08/como-a-mudanca-climatica-altera-o-ciclo-global-da-agua.ghtml
+KUEBLER, Martin. Titulo: Secas x chuvas extremas: como a mudança climática acelera crise no ciclo global da água. Disponível em: https://g1.globo.com/meio-ambiente/noticia/2024/05/08/como-a-mudanca-climatica-altera-o-ciclo-global-da-agua.ghtml
 <br/><br/>
 SCRUM.ORG. Scrum.org A casa do Scrum. 2023. Disponivel em: https://www.scrum.org/. Acessado em: Março/2023.
 <br/>
