@@ -15,7 +15,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 No caso em apreço, se fez uso da ferramenta Draw.io. Segue diagrama abaixo:
 
-![Diagrama Entidade Relacionamento drawio](https://github.com/user-attachments/assets/2d52c859-6f97-422d-97b1-0b7b3129bbff)
+![Diagrama sem nome drawio](https://github.com/user-attachments/assets/3f0e5a9a-1d0c-4693-8ecc-4e82938a7aab)
+
 
 
 ## Projeto da Base de Dados
