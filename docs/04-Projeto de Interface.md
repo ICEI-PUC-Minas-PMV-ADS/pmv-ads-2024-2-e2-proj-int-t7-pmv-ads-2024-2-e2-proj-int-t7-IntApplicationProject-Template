@@ -14,4 +14,4 @@ Segue abaixo uma visão geral da interação do usuário pelas telas do sistema 
 ## Wireframes
 Os Wireframes demonstram os protótipos usados em design de interface para demonstrar a estrutura do site web e seu relacionamento entre as suas páginas. 
 
-![wireframe-concreta](https://github.com/user-attachments/assets/7521dd91-8b60-4e85-ba20-30cd86b7bc66)
+![wireframe-concreta](https://github.com/user-attachments/assets/844fa11c-2f99-4971-a096-dc6698360704)
