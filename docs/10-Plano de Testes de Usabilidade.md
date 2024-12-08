@@ -58,10 +58,10 @@ Ao final de cada sessão, será realizado um questionário pós-teste para obter
 | 03               | Monitorar o progresso de uma obra, visualizando o progresso percentual de cada tarefa.                   | RF-03                     |O usuário consegue acessar as obras cadastradas e a página da obra específica. |
 | 04               | Receber uma notificação sobre mudanças no cronograma de uma obra. | RF-04                     | O usuário deve receber notificação do sistema caso a obra tenha alterações no cronograma.                      |
 | 05               | Acompanhar como cliente o progresso percentual das etapas da obra.                                       | RF-05                     | O usuário cliente consegue acessar a página da obra compartilhada.                                    |
-| 06               | Receber um alerta sobre atrasos no cronograma e tomar ações corretivas (ex.: replanejamento).             | RF-07                     | O usuário consegue visualizar o alerta e editar a etapa da obra, caso necessário.                                 |
-| 07               | Gerar um relatório detalhado da obra para análise da qualidade da execução.                              | RF-08                     | O usuário consegue gerar relatórios dentro da página da obra sem dificuldades.                                   |
-| 08               | Verificar a integração dos dados cadastrados pelo gestor com os dados visualizados pelo cliente.          | RF-09                     | Validar que os dados estão sendo atualizados corretamente.                              |
-| 09               | Entrar em contato com a plataforma para suporte.                                                          | RF-10                     | O usuário utiliza o formulário de contato oferecido sem dificuldades.                                               |
+| 06               | Receber um alerta sobre atrasos no cronograma e tomar ações corretivas (ex.: replanejamento).             | RF-06                     | O usuário consegue visualizar o alerta e editar a etapa da obra, caso necessário.                                 |
+| 07               | Gerar um relatório detalhado da obra para análise da qualidade da execução.                              | RF-07                     | O usuário consegue gerar relatórios dentro da página da obra sem dificuldades.                                   |
+| 08               | Verificar a integração dos dados cadastrados pelo gestor com os dados visualizados pelo cliente.          | RF-08                     | Validar que os dados estão sendo atualizados corretamente.                              |
+| 09               | Entrar em contato com a plataforma para suporte.                                                          | RF-09                     | O usuário utiliza o formulário de contato oferecido sem dificuldades.                                               |
 
 ## Métricas de Avaliação
 
