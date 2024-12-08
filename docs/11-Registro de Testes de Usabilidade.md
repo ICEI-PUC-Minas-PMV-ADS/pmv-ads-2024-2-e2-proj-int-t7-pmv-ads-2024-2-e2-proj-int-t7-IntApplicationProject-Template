@@ -29,4 +29,4 @@ Tarefa 9: Verificar a integração dos dados (RF-09)
 Critério de Sucesso: Os dados estão sendo integrados corretamente na visualização do cliente e gestor.
 
 Tarefa 10: Entrar em contato com o suporte (RF-10)
-Critério de Sucesso: Ferramenta ainda não disponível na plataforma.
+Critério de Sucesso: 100% dos usuários conseguiram entrar em contato utilizando o formulário inicial.
