@@ -29,9 +29,15 @@ O projeto visa desenvolver uma ferramenta de gestão de obras, denominada "Concr
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
 Link disponível para acesso: https://projeto-concreta.netlify.app/home.
+
+<ol>
+  <li>Acesse o link acima</li>
+  <li>Para o primeiro acesso: clique no ícone de usuário na navbar</li>
+  <li>Clique em cadastrar</li>
+  <li>Após realizar o cadastro, clicar no ícone de usuário novamente e clique em login</li>
+  <li>Realizar o login na plataforma</li>
+</ol>
 
 # Documentação
 
