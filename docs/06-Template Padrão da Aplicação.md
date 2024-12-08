@@ -35,7 +35,7 @@ Assim como as cores, utilizamos fontes que proporcionam um seriedade e modernida
 ### HIGH-FIDELITY 
 Estruturadas de acordo com os wireframes, as telas buscam proporcionar uma interação simples e direta com o usuário da plataforma. Presando pela navegação fluída e de fácil utilização. 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aa887916-384d-437b-a306-d82f823639e6" alt="hi-fi" width="500">
+  <img src="https://github.com/user-attachments/assets/bedab367-1d53-4236-a8a0-9d051d8fd928" alt="hi-fi" width="500">
   <br>
   Figura 4: Template Padrão de telas.
 </p>
