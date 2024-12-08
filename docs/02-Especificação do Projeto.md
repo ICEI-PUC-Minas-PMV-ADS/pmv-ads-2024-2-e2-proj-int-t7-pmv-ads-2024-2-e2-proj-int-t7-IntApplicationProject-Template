@@ -60,9 +60,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | RF-01 | Permitir o cadastro e login de usuarios. | ALTA  |
 | RF-02 | Possibilitar ajustes rápidos nas operações com base nas informações em tempo real, evitando atrasos e garantindo o andamento eficiente da obra.  | ALTA  |
-| RF-03 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso percentual de cada tarefa.   | ALTA     |
+| RF-03 | Permitir aos gestores das obras monitorarem o progresso em tempo real de cada etapa da obra, exibindo o progresso de cada tarefa.   | ALTA     |
 | RF-04 | Enviar notificações automáticas sobre mudanças nos cronogramas, garantindo que o projeto se mantenha dentro dos prazos estabelecidos. | MÉDIA   |
-| RF-05 | Possibilitar aos clientes acompanhar o progresso percentual das etapas da obra. | MEDIA  |
+| RF-05 | Possibilitar aos clientes acompanhar o progresso das etapas da obra. | MEDIA  |
 | RF- 06 | Enviar alertas para gestores sobre atrasos e inconsistências de prazos.  | ALTA  |
 | RF-07 | Fornecer relatórios detalhados permitindo uma análise aprofundada da qualidade da execução. | MÉDIA      |
 | RF-08 | Integrar dados cadastrados pelo usuário gestor aos clientes que desejam acompanhar | ALTA    |
